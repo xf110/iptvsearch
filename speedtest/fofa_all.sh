@@ -259,7 +259,7 @@ echo "tmp1.txt"
 cat tmp1.txt > "fofa_${city}.txt"
 rm -rf tmp1.txt
 
-#--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------
+echo "--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------"
 
 echo "北京联通,#genre#" >zubo_fofa.txt
 cat txt/fofa_beijing_unicom_145.txt >>zubo_fofa.txt
