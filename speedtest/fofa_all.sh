@@ -1,3 +1,4 @@
+```
 #!/bin/bash
 # cd /root/iptv
 # read -p "确定要运行脚本吗？(y/n): " choice
@@ -233,13 +234,13 @@ rm -f "speedtest_${city}_$time.log"
 # 用 3 个最快 ip 生成对应城市的 txt 文件
 program="template/${city}.txt"
 
-sed "s/[^\/]*:\d+\//$ip1\//g" "$program" > tmp1.txt
-sed "s/[^\/]*:\d+\//$ip2\//g" "$program" > tmp2.txt
-sed "s/[^\/]*:\d+\//$ip3\//g" "$program" > tmp3.txt
+# sed "s/[^\/]*:\d+\//$ip1\//g" "$program" > tmp1.txt
+# sed "s/[^\/]*:\d+\//$ip2\//g" "$program" > tmp2.txt
+# sed "s/[^\/]*:\d+\//$ip3\//g" "$program" > tmp3.txt
 
-# perl -pe 's/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp1.txt
-# perl -pe 's/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp2.txt
-# perl -pe 's/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp3.txt
+perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp1.txt
+perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp2.txt
+perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp3.txt
 cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
 
 rm -rf tmp1.txt tmp2.txt tmp3.txt
@@ -279,5 +280,6 @@ cat txt/sichuan_telecom_333.txt >>zubo_fofa.txt
 # cat txt/Gansu_105.txt >>zubo_fofa.txt
 # echo "河北联通,#genre#" >>zubo_fofa.txt
 # cat txt/Hebei_313.txt >>zubo_fofa.txt
+
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
