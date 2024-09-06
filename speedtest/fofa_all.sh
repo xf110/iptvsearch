@@ -256,7 +256,7 @@ perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp1.txt
 # cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
 # rm -rf tmp1.txt tmp2.txt tmp3.txt
 echo "tmp1.txt"
-cat tmp1.txt > "fofa_${city}.txt"
+cat tmp1.txt > "txt/fofa_${city}.txt"
 rm -rf tmp1.txt
 
 echo "--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------"
