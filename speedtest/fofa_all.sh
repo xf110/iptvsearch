@@ -15,7 +15,7 @@ if [ $# -eq 0 ]; then
   echo "请选择城市："
   echo "1. 上海电信（Shanghai_103）"
   echo "2. 北京联通（beijing_unicom_145）"
-  echo "3. 四川电信（sichun_telecom_333）"
+  echo "3. 四川电信（sichuan_telecom_333）"
   echo "4. 浙江电信（Zhejiang_120）"
   echo "5. 北京电信（Beijing_dianxin_186）"
   echo "6. 江苏（Jiangsu）"
@@ -57,7 +57,7 @@ case $city_choice in
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     3)
-        city="sichun_telecom_333"
+        city="sichuan_telecom_333"
         stream="udp/239.93.42.33:5140"
         channel_key="四川电信"
         url_fofa=$(echo  '"udpxy" && country="CN" && region="Sichuan" && org="CHINA UNICOM China169 Backbone"  && protocol="http"' | base64 |tr -d '\n')
@@ -152,20 +152,13 @@ case $city_choice in
         city="henan_unicom_172"
         stream="rtp/225.1.4.55:1084"
         channel_key="河南联通"
-        rl_fofa=$(echo  '"udpxy" && country="CN" && region="Henan" && city="Zhengzhou" && protocol="http" && org="CHINA UNICOM China169 Backbone"' | base64 |tr -d '\n')
-        url_fofa="https://fofa.info/result?qbase64="$url_fofa
-        ;;
-    17)
-        city="beijing_unicom_145"
-        stream="rtp/239.3.1.129:8008"
-        channel_key="北京联通"
-        rl_fofa=$(echo  '"udpxy" && country="CN" && region="Beijing" && city="beijing" && protocol="http" && org="China Unicom Beijing Province Network"' | base64 |tr -d '\n')
+        url_fofa=$(echo  '"udpxy" && country="CN" && region="Henan" && city="Zhengzhou" && protocol="http" && org="CHINA UNICOM China169 Backbone"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
         # for option in {1..15}; do
-        for option in {3,16,17}; do
+        for option in {2,3,16,17}; do
           bash  "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -185,11 +178,11 @@ only_good_ip="ip/${city}.onlygood.ip"
 rm -f $only_good_ip
 # 搜索最新 IP
 echo "===============从 fofa 检索 ip+端口================="
-curl -o test.html "$url_fofa"
+curl -o test_${city}.html "$url_fofa"
 #echo $url_fofa
 echo "$ipfile"
-grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > "$ipfile"
-rm -f test.html
+grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' test_${city}.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > "$ipfile"
+rm -f test_${city}.html
 # 遍历文件 A 中的每个 IP 地址
 while IFS= read -r ip; do
     # 尝试连接 IP 地址和端口号，并将输出保存到变量中
@@ -255,7 +248,7 @@ cat txt/beijing_unicom_145.txt >>zubo_fofa.txt
 echo "河南联通,#genre#" >>zubo_fofa.txt
 cat txt/henan_unicom_172.txt >>zubo_fofa.txt
 echo "四川电信,#genre#" >>zubo_fofa.txt
-cat txt/sichun_telecom_333.txt >>zubo_fofa.txt
+cat txt/sichuan_telecom_333.txt >>zubo_fofa.txt
 # echo "上海电信,#genre#" >>zubo_fofa.txt
 # cat txt/Shanghai_103.txt >>zubo_fofa.txt
 # echo "江苏,#genre#" >>zubo_fofa.txt
