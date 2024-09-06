@@ -14,8 +14,8 @@ i=0
 if [ $# -eq 0 ]; then
   echo "请选择城市："
   echo "1. 上海电信（Shanghai_103）"
-  echo "2. 北京联通（Beijing_liantong_145）"
-  echo "3. 四川电信（Sichuan_333）"
+  echo "2. 北京联通（beijing_unicom_145）"
+  echo "3. 四川电信（sichun_telecom_333）"
   echo "4. 浙江电信（Zhejiang_120）"
   echo "5. 北京电信（Beijing_dianxin_186）"
   echo "6. 江苏（Jiangsu）"
@@ -50,14 +50,14 @@ case $city_choice in
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     2)
-        city="Beijing_liantong_145"
+        city="beijing_unicom_145"
         stream="rtp/239.3.1.236:2000"
         channel_key="北京联通"
         url_fofa=$(echo  '"udpxy" && country="CN" && region="Beijing" && org="China Unicom Beijing Province Network" && protocol="http"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
     3)
-        city="Sichuan_333"
+        city="sichun_telecom_333"
         stream="udp/239.93.42.33:5140"
         channel_key="四川电信"
         url_fofa=$(echo  '"udpxy" && country="CN" && region="Sichuan" && org="CHINA UNICOM China169 Backbone"  && protocol="http"' | base64 |tr -d '\n')
@@ -251,11 +251,11 @@ rm -rf tmp1.txt tmp2.txt tmp3.txt
 #--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------
 
 echo "北京联通,#genre#" >zubo_fofa.txt
-cat txt/Beijing_liantong_145.txt >>zubo_fofa.txt
+cat txt/beijing_unicom_145.txt >>zubo_fofa.txt
 echo "河南联通,#genre#" >>zubo_fofa.txt
 cat txt/henan_unicom_172.txt >>zubo_fofa.txt
 echo "四川电信,#genre#" >>zubo_fofa.txt
-cat txt/Sichuan_333.txt >>zubo_fofa.txt
+cat txt/sichun_telecom_333.txt >>zubo_fofa.txt
 # echo "上海电信,#genre#" >>zubo_fofa.txt
 # cat txt/Shanghai_103.txt >>zubo_fofa.txt
 # echo "江苏,#genre#" >>zubo_fofa.txt
@@ -283,4 +283,4 @@ cat txt/Sichuan_333.txt >>zubo_fofa.txt
 # echo "河北联通,#genre#" >>zubo_fofa.txt
 # cat txt/Hebei_313.txt >>zubo_fofa.txt
 
-for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; don
+for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
