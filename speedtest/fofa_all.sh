@@ -235,10 +235,12 @@ done < "$only_good_ip"
 
 rm -f zubo.tmp
 awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r >"result/result_fofa_${city}.txt"
+echo "======= result/result_fofa_${city}.txt ======="
 cat "result/result_fofa_${city}.txt"
 ip1=$(awk 'NR==1{print $2}' result/result_fofa_${city}.txt)
 ip2=$(awk 'NR==2{print $2}' result/result_fofa_${city}.txt)
 ip3=$(awk 'NR==3{print $2}' result/result_fofa_${city}.txt)
+echo "ip1: ${ip1}\nip2: ${ip2}\nip3: ${ip3}"
 rm -f "speedtest_${city}_$time.log"
 
 # 用 3 个最快 ip 生成对应城市的 txt 文件
@@ -249,12 +251,13 @@ program="template/${city}.txt"
 # sed "s/[^\/]*:\d+\//$ip3\//g" "$program" > tmp3.txt
 
 perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp1.txt
-perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp2.txt
-perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp3.txt
-cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
-
-rm -rf tmp1.txt tmp2.txt tmp3.txt
-
+# perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp2.txt
+# perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp3.txt
+# cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
+# rm -rf tmp1.txt tmp2.txt tmp3.txt
+echo "tmp1.txt"
+cat tmp1.txt > "${city}.txt"
+rm -rf tmp1.txt
 
 #--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------
 
