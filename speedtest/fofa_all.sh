@@ -238,11 +238,11 @@ ip3=$(awk 'NR==3{print $2}' result/result_fofa_${city}.txt)
 rm -f "speedtest_${city}_$time.log"
 
 # 用 3 个最快 ip 生成对应城市的 txt 文件
-program="template/template_${city}.txt"
+program="template/${city}.txt"
 
-sed "s/ipipip/$ip1/g" "$program" > tmp1.txt
-sed "s/ipipip/$ip2/g" "$program" > tmp2.txt
-sed "s/ipipip/$ip3/g" "$program" > tmp3.txt
+sed "s/\/\/[a-zA-Z0-9.-]+\.[a-zA-Z0-9]{2,}:\d+/\/\/$ip1/g" "$program" > tmp1.txt
+sed "s/\/\/[a-zA-Z0-9.-]+\.[a-zA-Z0-9]{2,}:\d+/\/\/$ip1/g" "$program" > tmp2.txt
+sed "s/\/\/[a-zA-Z0-9.-]+\.[a-zA-Z0-9]{2,}:\d+/\/\/$ip1/g" "$program" > tmp3.txt
 cat tmp1.txt tmp2.txt tmp3.txt > "txt/fofa_${city}.txt"
 
 rm -rf tmp1.txt tmp2.txt tmp3.txt
