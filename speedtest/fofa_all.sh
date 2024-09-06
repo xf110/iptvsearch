@@ -148,9 +148,22 @@ case $city_choice in
         url_fofa=$(echo ""udpxy" && country="CN" && region="Hebei"  && protocol="http"" | base64)
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
         ;;
+    16)
+        city="henan_unicom_172"
+        stream="rtp/225.1.4.55:1084"
+        channel_key="河南联通"
+        rl_fofa=$(echo  '"udpxy" && country="CN" && region="Henan" && city="Zhengzhou" && protocol="http" && org="CHINA UNICOM China169 Backbone"' | base64 |tr -d '\n')
+        url_fofa="https://fofa.info/result?qbase64="$url_fofa
+    17)
+        city="beijing_unicom_145"
+        stream="rtp/239.3.1.129:8008"
+        channel_key="北京联通"
+        rl_fofa=$(echo  '"udpxy" && country="CN" && region="Beijing" && city="beijing" && protocol="http" && org="China Unicom Beijing Province Network"' | base64 |tr -d '\n')
+        url_fofa="https://fofa.info/result?qbase64="$url_fofa
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
-        for option in {1..15}; do
+        # for option in {1..15}; do
+        for option in {3,12,16,17}; do
           bash  "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -235,36 +248,37 @@ rm -rf tmp1.txt tmp2.txt tmp3.txt
 
 #--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------
 
-echo "上海电信,#genre#" >zubo_fofa.txt
-cat txt/Shanghai_103.txt >>zubo_fofa.txt
-echo "江苏,#genre#" >>zubo_fofa.txt
-cat txt/Jiangsu.txt >>zubo_fofa.txt
-#echo "北京电信,#genre#" >>zubo_fofa.txt
-#cat txt/Beijing_dianxin_186.txt >>zubo_fofa.txt
-echo "北京联通,#genre#" >>zubo_fofa.txt
+echo "北京联通,#genre#" >zubo_fofa.txt
 cat txt/Beijing_liantong_145.txt >>zubo_fofa.txt
-echo "天津联通,#genre#" >>zubo_fofa.txt
-cat txt/Tianjin_160.txt >>zubo_fofa.txt
-echo "河南电信,#genre#" >>zubo_fofa.txt
-cat txt/Henan_327.txt >>zubo_fofa.txt
-echo "山西电信,#genre#" >>zubo_fofa.txt
-cat txt/Shanxi_117.txt >>zubo_fofa.txt
-echo "广东电信,#genre#" >>zubo_fofa.txt
-cat txt/Guangdong_332.txt >>zubo_fofa.txt
+echo "河南联通,#genre#" >>zubo_fofa.txt
+cat txt/henan_unicom_172.txt >>zubo_fofa.txt
 echo "四川电信,#genre#" >>zubo_fofa.txt
 cat txt/Sichuan_333.txt >>zubo_fofa.txt
-echo "浙江电信,#genre#" >>zubo_fofa.txt
-cat txt/Zhejiang_120.txt >>zubo_fofa.txt
-echo "湖北电信,#genre#" >>zubo_fofa.txt
-cat txt/Hubei_90.txt >>zubo_fofa.txt
-echo "福建电信,#genre#" >>zubo_fofa.txt
-cat txt/Fujian_114.txt >>zubo_fofa.txt
-echo "湖南电信,#genre#" >>zubo_fofa.txt
-cat txt/Hunan_282.txt >>zubo_fofa.txt
-echo "甘肃电信,#genre#" >>zubo_fofa.txt
-cat txt/Gansu_105.txt >>zubo_fofa.txt
-echo "河北联通,#genre#" >>zubo_fofa.txt
-cat txt/Hebei_313.txt >>zubo_fofa.txt
-
+# echo "上海电信,#genre#" >>zubo_fofa.txt
+# cat txt/Shanghai_103.txt >>zubo_fofa.txt
+# echo "江苏,#genre#" >>zubo_fofa.txt
+# cat txt/Jiangsu.txt >>zubo_fofa.txt
+#echo "北京电信,#genre#" >>zubo_fofa.txt
+#cat txt/Beijing_dianxin_186.txt >>zubo_fofa.txt
+# echo "天津联通,#genre#" >>zubo_fofa.txt
+# cat txt/Tianjin_160.txt >>zubo_fofa.txt
+# echo "河南电信,#genre#" >>zubo_fofa.txt
+# cat txt/Henan_327.txt >>zubo_fofa.txt
+# echo "山西电信,#genre#" >>zubo_fofa.txt
+# cat txt/Shanxi_117.txt >>zubo_fofa.txt
+# echo "广东电信,#genre#" >>zubo_fofa.txt
+# cat txt/Guangdong_332.txt >>zubo_fofa.txt
+# echo "浙江电信,#genre#" >>zubo_fofa.txt
+# cat txt/Zhejiang_120.txt >>zubo_fofa.txt
+# echo "湖北电信,#genre#" >>zubo_fofa.txt
+# cat txt/Hubei_90.txt >>zubo_fofa.txt
+# echo "福建电信,#genre#" >>zubo_fofa.txt
+# cat txt/Fujian_114.txt >>zubo_fofa.txt
+# echo "湖南电信,#genre#" >>zubo_fofa.txt
+# cat txt/Hunan_282.txt >>zubo_fofa.txt
+# echo "甘肃电信,#genre#" >>zubo_fofa.txt
+# cat txt/Gansu_105.txt >>zubo_fofa.txt
+# echo "河北联通,#genre#" >>zubo_fofa.txt
+# cat txt/Hebei_313.txt >>zubo_fofa.txt
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
