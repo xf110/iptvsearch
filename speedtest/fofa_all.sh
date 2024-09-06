@@ -13,6 +13,8 @@ echo "传递的参数: $@"
 time=$(date +%m%d%H%M)
 i=0
 
+:> zubo_fofa.txt
+
 if [ $# -eq 0 ]; then
   echo "请选择城市："
   echo "1. 上海电信（Shanghai_103）"
@@ -260,13 +262,16 @@ cat tmp1.txt > "txt/fofa_${city}.txt"
 rm -rf tmp1.txt
 
 echo "--------------------合并所有城市的txt文件为:   zubo_fofa.txt-----------------------------------------"
+echo "${city},#genre#" >> zubo_fofa.txt
+cat txt/fofa_${city}.txt >>zubo_fofa.txt
 
-echo "北京联通,#genre#" >zubo_fofa.txt
-cat txt/fofa_beijing_unicom_145.txt >>zubo_fofa.txt
-echo "河南联通,#genre#" >>zubo_fofa.txt
-cat txt/fofa_henan_unicom_172.txt >>zubo_fofa.txt
-echo "四川电信,#genre#" >>zubo_fofa.txt
-cat txt/fofa_sichuan_telecom_333.txt >>zubo_fofa.txt
+
+# echo "北京联通,#genre#" >>zubo_fofa.txt
+# cat txt/fofa_beijing_unicom_145.txt >>zubo_fofa.txt
+# echo "河南联通,#genre#" >>zubo_fofa.txt
+# cat txt/fofa_henan_unicom_172.txt >>zubo_fofa.txt
+# echo "四川电信,#genre#" >>zubo_fofa.txt
+# cat txt/fofa_sichuan_telecom_333.txt >>zubo_fofa.txt
 # echo "上海电信,#genre#" >>zubo_fofa.txt
 # cat txt/Shanghai_103.txt >>zubo_fofa.txt
 # echo "江苏,#genre#" >>zubo_fofa.txt
