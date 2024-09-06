@@ -154,12 +154,14 @@ case $city_choice in
         channel_key="河南联通"
         rl_fofa=$(echo  '"udpxy" && country="CN" && region="Henan" && city="Zhengzhou" && protocol="http" && org="CHINA UNICOM China169 Backbone"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
+        ;;
     17)
         city="beijing_unicom_145"
         stream="rtp/239.3.1.129:8008"
         channel_key="北京联通"
         rl_fofa=$(echo  '"udpxy" && country="CN" && region="Beijing" && city="beijing" && protocol="http" && org="China Unicom Beijing Province Network"' | base64 |tr -d '\n')
         url_fofa="https://fofa.info/result?qbase64="$url_fofa
+        ;;
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
         # for option in {1..15}; do
@@ -280,5 +282,6 @@ cat txt/Sichuan_333.txt >>zubo_fofa.txt
 # cat txt/Gansu_105.txt >>zubo_fofa.txt
 # echo "河北联通,#genre#" >>zubo_fofa.txt
 # cat txt/Hebei_313.txt >>zubo_fofa.txt
+
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
