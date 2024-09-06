@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
-# Thu Sep  5 08:22:38 UTC 2024
+# Fri Sep  6 00:45:15 UTC 2024
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 HEVC
 http://gslbserv.itv.cmvideo.cn:80/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
@@ -809,46 +809,36 @@ http://37.27.111.214:8080/live/2/hls.m3u8
 http://37.27.111.214:8080/live/25/hls.m3u8
 #EXTINF:-1 tvg-name="VOA" group-title="台湾",VOA
 http://37.27.111.214:8080/live/45/hls.m3u8
-#EXTINF:-1 tvg-name="" group-title="动画",炫动卡通
+#EXTINF:-1 tvg-name="炫动卡通" group-title="动画",炫动卡通
 http://wouu.net:9977/udp/239.93.0.173:5140
-#EXTINF:-1 tvg-name="" group-title="动画",嘉佳卡通
+#EXTINF:-1 tvg-name="嘉佳卡通" group-title="动画",嘉佳卡通
 http://wouu.net:9977/udp/239.93.0.246:5140
-#EXTINF:-1 tvg-name="" group-title="动画",金鹰卡通
+#EXTINF:-1 tvg-name="金鹰卡通" group-title="动画",金鹰卡通
 http://wouu.net:9977/udp/239.93.0.108:5140
-#EXTINF:-1 tvg-name="" group-title="动画",优漫卡通
+#EXTINF:-1 tvg-name="优漫卡通" group-title="动画",优漫卡通
 http://wouu.net:9977/udp/239.93.0.251:5140
-#EXTINF:-1 tvg-name="" group-title="动画",宝宝动画高清
+#EXTINF:-1 tvg-name="宝宝动画高清" group-title="动画",宝宝动画高清
 http://wouu.net:9977/udp/239.93.0.147:5140
-#EXTINF:-1 tvg-name="" group-title="动画",少儿动画高清
+#EXTINF:-1 tvg-name="少儿动画高清" group-title="动画",少儿动画高清
 http://wouu.net:9977/udp/239.93.0.193:9000
-#EXTINF:-1 tvg-name="" group-title="动画",青春动漫
+#EXTINF:-1 tvg-name="青春动漫" group-title="动画",青春动漫
 http://wouu.net:9977/udp/239.93.0.146:5140
-#EXTINF:-1 tvg-name="" group-title="动画",少儿天地
+#EXTINF:-1 tvg-name="少儿天地" group-title="动画",少儿天地
 http://wouu.net:9977/udp/239.93.42.34:5140
-#EXTINF:-1 tvg-name="" group-title="动画",爱动漫高清
+#EXTINF:-1 tvg-name="爱动漫高清" group-title="动画",爱动漫高清
 http://wouu.net:9977/udp/239.93.42.23:5140
-#EXTINF:-1 tvg-name="" group-title="动画",动画番剧
+#EXTINF:-1 tvg-name="动画番剧" group-title="动画",动画番剧
 http://wouu.net:9977/udp/239.93.1.177:5140
-#EXTINF:-1 tvg-name="" group-title="动画",中录动漫4K
+#EXTINF:-1 tvg-name="中录动漫4K" group-title="动画",中录动漫4K
 http://wouu.net:9977/udp/239.93.1.188:5140
-#EXTINF:-1 tvg-name="" group-title="动画",金熊猫卡通画中画
+#EXTINF:-1 tvg-name="金熊猫卡通画中画" group-title="动画",金熊猫卡通画中画
 http://wouu.net:9977/udp/239.93.0.232:5140
-#EXTINF:-1 tvg-name="" group-title="动画",熊猫少儿高清
+#EXTINF:-1 tvg-name="熊猫少儿高清" group-title="动画",熊猫少儿高清
 http://wouu.net:9977/udp/239.93.1.189:5140
-#EXTINF:-1 tvg-name="" group-title="动画",金熊猫卡通高清
+#EXTINF:-1 tvg-name="金熊猫卡通高清" group-title="动画",金熊猫卡通高清
 http://wouu.net:9977/udp/239.93.1.172:5140
-#EXTINF:-1 tvg-name="" group-title="动画",亲子趣学4K
-http://wouu.net:9977/udp/239.93.1.191:5140
-#EXTINF:-1 tvg-name="" group-title="香港",凤凰中文
-http://wouu.net:9977/udp/239.93.0.162:2192
-#EXTINF:-1 tvg-name="" group-title="香港",凤凰资讯
-http://wouu.net:9977/udp/239.93.0.118:2191
-#EXTINF:-1 tvg-name="" group-title="香港",星空
-http://wouu.net:9977/udp/239.93.0.156:2193
-#EXTINF:-1 tvg-name="" group-title="香港",星空精选高清
-http://wouu.net:9977/udp/239.93.1.171:5140
-#EXTINF:-1 tvg-name="" group-title="香港",CHANNEL-V
-http://wouu.net:9977/udp/239.93.0.157:219http://171.213.195.82:50002/udp/239.93.1.191:5140
+#EXTINF:-1 tvg-name="亲子趣学4K" group-title="动画",亲子趣学4K
+http://171.213.195.82:50002/udp/239.93.1.191:5140
 #EXTINF:-1 tvg-name="凤凰中文" group-title="香港",凤凰中文
 http://171.213.195.82:50002/udp/239.93.1.9:2192
 #EXTINF:-1 tvg-name="凤凰资讯" group-title="香港",凤凰资讯
@@ -859,50 +849,3 @@ http://171.213.195.82:50002/udp/239.93.1.10:2193
 http://171.213.195.82:50002/udp/239.93.1.171:5140
 #EXTINF:-1 tvg-name="CHANNEL-V" group-title="香港",CHANNEL-V
 http://171.213.195.82:50002/udp/239.93.1.7:2194
-
-#EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV 14 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV14.png" group-title="动画", CCTV 14 HEVC
-http://gslbserv.itv.cmvideo.cn:80/1000000005000265013/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265013&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://assets.livednow.com/logo/北京卡酷少儿.png" group-title="动画", 北京卡酷少儿
-http://gslbserv.itv.cmvideo.cn:80/7851974109718180595/1.m3u8?channel-id=bestzb&Contentid=7851974109718180595&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="NewTV-黑莓动画" tvg-name="NewTV 黑莓动画" tvg-logo="https://assets.livednow.com/logo/NewTV-黑莓动画.png" group-title="动画", NewTV 黑莓动画
-http://gslbserv.itv.cmvideo.cn:80/1000000004000021734/1.m3u8?channel-id=ystenlive&Contentid=1000000004000021734&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="SiTV-动漫秀场" tvg-name="SiTV 动漫秀场" tvg-logo="https://assets.livednow.com/logo/SiTV-动漫秀场.png" group-title="动画", SiTV 动漫秀场
-http://gslbserv.itv.cmvideo.cn:80/5000000011000031113/1.m3u8?channel-id=bestzb&Contentid=5000000011000031113&livemode=1&stbId=3
-#EXTINF:-1 tvg-id="iHOT-爱动漫" tvg-name="iHOT 爱动漫" tvg-logo="https://assets.livednow.com/logo/iHOT-爱动漫.png" group-title="动画", iHOT 爱动漫
-http://gslbserv.itv.cmvideo.cn:80/6000000006000280630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000280630&livemode=1&stbId=3
-#EXTINF:-1 tvg-name="動畫台" group-title="动画",動畫台
-http://37.27.111.214:8080/live/57/hls.m3u8
-#EXTINF:-1 tvg-name="动漫2" group-title="动画",动漫2
-http://37.27.111.214:8080/live/106/hls.m3u8
-#EXTINF:-1 tvg-name="动漫" group-title="动画",动漫
-http://37.27.111.214:8080/live/105/hls.m3u8
-#EXTINF:-1 tvg-name="" group-title="动画",炫动卡通
-http://wouu.net:9977/udp/239.93.0.173:5140
-#EXTINF:-1 tvg-name="" group-title="动画",嘉佳卡通
-http://wouu.net:9977/udp/239.93.0.246:5140
-#EXTINF:-1 tvg-name="" group-title="动画",金鹰卡通
-http://wouu.net:9977/udp/239.93.0.108:5140
-#EXTINF:-1 tvg-name="" group-title="动画",优漫卡通
-http://wouu.net:9977/udp/239.93.0.251:5140
-#EXTINF:-1 tvg-name="" group-title="动画",宝宝动画高清
-http://wouu.net:9977/udp/239.93.0.147:5140
-#EXTINF:-1 tvg-name="" group-title="动画",少儿动画高清
-http://wouu.net:9977/udp/239.93.0.193:9000
-#EXTINF:-1 tvg-name="" group-title="动画",青春动漫
-http://wouu.net:9977/udp/239.93.0.146:5140
-#EXTINF:-1 tvg-name="" group-title="动画",少儿天地
-http://wouu.net:9977/udp/239.93.42.34:5140
-#EXTINF:-1 tvg-name="" group-title="动画",爱动漫高清
-http://wouu.net:9977/udp/239.93.42.23:5140
-#EXTINF:-1 tvg-name="" group-title="动画",动画番剧
-http://wouu.net:9977/udp/239.93.1.177:5140
-#EXTINF:-1 tvg-name="" group-title="动画",中录动漫4K
-http://wouu.net:9977/udp/239.93.1.188:5140
-#EXTINF:-1 tvg-name="" group-title="动画",金熊猫卡通画中画
-http://wouu.net:9977/udp/239.93.0.232:5140
-#EXTINF:-1 tvg-name="" group-title="动画",熊猫少儿高清
-http://wouu.net:9977/udp/239.93.1.189:5140
-#EXTINF:-1 tvg-name="" group-title="动画",金熊猫卡通高清
-http://wouu.net:9977/udp/239.93.1.172:5140
-#EXTINF:-1 tvg-name="" group-title="动画",亲子趣学4K
-http://wouu.net:9977/udp/239.93.1.191:5140
