@@ -1,4 +1,3 @@
-```
 #!/bin/bash
 # cd /root/iptv
 # read -p "确定要运行脚本吗？(y/n): " choice
@@ -280,6 +279,5 @@ cat txt/sichuan_telecom_333.txt >>zubo_fofa.txt
 # cat txt/Gansu_105.txt >>zubo_fofa.txt
 # echo "河北联通,#genre#" >>zubo_fofa.txt
 # cat txt/Hebei_313.txt >>zubo_fofa.txt
-
 
 for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
