@@ -165,7 +165,7 @@ case $city_choice in
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
         # for option in {1..15}; do
-        for option in {3,12,16,17}; do
+        for option in {3,16,17}; do
           bash  "$0" $option  # 假定fofa.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
@@ -283,5 +283,4 @@ cat txt/Sichuan_333.txt >>zubo_fofa.txt
 # echo "河北联通,#genre#" >>zubo_fofa.txt
 # cat txt/Hebei_313.txt >>zubo_fofa.txt
 
-
-for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; done
+for a in result/*.txt; do echo "";echo "========================= $(basename "$a") ==================================="; cat $a; don
