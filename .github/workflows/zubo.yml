@@ -12,38 +12,12 @@ jobs:
     steps:
     - name: Checkout Repository
       uses: actions/checkout@v2
-      
+
     - name: Install Dependencies
       run: |
         sudo apt-get update
       #sudo apt-get install -y yt-dlp sed nmap
-      
-    - name: Run Multitest Script
-      #working-directory: iptv/speedtest
-      run: |
-        cd $GITHUB_WORKSPACE/speedtest
-        bash ./fofa_all.sh
-        bash ./rtp2m3u.sh
-        name: Daily Job_fofa
 
-on:
-  schedule:
-    - cron: "0 12 * * *"
-  workflow_dispatch:
-
-jobs:
-  run-script:
-    runs-on: ubuntu-latest
-
-    steps:
-    - name: Checkout Repository
-      uses: actions/checkout@v2
-      
-    - name: Install Dependencies
-      run: |
-        sudo apt-get update
-      #sudo apt-get install -y yt-dlp sed nmap
-      
     - name: Run Multitest Script
       #working-directory: iptv/speedtest
       run: |
@@ -58,7 +32,6 @@ jobs:
         awk '/凤凰|CHANNEL-V|星空/ {print $0; getline; print $0; next} 1' "./speedtest/zubo_fofa.m3u" >> "./itv.m3u"
         awk '/凤凰|CHANNEL-V|星空/ {print $0; getline; print $0; print ""}' "./speedtest/zubo_fofa.m3u" >> "./itv.m3u"
 
-
     - name: Update Results
       run: |
         cd $GITHUB_WORKSPACE
@@ -66,15 +39,5 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git status
-        git commit -m "Update results_fofa"
-        git push
-
-    - name: Update Results
-      run: |
-        cd $GITHUB_WORKSPACE
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git add .
-        git status
-        git commit -m "Update results_fofa"
+        git commit -m "Update results_fofa and add 凤凰|星空|channelV to itv.m3u"
         git push
