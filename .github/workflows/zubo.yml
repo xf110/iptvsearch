@@ -29,7 +29,7 @@ jobs:
       #working-directory: iptv
       run: |
         cd $GITHUB_WORKSPACE
-        awk '/凤凰|CHANNEL-V|星空/ {print $0; getline; print $0}' "$output_file" >> temp.txt
+        awk '/凤凰|CHANNEL-V|星空/ {print $0; getline; print $0}' "./speedtest/zubo_fofa.m3u" >> "./itv.m3u"
         # sed -n '/凤凰|CHANNEL-V|星空/{N;s/\(group-title="\)[^"]*/\1香港;p;}' "$output_file" >> temp.txt
 
     - name: Update Results
