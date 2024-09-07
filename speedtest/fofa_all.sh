@@ -1,3 +1,4 @@
+
 #!/bin/bash
 
 # 输出传递的参数
@@ -216,8 +217,24 @@ done < "$only_good_ip"
 
 rm -f zubo.tmp
 awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r >"result/result_fofa_${city}.txt"
+
+ip1=$(awk 'NR==1{print $2}' result/result_fofa_${city}.txt)
+ip2=$(awk 'NR==2{print $2}' result/result_fofa_${city}.txt)
+ip3=$(awk 'NR==3{print $2}' result/result_fofa_${city}.txt)
+
 cat "result/result_fofa_${city}.txt"
 rm -f "speedtest_${city}_$time.log"
 
+program="template/${city}.txt"
+perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp1.txt
+echo "tmp1.txt"
+cat tmp1.txt > "txt/fofa_${city}.txt"
+rm -rf tmp1.txt
+
+echo "北京联通,#grenre#" > zubo_fofa.txt
+cat txt/fofa_beijing_unicom_145.txt >>zubo_fofa.txt
+echo "河南联通,#genre#" >>zubo_fofa.txt
+cat txt/fofa_henan_unicom_172.txt >>zubo_fofa.txt
+echo "四川电信,#genre#" >>zubo_fofa.txt
+cat txt/fofa_sichuan_telecom_333.txt >>zubo_fofa.txt
 echo "处理完成，合并结果为: zubo_fofa.txt"
-cat result/*.txt > zubo_fofa.txt
