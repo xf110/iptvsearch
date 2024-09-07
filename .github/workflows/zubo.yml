@@ -23,6 +23,7 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/speedtest
         bash ./fofa_all.sh
+        bash ./rtp2m3u.sh
 
     - name: Update Results
       run: |
