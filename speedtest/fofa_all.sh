@@ -1,4 +1,3 @@
-
 #!/bin/bash
 
 # 输出传递的参数
@@ -231,7 +230,7 @@ echo "tmp1.txt"
 cat tmp1.txt > "txt/fofa_${city}.txt"
 rm -rf tmp1.txt
 
-echo "北京联通,#grenre#" > zubo_fofa.txt
+echo "北京联通,#genre#" > zubo_fofa.txt
 cat txt/fofa_beijing_unicom_145.txt >>zubo_fofa.txt
 echo "河南联通,#genre#" >>zubo_fofa.txt
 cat txt/fofa_henan_unicom_172.txt >>zubo_fofa.txt
