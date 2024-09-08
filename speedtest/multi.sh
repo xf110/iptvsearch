@@ -138,7 +138,7 @@ echo "===============从tonkiang检索    $channel_key    最新ip==============
 # sed -n "s/^.*href='hotellist.html?s=\([^:]*\):[0-9].*/\1/p" tempip.txt > tmp_onlyip
 
 curl -X POST http://tonkiang.us/hoteliptv.php -d "${channel_key_url}" -o test.html
-cat test.html
+# cat test.html
 # 删除失效的结果：
 awk 'BEGIN { RS = "<div class=\"result\">"; ORS = "" }/失效/ { next }{ print "<div class=\"result\">" $0 }' "test.html" > "test_tmp.txt"
 # 提取有效地址和端口：
@@ -213,7 +213,7 @@ rm -f speedtest_${city}_$time.log
 #----------------------用3个最快ip生成对应城市的txt文件---------------------------
 
 # if [ $city = "Shanghai_103" ]; then
-     program="template/template_${city}.txt"
+     program="template/${city}.txt"
 # else
 #     program="template_min/template_${city}.txt"
 # fi
