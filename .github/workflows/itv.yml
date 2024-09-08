@@ -83,9 +83,9 @@ jobs:
           # rm temp.txt
 
 
-          # 多个空格转为1个空格
-
+          # 多个空格转为1个空格,多个空行合并为一个空行
           sed 's/ \+/ /g' "$output_file" | sed -n l 
+          sed -i '/^$/N;/^\n$/D' "$output_file"
 
           # Remove temporary files
           rm "$temp_file"
