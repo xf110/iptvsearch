@@ -218,44 +218,46 @@ rm -f speedtest_${city}_$time.log
 #     program="template_min/template_${city}.txt"
 # fi
 
-sed "s/ipipip/$ip1/g" $program >tmp1.txt
+perl -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$program" > tmp1.txt
+# sed "s/ipipip/$ip1/g" $program >tmp1.txt
 echo "=======================sed "s/ipipip/$ip1/g" $program >tmp1.txt"
-sed "s/ipipip/$ip2/g" $program >tmp2.txt
-sed "s/ipipip/$ip3/g" $program >tmp3.txt
-cat tmp1.txt tmp2.txt tmp3.txt >txt/${city}.txt
+# sed "s/ipipip/$ip2/g" $program >tmp2.txt
+# sed "s/ipipip/$ip3/g" $program >tmp3.txt
+#cat tmp1.txt tmp2.txt tmp3.txt >txt/${city}.txt
+cat tmp1.txt > txt/${city}.txt
 
 rm -rf tmp1.txt tmp2.txt tmp3.txt
 
 
 #--------------------合并所有城市的txt文件为:   zubo.txt-----------------------------------------
 
-echo "上海电信,#genre#" >zubo.txt
-cat txt/Shanghai_103.txt >>zubo.txt
-echo "揭西酒店凤凰,#genre#" >>zubo.txt
-cat txt/Jieyang_129.txt >>zubo.txt
-echo "北京电信,#genre#" >>zubo.txt
-cat txt/Beijing_dianxin_186.txt >>zubo.txt
-echo "北京联通,#genre#" >>zubo.txt
-cat txt/Beijing_liantong_145.txt >>zubo.txt
-echo "天津联通,#genre#" >>zubo.txt
-cat txt/Tianjin_160.txt >>zubo.txt
-echo "河南电信,#genre#" >>zubo.txt
-cat txt/Henan_327.txt >>zubo.txt
-echo "山西电信,#genre#" >>zubo.txt
-cat txt/Shanxi_117.txt >>zubo.txt
-echo "广东电信,#genre#" >>zubo.txt
-cat txt/Guangdong_332.txt >>zubo.txt
+# echo "上海电信,#genre#" >zubo.txt
+# cat txt/Shanghai_103.txt >>zubo.txt
+# echo "揭西酒店凤凰,#genre#" >>zubo.txt
+# cat txt/Jieyang_129.txt >>zubo.txt
+# echo "北京电信,#genre#" >>zubo.txt
+# cat txt/Beijing_dianxin_186.txt >>zubo.txt
+# echo "北京联通,#genre#" >>zubo.txt
+# cat txt/Beijing_liantong_145.txt >>zubo.txt
+# echo "天津联通,#genre#" >>zubo.txt
+# cat txt/Tianjin_160.txt >>zubo.txt
+# echo "河南电信,#genre#" >>zubo.txt
+# cat txt/Henan_327.txt >>zubo.txt
+#echo "山西电信,#genre#" >>zubo.txt
+#cat txt/Shanxi_117.txt >>zubo.txt
+#echo "广东电信,#genre#" >>zubo.txt
+#cat txt/Guangdong_332.txt >>zubo.txt
 echo "四川电信,#genre#" >>zubo.txt
-cat txt/Sichuan_333.txt >>zubo.txt
-echo "浙江电信,#genre#" >>zubo.txt
-cat txt/Zhejiang_120.txt >>zubo.txt
-echo "湖北电信,#genre#" >>zubo.txt
-cat txt/Hubei_90.txt >>zubo.txt
-echo "福建电信,#genre#" >>zubo.txt
-cat txt/Fujian_114.txt >>zubo.txt
-echo "湖南电信,#genre#" >>zubo.txt
-cat txt/Hunan_282.txt >>zubo.txt
-echo "甘肃电信,#genre#" >>zubo.txt
+cat txt/sichuan_telecom_333.txt >>zubo.txt
+#echo "浙江电信,#genre#" >>zubo.txt
+#cat txt/Zhejiang_120.txt >>zubo.txt
+#echo "湖北电信,#genre#" >>zubo.txt
+#cat txt/Hubei_90.txt >>zubo.txt
+#echo "福建电信,#genre#" >>zubo.txt
+#cat txt/Fujian_114.txt >>zubo.txt
+#echo "湖南电信,#genre#" >>zubo.txt
+#cat txt/Hunan_282.txt >>zubo.txt
+#echo "甘肃电信,#genre#" >>zubo.txt
 cat txt/Gansu_105.txt >>zubo.txt
 echo "河北联通,#genre#" >>zubo.txt
 cat txt/Hebei_313.txt >>zubo.txt
