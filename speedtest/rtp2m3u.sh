@@ -1,9 +1,16 @@
 #!/bin/bash
 
-# 输入文件名
-input_file="zubo_fofa.txt"
-# 输出文件名
-output_file="zubo_fofa.m3u"
+# 检查是否提供了输入文件名
+if [ -z "$1" ]; then
+  echo "用法: $0 <输入文件名>"
+  exit 1
+fi
+
+# 使用命令行参数作为输入文件名
+input_file="$1"
+
+# 生成输出文件名，修改后缀为 .m3u
+output_file="${input_file%.*}.m3u"
 
 # 初始化组名变量
 group_title=""
