@@ -113,7 +113,7 @@ case $city_choice in
     0)
         # 如果选择是“全部选项”，则逐个处理每个选项
         for option in {1..15}; do
-          bash  ./multi_test.sh $option  # 假定script_name.sh是当前脚本的文件名，$option将递归调用
+          bash  ./multi.sh $option  # 假定script_name.sh是当前脚本的文件名，$option将递归调用
         done
         exit 0
         ;;
@@ -141,11 +141,14 @@ curl -X POST http://tonkiang.us/hoteliptv.php -d "saerch=$encoded_city&Submit=+"
 # 删除失效的结果：
 awk 'BEGIN { RS = "<div class=\"result\">"; ORS = "" }/失效/ { next }{ print "<div class=\"result\">" $0 }' "test.html" > "test_tmp.txt"
 # 提取有效地址和端口：
-# grep -o "href='hotellist.html?s=[^']*'"  "test_tmp.txt" | sed -n "s/^.*href='hotellist.html?s=\([^:]*:[0-9]*\)'.*/\1/p" > ip_prot.txt
+# grep -o "href='hotellist.html?s=[^']*'"  "test_tmp.txt" | sed -n "s/^.*href='hotellist.html?s=\([^:]*:[0-9]*\)'.*/\1/p" > "ip_prot.txt"
 # 提取有效地址：
-grep -o "href='hotellist.html?s=[^']*'"  "test_tmp.txt" | sed -n "s/^.*href='hotellist.html?s=\([^:]*\):[0-9].*/\1/p" > tmp_onlyip
-
+grep -o "href='hotellist.html?s=[^']*'"  "test_tmp.txt" | sed -n "s/^.*href='hotellist.html?s=\([^:]*\):[0-9].*/\1/p" > "tmp_onlyip"
+echo "===========${city} tmp_onlyip============"
+cat "tmp_onlyip"
 sort tmp_onlyip | uniq | sed '/^\s*$/d' > $onlyip
+echo "===========${city} onlyip============"
+cat  "$onlyip"
 rm -f test.html test_tmp.txt  tmp_onlyip $ipfile
 
 # 遍历ip和端口组合
@@ -158,6 +161,8 @@ while IFS= read -r ip; do
         if [[ $output == *"succeeded"* ]]; then
             # 使用 awk 提取 IP 地址和端口号对应的字符串，并保存到输出文件中
             echo "$output" | grep "succeeded" | awk -v ip="$ip" -v port="$port" '{print ip ":" port}' >> "$ipfile"
+	    echo "====== $ipfile ======="
+     	    cat "$ipfile"
         fi
     done < "$onlyport"
 done < "$onlyip"
