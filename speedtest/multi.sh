@@ -136,11 +136,11 @@ echo "===============从tonkiang检索    $channel_key    最新ip==============
 # grep -o "href='hotellist.html?s=[^']*'"  test.html > tempip.txt
 # sed -n "s/^.*href='hotellist.html?s=\([^:]*\):[0-9].*/\1/p" tempip.txt > tmp_onlyip
 
-encoded_city=$(echo -n "$city" | base64)
-echo "===== ${city} 编码为 ======="
-cat "$encoded_city"
+encoded_searchkey=$(echo -n "$channel_key" | base64)
+echo "===== $channel_key 编码为 ======="
+cat "encoded_searchkey"
 
-curl -X POST http://tonkiang.us/hoteliptv.php -d "saerch=$encoded_city&Submit=+" -o test.html
+curl -X POST http://tonkiang.us/hoteliptv.php -d "saerch=$encoded_searchkey&Submit=+" -o test.html
 cat test.html
 # 删除失效的结果：
 awk 'BEGIN { RS = "<div class=\"result\">"; ORS = "" }/失效/ { next }{ print "<div class=\"result\">" $0 }' "test.html" > "test_tmp.txt"
