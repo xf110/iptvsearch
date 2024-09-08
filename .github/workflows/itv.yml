@@ -69,7 +69,7 @@ jobs:
           bash ./speedtest/rtp2m3u.sh "./hongkong.tmp"
           cat "./hongkong.tmp"
           echo "./hongkong.m3u" >> "./itv.m3u"
-          rm "sichuan_hongkong.tmp" "./hongkong.tmp.tmp" "./hongkong.tmp" "./hongkong.m3u"
+          rm "sichuan_hongkong.tmp" "./hongkong.tmp" "./hongkong.m3u"
 
 
 
