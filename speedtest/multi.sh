@@ -258,9 +258,9 @@ cat txt/sichuan_telecom_333.txt >>zubo.txt
 #echo "湖南电信,#genre#" >>zubo.txt
 #cat txt/Hunan_282.txt >>zubo.txt
 #echo "甘肃电信,#genre#" >>zubo.txt
-cat txt/Gansu_105.txt >>zubo.txt
-echo "河北联通,#genre#" >>zubo.txt
-cat txt/Hebei_313.txt >>zubo.txt
+#cat txt/Gansu_105.txt >>zubo.txt
+#echo "河北联通,#genre#" >>zubo.txt
+#cat txt/Hebei_313.txt >>zubo.txt
 
 # scp root@你的服务器:/speedtest/mylist.txt .
 # sed -i '/^上海电信/,$d' mylist.txt
@@ -269,6 +269,6 @@ cat txt/Hebei_313.txt >>zubo.txt
 # scp mylist.txt root@你的服务器:/speedtest/mylist.txt
 
 # for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done
-for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done  > result_all.txt 
+#for a in result/*.txt; do echo "========================= $(basename "$a") ==================================="; cat $a; done  > result_all.txt 
 
 #sed -i ':a;N;$!ba;s/\n/<br>/g' result/result_all.txt 
