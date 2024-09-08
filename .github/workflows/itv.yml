@@ -36,19 +36,19 @@ jobs:
           # echo "# $(date)" > "$output_file"
 
           # 3. 使用 awk 将包含 EXTM3U 的行追加到 output 文件，并在临时文件中删除
-          awk '/EXTM3U/ {print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
+          # awk '/EXTM3U/ {print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
           awk '/EXTM3U/ {print $0;}' "$temp_file" > "$output_file"
           echo "# $(date)" >> "$output_file"
           echo "" >> "$output_file"
           sed -i '/EXTM3U/d' "$temp_file"
 
           # 4. 使用 awk 将包含 HEVC 的行及其下一行追加到 output 文件，并在临时文件中删除
-          awk '/HEVC/ {print $0; getline; print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
+          # awk '/HEVC/ {print $0; getline; print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
           awk '/HEVC/ {print $0; getline; print $0; print ""}' "$temp_file" >> "$output_file"
           sed -i '/HEVC/,+1d' "$temp_file"
 
           # 5. 使用 awk 将包含 FPS 的行及其下一行追加到 output 文件，并在临时文件中删除
-          awk '/FPS/ {print $0; getline; print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
+          # awk '/FPS/ {print $0; getline; print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
           awk '/FPS/ {print $0; getline; print $0;print ""}' "$temp_file" >> "$output_file"
           sed -i '/FPS/,+1d' "$temp_file"
 
