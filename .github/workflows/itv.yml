@@ -66,8 +66,11 @@ jobs:
           sed -i '/凤凰|CHANNEL-V|星空/,+1d' "./itv.m3u"
           awk '/凤凰|CHANNEL-V|星空/ {print $0;}' "sichuan_hongkong.tmp" > "./hongkong.tmp"
           sort "./hongkong.tmp" | uniq > "./hongkong.tmp.tmp" | mv "./hongkong.tmp.tmp" "./hongkong.tmp"
-          bash ./speedtest/rtp2m3u.sh "./hongkong.tmp"
+          echo '============== hongkong.tmp ============='
           cat "./hongkong.tmp"
+          bash ./speedtest/rtp2m3u.sh "./hongkong.tmp"
+          echo "========= hongkong.m3u =========="
+          cat "./hongkong.m3u"
           echo "./hongkong.m3u" >> "./itv.m3u"
           rm "sichuan_hongkong.tmp" "./hongkong.tmp" "./hongkong.m3u"
 
