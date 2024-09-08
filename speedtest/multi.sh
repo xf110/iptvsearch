@@ -49,6 +49,7 @@ case $city_choice in
         city="Sichuan_333"
         stream="udp/239.93.42.33:5140"
         channel_key="四川电信"
+	channel_key_url="saerch=%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A&Submit=+"
         ;;
     4)
         city="Zhejiang_120"
@@ -136,11 +137,7 @@ echo "===============从tonkiang检索    $channel_key    最新ip==============
 # grep -o "href='hotellist.html?s=[^']*'"  test.html > tempip.txt
 # sed -n "s/^.*href='hotellist.html?s=\([^:]*\):[0-9].*/\1/p" tempip.txt > tmp_onlyip
 
-encoded_searchkey=$(echo -n "$channel_key" | base64)
-echo "===== $channel_key 编码为 ======="
-cat "encoded_searchkey"
-
-curl -X POST http://tonkiang.us/hoteliptv.php -d "saerch=$encoded_searchkey&Submit=+" -o test.html
+curl -X POST http://tonkiang.us/hoteliptv.php -d "${channel_key_url}" -o test.html
 cat test.html
 # 删除失效的结果：
 awk 'BEGIN { RS = "<div class=\"result\">"; ORS = "" }/失效/ { next }{ print "<div class=\"result\">" $0 }' "test.html" > "test_tmp.txt"
