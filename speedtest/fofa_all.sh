@@ -221,6 +221,9 @@ ip1=$(awk 'NR==1{print $2}' result/result_fofa_${city}.txt)
 ip2=$(awk 'NR==2{print $2}' result/result_fofa_${city}.txt)
 ip3=$(awk 'NR==3{print $2}' result/result_fofa_${city}.txt)
 
+echo "speedtest_${city}_$time.log"
+cat speedtest_${city}_$time.log
+echo "result/result_fofa_${city}.txt"
 cat "result/result_fofa_${city}.txt"
 rm -f "speedtest_${city}_$time.log"
 
