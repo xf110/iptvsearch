@@ -61,6 +61,18 @@ jobs:
           # 8. 追加香港、增加动画
           sed -n '521,$p' "speedtest/template/sichuan_telecom_333.m3u" >> "$output_file"
 
+          # 8. 增加香港频道
+          curl -L -o sichuan_hongkong.tmp https://mirror.ghproxy.com/raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/Sichuan_333.txt
+          sed -i '/凤凰|CHANNEL-V|星空/,+1d' "./itv.m3u"
+          awk '/凤凰|CHANNEL-V|星空/ {print $0;}' "sichuan_hongkong.tmp" > "./hongkong.tmp"
+          sort "./hongkong.tmp" | uniq > "./hongkong.tmp.tmp" | mv "./hongkong.tmp.tmp" "./hongkong.tmp"
+          bash ./speedtest/rtp2m3u.sh "./hongkong.tmp"
+          cat "./hongkong.tmp"
+          echo "./hongkong.m3u" >> "./itv.m3u"
+          rm "sichuan_hongkong.tmp" "./hongkong.tmp.tmp" "./hongkong.tmp" "./hongkong.m3u"
+
+
+
           # 9. 整理 动画 频道
           # Step 1: Capture the lines with specified keywords and the next line, modify group-title, and append to a temporary file
           # echo "" > temp.txt
