@@ -71,7 +71,7 @@ jobs:
           bash ./speedtest/rtp2m3u.sh "./hongkong.tmp"
           echo "========= hongkong.m3u =========="
           cat "./hongkong.m3u"
-          sed -i '/凤凰|CHANNEL-V|星空|CHANNELV/ s/group-title="[^"]*"/group-title="香港"/g' "./hongkong.m3u"
+          sed -i '/凤凰\|CHANNEL-V\|星空\|CHANNELV/ s/group-title="[^"]*"/group-title="香港"/g' "./hongkong.m3u"
           cat "./hongkong.m3u" >> "$output_file"
           rm "sichuan_hongkong.tmp" "./hongkong.tmp" "./hongkong.m3u"
 
@@ -95,6 +95,7 @@ jobs:
           rm "$temp_file"
 
           mv processed_itv.m3u itv.m3u
+
       - name: Stage changes
         run: |
           echo "Staging changes..."
