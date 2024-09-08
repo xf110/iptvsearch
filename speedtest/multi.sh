@@ -137,7 +137,11 @@ echo "===============从tonkiang检索    $channel_key    最新ip==============
 # sed -n "s/^.*href='hotellist.html?s=\([^:]*\):[0-9].*/\1/p" tempip.txt > tmp_onlyip
 
 encoded_city=$(echo -n "$city" | base64)
+echo "===== ${city} 编码为 ======="
+cat "$encoded_city"
+
 curl -X POST http://tonkiang.us/hoteliptv.php -d "saerch=$encoded_city&Submit=+" -o test.html
+cat test.html
 # 删除失效的结果：
 awk 'BEGIN { RS = "<div class=\"result\">"; ORS = "" }/失效/ { next }{ print "<div class=\"result\">" $0 }' "test.html" > "test_tmp.txt"
 # 提取有效地址和端口：
