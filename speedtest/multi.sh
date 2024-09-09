@@ -46,7 +46,7 @@ case $city_choice in
         channel_key="北京联通"
         ;;
     3)
-        city="Sichuan_333"
+        city="sichuan_telecom_333"
         stream="udp/239.93.42.33:5140"
         channel_key="四川电信"
 	channel_key_url="saerch=%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A&Submit=+"
