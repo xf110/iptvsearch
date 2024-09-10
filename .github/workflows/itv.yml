@@ -14,7 +14,7 @@ jobs:
         uses: actions/checkout@v3
 
       - name: Download itv.m3u content
-        run: curl -L -o itv.m3u https://tv.wangqifei.eu.org/itv.m3u #弃用 https://s.wangqifei.eu.org/itv
+        run: curl -L -o itv.m3u https://tv.wangqifei.eu.org/itv.m3u
 
       - name: Check for #EXTM3U in itv.m3u
         run: |
@@ -32,12 +32,13 @@ jobs:
           # 1. 使用 cat 命令去除空行写入临时文件
           cat "$input_file"  > "$temp_file"
 
-          # 2. 将时间戳覆盖到 output 文件
+          # 2. 将时间戳覆盖到 output 文件，修改epg源
           # echo "# $(date)" > "$output_file"
 
           # 3. 使用 awk 将包含 EXTM3U 的行追加到 output 文件，并在临时文件中删除
           # awk '/EXTM3U/ {print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
           awk '/EXTM3U/ {print $0;}' "$temp_file" > "$output_file"
+          sed -i 's|^#EXTM3U x-tvg-url="[^"]*"|#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"|' "$output_file"
           echo "# $(date)" >> "$output_file"
           echo "" >> "$output_file"
           sed -i '/EXTM3U/d' "$temp_file"
