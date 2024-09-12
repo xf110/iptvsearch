@@ -65,7 +65,7 @@ jobs:
           # 8. 增加香港频道
           curl -L -o sichuan_hongkong.tmp https://mirror.ghproxy.com/raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/Sichuan_333.txt
           sed -i '/凤凰|CHANNEL-V|CHANNELV|星空/,+1d' "$output_file"
-          awk '/凤凰|CHANNEL-V|CHANNELV|星空/ {print $0;}' "sichuan_hongkong.tmp" > "./hongkong.tmp"
+          awk '/凤凰|CHANNEL-V|CHANNELV|星空(?!精选)/ {print $0;}' "sichuan_hongkong.tmp" > "./hongkong.tmp"
           sort "./hongkong.tmp" | uniq > "./hongkong.tmp.tmp" | mv "./hongkong.tmp.tmp" "./hongkong.tmp"
           echo '============== hongkong.tmp ============='
           cat "./hongkong.tmp"
