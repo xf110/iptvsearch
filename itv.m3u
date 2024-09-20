@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Fri Sep 20 04:20:52 UTC 2024
+# Fri Sep 20 05:19:38 UTC 2024
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 HEVC
 http://gslbserv.itv.cmvideo.cn:80/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
@@ -772,9 +772,19 @@ http://gslbserv.itv.cmvideo.cn:80/1000000004000021734/1.m3u8?channel-id=ystenliv
 http://gslbserv.itv.cmvideo.cn:80/5000000011000031113/1.m3u8?channel-id=bestzb&Contentid=5000000011000031113&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="iHOT-爱动漫" tvg-name="iHOT 爱动漫" tvg-logo="https://assets.livednow.com/logo/iHOT-爱动漫.png" group-title="动画", iHOT 爱动漫
 http://gslbserv.itv.cmvideo.cn:80/6000000006000280630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000280630&livemode=1&stbId=3
+#EXTINF:-1 tvg-name="Nickelodeon" group-title="动画",Nickelodeon
+http://37.27.111.214:8080/live/12/hls.m3u8
+#EXTINF:-1 tvg-name="哆啦A梦" group-title="动画",哆啦A梦
+http://37.27.111.214:8080/live/107/hls.m3u8
 #EXTINF:-1 tvg-name="動畫台" group-title="动画",動畫台
 http://37.27.111.214:8080/live/57/hls.m3u8
 #EXTINF:-1 tvg-name="动漫2" group-title="动画",动漫2
 http://37.27.111.214:8080/live/106/hls.m3u8
+#EXTINF:-1 tvg-name="HakkaTV" group-title="动画",HakkaTV
+http://37.27.111.214:8080/live/1/hls.m3u8
+#EXTINF:-1 tvg-name="超人" group-title="动画",超人
+http://37.27.111.214:8080/live/110/hls.m3u8
 #EXTINF:-1 tvg-name="动漫" group-title="动画",动漫
 http://37.27.111.214:8080/live/105/hls.m3u8
+#EXTINF:-1 tvg-name="nickjr" group-title="动画",nickjr
+http://37.27.111.214:8080/live/22/hls.m3u8
