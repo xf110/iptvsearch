@@ -83,6 +83,12 @@ jobs:
           # Step 3: Clean up the temporary file
           rm temp.txt
           
+          # 10.英语频道
+          echo "" > temp.txt
+          sed -n '/英语\|VOA/{N;s/\((group-title="\)[^"]*/\1动画/;p;)}' "$output_file" >> temp.txt
+          cat temp.txt >> "$output_file"
+          rm temp.txt
+          
           # 多个空格转为1个空格,多个空行合并为一个空行
           sed 's/ \+/ /g' "$output_file" | sed -n l 
           sed -i '/^$/N;/^\n$/D' "$output_file"
