@@ -28,7 +28,7 @@ jobs:
           output_file="processed_itv.m3u"
           temp_file="tmp_file.m3u8"
           # 1. 使用 cat 命令去除空行写入临时文件
-          cat "$input_file" > "$temp_file"
+          cat "$input_file"  > "$temp_file"
           # 2. 将时间戳覆盖到 output 文件，修改epg源
           # echo "# $(date)" > "$output_file"
           # 3. 使用 awk 将包含 EXTM3U 的行追加到 output 文件，并在临时文件中删除
@@ -56,7 +56,7 @@ jobs:
           curl -L -o sichuan_hongkong.tmp https://mirror.ghproxy.com/raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/Sichuan_333.txt
           sed -i '/凤凰|CHANNEL-V|CHANNELV|星空/,+1d' "$output_file"
           awk '/凤凰|CHANNEL-V|CHANNELV|星空(?!精选)/ {print $0;}' "sichuan_hongkong.tmp" > "./hongkong.tmp"
-          sort "./hongkong.tmp" | uniq > "./hongkong.tmp.tmp" && mv "./hongkong.tmp.tmp" "./hongkong.tmp"
+          sort "./hongkong.tmp" | uniq > "./hongkong.tmp.tmp" | mv "./hongkong.tmp.tmp" "./hongkong.tmp"
           echo '============== hongkong.tmp ============='
           cat "./hongkong.tmp"
           bash ./speedtest/rtp2m3u.sh "./hongkong.tmp"
@@ -68,18 +68,11 @@ jobs:
           # 9. 整理 动画 频道
           # Step 1: Capture the lines with specified keywords and the next line, modify group-title, and append to a temporary file
           echo "" > temp.txt
-          sed -n '/CCTV 14 HEVC\|少儿\|儿童\|动画\|\|哆啦A梦\|HakkaTV\|超人\|nickjr\|Nickelodeon\|动漫\|動畫\|動漫/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" >> temp.txt
+          sed -n '/CCTV 14 HEVC\|少儿\|儿童\|动画\|动漫\|動畫\|動漫/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" >> temp.txt
           # Step 2: Append the modified content to the end of "$output_file"
           cat temp.txt >> "$output_file"
           # Step 3: Clean up the temporary file
           rm temp.txt
-
-          # 10. 英语频道
-          echo "" > temp.txt
-          sed -n '/英語\|VOA/{N;s/\(group-title="\)[^"]*/\1英语/;p;}' "$output_file" >> temp.txt
-          cat temp.txt >> "$output_file"
-          rm temp.txt
-
           # 多个空格转为1个空格,多个空行合并为一个空行
           sed 's/ \+/ /g' "$output_file" | sed -n l 
           sed -i '/^$/N;/^\n$/D' "$output_file"
