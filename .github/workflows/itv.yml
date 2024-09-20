@@ -68,11 +68,18 @@ jobs:
           # 9. 整理 动画 频道
           # Step 1: Capture the lines with specified keywords and the next line, modify group-title, and append to a temporary file
           echo "" > temp.txt
-          sed -n '/CCTV 14 HEVC\|少儿\|儿童\|动画\|动漫\|動畫\|動漫/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" >> temp.txt
+          sed -n '/CCTV 14 HEVC\|少儿\|儿童\|动画\|\|哆啦A梦\|HakkaTV\|超人\|nickjr\|Nickelodeon\|动漫\|動畫\|動漫/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" >> temp.txt
           # Step 2: Append the modified content to the end of "$output_file"
           cat temp.txt >> "$output_file"
           # Step 3: Clean up the temporary file
           rm temp.txt
+
+          # 10. 英语频道
+          echo "" > temp.txt
+          sed -n '/英語\|VOA/{N;s/\(group-title="\)[^"]*/\1英语/;p;}' "$output_file" >> temp.txt
+          cat temp.txt >> "$output_file"
+          rm temp.txt
+
           # 多个空格转为1个空格,多个空行合并为一个空行
           sed 's/ \+/ /g' "$output_file" | sed -n l 
           sed -i '/^$/N;/^\n$/D' "$output_file"
