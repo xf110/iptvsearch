@@ -24,7 +24,6 @@ jobs:
           'pixman.io.fifalive.dnsany.com'
           'pixman.io.hnbblive.dnsany.com'
         )
-
         HOSTS_MAPPING=(
           'cache.ott.ystenlive.itv.cmvideo.cn'
           'cache.ott.bestlive.itv.cmvideo.cn'
@@ -32,23 +31,18 @@ jobs:
           'cache.ott.fifalive.itv.cmvideo.cn'
           'cache.ott.hnbblive.itv.cmvideo.cn'
         )
-
         # 清空之前的 iptvhost 文件
         echo "Clearing previous iptvhost file..."
         > iptvhost
-
         # 解析 DNS 记录并更新 hosts 文件
         for i in "${!DNS_NAMES[@]}"; do
           dns_name="${DNS_NAMES[$i]}"
           host="${HOSTS_MAPPING[$i]}"
-
           echo "Resolving DNS name: $dns_name"
-
           # 只获取第一个非CNAME的IPv4地址
           ip_address=$(dig +short "$dns_name" | grep -E '^[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+$' | head -n 1)
           
           echo "Resolved IP address: $ip_address"
-
           # 检查是否得到了 IP 地址
           if [ -n "$ip_address" ]; then
             echo "$ip_address $host" >> iptvhost
@@ -57,7 +51,6 @@ jobs:
             echo "Failed to resolve $dns_name"
           fi
         done
-
     - name: Stage changes  # 步骤：暂存更改
       run: |
         echo "Staging changes..."
@@ -66,7 +59,6 @@ jobs:
         git add iptvhost
         git status
         cat iptvhost  # 输出 iptvhost 文件内容以检查更新
-
     - name: Commit changes  # 步骤：提交更改
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
