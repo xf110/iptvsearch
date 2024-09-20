@@ -84,7 +84,7 @@ jobs:
 
           # 10. 英语频道
           echo "" > temp.txt
-          sed -n '/英语\|VOA/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" > temp.txt
+          sed -n '/英语\|VOA/{N;s/\(group-title="\)[^"]*/\1英语/;p;}' "$output_file" > temp.txt
           cat temp.txt >> "$output_file"
           rm temp.txt
           
