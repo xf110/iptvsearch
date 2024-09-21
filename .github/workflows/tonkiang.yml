@@ -24,7 +24,7 @@ jobs:
         cd $GITHUB_WORKSPACE/speedtest
         
         bash ./tonkiang.sh
-        bash ./rtp2m3u.sh './zubo_fofa.txt'
+        bash ./rtp2m3u.sh './taiwan_tonkiang.txt'
 
     - name: Update Results
       run: |
