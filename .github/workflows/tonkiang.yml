@@ -16,7 +16,7 @@ jobs:
     - name: Install Dependencies
       run: |
         sudo apt-get update
-        #sudo apt-get install -y yt-dlp sed nmap
+        sudo apt-get install -y yt-dlp sed nmap
 
     - name: Run tonkiang Script
       #working-directory: iptv/speedtest
