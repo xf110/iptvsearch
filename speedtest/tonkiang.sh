@@ -45,7 +45,7 @@ while read -r url; do
         rm -f new-archive.txt output.ts
 
     echo "第 $i/$lines 个：${url} --->  ${speedinfo}"
-    echo "${url}    $speed" >> "$SPEED_TEST_LOG"
+    echo "${url}    ${speed}" >> "$SPEED_TEST_LOG"
 done < "$UNIQUE_SEARCH_RESULTS_FILE"
 
 sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2"  "$1}' > validurl.txt
