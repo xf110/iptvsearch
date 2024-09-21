@@ -17,7 +17,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y yt-dlp sed nmap
-				which yt-dlp
+which yt-dlp
 
     - name: Run Multitest Script
       #working-directory: iptv/speedtest
