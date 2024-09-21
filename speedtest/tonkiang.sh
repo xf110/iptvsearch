@@ -10,7 +10,7 @@ SEARCH_RESULTS_FILE="searchresults.txt"
 UNIQUE_SEARCH_RESULTS_FILE="unique_searchresults.txt"
 SPEED_TEST_LOG="speedtest.log"
 BEST_URL_RESPONSE_FILE="besturlresponse.txt"
-OUTPUT_FILE="taiwan.txt"
+OUTPUT_FILE="taiwan_tonkiang.txt"
 
 # 清空或创建响应文件
 :> "$RESPONSE_FILE"
