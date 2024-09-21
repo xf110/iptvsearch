@@ -1,0 +1,37 @@
+name: tonkiang update
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        #sudo apt-get install -y yt-dlp sed nmap
+
+    - name: Run tonkiang Script
+      #working-directory: iptv/speedtest
+      run: |
+        cd $GITHUB_WORKSPACE/speedtest
+        
+        bash ./tonkiang.sh
+        bash ./rtp2m3u.sh './zubo_fofa.txt'
+
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git status
+        git commit -m "Update taiwan_tonkiang "
+        git push
