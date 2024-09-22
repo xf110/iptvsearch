@@ -59,7 +59,7 @@ done < "$UNIQUE_SEARCH_RESULTS_FILE"
 # sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2"  "$1}' > validurl.txt
 # besturl=$(sed -n '1s|.*//\([^/]*\)/.*|\1|p' validurl.txt)
 # sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2}' > validurl.txt
-sort -u "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print $3}' > validurl.txt
+sort -u "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print "%s %s\n", $3 $1}' | sort
 besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
 echo "========== bestdomain : ${besturl}"
 
