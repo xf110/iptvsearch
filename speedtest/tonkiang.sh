@@ -57,7 +57,7 @@ while read -r url; do
     echo "${speed} ${url}">> "$SPEED_TEST_LOG"
 done < "$UNIQUE_SEARCH_RESULTS_FILE"
 
-sort -u -r "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print $3 " " $1}' | sort > validurl.txt
+sort -u -r "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print $3 " " $1}' | sort -n -r > validurl.txt
 besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
 echo "========== bestdomain : ${besturl}"
 
