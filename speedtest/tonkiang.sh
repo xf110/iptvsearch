@@ -46,21 +46,18 @@ while read -r url; do
                 continue
             fi
 
-           # speed=$(echo "${output}" | grep -oP 'in \K[0-9]+:[0-9]+')
-           speed=$(echo "${output}" | grep -Eo 'in [0-9]+:[0-9]+')
-           speedinfo=$(echo "${output}" | grep -Eo '\[download\] [0-9]+.*')
-       # speedinfo=$(echo "${output}" | grep -oP '^\[download\] \K[0-9]+.*')
-        echo "${output}" >> output.txt
+            speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
+        speedinfo=$(echo "${output}" | grep -E "speed=[0-9]+\.[0-9]+x\s+$")
+
+        # echo "${output}" >> output.txt
         rm -f new-archive.txt output.ts
 
-    echo "第 $i/$lines 个：${url} --->  ${speedinfo}"
-    echo "${url}    ${speed}" >> "$SPEED_TEST_LOG"
+    printf "第 %d/%d 个：%s\n[speedinfo]%s\n" "$i" "$lines" "$url" "$speedinfo"
+
+    echo "${speed} ${url}">> "$SPEED_TEST_LOG"
 done < "$UNIQUE_SEARCH_RESULTS_FILE"
 
-# sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2"  "$1}' > validurl.txt
-# besturl=$(sed -n '1s|.*//\([^/]*\)/.*|\1|p' validurl.txt)
-# sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2}' > validurl.txt
-sort -u "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print $3 " " $1}' | sort > validurl.txt
+sort -u -r "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print $3 " " $1}' | sort > validurl.txt
 besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
 echo "========== bestdomain : ${besturl}"
 
