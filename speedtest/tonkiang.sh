@@ -58,10 +58,9 @@ done < "$UNIQUE_SEARCH_RESULTS_FILE"
 
 # sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2"  "$1}' > validurl.txt
 # besturl=$(sed -n '1s|.*//\([^/]*\)/.*|\1|p' validurl.txt)
-sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2}' > validurl.txt
+# sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2}' > validurl.txt
+sort -u "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print $3}' > validurl.txt
 besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
-echo "========== bestdomain : ${besturl}"
-
 echo "========== bestdomain : ${besturl}"
 
 # 4. 获取 besturl 对应的直播源列表
