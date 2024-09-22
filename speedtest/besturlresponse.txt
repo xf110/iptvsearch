@@ -90,11 +90,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.apeo {
+	.ujbmjx {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .hlewqj {
+    .jbmj {
         padding-left: 6px;
     }
 	.ad1 {
@@ -113,7 +113,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/10.gif) no-repeat; 
+		background: url(images/14.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -165,7 +165,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.apeo {
+	.tuanga {
 		margin-top: 4px;
 	}	
 	tba {
@@ -202,7 +202,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.apeo {
+	.ujbmjx {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -282,22 +282,12 @@ a {
 	<div style="margin-top: -30px; margin-left: 20px; background-color: #fff; width: 120px; font-size: 22px; padding-left: 5px;"> Hotel IPTV </div>
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=112.114.137.87" style="color:#001;">112.114.137.87</a>
+		<a href="hoteliptv.php?s=183.15.206.240" style="color:#001;">183.15.206.240</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=112.114.137.107" style="color:#001;">112.114.137.107</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=171.120.7.32" style="color:#001;">171.120.7.32</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=116.117.105.228" style="color:#001;">116.117.105.228</a>
+		<a href="hoteliptv.php?s=61.53.87.230" style="color:#001;">61.53.87.230</a>
 	</span>
 	
 	
@@ -307,17 +297,27 @@ a {
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=110.241.190.100" style="color:#001;">110.241.190.100</a>
+		<a href="hoteliptv.php?s=112.114.137.112" style="color:#001;">112.114.137.112</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=39.101.65.228" style="color:#001;">39.101.65.228</a>
+		<a href="hoteliptv.php?s=112.114.137.87" style="color:#001;">112.114.137.87</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=121.24.98.129" style="color:#001;">121.24.98.129</a>
+		<a href="hoteliptv.php?s=222.137.229.152" style="color:#001;">222.137.229.152</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=1732e975z9.zicp.fun" style="color:#001;">1732e975z9.zicp.fun</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=110.7.131.51" style="color:#001;">110.7.131.51</a>
 	</span>
 	
 	<div style="clear: both"></div>
@@ -327,42 +327,42 @@ a {
 	<div style="margin-top: -30px; margin-left: 20px; background-color: #fff; width: 130px; font-size: 22px; padding-left: 5px;"> Multicast IP</div>
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=124.64.189.63" style="color:#000;">124.64.189.63</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=171.120.110.65" style="color:#000;">171.120.110.65</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=116.23.139.108" style="color:#000;">116.23.139.108</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=180.116.217.147" style="color:#000;">180.116.217.147</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=123.145.67.77" style="color:#000;">123.145.67.77</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
 		<a href="hoteliptv.php?s=116.226.74.224" style="color:#000;">116.226.74.224</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=118.79.12.128" style="color:#000;">118.79.12.128</a>
+		<a href="hoteliptv.php?s=wouu.net" style="color:#000;">wouu.net</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=211.158.152.88" style="color:#000;">211.158.152.88</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=183.191.4.242" style="color:#000;">183.191.4.242</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=223.215.3.236" style="color:#000;">223.215.3.236</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=14.187.170.42" style="color:#000;">14.187.170.42</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=178.163.64.220" style="color:#000;">178.163.64.220</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=49.113.179.70" style="color:#000;">49.113.179.70</a>
+		<a href="hoteliptv.php?s=47.94.21.78" style="color:#000;">47.94.21.78</a>
 	</span>
 	
 	<div style="clear: both"></div>
@@ -817,7 +817,7 @@ function change(s){
 	document.getElementById("search").value=s;
 	document.getElementById('form1').submit();
 }
-function sdvnl(content){
+function liuj(content){
 	put = document.createElement("input"); // 直接构建input
           put.value = content; // 设置内容
           document.body.appendChild(put); // 添加临时实例
