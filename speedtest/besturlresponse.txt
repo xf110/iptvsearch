@@ -90,11 +90,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.tuan {
+	.aergl {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .lshle {
+    .wqjsdv {
         padding-left: 6px;
     }
 	.ad1 {
@@ -113,7 +113,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/5.gif) no-repeat; 
+		background: url(images/13.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -165,7 +165,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.vnliu {
+	.liuj {
 		margin-top: 4px;
 	}	
 	tba {
@@ -202,7 +202,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.tuan {
+	.aergl {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -817,7 +817,7 @@ function change(s){
 	document.getElementById("search").value=s;
 	document.getElementById('form1').submit();
 }
-function aergls(content){
+function dvnl(content){
 	put = document.createElement("input"); // 直接构建input
           put.value = content; // 设置内容
           document.body.appendChild(put); // 添加临时实例
