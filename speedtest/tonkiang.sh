@@ -38,7 +38,7 @@ lines=$(wc -l < "$UNIQUE_SEARCH_RESULTS_FILE")
 
 while read -r url; do
                i=$((i + 1))
-          output=$(timeout 40 /usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
+          output=$(timeout 40 /usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
            speed=$(echo "${output}" | grep -oP 'at \K[0-9.]+[KM]iB/s')
        speedinfo=$(echo "${output}" | grep '^\[download\] [0-9]' | awk '{print substr($0, index($0,$2))}')
         echo "${output}" >> output.txt
