@@ -1,7 +1,6 @@
 name: tes
 
 on:
-  schedule:
   workflow_dispatch:
 
 jobs:
