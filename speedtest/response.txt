@@ -90,11 +90,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.otua {
+	.ngaxgf {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .glshl {
+    .wqjsd {
         padding-left: 6px;
     }
 	.ad1 {
@@ -113,7 +113,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/11.gif) no-repeat; 
+		background: url(images/14.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -165,7 +165,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.ryaerg {
+	.eotua {
 		margin-top: 4px;
 	}	
 	tba {
@@ -202,7 +202,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.otua {
+	.ngaxgf {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -280,7 +280,7 @@ a {
 		</div>
 		<input type="hidden" name="name" id="name" value="NjU1Nzkz">
 	</div>
-	<div class="otua" >
+	<div class="ngaxgf" >
 						<div class="resultplus">
 							<div class="channel">
 								<a href="http://zqjy.info/tv/NzMyMTA4" target="_blank">
@@ -293,10 +293,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8</tba>
 								
 								</table>
 							</div>
@@ -318,10 +318,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://37.27.111.214:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://37.27.111.214:8080/live/5/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://37.27.111.214:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://37.27.111.214:8080/live/5/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -343,10 +343,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://37.27.111.214:8080/live/63/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://37.27.111.214:8080/live/63/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://37.27.111.214:8080/live/63/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://37.27.111.214:8080/live/63/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -368,10 +368,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://shuma004.chunfengyun.top:8080/live/63/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://shuma004.chunfengyun.top:8080/live/63/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://shuma004.chunfengyun.top:8080/live/63/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://shuma004.chunfengyun.top:8080/live/63/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -393,10 +393,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8521/.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8521/.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8521/.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://tianhewan.top/ZIPP.php?url=http://211.72.65.236:8521/.m3u8</tba>
 								
 								</table>
 							</div>
@@ -418,10 +418,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -443,10 +443,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://epg.pw/stream/bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://epg.pw/stream/bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://epg.pw/stream/bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://epg.pw/stream/bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a.m3u8</tba>
 								
 								</table>
 							</div>
@@ -468,10 +468,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://37.27.111.214:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://37.27.111.214:8080/live/5/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://37.27.111.214:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://37.27.111.214:8080/live/5/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -493,10 +493,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://4gtv.mumi.rip:9877/2/4gtv-4gtv001/index.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://4gtv.mumi.rip:9877/2/4gtv-4gtv001/index.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://4gtv.mumi.rip:9877/2/4gtv-4gtv001/index.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://4gtv.mumi.rip:9877/2/4gtv-4gtv001/index.m3u8</tba>
 								
 								</table>
 							</div>
@@ -518,10 +518,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://gat.zhoujie218.top/litv/4gtv-4gtv001") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://gat.zhoujie218.top/litv/4gtv-4gtv001</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://gat.zhoujie218.top/litv/4gtv-4gtv001") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://gat.zhoujie218.top/litv/4gtv-4gtv001</tba>
 								
 								</table>
 							</div>
@@ -543,10 +543,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://gat.zhoujie218.top/litv/4gtv-4gtv156") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://gat.zhoujie218.top/litv/4gtv-4gtv156</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://gat.zhoujie218.top/litv/4gtv-4gtv156") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://gat.zhoujie218.top/litv/4gtv-4gtv156</tba>
 								
 								</table>
 							</div>
@@ -578,10 +578,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://wanzhoulive.cbg.cn:8017/c2F0hmi/1000/live.m3u8</tba>
 								
 								</table>
 							</div>
@@ -603,10 +603,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515015?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515015?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515015?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515015?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -628,10 +628,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515019?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515019?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515019?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515019?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -653,10 +653,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515021?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515021?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515021?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515021?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -692,10 +692,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515017?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515017?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515017?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515017?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -717,10 +717,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/870553?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/870553?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/870553?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/870553?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -742,10 +742,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/870537?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/870537?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/870537?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/870537?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -767,10 +767,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515173?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515173?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515173?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515173?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -792,10 +792,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515172?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515172?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515172?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515172?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -817,10 +817,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/694339?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/694339?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/694339?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/694339?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -842,10 +842,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/870555?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/870555?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/870555?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/870555?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -867,10 +867,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/515076?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/515076?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/515076?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/515076?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -902,10 +902,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/900839?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/900839?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/900839?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/900839?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -927,10 +927,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/870554?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/870554?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/870554?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/870554?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -952,10 +952,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://ktpremium.com:443/M919HR/5577/900851?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://ktpremium.com:443/M919HR/5577/900851?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://ktpremium.com:443/M919HR/5577/900851?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://ktpremium.com:443/M919HR/5577/900851?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -977,10 +977,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8</tba>
 								
 								</table>
 							</div>
@@ -1002,10 +1002,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb</tba>
 								
 								</table>
 							</div>
@@ -1027,10 +1027,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb</tba>
 								
 								</table>
 							</div>
@@ -1052,10 +1052,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="ryaerg">
-								<table width="100" border="0" class="otua">
+							<div class="eotua">
+								<table width="100" border="0" class="ngaxgf">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=aerg("http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=glshl> http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=ergls("http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=wqjsd> http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209</tba>
 								
 								</table>
 							</div>
@@ -1178,11 +1178,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.lewqjs {
+	.ujbmjx {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .ryae {
+    .ryaer {
         padding-left: 6px;
     }
 	.ad1 {
@@ -1201,7 +1201,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/5.gif) no-repeat; 
+		background: url(images/14.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -1253,7 +1253,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.wqjsdv {
+	.irya {
 		margin-top: 4px;
 	}	
 	tba {
@@ -1290,7 +1290,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.lewqjs {
+	.ujbmjx {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -1368,7 +1368,7 @@ a {
 		</div>
 		<input type="hidden" name="name" id="name" value="NjU1Nzkz">
 	</div>
-	<div class="lewqjs" >
+	<div class="ujbmjx" >
 						<div class="resultplus">
 							<div class="channel">
 								<a href="http://zqjy.info/tv/NzI1Nzc1" target="_blank">
@@ -1381,10 +1381,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://198.16.100.90:8278/axn_twn/playlist.m3u8?tid=m1776995e9b3e16458394&ct=17874&tsum=b8a111d0b13c7761ce8b4e8f047adddb</tba>
 								
 								</table>
 							</div>
@@ -1406,10 +1406,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://50.7.238.114:8278/axn_twn/playlist.m3u8?tid=MA1A8358225083582250&ct=19193&tsum=105511aaad1c3ff86d7489e83e18b209</tba>
 								
 								</table>
 							</div>
@@ -1431,10 +1431,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://lhq-cctv.8866.org:18181/tsfile/live/1217_1.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://lhq-cctv.8866.org:18181/tsfile/live/1217_1.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://lhq-cctv.8866.org:18181/tsfile/live/1217_1.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://lhq-cctv.8866.org:18181/tsfile/live/1217_1.m3u8</tba>
 								
 								</table>
 							</div>
@@ -1456,10 +1456,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/889368?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/889368?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/889368?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/889368?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1481,10 +1481,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/903164?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/903164?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/903164?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/903164?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1506,10 +1506,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/515168?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/515168?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/515168?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/515168?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1531,10 +1531,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/900868?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/900868?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/900868?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/900868?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1556,10 +1556,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/515075?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/515075?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/515075?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/515075?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1581,10 +1581,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://61.221.81.93:8078/hls/32/80/axn.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://61.221.81.93:8078/hls/32/80/axn.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://61.221.81.93:8078/hls/32/80/axn.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://61.221.81.93:8078/hls/32/80/axn.m3u8</tba>
 								
 								</table>
 							</div>
@@ -1606,10 +1606,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=47 ") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=47 </tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=47 ") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=47 </tba>
 								
 								</table>
 							</div>
@@ -1631,10 +1631,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/515170?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/515170?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/515170?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/515170?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1666,10 +1666,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/515128?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/515128?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/515128?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/515128?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1691,10 +1691,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/889370?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/889370?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/889370?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/889370?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1716,10 +1716,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/900865?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/900865?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/900865?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/900865?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1741,10 +1741,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/918585?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/918585?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/918585?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/918585?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1780,10 +1780,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/515120?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/515120?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/515120?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/515120?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1805,10 +1805,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/515100?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/515100?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/515100?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/515100?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1830,10 +1830,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://ktpremium.com:443/M919HR/5577/900875?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://ktpremium.com:443/M919HR/5577/900875?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://ktpremium.com:443/M919HR/5577/900875?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://ktpremium.com:443/M919HR/5577/900875?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -1855,10 +1855,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://shuma04.chunfengyun.top:8080/live/63/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://shuma04.chunfengyun.top:8080/live/63/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://shuma04.chunfengyun.top:8080/live/63/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://shuma04.chunfengyun.top:8080/live/63/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -1880,10 +1880,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://bsex.serv00.net/Smart.php?id=sanlitaiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://bsex.serv00.net/Smart.php?id=sanlitaiwan</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://bsex.serv00.net/Smart.php?id=sanlitaiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://bsex.serv00.net/Smart.php?id=sanlitaiwan</tba>
 								
 								</table>
 							</div>
@@ -1905,10 +1905,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://shuma04.chunfengyun.top:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://shuma04.chunfengyun.top:8080/live/5/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://shuma04.chunfengyun.top:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://shuma04.chunfengyun.top:8080/live/5/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -1930,10 +1930,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8</tba>
 								
 								</table>
 							</div>
@@ -1955,10 +1955,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("https://bsex.serv00.net/Smart.php?id=ftvtaiwan_twn") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> https://bsex.serv00.net/Smart.php?id=ftvtaiwan_twn</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("https://bsex.serv00.net/Smart.php?id=ftvtaiwan_twn") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> https://bsex.serv00.net/Smart.php?id=ftvtaiwan_twn</tba>
 								
 								</table>
 							</div>
@@ -1990,10 +1990,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://50.7.238.114:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://50.7.238.114:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://50.7.238.114:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://50.7.238.114:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb</tba>
 								
 								</table>
 							</div>
@@ -2015,10 +2015,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD6045594360455943&ct=19193&tsum=0de4f998b15ba8f2ecdaa107d866212a") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD6045594360455943&ct=19193&tsum=0de4f998b15ba8f2ecdaa107d866212a</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD6045594360455943&ct=19193&tsum=0de4f998b15ba8f2ecdaa107d866212a") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD6045594360455943&ct=19193&tsum=0de4f998b15ba8f2ecdaa107d866212a</tba>
 								
 								</table>
 							</div>
@@ -2040,10 +2040,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=33 ") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=33 </tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=33 ") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://8.137.59.151:99/haioujk0409/haiousmtjk666.php?id=33 </tba>
 								
 								</table>
 							</div>
@@ -2065,10 +2065,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://198.16.100.90:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://198.16.100.90:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://198.16.100.90:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://198.16.100.90:8278/sanlitaiwan/playlist.m3u8?tid=m92ccadc4dc3718157816&ct=17874&tsum=3570a8198ca0fb7ebb803807e38b33fb</tba>
 								
 								</table>
 							</div>
@@ -2090,10 +2090,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd</tba>
 								
 								</table>
 							</div>
@@ -2115,10 +2115,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MEFE5254515252545152&ct=19249&tsum=c17f872b1772df8f76032030cc40bdbd</tba>
 								
 								</table>
 							</div>
@@ -2140,10 +2140,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="wqjsdv">
-								<table width="100" border="0" class="lewqjs">
+							<div class="irya">
+								<table width="100" border="0" class="ujbmjx">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peot("http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryae> http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=jbmj("http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ryaer> http://198.16.100.90:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2</tba>
 								
 								</table>
 							</div>
@@ -2266,11 +2266,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.jsdv {
+	.shle {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .jbmjx {
+    .otuang {
         padding-left: 6px;
     }
 	.ad1 {
@@ -2289,7 +2289,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/1.gif) no-repeat; 
+		background: url(images/11.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -2341,7 +2341,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.bmjxjd {
+	.hlewqj {
 		margin-top: 4px;
 	}	
 	tba {
@@ -2378,7 +2378,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.jsdv {
+	.shle {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -2456,7 +2456,7 @@ a {
 		</div>
 		<input type="hidden" name="name" id="name" value="NjU1Nzkz">
 	</div>
-	<div class="jsdv" >
+	<div class="shle" >
 						<div class="resultplus">
 							<div class="channel">
 								<a href="http://zqjy.info/tv/NzMxODY3" target="_blank">
@@ -2469,10 +2469,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("http://lhq-cctv.8866.org:18181/tsfile/live/1219_1.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> http://lhq-cctv.8866.org:18181/tsfile/live/1219_1.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("http://lhq-cctv.8866.org:18181/tsfile/live/1219_1.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> http://lhq-cctv.8866.org:18181/tsfile/live/1219_1.m3u8</tba>
 								
 								</table>
 							</div>
@@ -2494,10 +2494,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1</tba>
 								
 								</table>
 							</div>
@@ -2519,11 +2519,11 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
-") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
+") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
 </tba>
 								
 								</table>
@@ -2546,10 +2546,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> http://50.7.238.114:8278/ftvtaiwan_twn/playlist.m3u8?tid=MDFD8196635981966359&ct=19226&tsum=b82639ac8b4590b4206effe348e2f9c2</tba>
 								
 								</table>
 							</div>
@@ -2571,10 +2571,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870544?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870544?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870544?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870544?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2596,10 +2596,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("http://sc2022.stream-link.org/tv2306.php?id=t23") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> http://sc2022.stream-link.org/tv2306.php?id=t23</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("http://sc2022.stream-link.org/tv2306.php?id=t23") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> http://sc2022.stream-link.org/tv2306.php?id=t23</tba>
 								
 								</table>
 							</div>
@@ -2621,10 +2621,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870557?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870557?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870557?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870557?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2646,10 +2646,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/900866?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/900866?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/900866?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/900866?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2671,10 +2671,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/918602?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/918602?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/918602?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/918602?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2696,10 +2696,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870561?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870561?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870561?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870561?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2721,10 +2721,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870687?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870687?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870687?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870687?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2756,10 +2756,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870558?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870558?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870558?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870558?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2781,10 +2781,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/877052?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/877052?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/877052?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/877052?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2806,10 +2806,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/877054?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/877054?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/877054?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/877054?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2831,10 +2831,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/684837?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/684837?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/684837?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/684837?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2870,10 +2870,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870545?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870545?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870545?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870545?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2895,10 +2895,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/515196?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/515196?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/515196?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/515196?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2920,10 +2920,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/877045?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/877045?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/877045?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/877045?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2945,10 +2945,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/515206?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/515206?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/515206?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/515206?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2970,10 +2970,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/900860?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/900860?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/900860?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/900860?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -2995,10 +2995,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/515028?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/515028?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/515028?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/515028?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3020,10 +3020,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/877048?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/877048?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/877048?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/877048?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3045,10 +3045,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/877049?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/877049?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/877049?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/877049?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3080,10 +3080,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/515023?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/515023?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/515023?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/515023?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3105,10 +3105,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/870689?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/870689?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/870689?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/870689?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3130,10 +3130,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/889396?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/889396?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/889396?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/889396?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3155,10 +3155,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/918609?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/918609?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/918609?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/918609?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3180,10 +3180,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/912202?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/912202?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/912202?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/912202?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3205,10 +3205,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/918610?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/918610?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/918610?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/918610?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3230,10 +3230,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="bmjxjd">
-								<table width="100" border="0" class="jsdv">
+							<div class="hlewqj">
+								<table width="100" border="0" class="shle">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=bmjxj("https://ktpremium.com:443/M919HR/5577/515200?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=jbmjx> https://ktpremium.com:443/M919HR/5577/515200?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=shlewq("https://ktpremium.com:443/M919HR/5577/515200?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=otuang> https://ktpremium.com:443/M919HR/5577/515200?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3356,11 +3356,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.axgfir {
+	.ergls {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .qjsdv {
+    .shlewq {
         padding-left: 6px;
     }
 	.ad1 {
@@ -3379,7 +3379,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/3.gif) no-repeat; 
+		background: url(images/12.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -3431,7 +3431,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.peotua {
+	.nliuj {
 		margin-top: 4px;
 	}	
 	tba {
@@ -3468,7 +3468,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.axgfir {
+	.ergls {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -3546,7 +3546,7 @@ a {
 		</div>
 		<input type="hidden" name="name" id="name" value="NjU1Nzkz">
 	</div>
-	<div class="axgfir" >
+	<div class="ergls" >
 						<div class="resultplus">
 							<div class="channel">
 								<a href="http://zqjy.info/tv/NzEyODk3" target="_blank">
@@ -3559,10 +3559,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/877060?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/877060?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/877060?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/877060?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3584,10 +3584,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/870683?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/870683?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/870683?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/870683?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3609,10 +3609,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/870562?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/870562?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/870562?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/870562?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3634,10 +3634,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515191?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515191?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515191?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515191?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3659,10 +3659,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515192?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515192?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515192?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515192?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3684,10 +3684,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/877061?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/877061?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/877061?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/877061?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3709,10 +3709,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/900848?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/900848?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/900848?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/900848?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3734,10 +3734,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515159?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515159?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515159?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515159?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3759,10 +3759,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/726090?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/726090?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/726090?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/726090?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3784,10 +3784,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/870549?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/870549?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/870549?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/870549?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3809,10 +3809,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/877044?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/877044?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/877044?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/877044?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3844,10 +3844,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515122?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515122?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515122?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515122?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3869,10 +3869,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/900862?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/900862?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/900862?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/900862?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3894,10 +3894,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/900861?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/900861?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/900861?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/900861?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3919,10 +3919,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515091?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515091?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515091?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515091?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3958,10 +3958,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515083?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515083?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515083?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515083?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -3983,10 +3983,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/515085?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/515085?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/515085?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/515085?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4008,10 +4008,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/694086?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/694086?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/694086?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/694086?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4033,10 +4033,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/918600?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/918600?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/918600?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/918600?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4058,10 +4058,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/M919HR/5577/889363?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/M919HR/5577/889363?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/M919HR/5577/889363?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/M919HR/5577/889363?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4083,10 +4083,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://8.210.88.135/1023/4g01.php?p=3") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://8.210.88.135/1023/4g01.php?p=3</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://8.210.88.135/1023/4g01.php?p=3") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://8.210.88.135/1023/4g01.php?p=3</tba>
 								
 								</table>
 							</div>
@@ -4108,10 +4108,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://seb.sason.top/ptv/ftv.php?id=tw") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://seb.sason.top/ptv/ftv.php?id=tw</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://seb.sason.top/ptv/ftv.php?id=tw") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://seb.sason.top/ptv/ftv.php?id=tw</tba>
 								
 								</table>
 							</div>
@@ -4133,10 +4133,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://sc2022.stream-link.org/tv2306.php?id=t19") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://sc2022.stream-link.org/tv2306.php?id=t19</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://sc2022.stream-link.org/tv2306.php?id=t19") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://sc2022.stream-link.org/tv2306.php?id=t19</tba>
 								
 								</table>
 							</div>
@@ -4168,10 +4168,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://ktpremium.com:443/K3939/6757/877052") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://ktpremium.com:443/K3939/6757/877052</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://ktpremium.com:443/K3939/6757/877052") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://ktpremium.com:443/K3939/6757/877052</tba>
 								
 								</table>
 							</div>
@@ -4193,10 +4193,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://66.181.39.224/ml.php?id=sanlitaiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://66.181.39.224/ml.php?id=sanlitaiwan</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://66.181.39.224/ml.php?id=sanlitaiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://66.181.39.224/ml.php?id=sanlitaiwan</tba>
 								
 								</table>
 							</div>
@@ -4218,10 +4218,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("https://sc2022.stream-link.org/tv2306.php?id=t23") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> https://sc2022.stream-link.org/tv2306.php?id=t23</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("https://sc2022.stream-link.org/tv2306.php?id=t23") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> https://sc2022.stream-link.org/tv2306.php?id=t23</tba>
 								
 								</table>
 							</div>
@@ -4243,10 +4243,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://sc2022.stream-link.org/list.php?id=t019") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://sc2022.stream-link.org/list.php?id=t019</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://sc2022.stream-link.org/list.php?id=t019") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://sc2022.stream-link.org/list.php?id=t019</tba>
 								
 								</table>
 							</div>
@@ -4268,10 +4268,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://sc2022.stream-link.org/list.php?id=t023") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://sc2022.stream-link.org/list.php?id=t023</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://sc2022.stream-link.org/list.php?id=t023") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://sc2022.stream-link.org/list.php?id=t023</tba>
 								
 								</table>
 							</div>
@@ -4293,10 +4293,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://162.19.247.76:22222/live/uch5/index.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://162.19.247.76:22222/live/uch5/index.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://162.19.247.76:22222/live/uch5/index.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://162.19.247.76:22222/live/uch5/index.m3u8</tba>
 								
 								</table>
 							</div>
@@ -4318,10 +4318,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="peotua">
-								<table width="100" border="0" class="axgfir">
+							<div class="nliuj">
+								<table width="100" border="0" class="ergls">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=sdvnli("http://103.68.63.37:8278/sanlitaiwan/playlist.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=qjsdv> http://103.68.63.37:8278/sanlitaiwan/playlist.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=gapeot("http://103.68.63.37:8278/sanlitaiwan/playlist.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=shlewq> http://103.68.63.37:8278/sanlitaiwan/playlist.m3u8</tba>
 								
 								</table>
 							</div>
@@ -4444,11 +4444,11 @@ a {
 	background-color: #1a73e8;
 	color: #fff;
 	}
-	.lewqj {
+	.bmjxjd {
 		table-layout:fixed; width: 100%; overflow: hidden;
 		font-size: 14px;
 	}
-    .axgfir {
+    .ujbmj {
         padding-left: 6px;
     }
 	.ad1 {
@@ -4467,7 +4467,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/13.gif) no-repeat; 
+		background: url(images/2.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -4519,7 +4519,7 @@ a {
 		line-height: 24px;
 		font-weight: var(--font-bold);
 	}
-	.xgfiry {
+	.qjsdv {
 		margin-top: 4px;
 	}	
 	tba {
@@ -4556,7 +4556,7 @@ a {
 	.nu {
 		margin-top: 5px;
 	}
-	.lewqj {
+	.bmjxjd {
 		font-size: 12px;
 	}
 	.ad1 {
@@ -4634,7 +4634,7 @@ a {
 		</div>
 		<input type="hidden" name="name" id="name" value="NjU1Nzkz">
 	</div>
-	<div class="lewqj" >
+	<div class="bmjxjd" >
 						<div class="resultplus">
 							<div class="channel">
 								<a href="http://zqjy.info/tv/NzEyODgx" target="_blank">
@@ -4647,10 +4647,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/515135?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/515135?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/515135?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/515135?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4672,10 +4672,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/515137?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/515137?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/515137?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/515137?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4697,10 +4697,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/515133?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/515133?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/515133?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/515133?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4722,10 +4722,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/515141?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/515141?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/515141?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/515141?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4747,10 +4747,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/910889?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/910889?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/910889?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/910889?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4772,10 +4772,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/910890?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/910890?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/910890?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/910890?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4797,10 +4797,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/870684?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/870684?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/870684?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/870684?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4822,10 +4822,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/900881?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/900881?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/900881?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/900881?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4847,10 +4847,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://gofuxkyourself.online:8880/mqitv?proxy=true&id=live1021") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://gofuxkyourself.online:8880/mqitv?proxy=true&id=live1021</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://gofuxkyourself.online:8880/mqitv?proxy=true&id=live1021") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://gofuxkyourself.online:8880/mqitv?proxy=true&id=live1021</tba>
 								
 								</table>
 							</div>
@@ -4872,10 +4872,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://49.235.110.121:9090/898/peda/twjd.php?id=20") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://49.235.110.121:9090/898/peda/twjd.php?id=20</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://49.235.110.121:9090/898/peda/twjd.php?id=20") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://49.235.110.121:9090/898/peda/twjd.php?id=20</tba>
 								
 								</table>
 							</div>
@@ -4897,10 +4897,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/515185?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/515185?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/515185?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/515185?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4932,10 +4932,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/877043?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/877043?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/877043?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/877043?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4957,10 +4957,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/515205?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/515205?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/515205?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/515205?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -4982,10 +4982,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://ktpremium.com:443/M919HR/5577/698399?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://ktpremium.com:443/M919HR/5577/698399?c=台湾</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://ktpremium.com:443/M919HR/5577/698399?c=台湾") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://ktpremium.com:443/M919HR/5577/698399?c=台湾</tba>
 								
 								</table>
 							</div>
@@ -5007,10 +5007,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://shuma004.chunfengyun.top:8080/live/5/hls.m3u8</tba>
 								
 								</table>
 							</div>
@@ -5046,10 +5046,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://gat.zhoujie218.top/litv/litv-longturn22") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://gat.zhoujie218.top/litv/litv-longturn22</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://gat.zhoujie218.top/litv/litv-longturn22") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://gat.zhoujie218.top/litv/litv-longturn22</tba>
 								
 								</table>
 							</div>
@@ -5071,10 +5071,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://free.xiptv.x10.bz/kudou.php?id=52") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://free.xiptv.x10.bz/kudou.php?id=52</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://free.xiptv.x10.bz/kudou.php?id=52") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://free.xiptv.x10.bz/kudou.php?id=52</tba>
 								
 								</table>
 							</div>
@@ -5096,10 +5096,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://free.xiptv.x10.bz/kudou.php?id=49") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://free.xiptv.x10.bz/kudou.php?id=49</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://free.xiptv.x10.bz/kudou.php?id=49") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://free.xiptv.x10.bz/kudou.php?id=49</tba>
 								
 								</table>
 							</div>
@@ -5121,10 +5121,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://test.zapi.us.kg/?id=settv-taiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://test.zapi.us.kg/?id=settv-taiwan</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://test.zapi.us.kg/?id=settv-taiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://test.zapi.us.kg/?id=settv-taiwan</tba>
 								
 								</table>
 							</div>
@@ -5146,10 +5146,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://23.26.147.19:1258/proxy/Smartv.php?id=sanlitaiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://23.26.147.19:1258/proxy/Smartv.php?id=sanlitaiwan</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://23.26.147.19:1258/proxy/Smartv.php?id=sanlitaiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://23.26.147.19:1258/proxy/Smartv.php?id=sanlitaiwan</tba>
 								
 								</table>
 							</div>
@@ -5171,10 +5171,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://23.26.147.19:1258/proxy/Smartv.php?id=ftvtaiwan_twn") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://23.26.147.19:1258/proxy/Smartv.php?id=ftvtaiwan_twn</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://23.26.147.19:1258/proxy/Smartv.php?id=ftvtaiwan_twn") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://23.26.147.19:1258/proxy/Smartv.php?id=ftvtaiwan_twn</tba>
 								
 								</table>
 							</div>
@@ -5196,10 +5196,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://cdn9.1678520.xyz/xsj2.1.php?id=ftv-tw") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://cdn9.1678520.xyz/xsj2.1.php?id=ftv-tw</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://cdn9.1678520.xyz/xsj2.1.php?id=ftv-tw") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://cdn9.1678520.xyz/xsj2.1.php?id=ftv-tw</tba>
 								
 								</table>
 							</div>
@@ -5221,10 +5221,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://cdn9.1678520.xyz/xsj2.1.php?id=settv-taiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://cdn9.1678520.xyz/xsj2.1.php?id=settv-taiwan</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://cdn9.1678520.xyz/xsj2.1.php?id=settv-taiwan") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://cdn9.1678520.xyz/xsj2.1.php?id=settv-taiwan</tba>
 								
 								</table>
 							</div>
@@ -5256,10 +5256,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://220.132.13.98:7/udp/224.1.4.62:11111") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://220.132.13.98:7/udp/224.1.4.62:11111</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://220.132.13.98:7/udp/224.1.4.62:11111") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://220.132.13.98:7/udp/224.1.4.62:11111</tba>
 								
 								</table>
 							</div>
@@ -5281,10 +5281,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://110.185.171.226:96/yximgs.php?id=44") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://110.185.171.226:96/yximgs.php?id=44</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://110.185.171.226:96/yximgs.php?id=44") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://110.185.171.226:96/yximgs.php?id=44</tba>
 								
 								</table>
 							</div>
@@ -5306,10 +5306,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://110.185.171.226:96/yximgs.php?id=37") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://110.185.171.226:96/yximgs.php?id=37</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://110.185.171.226:96/yximgs.php?id=37") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://110.185.171.226:96/yximgs.php?id=37</tba>
 								
 								</table>
 							</div>
@@ -5331,10 +5331,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("http://110.185.171.226:96/yximgs.php?id=158") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> http://110.185.171.226:96/yximgs.php?id=158</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("http://110.185.171.226:96/yximgs.php?id=158") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> http://110.185.171.226:96/yximgs.php?id=158</tba>
 								
 								</table>
 							</div>
@@ -5356,10 +5356,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://live.yzd.jialiangos.com:4443/live/fhw/37") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://live.yzd.jialiangos.com:4443/live/fhw/37</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://live.yzd.jialiangos.com:4443/live/fhw/37") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://live.yzd.jialiangos.com:4443/live/fhw/37</tba>
 								
 								</table>
 							</div>
@@ -5381,10 +5381,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://live.yzd.jialiangos.com:4443/live/fhw/44") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://live.yzd.jialiangos.com:4443/live/fhw/44</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://live.yzd.jialiangos.com:4443/live/fhw/44") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://live.yzd.jialiangos.com:4443/live/fhw/44</tba>
 								
 								</table>
 							</div>
@@ -5406,10 +5406,10 @@ a {
 								
 								<div style="clear: both;"></div>								
 							</div>
-							<div class="xgfiry">
-								<table width="100" border="0" class="lewqj">
+							<div class="qjsdv">
+								<table width="100" border="0" class="bmjxjd">
 								<!-- <td class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=copyto("欢迎访问http://tonkiang.us搜索最新直播源") src="copy.png" width="100%" title="copy to clip"/></div></td><td style="padding-left: 6px;"> 欢迎访问http://tonkiang.us搜索最新直播源</td>-->
-								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=peotua("https://test.zapi.us.kg/?id=ftv-tw") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=axgfir> https://test.zapi.us.kg/?id=ftv-tw</tba>
+								<tba class="imgw"><div class="imgw"><img style="cursor:pointer;" onclick=uang("https://test.zapi.us.kg/?id=ftv-tw") src="copy.png" width="100%" title="copy to clip"/></div></tba><tba class=ujbmj> https://test.zapi.us.kg/?id=ftv-tw</tba>
 								
 								</table>
 							</div>
