@@ -1,0 +1,39 @@
+name: tes
+
+on:
+  schedule:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y yt-dlp sed nmap
+        which yt-dlp
+        yt-dlp --version
+        ffmpeg -version
+
+    - name: Run tes
+      run: |
+        url="https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8"
+        output=$(timeout 40 yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
+        speed=$(echo "${output}" | grep -oP 'at \K[0-9.]+[KM]iB/s')
+        speedinfo=$(echo "${output}" | grep '^\[download\] [0-9]' | awk '{print substr($0, index($0,$2))}')
+        echo "${output}" > tes.md
+
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git status
+        git commit -m "Update tes"
+        git push
