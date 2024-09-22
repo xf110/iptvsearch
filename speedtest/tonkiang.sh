@@ -13,7 +13,9 @@ BEST_URL_RESPONSE_FILE="besturlresponse.txt"
 OUTPUT_FILE="taiwan_tonkiang.txt"
 
 # 清空或创建响应文件
-:> "$RESPONSE_FILE"
+:> ${RESPONSE_FILE}
+:> ${SPEED_TEST_LOG}
+:> ${UNIQUE_SEARCH_RESULTS_FILE}
 
 # 获取数据
 for page in {1..5}; do
@@ -35,12 +37,11 @@ done
 echo "==== 整理数据完成, 开始测速 ======"
 lines=$(wc -l < "$UNIQUE_SEARCH_RESULTS_FILE")
     i=0
-
 while read -r url; do
                i=$((i + 1))
           output=$(timeout 40 /usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
-
             if echo "${output}" | grep -q "ERROR"; then
+                echo "下载失败：${url}"
                 echo "下载失败：${url}" >> "$SPEED_TEST_LOG"
                 continue
             fi
@@ -59,7 +60,7 @@ done < "$UNIQUE_SEARCH_RESULTS_FILE"
 # sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2"  "$1}' > validurl.txt
 # besturl=$(sed -n '1s|.*//\([^/]*\)/.*|\1|p' validurl.txt)
 # sort -u "$SPEED_TEST_LOG" | grep -E 'KiB/s|M/s' | awk '{print $2}' > validurl.txt
-sort -u "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print "%s %s\n", $3 $1}' | sort
+sort -u "$SPEED_TEST_LOG" | grep -E 'in [0-9]{1,2}:[0-9]{1,2}' | awk '{print, $3 " " $1}' | sort > validurl.txt
 besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
 echo "========== bestdomain : ${besturl}"
 
