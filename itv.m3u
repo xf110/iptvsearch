@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Fri Sep 20 05:44:25 UTC 2024
+# Mon Sep 23 13:58:02 UTC 2024
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 HEVC
 http://gslbserv.itv.cmvideo.cn:80/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
@@ -749,18 +749,18 @@ http://37.27.111.214:8080/live/2/hls.m3u8
 http://37.27.111.214:8080/live/25/hls.m3u8
 #EXTINF:-1 tvg-name="VOA" group-title="台湾",VOA
 http://37.27.111.214:8080/live/45/hls.m3u8
-#EXTINF:-1 tvg-id="CHANNELV" tvg-name="CHANNELV" tvg-logo="https://live.fanmingming.com/tv/CHANNELV.png" group-title="香港",CHANNEL-V
-http://171.214.203.139:8888/udp/239.93.0.157:2194
-#EXTINF:-1 tvg-id="CHANNELV" tvg-name="CHANNELV" tvg-logo="https://live.fanmingming.com/tv/CHANNELV.png" group-title="香港",CHANNEL-V
-http://171.214.203.139:8888/udp/239.93.1.7:2194
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="香港",凤凰中文
-http://171.214.203.139:8888/udp/239.93.0.162:2192
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="香港",凤凰中文
-http://171.214.203.139:8888/udp/239.93.1.9:2192
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="香港",凤凰资讯
-http://171.214.203.139:8888/udp/239.93.0.118:2191
-#EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="香港",凤凰资讯
-http://171.214.203.139:8888/udp/239.93.1.4:2191
+<head><title>301 Moved Permanently</title></head>
+<body>
+<center><h1>301 Moved Permanently</h1></center>
+<hr><center>nginx</center>
+</body>
+</html>
+#EXTINF:-1 tvg-name="" group-title="香港",凤凰中文台HD
+http://58.144.154.93/qctv.fengshows.cn/live/0701pcc72.m3u8
+#EXTINF:-1 tvg-name="" group-title="香港",凤凰香港台
+http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
+#EXTINF:-1 tvg-name="" group-title="香港",凤凰资讯台
+http://183.204.13.237/cee7354084e908e7d71a99f88ecd0c61.v.smtcdns.net/qctv.fengshows.cn/live/0701pin72.m3u8
 #EXTINF:-1 tvg-id="CCTV14" tvg-name="CCTV 14 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV14.png" group-title="动画", CCTV 14 HEVC
 http://gslbserv.itv.cmvideo.cn:80/1000000005000265013/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265013&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="北京卡酷少儿" tvg-name="北京卡酷少儿" tvg-logo="https://assets.livednow.com/logo/北京卡酷少儿.png" group-title="动画", 北京卡酷少儿
