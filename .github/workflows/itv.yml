@@ -57,12 +57,7 @@ jobs:
 
           # 7. 追加台湾频道
           sed '1d' "speedtest/template/taiwan.m3u" >> "$output_file"
-
-          curl -o taiwan_tonkiang.m3u https://mirror.ghproxy.com/raw.githubusercontent.com/fqw000/iptv/refs/heads/main/speedtest/template/taiwan_tonkiang.m3u
-          sed -i 's/"台湾"/"台湾2"/g' taiwan_tonkiang.m3u
-          sed '1d' taiwan_tonkiang.m3u >> "$output_file"
-          rm taiwan_tonkiang.m3u
-
+          sed '1d' "speedtest/template/taiwantonkiang.m3u" | sed 's/"台湾"/"台湾2"/g' >> "$output_file"
 
           # 8. 追加香港、增加动画
           # sed -n '521,$p' "speedtest/template/sichuan_telecom_333.m3u" >> "$output_file"
