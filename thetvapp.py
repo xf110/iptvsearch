@@ -4,6 +4,7 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
+import sys  # 添加这个模块来获取命令行参数
 
 # Setup main options
 options = webdriver.ChromeOptions()
@@ -19,11 +20,15 @@ homepage = "https://thetvapp.to/tv/"
 driver.get(homepage)
 channels = re.findall('a href=\"/tv/(.*?)/\"', driver.page_source)
 
-# Enumerate and print the list then wait for user to input a number
+# Enumerate and print the list
 for i, channel in enumerate(channels):
     print(i, channel.replace('-', ' '))
 
-selection = input("Please select a channel number (or 'all' for all channels): ")
+# Check if a command line argument was provided, else use "all"
+if len(sys.argv) > 1:
+    selection = sys.argv[1]  # 从命令行获取参数
+else:
+    selection = 'all'  # 默认选择 all
 
 if selection.lower() == 'all':
     selections = range(len(channels))
