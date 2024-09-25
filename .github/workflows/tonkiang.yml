@@ -25,8 +25,12 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/speedtest
         
-        bash ./tonkiang.sh
-        bash ./rtp2m3u.sh './taiwan_tonkiang.txt'
+        # bash ./tonkiang.sh
+        # bash ./rtp2m3u.sh './taiwan_tonkiang.txt'
+        
+        bash ./sh/foodieguide.sh
+        bash ./rtp2m3u.sh './sh/taiwan_foodieguide'
+        
 
     - name: Update Results
       run: |
