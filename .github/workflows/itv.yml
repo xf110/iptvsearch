@@ -88,7 +88,7 @@ jobs:
 
           # 增加 TMDB-To-VOD-Playlist/
           curl -L -o tmdbtovod.tmp https://mirror.ghproxy.com/github.com/fqw000/TMDB-To-VOD-Playlist/blob/main/channels/m3u_formatted.dat?raw=1
-          sed -i '' 's/group-title="[^"]*"/group-title="国外"/g' tmdbtovod.tmp
+          # sed -i '' 's/group-title="[^"]*"/group-title="国外"/g' tmdbtovod.tmp
           cat tmdbtovod.tmp >> "$output_file"
 
 
