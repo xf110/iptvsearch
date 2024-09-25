@@ -4,7 +4,6 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 import re
-import threading
 import sys
 
 # Setup main options
@@ -29,35 +28,9 @@ try:
             print(i, channel_name)
             channel_file.write(f"{i}: {channel_name}\n")
 
-    selection = None  # Variable to hold the user's selection
-
-    def get_selection():
-        global selection
-        selection = input("Please select a channel number (or 'all' for all channels) within 5 seconds: ")
-
-    # Start a thread to wait for user input
-    input_thread = threading.Thread(target=get_selection)
-    input_thread.start()
-
-    # Wait for 3 seconds for user input
-    input_thread.join(timeout=3)
-
-    # If no selection is made, default to 'all'
-    if selection is None or selection.lower() == '':
-        print("No selection made, defaulting to 'all'.")
-        selections = range(len(channels))
-    else:
-        if selection.lower() == 'all':
-            selections = range(len(channels))
-        else:
-            try:
-                selection = int(selection)
-                if selection < 0 or selection >= len(channels):
-                    raise ValueError
-                selections = [selection]
-            except ValueError:
-                print(f"Invalid selection. Please select a number between 0 and {len(channels) - 1}.")
-                sys.exit()
+    # Automatically default to selecting all channels
+    print("No manual selection in GitHub Actions, defaulting to 'all' channels.")
+    selections = range(len(channels))
 
     def extract_desired_url(requests):
         # Search for the desired URL in the requests
