@@ -34,15 +34,15 @@ jobs:
     #       echo "$i" | python thetvapp.py >> result.txt
     #     done
 
+    - name: Stage changes  # 修正了缩进
+      run: |
+        echo "Staging changes..."
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add .
 
-      - name: Stage changes
-        run: |
-          echo "Staging changes..."
-          git config --global user.email "action@github.com"
-          git config --global user.name "GitHub Action"
-          git add .
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update thetvapp.list"
-          branch: main  # Commit to the main branch
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update thetvapp.list"
+        branch: main  # Commit to the main branch
