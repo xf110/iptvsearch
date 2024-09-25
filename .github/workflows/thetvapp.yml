@@ -28,7 +28,7 @@ jobs:
         python thetvapp.py > thetvapp.list
 
     - name: Upload thetvapp.py outputfile
-      uses: actions/upload-artifact@v2
+      uses: actions/upload-artifact@v4
       with:
         name: playlist
         path: playlist.txt
