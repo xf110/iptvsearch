@@ -62,7 +62,7 @@ try:
             return []
 
     # Access each selected channel page and trigger the play button
-    with open('playlist.txt', 'w') as playlist_file:  # Open playlist.txt for writing
+    with open('thetvapplist.txt', 'w') as playlist_file:  # Open playlist.txt for writing
         for selection in selections:
             url = homepage + str(channels[selection])
             print(f'Scraping page for playlist at {url}')
@@ -88,7 +88,7 @@ try:
                 desired_url = extract_desired_url(get_requests)
                 if desired_url:
                     print("Playlist URL found:", desired_url)
-                    playlist_file.write(f"{channels[selection]},{desired_url}\n")  # Write to playlist.txt
+                    playlist_file.write(f"{channels[selection]},{desired_url}\n")  # Write to thetvapplist.txt
                 else:
                     print("No Playlist URL found in the requests.")
             else:
