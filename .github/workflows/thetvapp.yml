@@ -25,13 +25,13 @@ jobs:
 
     - name: Run thetvapp.py
       run: |
-        python thetvapp.py > thetvapp.list
+        python thetvapp.py
 
-    - name: Upload thetvapp.py outputfile
-      uses: actions/upload-artifact@v4
-      with:
-        name: playlist
-        path: playlist.txt
+    # - name: Upload thetvapp.py outputfile
+    #   uses: actions/upload-artifact@v4
+    #   with:
+    #     name: playlist
+    #     path: playlist.txt
 
     - name: process playlist.txt
       run: |
