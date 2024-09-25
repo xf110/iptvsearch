@@ -23,26 +23,30 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium
 
-    - name: Run thetvapp.py with all channels
+    - name: Run thetvapp.py
       run: |
-        python thetvapp.py all > thetvapp.list
+        python thetvapp.py > thetvapp.list
 
-    # - name: Run thetvapp.py for all channels
-    #   if: always()
-    #   run: |
-    #     for i in {1..118}; do
-    #       echo "$i" | python thetvapp.py >> result.txt
-    #     done
-
-    - name: Stage changes  # 修正了缩进
-      run: |
-        echo "Staging changes..."
-        git config --global user.email "action@github.com"
-        git config --global user.name "GitHub Action"
-        git add .
-
-    - name: Commit changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+    - name: Upload thetvapp.py outputfile
+      uses: actions/upload-artifact@v2
       with:
-        commit_message: "Update thetvapp.list"
-        branch: main  # Commit to the main branch
+        name: playlist
+        path: playlist.txt
+    
+    - name: process playlist.txt
+      run: |
+        sed -i 's/an/tx/g' playlist.txt
+        mv playlist.txt speedtest/thetvapp.txt
+        bash ./speedtest/rtp2m3u.sh "thetvapp.txt"
+
+      - name: Stage changes
+        run: |
+          echo "Staging changes..."
+          git config --global user.email "action@github.com"
+          git config --global user.name "GitHub Action"
+          git add .
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update thetvapp.list"
+          branch: main  # Commit to the main branch
