@@ -64,7 +64,7 @@ try:
             if token_match:
                 token = token_match.group(1)
                 current_time = datetime.now().strftime("%Y-%m-%d %H:%M:%S")
-                print(f"{current_time} thetvapp Token value:", token)  # Output the token value with timestamp
+                print(f"{current_time} thetvapp Token value:",token)  # Output the token value with timestamp
                 break
     else:
         print("No valid playlist URL found.")
