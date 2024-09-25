@@ -29,7 +29,7 @@ jobs:
         # bash ./rtp2m3u.sh './taiwan_tonkiang.txt'
         
         bash ./sh/foodieguide.sh
-        bash ./rtp2m3u.sh './sh/taiwan_foodieguide'
+        bash ./rtp2m3u.sh 'taiwan_foodieguide.txt'
         
 
     - name: Update Results
