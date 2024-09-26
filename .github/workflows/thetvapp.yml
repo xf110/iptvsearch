@@ -28,8 +28,8 @@ jobs:
         cd $GITHUB_WORKSPACE/thetvapp
         pwd
         ls
-        sed -i 's/-/ /g' thetvapplist.txt
-        sed -i 's/ live stream/g' thetvapplist.txt
+        sed -i 's|-| |g' thetvapplist.txt
+        sed -i 's| live stream||g' thetvapplist.txt
         bash ../speedtest/rtp2m3u.sh hetvapplist.txt
         
     #    python thetvapp.py
