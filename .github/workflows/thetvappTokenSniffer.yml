@@ -28,7 +28,6 @@ jobs:
         cd $GITHUB_WORKSPACE/thetvapp
         token=$(python tokenSniffer.py | grep -oP 'value:\s\K.*')
         sed -i 's|token=.*$|token="${token}"|g' thetvapplist.txt
-        sed -i '1i thetvapp,#genre#' thetvapplist.txt
         bash ../speedtest/rtp2m3u.sh "thetvapplist.txt"
 
     - name: Stage changes
