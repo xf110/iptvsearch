@@ -34,12 +34,12 @@ jobs:
     #     name: playlist
     #     path: playlist.txt
 
-    - name: process playlist.txt
-      run: |
-        cd $GITHUB_WORKSPACE/thetvapp
-        sed -i '' 's/-/ /g' thetvapplist.txt
-        sed -i '' 's/ live stream/g' thetvapplist.txt
-        bash ../speedtest/rtp2m3u.sh hetvapplist.txt
+    #- name: process playlist.txt
+    #  run: |
+    #   cd $GITHUB_WORKSPACE/thetvapp
+    #   sed -i '' 's/-/ /g' thetvapplist.txt
+    #   sed -i '' 's/ live stream/g' thetvapplist.txt
+    #   bash ../speedtest/rtp2m3u.sh hetvapplist.txt
 
     - name: Stage changes
       run: |
