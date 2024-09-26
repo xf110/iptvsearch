@@ -30,7 +30,7 @@ jobs:
         ls
         sed -i 's|-| |g' thetvapplist.txt
         sed -i 's| live stream||g' thetvapplist.txt
-        bash ../speedtest/rtp2m3u.sh hetvapplist.txt
+        bash ../speedtest/rtp2m3u.sh "thetvapplist.txt"
         
     #    python thetvapp.py
 
