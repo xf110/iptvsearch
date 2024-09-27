@@ -43,7 +43,7 @@ rm cookies.txt
 
 # 2. 提取源地址，并进行整理
 # mac不支持-P参数，安装grep后使用ggrep
-ggrep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
+grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
 
 # 3. 测速提取速度最好的源地址
 echo "==== 整理数据完成, 开始测速 ======"
@@ -59,9 +59,9 @@ while read -r url; do
         continue
     fi
 
-    #     speed=$(echo "${output}" | ggrep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
-    speed=$(echo "$output" | ggrep -oP 'at \K[0-9.]+[M|K]')
-    speedinfo=$(echo "${output}" | ggrep -E '^size.*speed=' | head -n 1)
+    #     speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
+    speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
+    speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
 
     echo "${output}" >>output.txt
     rm -f new-archive.txt output.ts
@@ -85,8 +85,8 @@ curl -X POST "${URL}" \
     -c cookies.txt \
     -o "$BEST_URL_RESPONSE_FILE"
 
-max_page=$(ggrep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1)
-l=$(ggrep -oP "&l=\K[^']*" "$BEST_URL_RESPONSE_FILE" | head -n 1)
+max_page=$(grep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1)
+l=$(grep -oP "&l=\K[^']*" "$BEST_URL_RESPONSE_FILE" | head -n 1)
 echo "最大 page 值是: ${max_page}"
 for page in $(seq 2 "$max_page"); do
     echo "besturl 第${page}页 下载中"
@@ -101,7 +101,7 @@ done
 rm cookies.txt
 
 # 使用 grep 和 awk 提取 <div style="float: left;"> 标签中的频道名称和 m3u8 链接
-ggrep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps[^<]*' "$BEST_URL_RESPONSE_FILE" |
+grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps[^<]*' "$BEST_URL_RESPONSE_FILE" |
     awk '{
     # 判断当前行是否包含 "http"
     if ($0 ~ /http/) {
