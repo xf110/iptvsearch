@@ -44,7 +44,7 @@ done
 
 # 2. 提取源地址，并进行整理
 # mac不支持-P参数，安装grep后使用ggrep
-ggrep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' > "$UNIQUE_SEARCH_RESULTS_FILE"
+grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' > "$UNIQUE_SEARCH_RESULTS_FILE"
 
 # grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" > "$SEARCH_RESULTS_FILE"
 # wk -F/ '!seen[$3]++' "$SEARCH_RESULTS_FILE" > "$UNIQUE_SEARCH_RESULTS_FILE"
