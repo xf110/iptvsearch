@@ -23,11 +23,12 @@ jobs:
         python -m pip install --upgrade pip
         pip install selenium
 
-    - name: Run thetvapp.py and update thetvapplist.txt
+    - name: Run tokenSniffer.py and update thetvapplist.txt
       run: |
         cd $GITHUB_WORKSPACE/thetvapp
         token=$(python tokenSniffer.py | grep -oP 'value:\s\K.*')
-        sed -i 's|token=.*$|token=${token}|g' thetvapplist.txt
+        echo "Token is: ${token}"  # 调试输出，确保token被正确获取
+        sed -i "s|token=.*$|token=${token}|g" thetvapplist.txt
         bash ../speedtest/rtp2m3u.sh "thetvapplist.txt"
 
     - name: Stage changes
