@@ -54,7 +54,7 @@ i=0
 while read -r url; do
     i=$((i + 1))
     #    timeout 40
-    output=$(yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
+    output=$(timeout 40 usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
     if echo "${output}" | grep -q "ERROR"; then
         printf "第 %d/%d 个: 下载失败 %s\n" "$i" "$lines" ${url}
         echo "下载失败：${url}" >>"$SPEED_TEST_LOG"
