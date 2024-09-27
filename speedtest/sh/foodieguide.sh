@@ -41,11 +41,11 @@ for page in $(seq 2 3); do
         -b cookies.txt \
         >>"$RESPONSE_FILE"
 done
-# rm cookies.txt
+rm cookies.txt
 
-# # 2. 提取源地址，并进行整理
-# # mac不支持-P参数，安装grep后使用ggrep
-# grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
+# 2. 提取源地址，并进行整理
+# mac不支持-P参数，安装grep后使用ggrep
+grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
 
 # # 3. 测速提取速度最好的源地址
 # echo "==== 整理数据完成, 开始测速 ======"
