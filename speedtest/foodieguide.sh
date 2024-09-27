@@ -63,8 +63,8 @@ while read -r url; do
                 continue
             fi
 
-            speed=$(echo "${output}" | ggrep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
-        speedinfo=$(echo "${output}" | ggrep -E "speed=[0-9]+\.[0-9]+x\s+$")
+            speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
+        speedinfo=$(echo "${output}" | grep -E "speed=[0-9]+\.[0-9]+x\s+$")
 
         echo "${output}" >> output.txt
         rm -f new-archive.txt output.ts
