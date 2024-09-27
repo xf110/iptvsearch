@@ -87,7 +87,7 @@ curl -X POST "${URL}" \
     -c cookies2.txt
     -o "$BEST_URL_RESPONSE_FILE"
 
-max_page=$(ggrep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1)
+max_page=$(grep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1)
 echo "最大 page 值是: ${max_page}"
 for page in $(seq 2 "$max_page"); 
 do
