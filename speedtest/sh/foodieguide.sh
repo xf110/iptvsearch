@@ -28,6 +28,7 @@ curl -X POST "${URL}" \
     -d "search=${CHANNEL_KEY_URL}&Submit=+" \
     -c cookies.txt \
     -o "$RESPONSE_FILE"
+echo "$RESPONSE_FILE"
 
 for page in $(seq 2 3); do
     echo "第${page}页 下载中"
