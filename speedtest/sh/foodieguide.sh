@@ -29,7 +29,6 @@ curl -X POST "${URL}" \
     -d "search=${CHANNEL_KEY_URL}&Submit=+" \
     -c cookies.txt \
     -o "$RESPONSE_FILE"
-echo "$RESPONSE_FILE"
 
 for page in $(seq 2 3); do
     echo "第${page}页 下载中"
@@ -71,7 +70,7 @@ while read -r url; do
 
     printf "第 %d/%d 个：%s\n[speedinfo]%s\n" "$i" "$lines" "$url" "$speedinfo"
 
-    echo "${speed} ${url}" | sed -n -r >>"$SPEED_TEST_LOG"
+    echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
 done <"$UNIQUE_SEARCH_RESULTS_FILE"
 
 grep -v '失败' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
