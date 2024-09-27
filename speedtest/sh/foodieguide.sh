@@ -64,7 +64,7 @@ while read -r url; do
         speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
     # speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
     # speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
-    speedinfo=$(echo "${output}" | grep -E '^[download]\s?[0-9]' | head -n 1)
+    speedinfo=$(echo "${output}" | grep -E '^\[download\]\s?[0-9]' | head -n 1)
 
     echo "${output}" >>output.txt
     rm -f new-archive.txt output.ts
