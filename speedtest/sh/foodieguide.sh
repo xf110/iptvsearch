@@ -61,10 +61,10 @@ while read -r url; do
         continue
     fi
 
-        speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
+        speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$")
     # speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
     # speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
-    speedinfo=$(echo "${output}" | grep -E '^\[download\]\s?[0-9]' | head -n 1)
+    speedinfo=$(echo "${output}" | grep -E '^\[download\]\s?[0-9]+')
 
     echo "${output}" >>output.txt
     rm -f new-archive.txt output.ts
@@ -74,10 +74,10 @@ while read -r url; do
     echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
 done <"$UNIQUE_SEARCH_RESULTS_FILE"
 
-# SPEED_TEST_LOG='speedtest.log'
-# grep -E 'M|K' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
-# besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
-# echo "========== bestdomain : ${besturl}"
+SPEED_TEST_LOG='speedtest.log'
+grep -E 'M|K' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
+besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
+echo "========== bestdomain : ${besturl}"
 
 # # 4. 获取 besturl 对应的直播源列表
 
