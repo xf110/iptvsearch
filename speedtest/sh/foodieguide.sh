@@ -118,7 +118,7 @@ grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps[^<]*' "
     }
 }' >"$OUTPUT_FILE"
 
-sed -i '' "1i ${CHANNEL_NAME},#genre#" "$OUTPUT_FILE"
+sed -i "1i ${CHANNEL_NAME},#genre#" "$OUTPUT_FILE"
 echo " $OUTPUT_FILE 已经更新完成"
 
-rm ${RESPONSE_FILE} ${SEARCH_RESULTS_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
+# rm ${RESPONSE_FILE} ${SEARCH_RESULTS_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
