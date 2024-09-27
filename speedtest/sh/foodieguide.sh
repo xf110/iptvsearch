@@ -15,11 +15,11 @@ BEST_URL_RESPONSE_FILE="besturlresponse.txt"
 OUTPUT_FILE="../taiwan_foodieguide.txt"
 
 # 清空或创建响应文件
-: >${SPEED_TEST_LOG}
-: >${UNIQUE_SEARCH_RESULTS_FILE}
-: >${SEARCH_RESULTS_FILE}
-: >output.txt
-: >"${BEST_URL_RESPONSE_FILE}"
+:>${SPEED_TEST_LOG}
+:>${UNIQUE_SEARCH_RESULTS_FILE}
+:>${SEARCH_RESULTS_FILE}
+:>output.txt
+:>"${BEST_URL_RESPONSE_FILE}"
 # 获取数据
 
 echo "第1页 下载中"
