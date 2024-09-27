@@ -61,7 +61,7 @@ while read -r url; do
         continue
     fi
 
-        speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$")
+    speed=$(echo "${output}" | grep -n -B 1 -E '^video' | grep -oP "speed=\K[0-9]+\.[0-9]+x")
     # speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
     # speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
     speedinfo=$(echo "${output}" | grep -E '^\[download\]\s?[0-9]+')
@@ -71,11 +71,10 @@ while read -r url; do
 
     printf "第 %d/%d 个：%s\n[speedinfo]%s\n" "$i" "$lines" "$url" "$speedinfo"
 
-    echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
+    echo "${speed} ${url}" | sed -n -r >>"$SPEED_TEST_LOG"
 done <"$UNIQUE_SEARCH_RESULTS_FILE"
 
-SPEED_TEST_LOG='speedtest.log'
-grep -E 'M|K' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
+grep -v '失败' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
 besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
 echo "========== bestdomain : ${besturl}"
 
