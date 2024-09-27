@@ -47,31 +47,31 @@ rm cookies.txt
 # mac不支持-P参数，安装grep后使用ggrep
 grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
 
-# # 3. 测速提取速度最好的源地址
-# echo "==== 整理数据完成, 开始测速 ======"
-# lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE")
-# i=0
-# while read -r url; do
-#     i=$((i + 1))
-#     #    timeout 40
-#     output=$(yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
-#     if echo "${output}" | grep -q "ERROR"; then
-#         printf "第 %d/%d 个: 下载失败 %s\n" "$i" "$lines" ${url}
-#         echo "下载失败：${url}" >>"$SPEED_TEST_LOG"
-#         continue
-#     fi
+# 3. 测速提取速度最好的源地址
+echo "==== 整理数据完成, 开始测速 ======"
+lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE")
+i=0
+while read -r url; do
+    i=$((i + 1))
+    #    timeout 40
+    output=$(yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg_i:-t 5" "${url}" 2>&1)
+    if echo "${output}" | grep -q "ERROR"; then
+        printf "第 %d/%d 个: 下载失败 %s\n" "$i" "$lines" ${url}
+        echo "下载失败：${url}" >>"$SPEED_TEST_LOG"
+        continue
+    fi
 
-#     #     speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
-#     speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
-#     speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
+    #     speed=$(echo "${output}" | grep -oP "speed=\K[0-9]+\.[0-9]+x\s+$" | sed 's/x//')
+    speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
+    speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
 
-#     echo "${output}" >>output.txt
-#     rm -f new-archive.txt output.ts
+    echo "${output}" >>output.txt
+    rm -f new-archive.txt output.ts
 
-#     printf "第 %d/%d 个：%s\n[speedinfo]%s\n" "$i" "$lines" "$url" "$speedinfo"
+    printf "第 %d/%d 个：%s\n[speedinfo]%s\n" "$i" "$lines" "$url" "$speedinfo"
 
-#     echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
-# done <"$UNIQUE_SEARCH_RESULTS_FILE"
+    echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
+done <"$UNIQUE_SEARCH_RESULTS_FILE"
 
 # SPEED_TEST_LOG='speedtest.log'
 # grep -E 'M|K' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
