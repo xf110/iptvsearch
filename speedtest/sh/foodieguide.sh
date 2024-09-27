@@ -14,7 +14,7 @@ SEARCH_RESULTS_FILE="searchresults.txt"
 UNIQUE_SEARCH_RESULTS_FILE="unique_searchresults.txt"
 SPEED_TEST_LOG="speedtest.log"
 BEST_URL_RESPONSE_FILE="besturlresponse.txt"
-OUTPUT_FILE="../taiwan_foodieguide.txt"
+OUTPUT_FILE="taiwan_foodieguide.txt"
 
 # 清空或创建响应文件
 :>${SPEED_TEST_LOG}
@@ -91,7 +91,7 @@ max_page=$(grep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1
 l=$(grep -oP "&l=\K[^']*" "$BEST_URL_RESPONSE_FILE" | head -n 1)
 echo "最大 page 值是: ${max_page}"
 for page in $(seq 2 "$max_page"); do
-    echo "besturl 第${page}页 下载中"
+    echo "${besturl} 第${page}页 下载中"
     curl -G "${URL}" \
         -H "Accept-Language: zh-CN,zh;q=0.9" \
         --data-urlencode "page=${page}" \
