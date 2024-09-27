@@ -1,8 +1,182 @@
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
-timeout: failed to run command ‘usr/bin/yt-dlp’: No such file or directory
+[generic] playlist: Requesting header
+[generic] playlist: Downloading m3u8 information
+[info] playlist: Downloading 1 format(s): 4292
+[download] Destination: output.ts
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:15.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:21.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:27.477Z')
+[hls @ 0x557951d17780] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_f766ff4dc5d249009913a785e656d330_media_521463.ts' for reading
+[hls @ 0x557951d17780] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_2b17132eda9248cdb3904366161d9bbe_media_521464.ts' for reading
+Input #0, hls, from 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8':
+  Duration: N/A, start: 74633.491622, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Data: timed_id3 (ID3  / 0x20334449)
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 30 tbr, 90k tbn, 60 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:2: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:2 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_d7737400c7b140f0b9dcd22d90644563_media_521465.ts' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:21.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:27.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:33.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_bef09dcb017741978122393d70624a74_media_521466.ts' for reading
+frame=  539 fps= 90 q=-1.0 size=    9472kB time=00:00:18.00 bitrate=4309.6kbits/s speed=3.02x    [https @ 0x557952368280] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:27.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:33.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:39.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_ca9ace0529b34ab9aec7739ff29ced42_media_521467.ts' for reading
+frame=  719 fps= 59 q=-1.0 size=   12288kB time=00:00:23.95 bitrate=4201.8kbits/s speed=1.96x    [https @ 0x557952368280] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:33.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:39.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:45.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_bb52003b3e694a738088e0badfaddd09_media_521468.ts' for reading
+frame=  899 fps= 49 q=-1.0 size=   14848kB time=00:00:29.94 bitrate=4062.3kbits/s speed=1.62x    [https @ 0x557952368280] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:39.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:45.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:51.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_50583002442844678b7e4eecc674c086_media_521469.ts' for reading
+frame= 1079 fps= 44 q=-1.0 size=   17408kB time=00:00:35.98 bitrate=3962.5kbits/s speed=1.45x    [https @ 0x557952368280] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:45.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:51.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:57.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_6913871e700a4869b4802848bd2d4c07_media_521470.ts' for reading
+frame= 1259 fps= 41 q=-1.0 size=   20224kB time=00:00:42.00 bitrate=3944.2kbits/s speed=1.35x    frame= 1312 fps= 42 q=-1.0 size=   20480kB time=00:00:43.77 bitrate=3832.5kbits/s speed=1.39x    [https @ 0x557952368280] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:51.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:57.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:52:03.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_a258d2c7648d44c3ae4d4a5fd41cbe7a_media_521471.ts' for reading
+frame= 1439 fps= 39 q=-1.0 size=   22016kB time=00:00:48.02 bitrate=3755.7kbits/s speed=1.29x    [https @ 0x557952368280] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x557951d17780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x557951d17780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:51:57.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:52:03.477Z')
+[hls @ 0x557951d17780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-27T10:52:09.477Z')
+[https @ 0x557952014a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_50f74455329948d48a8478f1b8767928_media_521472.ts' for reading
+frame= 1620 fps= 37 q=-1.0 Lsize=   24366kB time=00:00:53.99 bitrate=3696.9kbits/s speed=1.24x    
+video:23054kB audio:1266kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.192206%
+Exiting normally, received signal 15.
+[generic] litv-longturn22: Requesting header
+[generic] litv-longturn22: Downloading m3u8 information
+[info] litv-longturn22: Downloading 1 format(s): 0
+[download] Destination: output.ts
+[hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56143bfc0780] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073638840000000-dur=40000000-seq=76840971.ts' for reading
+[hls @ 0x56143bfc0780] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073638880000000-dur=40000000-seq=76840972.ts' for reading
+Input #0, hls, from 'https://gat.zhoujie218.top/litv/litv-longturn22':
+  Duration: N/A, start: 35114.941778, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 30 fps, 30 tbr, 90k tbn, 60 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 fps, 30 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.01 bitrate=  36.0kbits/s speed=N/A    frame=   42 fps=0.0 q=-1.0 size=     768kB time=00:00:01.46 bitrate=4305.5kbits/s speed=2.79x    frame=   70 fps= 68 q=-1.0 size=    1536kB time=00:00:02.37 bitrate=5290.1kbits/s speed= 2.3x    frame=  115 fps= 74 q=-1.0 size=    2304kB time=00:00:03.85 bitrate=4901.7kbits/s speed=2.48x    [hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x56143c2b9e80] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073638920000000-dur=40000000-seq=76840973.ts' for reading
+frame=  119 fps= 44 q=-1.0 size=    2304kB time=00:00:04.02 bitrate=4693.7kbits/s speed=1.49x    frame=  122 fps= 38 q=-1.0 size=    2560kB time=00:00:04.08 bitrate=5133.5kbits/s speed=1.27x    frame=  133 fps= 36 q=-1.0 size=    2816kB time=00:00:04.44 bitrate=5186.4kbits/s speed= 1.2x    frame=  158 fps= 37 q=-1.0 size=    3328kB time=00:00:05.28 bitrate=5163.5kbits/s speed=1.25x    frame=  184 fps= 39 q=-1.0 size=    3840kB time=00:00:06.19 bitrate=5076.0kbits/s speed= 1.3x    frame=  219 fps= 42 q=-1.0 size=    4608kB time=00:00:07.32 bitrate=5151.4kbits/s speed= 1.4x    [https @ 0x56143c2f4200] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073638960000000-dur=40000000-seq=76840974.ts' for reading
+frame=  339 fps= 58 q=-1.0 size=    7424kB time=00:00:11.31 bitrate=5373.9kbits/s speed=1.94x    [https @ 0x56143c2b9e80] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639000000000-dur=40000000-seq=76840975.ts' for reading
+frame=  424 fps= 67 q=-1.0 size=    9216kB time=00:00:14.15 bitrate=5333.8kbits/s speed=2.23x    [https @ 0x56143cb7c9c0] Opening 'https://gat.zhoujie218.top/litv/litv-longturn22' for reading
+[hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x56143c2f4200] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639040000000-dur=40000000-seq=76840976.ts' for reading
+frame=  479 fps= 50 q=-1.0 size=   10496kB time=00:00:16.01 bitrate=5370.4kbits/s speed=1.68x    frame=  652 fps= 65 q=-1.0 size=   14336kB time=00:00:21.74 bitrate=5399.7kbits/s speed=2.16x    [https @ 0x56143cb7c9c0] Opening 'https://gat.zhoujie218.top/litv/litv-longturn22' for reading
+[hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x56143c2f4200] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639080000000-dur=40000000-seq=76840977.ts' for reading
+[https @ 0x56143c2b9e80] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639120000000-dur=40000000-seq=76840978.ts' for reading
+frame=  720 fps= 47 q=-1.0 size=   15616kB time=00:00:23.98 bitrate=5332.6kbits/s speed=1.56x    frame=  835 fps= 53 q=-1.0 size=   18176kB time=00:00:27.89 bitrate=5338.1kbits/s speed=1.76x    [https @ 0x56143cb7c9c0] Opening 'https://gat.zhoujie218.top/litv/litv-longturn22' for reading
+[hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x56143c2b9e80] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639160000000-dur=40000000-seq=76840979.ts' for reading
+frame=  959 fps= 50 q=-1.0 size=   20992kB time=00:00:32.01 bitrate=5372.2kbits/s speed=1.66x    frame= 1046 fps= 53 q=-1.0 size=   22784kB time=00:00:34.93 bitrate=5342.9kbits/s speed=1.77x    [https @ 0x56143cb7c9c0] Opening 'https://gat.zhoujie218.top/litv/litv-longturn22' for reading
+[hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x56143c2b9e80] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639200000000-dur=40000000-seq=76840980.ts' for reading
+frame= 1079 fps= 46 q=-1.0 size=   23552kB time=00:00:36.02 bitrate=5356.2kbits/s speed=1.54x    frame= 1193 fps= 50 q=-1.0 size=   25856kB time=00:00:39.81 bitrate=5319.4kbits/s speed=1.66x    [https @ 0x56143cb7c9c0] Opening 'https://gat.zhoujie218.top/litv/litv-longturn22' for reading
+[hls @ 0x56143bfc0780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x56143c2b9e80] Opening 'https://litvpc-hichannel.cdn.hinet.net/live/pool/litv-longturn22/litv-pc/litv-longturn22-avc1_6000000=5-mp4a_134000_zho=2-begin=3073639240000000-dur=40000000-seq=76840981.ts' for reading
+frame= 1199 fps= 42 q=-1.0 Lsize=   26214kB time=00:00:39.98 bitrate=5370.0kbits/s speed=1.41x    
+video:25566kB audio:625kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.085067%
+Exiting normally, received signal 15.
+[generic] c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d: Requesting header
+[generic] c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d: Downloading m3u8 information
+[info] c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d: Downloading 1 format(s): 4000
+[download] Destination: output.ts
+[hls @ 0x55aaf0a51780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55aaf0a51780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55aaf0a51780] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output000.ts' for reading
+[hls @ 0x55aaf0a51780] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output001.ts' for reading
+Input #0, hls, from 'http://files4.3y1.xyz/media/video/nosignal_h264/playlist.m3u8':
+  Duration: 00:01:58.38, start: 1.400000, bitrate: 0 kb/s
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1280x720, 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720, q=2-31, 25 fps, 25 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [http @ 0x55aaf0a5bcc0] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output002.ts' for reading
+[mpegts @ 0x55aaf0a5a500] Packet corrupt (stream = 0, dts = 574320).
+frame=  126 fps=0.0 q=-1.0 size=     512kB time=00:00:05.02 bitrate= 835.4kbits/s speed=9.49x    frame=  160 fps=0.0 q=-1.0 Lsize=     852kB time=00:00:06.38 bitrate=1094.4kbits/s speed=9.33x    
+video:648kB audio:201kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.332507%
+[ffmpeg] Downloaded 872951 bytes
+[download] 100% of 852.49KiB in 00:01
