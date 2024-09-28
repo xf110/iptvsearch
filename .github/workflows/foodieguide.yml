@@ -1,0 +1,39 @@
+name: foodieguide/iptvsearch
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y yt-dlp ffmpeg sed nmap
+        pwd
+        which yt-dlp
+
+    - name: Run tonkiang Script
+      #working-directory: iptv/speedtest
+      run: |
+        cd $GITHUB_WORKSPACE/foodieguide
+        bash ./foodieguide.sh
+        bash ./rtp2m3u.sh 'taiwan_foodieguide.txt'
+        
+
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action"
+        git add .
+        git status
+        git commit -m "Update foodieguide iptv "
+        git push
