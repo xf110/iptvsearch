@@ -2,9 +2,9 @@
 
 # 定义城市参数
 declare -A cities
-cities["台湾"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
-cities["香港"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
-cities["澳门"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
+cities["taiwan"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
+cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
+cities["macao"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
 
 URL="http://foodieguide.com/iptvsearch/"
 RESPONSE_FILE="response.txt"
