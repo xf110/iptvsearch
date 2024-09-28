@@ -59,7 +59,7 @@ while read -r url; do
         continue
     fi
 
-    speed=$(echo "${output}" | grep -B 1 -E '^video' | head -n 1 | grep -oP 'speed=\s?\K[0-9]+\.[0-9]+x\s+$')
+    speed=$(echo "${output}" | grep -B 1 -E '^video' | head -n 1 | grep -oP 'speed=\s?\K[0-9]+\.[0-9]+x\s+$' | sed 's| \+| |g')
     # speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
     # speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
     speedinfo=$(echo "${output}" | grep -B 1 -E '^video' | head -n 1)
