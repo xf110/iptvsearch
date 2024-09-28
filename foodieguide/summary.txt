@@ -1,0 +1,175 @@
+==== 开始获取数据: hongkong ======
+第1页 下载中
+第2页 下载中
+第3页 下载中
+==== 提取源地址结果 ======
+https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
+https://ktpremium.com:443/M919HR/5577/492391?c=香港
+https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
+https://epg.pw/stream/af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0.m3u8
+https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
+https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
+https://test.zapi.us.kg/?id=phtv-hk
+==== 整理数据完成, 开始测速 ======
+第 1/11 个：https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+[speedinfo]frame= 1499 fps= 46 q=-1.0 size=   15616kB time=00:00:50.07 bitrate=2554.7kbits/s speed=1.54x    frame= 1501 fps= 46 q=-1.0 Lsize=   15978kB time=00:00:50.14 bitrate=2610.5kbits/s speed=1.54x    
+speed = 1.54x  , https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
+第 2/11 个：https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
+[speedinfo]frame= 1499 fps= 38 q=-1.0 Lsize=   44297kB time=00:00:59.99 bitrate=6048.9kbits/s speed=1.51x    
+speed = 1.51x  , https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
+第 3/11 个：https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+[speedinfo]frame= 1619 fps= 38 q=-1.0 Lsize=   16887kB time=00:00:54.04 bitrate=2559.7kbits/s speed=1.28x    
+speed = 1.28x  , https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+第 4/11 个: 下载失败 https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
+第 5/11 个: 下载失败 https://ktpremium.com:443/M919HR/5577/492391?c=香港
+第 6/11 个: 下载失败 https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
+第 7/11 个：https://epg.pw/stream/af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0.m3u8
+[speedinfo]frame=  126 fps=0.0 q=-1.0 size=     512kB time=00:00:05.02 bitrate= 835.4kbits/s speed=8.47x    frame=  160 fps=0.0 q=-1.0 Lsize=     852kB time=00:00:06.38 bitrate=1094.4kbits/s speed=8.27x    
+speed = 8.27x  , https://epg.pw/stream/af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0.m3u8
+第 8/11 个：https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
+[speedinfo]frame= 1815 fps= 44 q=-1.0 Lsize=    6364kB time=00:01:00.54 bitrate= 861.1kbits/s speed=1.46x    
+speed = 1.46x  , https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
+第 9/11 个: 下载失败 https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
+第 10/11 个: 下载失败 https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
+第 11/11 个: 下载失败 https://test.zapi.us.kg/?id=phtv-hk
+========== bestdomain : epg.pw
+besturl 第1页 下载中
+最大 page 值是: 28
+epg.pw 第2页 下载中
+epg.pw 第3页 下载中
+epg.pw 第4页 下载中
+epg.pw 第5页 下载中
+epg.pw 第6页 下载中
+epg.pw 第7页 下载中
+epg.pw 第8页 下载中
+epg.pw 第9页 下载中
+epg.pw 第10页 下载中
+epg.pw 第11页 下载中
+epg.pw 第12页 下载中
+epg.pw 第13页 下载中
+epg.pw 第14页 下载中
+epg.pw 第15页 下载中
+epg.pw 第16页 下载中
+epg.pw 第17页 下载中
+epg.pw 第18页 下载中
+epg.pw 第19页 下载中
+epg.pw 第20页 下载中
+epg.pw 第21页 下载中
+epg.pw 第22页 下载中
+epg.pw 第23页 下载中
+epg.pw 第24页 下载中
+epg.pw 第25页 下载中
+epg.pw 第26页 下载中
+epg.pw 第27页 下载中
+epg.pw 第28页 下载中
+==== 提取频道名称和 m3u8 链接结果 ======
+ hongkong_foodieguide.txt 已经更新完成
+==== hongkong 处理完成 ======
+------------------------------
+==== 开始获取数据: taiwan ======
+第1页 下载中
+第2页 下载中
+第3页 下载中
+==== 提取源地址结果 ======
+https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+https://gat.zhoujie218.top/litv/litv-longturn22
+https://ktpremium.com:443/M919HR/5577/515015?c=台湾
+https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8
+https://bsex.serv00.net/Smart.php?id=sanlitaiwan
+https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
+https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1
+https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
+==== 整理数据完成, 开始测速 ======
+第 1/8 个：https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+[speedinfo]frame= 1619 fps= 37 q=-1.0 Lsize=   27899kB time=00:00:54.01 bitrate=4231.1kbits/s speed=1.25x    
+speed = 1.25x  , https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+第 2/8 个：https://gat.zhoujie218.top/litv/litv-longturn22
+[speedinfo]frame= 1319 fps= 38 q=-1.0 Lsize=   28598kB time=00:00:44.00 bitrate=5324.5kbits/s speed=1.28x    
+speed = 1.28x  , https://gat.zhoujie218.top/litv/litv-longturn22
+第 3/8 个: 下载失败 https://ktpremium.com:443/M919HR/5577/515015?c=台湾
+第 4/8 个：https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8
+[speedinfo]frame=  126 fps=0.0 q=-1.0 size=     512kB time=00:00:05.02 bitrate= 835.4kbits/s speed=8.37x    frame=  160 fps=0.0 q=-1.0 Lsize=     852kB time=00:00:06.38 bitrate=1094.4kbits/s speed=8.21x    
+speed = 8.21x  , https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8
+第 5/8 个: 下载失败 https://bsex.serv00.net/Smart.php?id=sanlitaiwan
+第 6/8 个: 下载失败 https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
+第 7/8 个: 下载失败 https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1
+第 8/8 个: 下载失败 https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
+========== bestdomain : epg.pw
+besturl 第1页 下载中
+最大 page 值是: 28
+epg.pw 第2页 下载中
+epg.pw 第3页 下载中
+epg.pw 第4页 下载中
+epg.pw 第5页 下载中
+epg.pw 第6页 下载中
+epg.pw 第7页 下载中
+epg.pw 第8页 下载中
+epg.pw 第9页 下载中
+epg.pw 第10页 下载中
+epg.pw 第11页 下载中
+epg.pw 第12页 下载中
+epg.pw 第13页 下载中
+epg.pw 第14页 下载中
+epg.pw 第15页 下载中
+epg.pw 第16页 下载中
+epg.pw 第17页 下载中
+epg.pw 第18页 下载中
+epg.pw 第19页 下载中
+epg.pw 第20页 下载中
+epg.pw 第21页 下载中
+epg.pw 第22页 下载中
+epg.pw 第23页 下载中
+epg.pw 第24页 下载中
+epg.pw 第25页 下载中
+epg.pw 第26页 下载中
+epg.pw 第27页 下载中
+epg.pw 第28页 下载中
+==== 提取频道名称和 m3u8 链接结果 ======
+ taiwan_foodieguide.txt 已经更新完成
+==== taiwan 处理完成 ======
+------------------------------
+==== 开始获取数据: macao ======
+第1页 下载中
+第2页 下载中
+第3页 下载中
+==== 提取源地址结果 ======
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+https://pi.0472.org/tv/asam.php?auth=2309081833
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
+https://test.zapi.us.kg/?id=tdm
+https://live.yzd.jialiangos.com:4443/live/fhw/17
+https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
+==== 整理数据完成, 开始测速 ======
+第 1/8 个：https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+[speedinfo]frame= 1349 fps= 35 q=-1.0 Lsize=    8075kB time=00:00:45.02 bitrate=1469.2kbits/s speed=1.17x    
+speed = 1.17x  , https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+第 2/8 个：https://pi.0472.org/tv/asam.php?auth=2309081833
+[speedinfo]frame= 1749 fps= 34 q=-1.0 Lsize=   17646kB time=00:01:10.00 bitrate=2064.9kbits/s speed=1.35x    
+speed = 1.35x  , https://pi.0472.org/tv/asam.php?auth=2309081833
+第 3/8 个：https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+[speedinfo]frame= 1349 fps= 35 q=-1.0 Lsize=    8057kB time=00:00:45.02 bitrate=1466.0kbits/s speed=1.15x    
+speed = 1.15x  , https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+第 4/8 个：https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+[speedinfo]frame= 2101 fps= 41 q=-1.0 Lsize=   16649kB time=00:01:09.93 bitrate=1950.3kbits/s speed=1.36x    
+speed = 1.36x  , https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+第 5/8 个：https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
+[speedinfo]
+speed =  , https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
+第 6/8 个: 下载失败 https://test.zapi.us.kg/?id=tdm
+第 7/8 个：https://live.yzd.jialiangos.com:4443/live/fhw/17
+[speedinfo]
+speed =  , https://live.yzd.jialiangos.com:4443/live/fhw/17
+第 8/8 个: 下载失败 https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
+========== bestdomain : reflect-vod-cmac.cablecast.tv
+besturl 第1页 下载中
+最大 page 值是: 
+==== 提取频道名称和 m3u8 链接结果 ======
+ macao_foodieguide.txt 已经更新完成
+==== macao 处理完成 ======
+------------------------------
