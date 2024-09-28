@@ -1,13 +1,4 @@
 澳门,#genre#
-澳视澳门,https://pi.0472.org/tv/asam.php?auth=2309081833
-翡翠台,https://pi.0472.org/tv/fct.php?auth=230918
-明珠台,https://pi.0472.org/tv/mzt.php?auth=230918
-梨园频道,https://pi.0472.org/tv/hn.php?id=154
-澳视澳门,https://pi.0472.org/tv/asam.php?auth=230918
-澳亚卫视,https://pi.0472.org/tv/aoya.php?auth=230918
-澳亚卫视,https://pi.0472.org/tv/aoya.php?auth=2309081833
-明珠台,https://pi.0472.org/tv/mzt.php?auth=2309081833
-翡翠台,https://pi.0472.org/tv/fct.php?auth=2309081833
 澳门2_611,https://pulltv1.wanfudaluye.com/live/tv2.m3u8
 大爱1台,https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 TJB 대전방송(SBS 大田),https://pulltv1.wanfudaluye.com/live/tv1.m3u8
@@ -40,3 +31,9 @@ DaAi 1,https://pulltv1.wanfudaluye.com/live/tv1.m3u8
 CHC高清电影,http://pi.0472.org/tv/cbn.php?id=chcgqdyHD
 CHC家庭影院,http://pi.0472.org/tv/cbn.php?id=chcjtyyHD
 CHC动作电影,http://pi.0472.org/tv/cbn.php?id=chcdzdyHD
+香港,#genre#
+香港卫视HD,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+外网香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq.flv
+HKS,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
+香港卫视高清,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8?wsSession=e5b4ef626c5980be2fbdf2e7-158332927312639
