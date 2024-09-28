@@ -21,11 +21,11 @@ jobs:
         which yt-dlp
 
     - name: Run tonkiang Script
-      #working-directory: iptv/speedtest
+      #working-directory: iptv/foodieguide
       run: |
         cd $GITHUB_WORKSPACE/foodieguide
         bash ./foodieguide.sh
-        bash ./rtp2m3u.sh 'taiwan_foodieguide.txt'
+        bash ../speedtest/rtp2m3u.sh './taiwan_foodieguide.txt'
         
 
     - name: Update Results
