@@ -27,7 +27,7 @@ jobs:
       run: |
         git pull origin main
         cd $GITHUB_WORKSPACE/thetvapp
-        python thetvapp.py
+        python thetvappv2.py
 
     - name: process playlist.txt
       run: |
