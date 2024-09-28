@@ -20,9 +20,10 @@ jobs:
         pwd
         which yt-dlp
 
-    - name: Run tonkiang Script
+    - name: Run foodieguide.sh
       #working-directory: iptv/foodieguide
       run: |
+        git pull origin main
         cd $GITHUB_WORKSPACE/foodieguide
         bash ./foodieguide.sh
         bash ../speedtest/rtp2m3u.sh './taiwan_foodieguide.txt'
