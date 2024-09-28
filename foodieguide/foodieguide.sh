@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. 搜索关键字，获取前5页结果
-# echo "$(pwd)"
+echo "当前路径： $(pwd)"
 echo "yt-dlp 路径：$(which yt-dlp)"
 echo "==== 开始获取数据 ======"
 CHANNEL_NAME="台湾"
@@ -9,12 +9,12 @@ CHANNEL_KEY_URL="%E5%8F%B0%E6%B9%BE"
 CHANNEL_VALUE='eowuxJvaa8brWPsOa5vg=='
 
 URL="http://foodieguide.com/iptvsearch/"
-RESPONSE_FILE="response.txt"
-SEARCH_RESULTS_FILE="searchresults.txt"
-UNIQUE_SEARCH_RESULTS_FILE="unique_searchresults.txt"
-SPEED_TEST_LOG="speedtest.log"
-BEST_URL_RESPONSE_FILE="besturlresponse.txt"
-OUTPUT_FILE="taiwan_foodieguide.txt"
+RESPONSE_FILE="./response.txt"
+SEARCH_RESULTS_FILE="./searchresults.txt"
+UNIQUE_SEARCH_RESULTS_FILE="./unique_searchresults.txt"
+SPEED_TEST_LOG="./speedtest.log"
+BEST_URL_RESPONSE_FILE="./besturlresponse.txt"
+OUTPUT_FILE="./taiwan_foodieguide.txt"
 
 # 清空或创建响应文件
 :>${SPEED_TEST_LOG}
