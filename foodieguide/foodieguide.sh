@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # 1. 搜索关键字，获取前5页结果
-echo "当前路径： $(pwd)"
+# echo "$(pwd)"
 echo "yt-dlp 路径：$(which yt-dlp)"
 echo "==== 开始获取数据 ======"
 CHANNEL_NAME="台湾"
@@ -9,17 +9,15 @@ CHANNEL_KEY_URL="%E5%8F%B0%E6%B9%BE"
 CHANNEL_VALUE='eowuxJvaa8brWPsOa5vg=='
 
 URL="http://foodieguide.com/iptvsearch/"
-RESPONSE_FILE="./response.txt"
-SEARCH_RESULTS_FILE="./searchresults.txt"
-UNIQUE_SEARCH_RESULTS_FILE="./unique_searchresults.txt"
-SPEED_TEST_LOG="./speedtest.log"
-BEST_URL_RESPONSE_FILE="./besturlresponse.txt"
-OUTPUT_FILE="./taiwan_foodieguide.txt"
+RESPONSE_FILE="response.txt"
+UNIQUE_SEARCH_RESULTS_FILE="unique_searchresults.txt"
+SPEED_TEST_LOG="speedtest.log"
+BEST_URL_RESPONSE_FILE="besturlresponse.txt"
+OUTPUT_FILE="taiwan_foodieguide.txt"
 
 # 清空或创建响应文件
 :>${SPEED_TEST_LOG}
 :>${UNIQUE_SEARCH_RESULTS_FILE}
-:>${SEARCH_RESULTS_FILE}
 :>output.txt
 :>"${BEST_URL_RESPONSE_FILE}"
 # 获取数据
@@ -61,7 +59,7 @@ while read -r url; do
         continue
     fi
 
-    speed=$(echo "${output}" | grep -B 1 -E '^video' | grep -oP "speed=\K[0-9]+\.[0-9]+x\s$")
+    speed=$(echo "${output}" | rep -B 1 -E '^video' | head -n 1 | grep -oP 'speed=\K[0-9]+\.[0-9]+x(.*)?$')
     # speed=$(echo "$output" | grep -oP 'at \K[0-9.]+[M|K]')
     # speedinfo=$(echo "${output}" | grep -E '^size.*speed=' | head -n 1)
     speedinfo=$(echo "${output}" | grep -B 1 -E '^video' | head -n 1)
@@ -70,6 +68,7 @@ while read -r url; do
     rm -f new-archive.txt output.ts
 
     printf "第 %d/%d 个：%s\n[speedinfo]%s\n" "$i" "$lines" "$url" "$speedinfo"
+    echo "speed = ${speed} , ${url}"
 
     echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
 done <"$UNIQUE_SEARCH_RESULTS_FILE"
@@ -121,4 +120,4 @@ grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps[^<]*' "
 sed -i "1i ${CHANNEL_NAME},#genre#" "$OUTPUT_FILE"
 echo " $OUTPUT_FILE 已经更新完成"
 
-# rm ${RESPONSE_FILE} ${SEARCH_RESULTS_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
+# rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
