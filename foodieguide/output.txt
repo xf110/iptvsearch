@@ -2827,3 +2827,798 @@ WARNING: [generic] Could not send HEAD request to https://live.mastvnet.com/lsdr
 [generic] 17: Requesting header
 WARNING: [generic] Could not send HEAD request to https://live.yzd.jialiangos.com:4443/live/fhw/17: <urlopen error _ssl.c:990: The handshake operation timed out>
 [generic] 17: Downloading webpage
+[generic] 01: Requesting header
+[generic] 01: Downloading m3u8 information
+[info] 01: Downloading 1 format(s): 0
+[download] Destination: output.ts
+[hls @ 0x564235d44780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x564235d44780] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669560.ts' for reading
+[hls @ 0x564235d44780] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669561.ts' for reading
+[h264 @ 0x56423637d600] Increasing reorder buffer to 2
+Input #0, hls, from 'https://live-hls-web-ajb.getaj.net/AJB/01.m3u8':
+  Duration: N/A, start: 29538.807756, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p(tv), 1920x1080 [SAR 1:1 DAR 16:9], 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 25 fps, 25 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.01 bitrate=  20.9kbits/s speed=N/A    [https @ 0x564236045480] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669562.ts' for reading
+frame=  452 fps=0.0 q=-1.0 size=   13312kB time=00:00:18.21 bitrate=5986.7kbits/s speed=36.3x    frame=  596 fps=594 q=-1.0 size=   17408kB time=00:00:23.84 bitrate=5979.9kbits/s speed=23.8x    [hls @ 0x564235d44780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x564236045480] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669563.ts' for reading
+frame=  750 fps= 76 q=-1.0 size=   21760kB time=00:00:29.99 bitrate=5943.6kbits/s speed=3.04x    frame=  822 fps= 79 q=-1.0 size=   24064kB time=00:00:32.99 bitrate=5973.8kbits/s speed=3.18x    frame=  995 fps= 91 q=-1.0 size=   29184kB time=00:00:39.82 bitrate=6003.0kbits/s speed=3.66x    [https @ 0x5642368e8380] Opening 'https://live-hls-web-ajb.getaj.net/AJB/01.m3u8' for reading
+[hls @ 0x564235d44780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x564236045480] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669564.ts' for reading
+frame= 1000 fps= 50 q=-1.0 size=   29440kB time=00:00:39.99 bitrate=6029.8kbits/s speed=   2x    frame= 1076 fps= 53 q=-1.0 size=   31744kB time=00:00:43.09 bitrate=6034.9kbits/s speed= 2.1x    [https @ 0x5642368e8380] Opening 'https://live-hls-web-ajb.getaj.net/AJB/01.m3u8' for reading
+[hls @ 0x564235d44780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x564236045480] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669565.ts' for reading
+frame= 1250 fps= 42 q=-1.0 size=   36864kB time=00:00:49.98 bitrate=6042.1kbits/s speed=1.66x    frame= 1283 fps= 42 q=-1.0 size=   37888kB time=00:00:51.32 bitrate=6047.3kbits/s speed=1.67x    frame= 1400 fps= 45 q=-1.0 size=   41216kB time=00:00:56.03 bitrate=6025.1kbits/s speed=1.79x    frame= 1414 fps= 44 q=-1.0 size=   41984kB time=00:00:56.70 bitrate=6065.7kbits/s speed=1.78x    frame= 1427 fps= 44 q=-1.0 size=   42240kB time=00:00:57.17 bitrate=6052.6kbits/s speed=1.77x    frame= 1441 fps= 44 q=-1.0 size=   42496kB time=00:00:57.66 bitrate=6037.5kbits/s speed=1.75x    frame= 1450 fps= 43 q=-1.0 size=   42752kB time=00:00:58.00 bitrate=6038.1kbits/s speed=1.73x    frame= 1462 fps= 43 q=-1.0 size=   43264kB time=00:00:58.57 bitrate=6050.3kbits/s speed=1.72x    frame= 1480 fps= 43 q=-1.0 size=   43776kB time=00:00:59.28 bitrate=6049.2kbits/s speed=1.72x    frame= 1493 fps= 43 q=-1.0 size=   44288kB time=00:00:59.75 bitrate=6071.9kbits/s speed= 1.7x    [https @ 0x5642368e8380] Opening 'https://live-hls-web-ajb.getaj.net/AJB/01.m3u8' for reading
+[hls @ 0x564235d44780] Skip ('#EXT-X-VERSION:3')
+[https @ 0x564236045480] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18669566.ts' for reading
+frame= 1499 fps= 37 q=-1.0 Lsize=   44742kB time=00:00:59.98 bitrate=6110.2kbits/s speed=1.49x    
+video:43755kB audio:956kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.070040%
+Exiting normally, received signal 15.
+[generic] index: Requesting header
+[generic] index: Downloading m3u8 information
+[info] index: Downloading 1 format(s): 2978
+[download] Destination: output.ts
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:25.914Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:31.920Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:37.926Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:43.932Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:49.938Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:55.944Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02927.ts' for reading
+[hls @ 0x563194533780] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02928.ts' for reading
+Input #0, hls, from 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8':
+  Duration: N/A, start: 80897.057422, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], Closed Captions, 29.97 fps, 29.97 tbr, 90k tbn, 59.94 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (HE-AAC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 29.97 fps, 29.97 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (HE-AAC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=34909.1kbits/s speed=N/A    [https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02929.ts' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:31.920Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:37.926Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:43.932Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:49.938Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:55.944Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02930.ts' for reading
+frame=  540 fps= 90 q=-1.0 size=    2048kB time=00:00:17.98 bitrate= 932.9kbits/s speed=   3x    [https @ 0x5631950a47c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:37.926Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:43.932Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:49.938Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:55.944Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:31.980Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02931.ts' for reading
+frame=  720 fps= 60 q=-1.0 size=    2816kB time=00:00:23.99 bitrate= 961.3kbits/s speed=   2x    [https @ 0x5631950a47c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:43.932Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:49.938Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:55.944Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:31.980Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:37.986Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02932.ts' for reading
+frame=  900 fps= 50 q=-1.0 size=    3584kB time=00:00:30.01 bitrate= 978.3kbits/s speed=1.66x    [https @ 0x5631950a47c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:49.938Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:55.944Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:31.980Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:37.986Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:43.992Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02933.ts' for reading
+frame= 1080 fps= 45 q=-1.0 size=    4608kB time=00:00:36.02 bitrate=1047.7kbits/s speed=1.49x    frame= 1212 fps= 49 q=-1.0 size=    5120kB time=00:00:40.40 bitrate=1038.0kbits/s speed=1.64x    [https @ 0x5631950a47c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:30:55.944Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:31.980Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:37.986Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:43.992Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:49.998Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02934.ts' for reading
+frame= 1260 fps= 41 q=-1.0 size=    5376kB time=00:00:42.00 bitrate=1048.4kbits/s speed=1.36x    frame= 1344 fps= 43 q=-1.0 size=    5632kB time=00:00:44.81 bitrate=1029.6kbits/s speed=1.42x    [https @ 0x5631950a47c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:01.950Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:31.980Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:37.986Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:43.992Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:49.998Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:56.004Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02935.ts' for reading
+frame= 1440 fps= 39 q=-1.0 size=    6144kB time=00:00:48.01 bitrate=1048.2kbits/s speed=1.31x    [https @ 0x5631950a47c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8' for reading
+[hls @ 0x563194533780] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563194533780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:2')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:07.956Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:13.962Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:19.968Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:25.974Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:31.980Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:37.986Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:43.992Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:49.998Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:31:56.004Z')
+[hls @ 0x563194533780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:32:02.010Z')
+[https @ 0x563194830540] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240923T012911/index_2M/00030/index_2M_02936.ts' for reading
+frame= 1619 fps= 38 q=-1.0 Lsize=    7125kB time=00:00:54.03 bitrate=1080.2kbits/s speed=1.26x    
+video:6258kB audio:845kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.314099%
+Exiting normally, received signal 15.
+[generic] af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0: Requesting header
+[generic] af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0: Downloading m3u8 information
+[info] af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0: Downloading 1 format(s): 4000
+[download] Destination: output.ts
+[hls @ 0x56249edcf780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56249edcf780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x56249edcf780] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output000.ts' for reading
+[hls @ 0x56249edcf780] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output001.ts' for reading
+Input #0, hls, from 'http://files4.3y1.xyz/media/video/nosignal_h264/playlist.m3u8':
+  Duration: 00:01:58.38, start: 1.400000, bitrate: 0 kb/s
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1280x720, 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720, q=2-31, 25 fps, 25 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [http @ 0x56249edd9cc0] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output002.ts' for reading
+[mpegts @ 0x56249edd8500] Packet corrupt (stream = 0, dts = 574320).
+frame=  126 fps=0.0 q=-1.0 size=     512kB time=00:00:05.02 bitrate= 835.4kbits/s speed=9.39x    frame=  160 fps=0.0 q=-1.0 Lsize=     852kB time=00:00:06.38 bitrate=1094.4kbits/s speed=9.22x    
+video:648kB audio:201kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.332507%
+[ffmpeg] Downloaded 872951 bytes
+[download] 100% of 852.49KiB in 00:01
+[generic] playlist: Requesting header
+[generic] playlist: Downloading m3u8 information
+[info] playlist: Downloading 1 format(s): 496
+[download] Destination: output.ts
+[hls @ 0x5588834cc780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5588834cc780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:117')
+[hls @ 0x5588834cc780] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42006.ts' for reading
+[hls @ 0x5588834cc780] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42007.ts' for reading
+Input #0, hls, from 'https://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8':
+  Duration: N/A, start: 37755.597244, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Data: timed_id3 (ID3  / 0x20334449)
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], 29.97 tbr, 90k tbn, 59.94 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:2: Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p(tv, bt709), 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 29.97 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:2 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x5588837cf340] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42008.ts' for reading
+frame=  320 fps=0.0 q=-1.0 size=     256kB time=00:00:10.65 bitrate= 196.8kbits/s speed=  18x    frame=  358 fps=320 q=-1.0 size=     512kB time=00:00:11.93 bitrate= 351.4kbits/s speed=10.7x    frame=  420 fps=236 q=-1.0 size=     768kB time=00:00:14.02 bitrate= 448.6kbits/s speed=7.87x    frame=  552 fps=234 q=-1.0 size=     768kB time=00:00:18.41 bitrate= 341.7kbits/s speed=7.79x    [hls @ 0x5588834cc780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5588834cc780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:117')
+[https @ 0x5588837cf340] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42009.ts' for reading
+[https @ 0x5588837fd380] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42010.ts' for reading
+frame=  961 fps=107 q=-1.0 size=    1536kB time=00:00:32.02 bitrate= 393.0kbits/s speed=3.55x    frame= 1280 fps=133 q=-1.0 size=    1792kB time=00:00:42.72 bitrate= 343.6kbits/s speed=4.45x    frame= 1441 fps=142 q=-1.0 size=    2304kB time=00:00:48.04 bitrate= 392.9kbits/s speed=4.75x    [https @ 0x558883fcec80] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8' for reading
+[hls @ 0x5588834cc780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5588834cc780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:117')
+[https @ 0x5588837fd380] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42011.ts' for reading
+frame= 1600 fps= 81 q=-1.0 size=    2304kB time=00:00:53.36 bitrate= 353.7kbits/s speed=2.71x    frame= 1687 fps= 82 q=-1.0 size=    2560kB time=00:00:56.31 bitrate= 372.4kbits/s speed=2.74x    [https @ 0x558883fcec80] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8' for reading
+[hls @ 0x5588834cc780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5588834cc780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:117')
+[https @ 0x5588837fd380] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42012.ts' for reading
+frame= 1919 fps= 63 q=-1.0 size=    3072kB time=00:01:04.04 bitrate= 393.0kbits/s speed=2.09x    frame= 1921 fps= 62 q=-1.0 size=    3072kB time=00:01:04.08 bitrate= 392.7kbits/s speed=2.06x    [https @ 0x558883fcec80] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8' for reading
+[hls @ 0x5588834cc780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5588834cc780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:117')
+[https @ 0x5588837fd380] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-u5csk56ys_42013.ts' for reading
+frame= 2240 fps= 53 q=-1.0 Lsize=    3667kB time=00:01:14.72 bitrate= 402.0kbits/s speed=1.77x    
+video:2408kB audio:1190kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.934560%
+Exiting normally, received signal 15.
+[generic] playlist: Requesting header
+[generic] playlist: Downloading m3u8 information
+[info] playlist: Downloading 1 format(s): 4292
+[download] Destination: output.ts
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:10.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:16.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:22.77Z')
+[hls @ 0x56327892b780] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_0ff4e7b6b21e459db7097c44ed803ff3_media_551289.ts' for reading
+[hls @ 0x56327892b780] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_261fd1e8e861409a99052dbb03f264b9_media_551290.ts' for reading
+Input #0, hls, from 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8':
+  Duration: N/A, start: 62702.045578, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Data: timed_id3 (ID3  / 0x20334449)
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], 30 tbr, 90k tbn, 60 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:2: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 30 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:2 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_0f0e0c57d4484b87a908e2e054c4a050_media_551291.ts' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:16.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:22.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:28.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_5815c0e1bffe43c2989df059c3d5481b_media_551292.ts' for reading
+frame=  539 fps= 90 q=-1.0 size=    9216kB time=00:00:18.00 bitrate=4193.1kbits/s speed=3.01x    [https @ 0x5632794d0940] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:22.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:28.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:34.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_74477e27bc3e47008aba4f9f211d7022_media_551293.ts' for reading
+frame=  719 fps= 59 q=-1.0 size=   12544kB time=00:00:24.02 bitrate=4277.9kbits/s speed=1.96x    frame=  736 fps= 58 q=-1.0 size=   12800kB time=00:00:24.55 bitrate=4270.4kbits/s speed=1.93x    [https @ 0x5632794d0940] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:28.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:34.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:40.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_25233ff4342041aaaee22ea06bf742c8_media_551294.ts' for reading
+frame=  899 fps= 49 q=-1.0 size=   15360kB time=00:00:30.03 bitrate=4189.1kbits/s speed=1.62x    frame=  930 fps= 49 q=-1.0 size=   16384kB time=00:00:31.01 bitrate=4327.0kbits/s speed=1.63x    frame=  982 fps= 50 q=-1.0 size=   17408kB time=00:00:32.74 bitrate=4354.8kbits/s speed=1.68x    frame= 1076 fps= 53 q=-1.0 size=   19200kB time=00:00:35.88 bitrate=4383.4kbits/s speed=1.78x    [https @ 0x5632794d0940] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:34.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:40.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:46.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_9731a1a466cf46a581de0cb482fd1b9a_media_551295.ts' for reading
+frame= 1079 fps= 44 q=-1.0 size=   19200kB time=00:00:35.98 bitrate=4370.4kbits/s speed=1.45x    [https @ 0x5632794d0940] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:40.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:46.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:52.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_cc3c696bca0545b383f292c0048fe512_media_551296.ts' for reading
+frame= 1259 fps= 41 q=-1.0 size=   22272kB time=00:00:41.95 bitrate=4349.0kbits/s speed=1.36x    [https @ 0x5632794d0940] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:46.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:52.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:58.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_ce7e8c689c0e47c28a452a7d326a5870_media_551297.ts' for reading
+frame= 1439 fps= 39 q=-1.0 size=   24576kB time=00:00:47.95 bitrate=4198.4kbits/s speed=1.29x    [https @ 0x5632794d0940] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8' for reading
+[hls @ 0x56327892b780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x56327892b780] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:52.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:34:58.77Z')
+[hls @ 0x56327892b780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:35:04.77Z')
+[https @ 0x563278c28a00] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/d853k5id_2de79a6affc5402a9b9663dbdb5076a8_media_551298.ts' for reading
+frame= 1619 fps= 37 q=-1.0 Lsize=   27675kB time=00:00:54.01 bitrate=4197.2kbits/s speed=1.24x    
+video:26362kB audio:1266kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.169107%
+Exiting normally, received signal 15.
+[generic] bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a: Requesting header
+[generic] bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a: Downloading m3u8 information
+[info] bfb4f28ad7b1bc3e20703b9f35b51104a59eca154ec67643bf9d30a8af4b607a: Downloading 1 format(s): 4000
+[download] Destination: output.ts
+[hls @ 0x55d8e10fb780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55d8e10fb780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55d8e10fb780] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output000.ts' for reading
+[hls @ 0x55d8e10fb780] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output001.ts' for reading
+Input #0, hls, from 'http://files4.3y1.xyz/media/video/nosignal_h264/playlist.m3u8':
+  Duration: 00:01:58.38, start: 1.400000, bitrate: 0 kb/s
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1280x720, 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720, q=2-31, 25 fps, 25 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 48000 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [http @ 0x55d8e1105cc0] Opening 'http://files4.3y1.xyz/media/video/nosignal_h264/output002.ts' for reading
+[mpegts @ 0x55d8e1104500] Packet corrupt (stream = 0, dts = 574320).
+frame=  126 fps=0.0 q=-1.0 size=     512kB time=00:00:05.02 bitrate= 835.4kbits/s speed=9.36x    frame=  160 fps=0.0 q=-1.0 Lsize=     852kB time=00:00:06.38 bitrate=1094.4kbits/s speed=9.21x    
+video:648kB audio:201kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.332507%
+[ffmpeg] Downloaded 872951 bytes
+[download] 100% of 852.49KiB in 00:01
+[generic] tv2: Requesting header
+[generic] tv2: Downloading m3u8 information
+[info] tv2: Downloading 1 format(s): 0
+[download] Destination: output.ts
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[hls @ 0x5573ec5e1780] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428379.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x5573ec5e1780] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428380.ts?txspiseq=10148518862127745775' for reading
+Input #0, hls, from 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8':
+  Duration: N/A, start: 86504.364556, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 333.33 tbr, 90k tbn, 59.94 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 333.33 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428381.ts?txspiseq=10148518862127745775' for reading
+frame=   90 fps= 75 q=-1.0 size=     512kB time=00:00:02.97 bitrate=1411.3kbits/s speed=2.48x    [hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428382.ts?txspiseq=10148518862127745775' for reading
+frame=  270 fps= 79 q=-1.0 size=    1536kB time=00:00:08.98 bitrate=1400.3kbits/s speed=2.63x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428383.ts?txspiseq=10148518862127745775' for reading
+frame=  360 fps= 56 q=-1.0 size=    2048kB time=00:00:11.98 bitrate=1400.3kbits/s speed=1.87x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428384.ts?txspiseq=10148518862127745775' for reading
+frame=  450 fps= 44 q=-1.0 size=    2816kB time=00:00:15.00 bitrate=1537.9kbits/s speed=1.48x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428385.ts?txspiseq=10148518862127745775' for reading
+frame=  540 fps= 40 q=-1.0 size=    3584kB time=00:00:17.99 bitrate=1631.6kbits/s speed=1.34x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428386.ts?txspiseq=10148518862127745775' for reading
+frame=  630 fps= 39 q=-1.0 size=    4352kB time=00:00:20.99 bitrate=1698.5kbits/s speed= 1.3x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428387.ts?txspiseq=10148518862127745775' for reading
+frame=  720 fps= 37 q=-1.0 size=    4864kB time=00:00:24.00 bitrate=1659.6kbits/s speed=1.22x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428388.ts?txspiseq=10148518862127745775' for reading
+frame=  810 fps= 35 q=-1.0 size=    5376kB time=00:00:27.00 bitrate=1630.8kbits/s speed=1.17x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428389.ts?txspiseq=10148518862127745775' for reading
+frame=  900 fps= 35 q=-1.0 size=    6656kB time=00:00:30.00 bitrate=1817.5kbits/s speed=1.16x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428390.ts?txspiseq=10148518862127745775' for reading
+frame=  990 fps= 34 q=-1.0 size=    7680kB time=00:00:33.01 bitrate=1905.4kbits/s speed=1.12x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec8e93c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428391.ts?txspiseq=10148518862127745775' for reading
+[https @ 0x5573ec9013c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428392.ts?txspiseq=10148518862127745775' for reading
+frame= 1080 fps= 33 q=-1.0 size=    8448kB time=00:00:36.01 bitrate=1921.6kbits/s speed= 1.1x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec9013c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428393.ts?txspiseq=10148518862127745775' for reading
+frame= 1260 fps= 35 q=-1.0 size=    9728kB time=00:00:42.02 bitrate=1896.2kbits/s speed=1.16x    [https @ 0x5573ecfc5d80] Opening 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5573ec5e1780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5573ec9013c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727428394.ts?txspiseq=10148518862127745775' for reading
+frame= 1349 fps= 35 q=-1.0 Lsize=   10889kB time=00:00:45.02 bitrate=1981.3kbits/s speed=1.16x    
+video:10151kB audio:704kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.318947%
+Exiting normally, received signal 15.
+[generic] tv2: Requesting header
+[generic] tv2: Downloading m3u8 information
+[info] tv2: Downloading 1 format(s): 0
+[download] Destination: output.ts
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[hls @ 0x559070e78780] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428393.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x559070e78780] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428394.ts?txspiseq=10148518862127745775' for reading
+Input #0, hls, from 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8':
+  Duration: N/A, start: 86546.415889, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (High) ([27][0][0][0] / 0x001B), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], 333.33 tbr, 90k tbn, 59.94 tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (High) (avc1 / 0x31637661), yuv420p, 1280x720 [SAR 1:1 DAR 16:9], q=2-31, 333.33 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+  Stream #0:1 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428395.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428396.ts?txspiseq=10148518862127745775' for reading
+frame=  270 fps=119 q=-1.0 size=    2560kB time=00:00:08.98 bitrate=2333.8kbits/s speed=3.97x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428397.ts?txspiseq=10148518862127745775' for reading
+frame=  360 fps= 65 q=-1.0 size=    4096kB time=00:00:11.98 bitrate=2800.6kbits/s speed=2.15x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428398.ts?txspiseq=10148518862127745775' for reading
+frame=  450 fps= 51 q=-1.0 size=    5120kB time=00:00:14.97 bitrate=2800.5kbits/s speed=1.69x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428399.ts?txspiseq=10148518862127745775' for reading
+frame=  540 fps= 45 q=-1.0 size=    6144kB time=00:00:17.99 bitrate=2796.9kbits/s speed=1.48x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428400.ts?txspiseq=10148518862127745775' for reading
+frame=  630 fps= 41 q=-1.0 size=    7168kB time=00:00:20.99 bitrate=2797.4kbits/s speed=1.36x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428401.ts?txspiseq=10148518862127745775' for reading
+frame=  720 fps= 38 q=-1.0 size=    7936kB time=00:00:23.98 bitrate=2710.4kbits/s speed=1.28x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428402.ts?txspiseq=10148518862127745775' for reading
+frame=  810 fps= 37 q=-1.0 size=    9216kB time=00:00:27.00 bitrate=2795.7kbits/s speed=1.22x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711803c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428403.ts?txspiseq=10148518862127745775' for reading
+[https @ 0x5590711983c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428404.ts?txspiseq=10148518862127745775' for reading
+frame=  900 fps= 35 q=-1.0 size=   10496kB time=00:00:30.00 bitrate=2866.1kbits/s speed=1.17x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711983c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428405.ts?txspiseq=10148518862127745775' for reading
+frame= 1080 fps= 38 q=-1.0 size=   12288kB time=00:00:36.01 bitrate=2795.1kbits/s speed=1.27x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711983c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428406.ts?txspiseq=10148518862127745775' for reading
+frame= 1170 fps= 37 q=-1.0 size=   12800kB time=00:00:39.00 bitrate=2688.0kbits/s speed=1.23x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711983c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428407.ts?txspiseq=10148518862127745775' for reading
+frame= 1260 fps= 36 q=-1.0 size=   13312kB time=00:00:42.00 bitrate=2596.2kbits/s speed= 1.2x    [https @ 0x559071866100] Opening 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8' for reading
+[hls @ 0x559070e78780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x559070e78780] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[https @ 0x5590711983c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727428408.ts?txspiseq=10148518862127745775' for reading
+frame= 1349 fps= 35 q=-1.0 Lsize=   13946kB time=00:00:45.02 bitrate=2537.4kbits/s speed=1.18x    
+video:13206kB audio:705kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.250696%
+Exiting normally, received signal 15.
+[generic] asam: Requesting header
+[redirect] Following redirect to https://0472.org/hls/cgtn.m3u8
+[generic] cgtn: Requesting header
+WARNING: [generic] Could not send HEAD request to https://0472.org/hls/cgtn.m3u8: HTTP Error 403: Forbidden
+[generic] cgtn: Downloading webpage
+[generic] cgtn: Downloading m3u8 information
+[info] cgtn: Downloading 1 format(s): 1000
+[download] Destination: output.ts
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:11+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:21+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:31+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:41+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:52+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:01+08:00')
+[hls @ 0x55d5cd6fb780] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857425.ts' for reading
+[hls @ 0x55d5cd6fb780] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857426.ts' for reading
+Input #0, hls, from 'https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8':
+  Duration: N/A, start: 74757.703489, bitrate: N/A
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Audio: aac (LC) ([15][0][0][0] / 0x000F), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Video: h264 (Main) ([27][0][0][0] / 0x001B), yuv420p, 1280x720, 25 fps, 25 tbr, 90k tbn, 50 tbc
+    Metadata:
+      variant_bitrate : 0
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), yuv420p, 1280x720, q=2-31, 25 fps, 25 tbr, 90k tbn, 90k tbc
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:1: Audio: aac (LC) (mp4a / 0x6134706D), 44100 Hz, stereo, fltp
+    Metadata:
+      variant_bitrate : 0
+Stream mapping:
+  Stream #0:1 -> #0:0 (copy)
+  Stream #0:0 -> #0:1 (copy)
+Press [q] to stop, [?] for help
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate= 192.5kbits/s speed=N/A    [https @ 0x55d5cda047c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857427.ts' for reading
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:21+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:31+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:41+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:52+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:01+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:11+08:00')
+[https @ 0x55d5cda047c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857428.ts' for reading
+frame=  749 fps= 76 q=-1.0 size=    7424kB time=00:00:30.02 bitrate=2025.5kbits/s speed=3.04x    [https @ 0x55d5ce1feb80] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8' for reading
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:31+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:41+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:52+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:01+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:11+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:21+08:00')
+[https @ 0x55d5cda047c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857429.ts' for reading
+frame=  999 fps= 50 q=-1.0 size=    9984kB time=00:00:40.03 bitrate=2043.0kbits/s speed=2.01x    [https @ 0x55d5ce1feb80] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8' for reading
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:41+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:52+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:01+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:11+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:21+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:31+08:00')
+[https @ 0x55d5cda047c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857430.ts' for reading
+frame= 1250 fps= 39 q=-1.0 size=   12288kB time=00:00:50.01 bitrate=2012.5kbits/s speed=1.58x    [https @ 0x55d5ce1feb80] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8' for reading
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:37:52+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:01+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:11+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:21+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:31+08:00')
+[hls @ 0x55d5cd6fb780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T20:38:41+08:00')
+[https @ 0x55d5cda047c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726857431.ts' for reading
+frame= 1500 fps= 34 q=-1.0 Lsize=   15141kB time=00:00:59.98 bitrate=2067.9kbits/s speed=1.36x    
+video:14647kB audio:449kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.296812%
+Exiting normally, received signal 15.
+[generic] live: Requesting header
+[generic] live: Downloading m3u8 information
+[info] live: Downloading 1 format(s): 2410
+[download] Destination: output.ts
+[hls @ 0x564299348780] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x564299348780] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:36.927Z')
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031351.m4s?duration=10' for reading
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031352.m4s?duration=10' for reading
+Input #0, hls, from 'https://reflect-vod-cmac.cablecast.tv/live-11/live/WIFI-2096k-1080p.m3u8?duration=0':
+  Duration: N/A, start: 487944.768000, bitrate: 0 kb/s
+  Program 0 
+    Metadata:
+      variant_bitrate : 0
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], Closed Captions, 0 kb/s, 30 fps, 30 tbr, 3k tbn, 60 tbc (default)
+    Metadata:
+      variant_bitrate : 0
+      major_brand     : cmf2
+      minor_version   : 0
+      compatible_brands: iso6cmfccfhd
+      creation_time   : 2024-09-25T21:34:55.000000Z
+Output #0, mp4, to 'file:output.ts.part':
+  Metadata:
+    encoder         : Lavf58.76.100
+  Stream #0:0: Video: h264 (Main) (avc1 / 0x31637661), yuv420p(tv, bt709), 1920x1080 [SAR 1:1 DAR 16:9], q=2-31, 0 kb/s, 30 fps, 30 tbr, 12k tbn, 3k tbc (default)
+    Metadata:
+      variant_bitrate : 0
+      major_brand     : cmf2
+      minor_version   : 0
+      compatible_brands: iso6cmfccfhd
+      creation_time   : 2024-09-25T21:34:55.000000Z
+Stream mapping:
+  Stream #0:0 -> #0:0 (copy)
+Press [q] to stop, [?] for help
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=-00:00:00.06 bitrate=N/A speed=N/A    [https @ 0x564299906440] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031353.m4s?duration=10' for reading
+frame=  605 fps=0.0 q=-1.0 size=    4864kB time=00:00:20.06 bitrate=1985.7kbits/s speed=  39x    [hls @ 0x564299348780] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x564299348780] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:36.927Z')
+[https @ 0x564299db98c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/WIFI-2096k-1080p.m3u8?duration=0' for reading
+[hls @ 0x564299348780] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x564299348780] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:46.927Z')
+[https @ 0x564299906440] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031354.m4s?duration=10' for reading
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564299646a80] Found duplicated MOOV Atom. Skipped it
+frame=  902 fps= 58 q=-1.0 size=    7168kB time=00:00:29.96 bitrate=1959.5kbits/s speed=1.92x    [https @ 0x564299db98c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/WIFI-2096k-1080p.m3u8?duration=0' for reading
+[hls @ 0x564299348780] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x564299348780] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:39:06.927Z')
+[https @ 0x564299906400] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031355.m4s?duration=10' for reading
+[https @ 0x56429966f900] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031356.m4s?duration=10' for reading
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564299646a80] Found duplicated MOOV Atom. Skipped it
+frame= 1202 fps= 46 q=-1.0 size=    9472kB time=00:00:39.96 bitrate=1941.5kbits/s speed=1.53x    frame= 1661 fps= 62 q=-1.0 size=   13056kB time=00:00:55.26 bitrate=1935.3kbits/s speed=2.07x    [https @ 0x564299db98c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/WIFI-2096k-1080p.m3u8?duration=0' for reading
+[hls @ 0x564299348780] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x564299348780] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:39:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:39:16.927Z')
+[https @ 0x56429966f900] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031357.m4s?duration=10' for reading
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564299646a80] Found duplicated MOOV Atom. Skipped it
+frame= 1802 fps= 50 q=-1.0 size=   14336kB time=00:00:59.96 bitrate=1958.4kbits/s speed=1.65x    [https @ 0x564299db98c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/WIFI-2096k-1080p.m3u8?duration=0' for reading
+[hls @ 0x564299348780] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x564299348780] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:37:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:26.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:36.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:46.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:38:56.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:39:06.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:39:16.927Z')
+[hls @ 0x564299348780] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-09-29T12:39:26.927Z')
+[https @ 0x564299a4c200] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
+[hls @ 0x564299348780] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00031358.m4s?duration=10' for reading
+[mov,mp4,m4a,3gp,3g2,mj2 @ 0x564299646a80] Found duplicated MOOV Atom. Skipped it
+frame= 2101 fps= 45 q=-1.0 Lsize=   16786kB time=00:01:09.93 bitrate=1966.3kbits/s speed=1.49x    
+video:16762kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.142674%
+Exiting normally, received signal 15.
+[generic] live: Requesting header
+WARNING: [generic] Could not send HEAD request to https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8: <urlopen error timed out>
+[generic] live: Downloading webpage
+[generic] 17: Requesting header
+WARNING: [generic] Could not send HEAD request to https://live.yzd.jialiangos.com:4443/live/fhw/17: <urlopen error _ssl.c:990: The handshake operation timed out>
+[generic] 17: Downloading webpage
