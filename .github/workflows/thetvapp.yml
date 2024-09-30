@@ -25,7 +25,6 @@ jobs:
 
     - name: Run thetvapp.py
       run: |
-        git pull origin main
         cd $GITHUB_WORKSPACE/thetvapp
         python thetvapp.py
 
@@ -42,6 +41,7 @@ jobs:
         echo "Staging changes..."
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
+        git pull --rebase origin main
         git add .
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
