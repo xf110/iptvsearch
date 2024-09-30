@@ -2,7 +2,7 @@ name: foodieguide/iptvsearch
 
 on:
   schedule:
-    - cron: "0 12 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
@@ -36,9 +36,8 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add .
-
-      - name: Commit changes
-        uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Update foodieguide/iptv"
-          branch: main  # Commit to the main branch
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update foodieguide/iptv"
+        branch: main  # Commit to the main branch
