@@ -32,10 +32,13 @@ jobs:
     - name: Update Results
       run: |
         cd $GITHUB_WORKSPACE
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git pull --rebase origin main
+        echo "Staging changes..."
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
         git add .
-        git status
-        git commit -m "Update foodieguide iptv "
-        git push
+
+      - name: Commit changes
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Update foodieguide/iptv"
+          branch: main  # Commit to the main branch
