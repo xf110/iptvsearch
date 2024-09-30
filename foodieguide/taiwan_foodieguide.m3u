@@ -1,3 +1,5 @@
+#EXTINF:-1 tvg-id="刘德华" tvg-name="刘德华" tvg-logo="https://live.fanmingming.com/tv/刘德华.png" group-title="taiwan",刘德华
+https://epg.pw/stream/8848575026ebd3c19258f79bc476986d87d68dd75fc6d2ae65eb99163ca4883d.ctv
 #EXTINF:-1 tvg-id="美亞電影" tvg-name="美亞電影" tvg-logo="https://live.fanmingming.com/tv/美亞電影.png" group-title="taiwan",美亞電影
 https://epg.pw/stream/a3bc84227079241a67196b79f3d90384036fe9fe731c31c17ec59c278e1aeeb5.m3u8
 #EXTINF:-1 tvg-id="三立台湾" tvg-name="三立台湾" tvg-logo="https://live.fanmingming.com/tv/三立台湾.png" group-title="taiwan",三立台湾
@@ -152,8 +154,6 @@ https://epg.pw/stream/869786e180f670dd8f9ef6acd6a1b2f64f60fa367c5c50c31b2a660b3f
 https://epg.pw/stream/50c675f40834735017bd8ae0e9e7cb45c108ebc78afc5dd00503ef205d6a3bf3.ctv
 #EXTINF:-1 tvg-id="镜新闻" tvg-name="镜新闻" tvg-logo="https://live.fanmingming.com/tv/镜新闻.png" group-title="taiwan",镜新闻
 https://epg.pw/stream/495154de63dcea2a3028c43323b8c41fcba189c3de87d1d8232e7edd6b5e9856.m3u8
-#EXTINF:-1 tvg-id="刘德华" tvg-name="刘德华" tvg-logo="https://live.fanmingming.com/tv/刘德华.png" group-title="taiwan",刘德华
-https://epg.pw/stream/8848575026ebd3c19258f79bc476986d87d68dd75fc6d2ae65eb99163ca4883d.ctv
 #EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title="taiwan",翡翠台
 https://epg.pw/stream/d8c93b48b91c1ebf0dba342a788c771416122535649aa71f70dced7b8917817f.m3u8
 #EXTINF:-1 tvg-id="axn台灣" tvg-name="axn台灣" tvg-logo="https://live.fanmingming.com/tv/axn台灣.png" group-title="taiwan",axn台灣
