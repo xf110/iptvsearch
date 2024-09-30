@@ -49,6 +49,9 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
     cat "$UNIQUE_SEARCH_RESULTS_FILE" | tee -a "$SUMMARY_FILE"
 
+    # 剔除掉已知的需要排除的无效地址
+    sed -i '/epg.pw/d' "$SUMMARY_FILE"
+    
     # 测速提取速度最好的源地址
     echo "==== 整理数据完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
     lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE")
