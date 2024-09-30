@@ -1,118 +1,118 @@
 thetvapp,#genre#
-ae,https://v12.thetvapp.to/hls/AEEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-acc network,https://v9.thetvapp.to/hls/ACCNetwork/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-amc,https://v7.thetvapp.to/hls/AMCEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-american heroes channel,https://v7.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-animal planet,https://v12.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-bbc america,https://v16.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-bbc world news hd,https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-bet,https://v4.thetvapp.to/hls/BETEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-bet her,https://v8.thetvapp.to/hls/BETHerEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-big ten network,https://v11.thetvapp.to/hls/BTN/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-bloomberg tv,https://v6.thetvapp.to/hls/BloombergTV/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-boomerang,https://v15.thetvapp.to/hls/Boomerang/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-bravo,https://v6.thetvapp.to/hls/BravoEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cartoon network,https://v10.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cbs sports network,https://v10.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cinemax,https://v14.thetvapp.to/hls/CinemaxEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cmt,https://v14.thetvapp.to/hls/CMTEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cnbc,https://v15.thetvapp.to/hls/CNBC/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cnn,https://v13.thetvapp.to/hls/CNN/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-comedy central,https://v9.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cooking channel,https://v12.thetvapp.to/hls/CookingChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-crime investigation hd,https://v16.thetvapp.to/hls/CrimePlusInvestigation/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cspan,https://v14.thetvapp.to/hls/CSPAN/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-cspan 2,https://v11.thetvapp.to/hls/CSPAN2/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-destination america,https://v16.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-discovery,https://v5.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-discovery family channel,https://v5.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-discovery life,https://v13.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-disney channel east,https://v4.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-disney junior,https://v6.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-disney xd,https://v9.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-e,https://v7.thetvapp.to/hls/EEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-espn,https://v7.thetvapp.to/hls/ESPN/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-espn2,https://v15.thetvapp.to/hls/ESPN2/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-espnews,https://v11.thetvapp.to/hls/ESPNews/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-espnu,https://v11.thetvapp.to/hls/ESPNU/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-food network,https://v4.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fox business network,https://v9.thetvapp.to/hls/FoxBusiness/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fox news channel,https://v16.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fox sports 1,https://v8.thetvapp.to/hls/FoxSports1/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fox sports 2,https://v8.thetvapp.to/hls/FoxSports2/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-freeform,https://v6.thetvapp.to/hls/FreeformEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fuse hd,https://v7.thetvapp.to/hls/FuseEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fx,https://v7.thetvapp.to/hls/FXEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fx movie,https://v12.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fxx,https://v15.thetvapp.to/hls/FXXEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-fyi,https://v16.thetvapp.to/hls/FYIEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-golf channel,https://v9.thetvapp.to/hls/GolfChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hallmark,https://v5.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hallmark drama hd,https://v5.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hallmark movies mysteries hd,https://v14.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hbo 2 east,https://v14.thetvapp.to/hls/HBO2East/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hbo comedy hd,https://v6.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hbo east,https://v15.thetvapp.to/hls/HBOEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hbo family east,https://v4.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hbo signature,https://v12.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hbo zone hd,https://v15.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hgtv,https://v15.thetvapp.to/hls/HGTVEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-history,https://v4.thetvapp.to/hls/HistoryEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-hln,https://v16.thetvapp.to/hls/HLN/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-ifc,https://v16.thetvapp.to/hls/IFCEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-investigation discovery,https://v13.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-ion television east hd,https://v10.thetvapp.to/hls/IONTVEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-lifetime,https://v6.thetvapp.to/hls/LifetimeEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-lmn,https://v11.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-logo,https://v11.thetvapp.to/hls/LogoEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-metv toons,https://v5.thetvapp.to/hls/metv toons/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-mlb network,https://v5.thetvapp.to/hls/MLBNetwork/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-moremax,https://v14.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-motortrend hd,https://v6.thetvapp.to/hls/Motortrend/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-moviemax,https://v4.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-msnbc,https://v12.thetvapp.to/hls/MSNBC/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-mtv,https://v12.thetvapp.to/hls/MTVEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nat geo wild,https://v16.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-national geographic,https://v8.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nba tv,https://v9.thetvapp.to/hls/NBATV/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-newsmax tv,https://v9.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nfl network,https://v13.thetvapp.to/hls/NFLNetwork/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nfl red zone,https://v13.thetvapp.to/hls/NFLRedZone/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nhl network,https://v5.thetvapp.to/hls/NHLNetwork/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nick jr,https://v5.thetvapp.to/hls/NickJrEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nickelodeon east,https://v14.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-nicktoons,https://v14.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-outdoor channel,https://v4.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-own,https://v6.thetvapp.to/hls/OWNEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-oxygen true crime,https://v15.thetvapp.to/hls/OxygenEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-reelzchannel,https://v9.thetvapp.to/hls/Reelz/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-science,https://v11.thetvapp.to/hls/Science/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-sec network,https://v6.thetvapp.to/hls/SECN/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-showtime e,https://v4.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-showtime 2,https://v4.thetvapp.to/hls/Showtime2East/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-starz east,https://v4.thetvapp.to/hls/StarzEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-sundancetv hd,https://v12.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-syfy,https://v7.thetvapp.to/hls/SyfyEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-tbs,https://v7.thetvapp.to/hls/TBSEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-tcm,https://v10.thetvapp.to/hls/TCMEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-teennick,https://v10.thetvapp.to/hls/TeenNickEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-telemundo east,https://v11.thetvapp.to/hls/TelemundoEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-tennis channel,https://v11.thetvapp.to/hls/TennisChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-the cw,https://v16.thetvapp.to/hls/WPIX/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-the movie channel east,https://v9.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-the weather channel,https://v13.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-tlc,https://v13.thetvapp.to/hls/TLCEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-tnt,https://v8.thetvapp.to/hls/TNTEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-travel channel,https://v8.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-trutv,https://v7.thetvapp.to/hls/truTVEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-tv one hd,https://v12.thetvapp.to/hls/TVOne/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-universal kids,https://v14.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-univision east,https://v5.thetvapp.to/hls/UnivisionEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-usa network,https://v15.thetvapp.to/hls/USANetworkEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-vh1,https://v15.thetvapp.to/hls/VH1East/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-vice,https://v12.thetvapp.to/hls/VICETV/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-wabc new york abc east,https://v16.thetvapp.to/hls/WABCDT1/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-wcbs new york cbs east,https://v14.thetvapp.to/hls/WCBSDT1/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-we tv,https://v10.thetvapp.to/hls/WeTVEast/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-wnbc new york nbc east,https://v10.thetvapp.to/hls/WNBCDT1/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
-wnyw new york fox east,https://v7.thetvapp.to/hls/WNYWDT1/index.m3u8?token=a1ZVaTJLMWdscWVua3Q4bVV6Q1BUT2VhVzh5eDZYMTNYQ1ZQRDlQMQ==
+ae,https://v12.thetvapp.to/hls/AEEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+acc network,https://v9.thetvapp.to/hls/ACCNetwork/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+amc,https://v7.thetvapp.to/hls/AMCEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+american heroes channel,https://v7.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+animal planet,https://v12.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+bbc america,https://v16.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+bbc world news hd,https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+bet,https://v4.thetvapp.to/hls/BETEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+bet her,https://v8.thetvapp.to/hls/BETHerEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+big ten network,https://v11.thetvapp.to/hls/BTN/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+bloomberg tv,https://v6.thetvapp.to/hls/BloombergTV/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+boomerang,https://v15.thetvapp.to/hls/Boomerang/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+bravo,https://v6.thetvapp.to/hls/BravoEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cartoon network,https://v10.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cbs sports network,https://v10.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cinemax,https://v14.thetvapp.to/hls/CinemaxEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cmt,https://v14.thetvapp.to/hls/CMTEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cnbc,https://v15.thetvapp.to/hls/CNBC/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cnn,https://v13.thetvapp.to/hls/CNN/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+comedy central,https://v9.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cooking channel,https://v12.thetvapp.to/hls/CookingChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+crime investigation hd,https://v16.thetvapp.to/hls/CrimePlusInvestigation/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cspan,https://v14.thetvapp.to/hls/CSPAN/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+cspan 2,https://v11.thetvapp.to/hls/CSPAN2/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+destination america,https://v16.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+discovery,https://v5.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+discovery family channel,https://v5.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+discovery life,https://v13.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+disney channel east,https://v4.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+disney junior,https://v6.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+disney xd,https://v9.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+e,https://v7.thetvapp.to/hls/EEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+espn,https://v7.thetvapp.to/hls/ESPN/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+espn2,https://v15.thetvapp.to/hls/ESPN2/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+espnews,https://v11.thetvapp.to/hls/ESPNews/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+espnu,https://v11.thetvapp.to/hls/ESPNU/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+food network,https://v4.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fox business network,https://v9.thetvapp.to/hls/FoxBusiness/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fox news channel,https://v16.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fox sports 1,https://v8.thetvapp.to/hls/FoxSports1/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fox sports 2,https://v8.thetvapp.to/hls/FoxSports2/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+freeform,https://v6.thetvapp.to/hls/FreeformEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fuse hd,https://v7.thetvapp.to/hls/FuseEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fx,https://v7.thetvapp.to/hls/FXEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fx movie,https://v12.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fxx,https://v15.thetvapp.to/hls/FXXEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+fyi,https://v16.thetvapp.to/hls/FYIEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+golf channel,https://v9.thetvapp.to/hls/GolfChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hallmark,https://v5.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hallmark drama hd,https://v5.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hallmark movies mysteries hd,https://v14.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hbo 2 east,https://v14.thetvapp.to/hls/HBO2East/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hbo comedy hd,https://v6.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hbo east,https://v15.thetvapp.to/hls/HBOEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hbo family east,https://v4.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hbo signature,https://v12.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hbo zone hd,https://v15.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hgtv,https://v15.thetvapp.to/hls/HGTVEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+history,https://v4.thetvapp.to/hls/HistoryEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+hln,https://v16.thetvapp.to/hls/HLN/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+ifc,https://v16.thetvapp.to/hls/IFCEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+investigation discovery,https://v13.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+ion television east hd,https://v10.thetvapp.to/hls/IONTVEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+lifetime,https://v6.thetvapp.to/hls/LifetimeEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+lmn,https://v11.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+logo,https://v11.thetvapp.to/hls/LogoEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+metv toons,https://v5.thetvapp.to/hls/metv toons/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+mlb network,https://v5.thetvapp.to/hls/MLBNetwork/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+moremax,https://v14.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+motortrend hd,https://v6.thetvapp.to/hls/Motortrend/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+moviemax,https://v4.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+msnbc,https://v12.thetvapp.to/hls/MSNBC/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+mtv,https://v12.thetvapp.to/hls/MTVEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nat geo wild,https://v16.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+national geographic,https://v8.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nba tv,https://v9.thetvapp.to/hls/NBATV/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+newsmax tv,https://v9.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nfl network,https://v13.thetvapp.to/hls/NFLNetwork/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nfl red zone,https://v13.thetvapp.to/hls/NFLRedZone/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nhl network,https://v5.thetvapp.to/hls/NHLNetwork/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nick jr,https://v5.thetvapp.to/hls/NickJrEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nickelodeon east,https://v14.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+nicktoons,https://v14.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+outdoor channel,https://v4.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+own,https://v6.thetvapp.to/hls/OWNEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+oxygen true crime,https://v15.thetvapp.to/hls/OxygenEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+reelzchannel,https://v9.thetvapp.to/hls/Reelz/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+science,https://v11.thetvapp.to/hls/Science/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+sec network,https://v6.thetvapp.to/hls/SECN/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+showtime e,https://v4.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+showtime 2,https://v4.thetvapp.to/hls/Showtime2East/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+starz east,https://v4.thetvapp.to/hls/StarzEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+sundancetv hd,https://v12.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+syfy,https://v7.thetvapp.to/hls/SyfyEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+tbs,https://v7.thetvapp.to/hls/TBSEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+tcm,https://v10.thetvapp.to/hls/TCMEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+teennick,https://v10.thetvapp.to/hls/TeenNickEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+telemundo east,https://v11.thetvapp.to/hls/TelemundoEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+tennis channel,https://v11.thetvapp.to/hls/TennisChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+the cw,https://v16.thetvapp.to/hls/WPIX/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+the movie channel east,https://v9.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+the weather channel,https://v13.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+tlc,https://v13.thetvapp.to/hls/TLCEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+tnt,https://v8.thetvapp.to/hls/TNTEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+travel channel,https://v8.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+trutv,https://v7.thetvapp.to/hls/truTVEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+tv one hd,https://v12.thetvapp.to/hls/TVOne/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+universal kids,https://v14.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+univision east,https://v5.thetvapp.to/hls/UnivisionEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+usa network,https://v15.thetvapp.to/hls/USANetworkEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+vh1,https://v15.thetvapp.to/hls/VH1East/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+vice,https://v12.thetvapp.to/hls/VICETV/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+wabc new york abc east,https://v16.thetvapp.to/hls/WABCDT1/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+wcbs new york cbs east,https://v14.thetvapp.to/hls/WCBSDT1/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+we tv,https://v10.thetvapp.to/hls/WeTVEast/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+wnbc new york nbc east,https://v10.thetvapp.to/hls/WNBCDT1/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
+wnyw new york fox east,https://v7.thetvapp.to/hls/WNYWDT1/index.m3u8?token=VkhMVUhqVHZMSDFwbThrWEVyZVdaMHNZQklhUkpmYmc2UGhQMnRjOQ==
