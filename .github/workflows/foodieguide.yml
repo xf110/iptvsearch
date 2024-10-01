@@ -21,12 +21,12 @@ jobs:
         which yt-dlp
 
     - name: Run foodieguide.sh
-      #working-directory: iptv/foodieguide
+      working-directory: iptv/foodieguide  # 去掉注释符号，若需要指定工作目录
       run: |
-        git pull origin main
         cd $GITHUB_WORKSPACE/foodieguide
         for file in $(find . -name '*_foodieguide.txt'); do
           bash ../speedtest/rtp2m3u.sh "$file"
+        done
 
     - name: Update Results
       run: |
@@ -35,6 +35,7 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
         git add .
+
     - name: Commit changes
       uses: stefanzweifel/git-auto-commit-action@v4
       with:
