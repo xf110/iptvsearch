@@ -163,7 +163,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     # 提取频道名称和 m3u8 链接
     echo "==== 提取频道名称和 m3u8 链接结果 ======" | tee -a "$SUMMARY_FILE"
-    grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps[^<]*' "$BEST_URL_RESPONSE_FILE" |
+    grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps?[^<]*' "$BEST_URL_RESPONSE_FILE" |
         awk '{
         if ($0 ~ /http/) {
             gsub(/ /, "", $0);
