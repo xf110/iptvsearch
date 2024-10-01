@@ -143,19 +143,22 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     max_page=$(grep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1)
     l=$(grep -oP "&l=\K[^']*" "$BEST_URL_RESPONSE_FILE" | head -n 1)
-    echo "最大 page 值是: ${max_page}" | tee -a "$SUMMARY_FILE"
 
-    # 获取剩余页面的源列表
-    for page in $(seq 2 "$max_page"); do
-        echo "${besturl} 第${page}页 下载中" | tee -a "$SUMMARY_FILE"
-        curl -G "${URL}" \
-            -H "Accept-Language: zh-CN,zh;q=0.9" \
-            --data-urlencode "page=${page}" \
-            --data-urlencode "s=${CHANNEL_KEY_URL}" \
-            --data-urlencode "l=${l}" \
-            -b cookies.txt \
-            >>"$BEST_URL_RESPONSE_FILE"
-    done
+    if ! ${max_page} ; then
+        # 获取剩余页面的源列表
+        for page in $(seq 2 "$max_page"); do
+            echo "最大 page 值是: ${max_page}" | tee -a "$SUMMARY_FILE"
+            echo "${besturl} 第${page}页 下载中"  | tee -a "$SUMMARY_FILE"
+            curl -G "${URL}" \
+                -H "Accept-Language: zh-CN,zh;q=0.9" \
+                --data-urlencode "page=${page}" \
+                --data-urlencode "s=${CHANNEL_KEY_URL}" \
+                --data-urlencode "l=${l}" \
+                -b cookies.txt \
+                >>"$BEST_URL_RESPONSE_FILE"
+        done
+        fi
+        echo "仅此一页"
     rm cookies.txt
 
     # 提取频道名称和 m3u8 链接
