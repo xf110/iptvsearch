@@ -27,7 +27,7 @@ jobs:
         for file in $(find . -name '*_foodieguide.txt'); do
           bash ../speedtest/rtp2m3u.sh "$file"
         done
-				bash ./hoteliptv.sh
+        bash ./hoteliptv.sh
         for file in $(find . -name '*_hotel_foodieguide.txt'); do
           bash ../speedtest/rtp2m3u.sh "$file"
         done
