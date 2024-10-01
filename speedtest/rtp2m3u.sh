@@ -42,4 +42,7 @@ while IFS= read -r line; do
     fi
 done < "$input_file"
 
+# 插入文件头及节目预告
+sed -i "1i # $(date)\n#EXTM3U x-tvg-url=\"https://live.fanmingming.com/e.xml\"\n#EXTM3U" "$output_file"
+
 echo "转换完成，结果已保存到 $output_file"
