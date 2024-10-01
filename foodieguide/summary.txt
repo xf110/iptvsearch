@@ -1,118 +1,79 @@
-==== 开始获取数据: hongkong ======
-第1页 下载中
-第2页 下载中
-第3页 下载中
-==== 提取源地址结果 ======
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
-https://ktpremium.com:443/M919HR/5577/492391?c=香港
-https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
-https://epg.pw/stream/af200edb390eccb6bd2710d91f2d129e2fa16a7ec32f42733606bbd126b434c0.m3u8
-https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
-https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
-https://test.zapi.us.kg/?id=phtv-hk
+==== 开始获取数据: beijing ======
+114.243.102.64:4000
+114.246.181.171:1823
+123.113.236.69:4631
+123.113.236.69:8012
+123.118.231.179:9090
+123.123.167.240:8243
+124.64.183.179:8686
+221.221.153.193:8888
+bplwberp.zzmd.fun:2008
+bplwberp.zzmd.fun:6330
+cn.zzmd.fun:5610
+coolcat.synology.me:4022
+drive.mxmy.net:5730
+imzbpfrp.zzmd.fun:3566
+imzbpfrp.zzmd.fun:8888
+mtjkwdrive.zzmd.fun:5674
+mtjkwdrive.zzmd.fun:8888
+noeypszbgd.cn.zzmd.fun:2914
+yfaqkkms.zzmd.fun:8956
+[第1/19个] 114.243.102.64:4000 地址有效
+[第2/19个] 114.246.181.171:1823 地址有效
+[第3/19个] 123.113.236.69:4631 地址有效
+[第4/19个] 123.113.236.69:8012 地址有效
+[第5/19个] 123.118.231.179:9090 地址有效
+[第6/19个] 123.123.167.240:8243 地址有效
+[第7/19个] 124.64.183.179:8686 地址有效
+[第8/19个] 221.221.153.193:8888 地址有效
+[第9/19个] bplwberp.zzmd.fun:2008 地址有效
+[第10/19个] bplwberp.zzmd.fun:6330 地址有效
+[第11/19个] cn.zzmd.fun:5610 地址有效
+[第12/19个] coolcat.synology.me:4022 地址有效
+[第13/19个] drive.mxmy.net:5730 地址有效
+[第14/19个] imzbpfrp.zzmd.fun:3566 地址有效
+[第15/19个] imzbpfrp.zzmd.fun:8888 地址有效
+[第16/19个] mtjkwdrive.zzmd.fun:5674 地址有效
+[第17/19个] mtjkwdrive.zzmd.fun:8888 地址有效
+[第18/19个] noeypszbgd.cn.zzmd.fun:2914 地址有效
+[第19/19个] yfaqkkms.zzmd.fun:8956 地址有效
 ==== 整理数据完成, 开始测速 ======
-[第 1/9 个]:  https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-速度: 
-[第 2/9 个]:  https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-速度: 
-[第 3/9 个]:  https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
-下载失败: https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
-[第 4/9 个]:  https://ktpremium.com:443/M919HR/5577/492391?c=香港
-下载失败: https://ktpremium.com:443/M919HR/5577/492391?c=香港
-[第 5/9 个]:  https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
-下载失败: https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
-[第 6/9 个]:  https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-速度: 
-[第 7/9 个]:  https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
-下载失败: https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
-[第 8/9 个]:  https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
-下载失败: https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
-[第 9/9 个]:  https://test.zapi.us.kg/?id=phtv-hk
-下载失败: https://test.zapi.us.kg/?id=phtv-hk
-未找到MiB/s|KiB/s, 执行正序排列
-========== 最优源域名: js1.amtb.cn
-besturl 第1页 下载中
-==== 提取频道名称和 m3u8 链接结果 ======
- hongkong_foodieguide.txt 已经更新完成
-==== hongkong 处理完成 ======
-------------------------------
-==== 开始获取数据: taiwan ======
-第1页 下载中
-第2页 下载中
-第3页 下载中
-==== 提取源地址结果 ======
-https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-https://ktpremium.com:443/M919HR/5577/515015?c=台湾
-https://epg.pw/stream/c559d1a8812da9564657e62bf1f132f2a5261c7372fcc995ed870ec6b96eac8d.m3u8
-https://bsex.serv00.net/Smart.php?id=sanlitaiwan
-https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
-https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1
-https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
-==== 整理数据完成, 开始测速 ======
-[第 1/6 个]:  https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-速度: 
-[第 2/6 个]:  https://ktpremium.com:443/M919HR/5577/515015?c=台湾
-下载失败: https://ktpremium.com:443/M919HR/5577/515015?c=台湾
-[第 3/6 个]:  https://bsex.serv00.net/Smart.php?id=sanlitaiwan
-下载失败: https://bsex.serv00.net/Smart.php?id=sanlitaiwan
-[第 4/6 个]:  https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
-下载失败: https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
-[第 5/6 个]:  https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1
-下载失败: https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001/profile_0/chunklist.m3u8?hdnea=st=1664678506~exp=9007200919419497~acl=/5ffd3a166f7241d9b489b7d7241db96f/*/profile_0/chunklist.m3u8*~hmac=cfd432e7da8eece68fe4a4da3a3bc08ab1bbc50b147a84c95ae3d4a569e932b1
-[第 6/6 个]:  https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
-下载失败: https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
-未找到MiB/s|KiB/s, 执行正序排列
-========== 最优源域名: bcovlive-a.akamaihd.net
-besturl 第1页 下载中
-最大 page 值是: 5
-bcovlive-a.akamaihd.net 第2页 下载中
-最大 page 值是: 5
-bcovlive-a.akamaihd.net 第3页 下载中
-最大 page 值是: 5
-bcovlive-a.akamaihd.net 第4页 下载中
-最大 page 值是: 5
-bcovlive-a.akamaihd.net 第5页 下载中
-==== 提取频道名称和 m3u8 链接结果 ======
- taiwan_foodieguide.txt 已经更新完成
-==== taiwan 处理完成 ======
-------------------------------
-==== 开始获取数据: macao ======
-第1页 下载中
-第2页 下载中
-第3页 下载中
-==== 提取源地址结果 ======
-https://pulltv1.wanfudaluye.com/live/tv2.m3u8
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-https://pi.0472.org/tv/asam.php?auth=2309081833
-https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
-https://test.zapi.us.kg/?id=tdm
-https://live.yzd.jialiangos.com:4443/live/fhw/17
-https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
-==== 整理数据完成, 开始测速 ======
-[第 1/8 个]:  https://pulltv1.wanfudaluye.com/live/tv2.m3u8
-速度: 
-[第 2/8 个]:  https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-速度: 
-[第 3/8 个]:  https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-速度: 
-[第 4/8 个]:  https://pi.0472.org/tv/asam.php?auth=2309081833
-速度: 
-[第 5/8 个]:  https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
-测速失败: https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
-[第 6/8 个]:  https://test.zapi.us.kg/?id=tdm
-下载失败: https://test.zapi.us.kg/?id=tdm
-[第 7/8 个]:  https://live.yzd.jialiangos.com:4443/live/fhw/17
-测速失败: https://live.yzd.jialiangos.com:4443/live/fhw/17
-[第 8/8 个]:  https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
-下载失败: https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
-未找到MiB/s|KiB/s, 执行正序排列
-========== 最优源域名: pi.0472.org
-besturl 第1页 下载中
-==== 提取频道名称和 m3u8 链接结果 ======
- macao_foodieguide.txt 已经更新完成
-==== macao 处理完成 ======
-------------------------------
+[第 1/19 个]:  
+下载失败: 
+[第 2/19 个]:  
+下载失败: 
+[第 3/19 个]:  
+下载失败: 
+[第 4/19 个]:  
+下载失败: 
+[第 5/19 个]:  
+下载失败: 
+[第 6/19 个]:  
+下载失败: 
+[第 7/19 个]:  
+下载失败: 
+[第 8/19 个]:  
+下载失败: 
+[第 9/19 个]:  
+下载失败: 
+[第 10/19 个]:  
+下载失败: 
+[第 11/19 个]:  
+下载失败: 
+[第 12/19 个]:  
+下载失败: 
+[第 13/19 个]:  
+下载失败: 
+[第 14/19 个]:  
+下载失败: 
+[第 15/19 个]:  
+下载失败: 
+[第 16/19 个]:  
+下载失败: 
+[第 17/19 个]:  
+下载失败: 
+[第 18/19 个]:  
+下载失败: 
+[第 19/19 个]:  
+下载失败: 
+没有找到有效的测速结果，跳过 beijing
