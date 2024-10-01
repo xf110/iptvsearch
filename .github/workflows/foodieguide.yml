@@ -21,7 +21,6 @@ jobs:
         which yt-dlp
 
     - name: Run foodieguide.sh
-      working-directory: iptv/foodieguide  # 去掉注释符号，若需要指定工作目录
       run: |
         cd $GITHUB_WORKSPACE/foodieguide
         for file in $(find . -name '*_foodieguide.txt'); do
