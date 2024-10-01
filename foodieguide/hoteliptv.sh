@@ -12,7 +12,7 @@ SPEED_TEST_LOG="speedtest.log"
 BEST_URL_RESPONSE_FILE="besturlresponse.txt"
 SUMMARY_FILE="summary.txt"
 YT_DLP_LOG="yt-dlp-output.log"
-# OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
+# OUTPUT_FILE="${CHANNEL_NAME}_hotel_foodieguide.txt"
 
 # 清空或创建日志文件
 : >${SUMMARY_FILE}
@@ -20,7 +20,7 @@ YT_DLP_LOG="yt-dlp-output.log"
 
 for CHANNEL_NAME in "${!cities[@]}"; do
     IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
-    OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
+    OUTPUT_FILE="${CHANNEL_NAME}_hotel_foodieguide.txt"
 
     echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
 
