@@ -25,9 +25,9 @@ jobs:
       run: |
         git pull origin main
         cd $GITHUB_WORKSPACE/foodieguide
-        bash ./foodieguide.sh
-        bash ../speedtest/rtp2m3u.sh './taiwan_foodieguide.txt'
-        
+        # bash ./foodieguide.sh
+        for file in $(find . -name '*_foodieguide.txt'); do
+          bash ../speedtest/rtp2m3u.sh "$file"
 
     - name: Update Results
       run: |
