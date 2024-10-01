@@ -36,14 +36,14 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         -c cookies.txt \
         -o "$RESPONSE_FILE"
 
-    # 循环获取其余页面数据
+    # 循环获取其余页面数据，使用--data-urlencode 可能会因带参数二次编码而导致异常。
     for page in $(seq 2 3); do
         echo "第${page}页 下载中" | tee -a "$SUMMARY_FILE"
         curl -G "${URL}" \
             -H "Accept-Language: zh-CN,zh;q=0.9" \
-            --data-urlencode "page=${page}" \
-            --data-urlencode "s=${CHANNEL_KEY_URL}" \
-            --data-urlencode "l=${CHANNEL_VALUE}" \
+            -d "page=${page}" \
+            -d "s=${CHANNEL_KEY_URL}" \
+            -d "l=${CHANNEL_VALUE}" \
             -b cookies.txt \
             >>"$RESPONSE_FILE"
     done
@@ -151,9 +151,9 @@ for CHANNEL_NAME in "${!cities[@]}"; do
             echo "${besturl} 第${page}页 下载中"  | tee -a "$SUMMARY_FILE"
             curl -G "${URL}" \
                 -H "Accept-Language: zh-CN,zh;q=0.9" \
-                --data-urlencode "page=${page}" \
-                --data-urlencode "s=${CHANNEL_KEY_URL}" \
-                --data-urlencode "l=${l}" \
+                -d "page=${page}" \
+                -d "s=${CHANNEL_KEY_URL}" \
+                -d "l=${l}" \
                 -b cookies.txt \
                 >>"$BEST_URL_RESPONSE_FILE"
         done
