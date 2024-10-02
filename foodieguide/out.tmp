@@ -1,0 +1,4 @@
+[generic] tv2306.php?id=t25&checkedby:iptvcat: Requesting header
+WARNING: [generic] Could not send HEAD request to https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com: <urlopen error [Errno -2] Name or service not known>
+[generic] tv2306.php?id=t25&checkedby:iptvcat: Downloading webpage
+ERROR: [generic] Unable to download webpage: <urlopen error [Errno -2] Name or service not known> (caused by URLError(gaierror(-2, 'Name or service not known')))

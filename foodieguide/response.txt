@@ -101,7 +101,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/5.gif) no-repeat; 
+		background: url(images/2.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -242,10 +242,68 @@ a {
 	</div>
 	<div class="result">
 		<div class="channel" style="float: none;">
-About 597 results        <input type="hidden" id="names" name="names" value="gamestar">    
+About 599 results        <input type="hidden" id="names" name="names" value="gamestar">    
 		</div>
 	</div>
 	<div class="tables" >
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.122.166.6:19999'><b><img src="images/link1.jpg" width="17"> 123.122.166.6:19999</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-10-02 14:18上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.122.163.183:19999'><b><img src="images/link1.jpg" width="17"> 123.122.163.183:19999</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-10-02 14:18上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
 						<div class="result">
 							<div class="channel">
                                 
@@ -265,238 +323,6 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 
 							<div style="font-size: 11px; color: #aaa;">
                                 <i>2024-09-30 12:09上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.112.242.18:5555'><b><img src="images/link1.jpg" width="17"> 123.112.242.18:5555</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-28 13:12上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.117.166.211:8118'><b><img src="images/link1.jpg" width="17"> 123.117.166.211:8118</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-28 02:29上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=iptv.ccj.gohome.link:55556'><b><img src="images/link1.jpg" width="17"> iptv.ccj.gohome.link:55556</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-20 20:36上线 
-                                   美国组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.254.84.73:2222'><b><img src="images/link1.jpg" width="17"> 114.254.84.73:2222</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-25 12:02上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.196.128.239:4022'><b><img src="images/link1.jpg" width="17"> 111.196.128.239:4022</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 01:08上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.243.102.64:4000'><b><img src="images/link1.jpg" width="17"> 114.243.102.64:4000</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>10</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-21 21:32上线 
-                                   北京市朝阳区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=mtjkwdrive.zzmd.fun:8888'><b><img src="images/link1.jpg" width="17"> mtjkwdrive.zzmd.fun:8888</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 16:24上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.113.182.147:9000'><b><img src="images/link1.jpg" width="17"> 123.113.182.147:9000</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>57</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-08-05 20:05上线 
                                    北京市组播 北京联通                                
                                 </i>
                             </div>
@@ -540,7 +366,181 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=imzbpfrp.zzmd.fun:8888'><b><img src="images/link1.jpg" width="17"> imzbpfrp.zzmd.fun:8888</b>
+                                <a href= 'hotellist.html?s=114.254.187.194:9999'><b><img src="images/link1.jpg" width="17"> 114.254.187.194:9999</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-26 18:17上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.123.167.240:8000'><b><img src="images/link1.jpg" width="17"> 123.123.167.240:8000</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>115</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-06-09 23:04上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=mtjkwdrive.zzmd.fun:8888'><b><img src="images/link1.jpg" width="17"> mtjkwdrive.zzmd.fun:8888</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-03-16 16:24上线 
+                                   组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.34.218:4022'><b><img src="images/link1.jpg" width="17"> 123.113.34.218:4022</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-22 00:31上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.249.161.174:4022'><b><img src="images/link1.jpg" width="17"> 114.249.161.174:4022</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-26 15:10上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.122.160.88:19999'><b><img src="images/link1.jpg" width="17"> 123.122.160.88:19999</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>48</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-15 21:15上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=bplwberp.zzmd.fun:8888'><b><img src="images/link1.jpg" width="17"> bplwberp.zzmd.fun:8888</b>
                                
                                 </a>
 																 
@@ -583,180 +583,6 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=drive.mxmy.net:8888'><b><img src="images/link1.jpg" width="17"> drive.mxmy.net:8888</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 17:03上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.254.90.157:2222'><b><img src="images/link1.jpg" width="17"> 114.254.90.157:2222</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-26 01:45上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.246.202.132:8888'><b><img src="images/link1.jpg" width="17"> 114.246.202.132:8888</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 16:02上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.196.131.31:4022'><b><img src="images/link1.jpg" width="17"> 111.196.131.31:4022</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-26 06:33上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.246.181.171:4022'><b><img src="images/link1.jpg" width="17"> 114.246.181.171:4022</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-20 00:55上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=yfaqkkms.zzmd.fun:8888'><b><img src="images/link1.jpg" width="17"> yfaqkkms.zzmd.fun:8888</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 16:24上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
                                 <a href= 'hotellist.html?s=123.113.181.108:9000'><b><img src="images/link1.jpg" width="17"> 123.113.181.108:9000</b>
                                
                                 </a>
@@ -786,7 +612,36 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=tnvcn.com:8012'><b><img src="images/link1.jpg" width="17"> tnvcn.com:8012</b>
+                                <a href= 'hotellist.html?s=123.122.162.7:19999'><b><img src="images/link1.jpg" width="17"> 123.122.162.7:19999</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>59</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-04 03:00上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.246.196.28:8888'><b><img src="images/link1.jpg" width="17"> 114.246.196.28:8888</b>
                                
                                 </a>
 																 
@@ -800,8 +655,37 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div style="clear: both; "></div>
 
 							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-25 13:53上线 
-                                   美国组播 北京联通                                
+                                <i>2024-09-23 02:30上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=111.196.132.49:20000'><b><img src="images/link1.jpg" width="17"> 111.196.132.49:20000</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-25 20:01上线 
+                                   北京市组播 北京联通                                
                                 </i>
                             </div>
                             <!-- <div style="font-size: 11px; color: #aaa;">
@@ -840,676 +724,11 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
                             </div> -->
 						</div>				
 
-	</div>
-
-	
-
-
-	<div style="background-color: #fff;margin-top: -6px">
-<div style='display:flex;justify-content:center;'><a href='?page=1&net=北京联通&code=88515'><div class='sh'>|<</div></a> <a href='?page=1&net=北京联通&code=88515'><div class='sh'><<</div></a> <a href='?page=1&net=北京联通&code=88515'><div class='sh' style='background-color: #fff; color: #000;'>1</div></a><a href='?page=2&net=北京联通&code=88515'><div class='sh'>2</div></a><a href='?page=3&net=北京联通&code=88515'><div class='sh'>3</div></a><a href='?page=4&net=北京联通&code=88515'><div class='sh'>4</div></a><a href='?page=5&net=北京联通&code=88515'><div class='sh'>5</div></a><a href='?page=6&net=北京联通&code=88515'><div class='sh'>6</div></a><a href='?page=7&net=北京联通&code=88515'><div class='sh'>7</div></a><a href='?page=8&net=北京联通&code=88515'><div class='sh'>8</div></a><a href='?page=2&net=北京联通&code=88515'><div class='sh'>>></div></a> <a href='?page=30&net=北京联通&code=88515'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;"> 
-      
-<br /><br /><br />
-<div style="margin: 0 auto; max-width: 620px; width: 92%;">
-<input type="hidden" id="city" name="city" value="Kaipan">
-<div class="box" style="width: 45%; border: 1px solid #ccc; padding: 15px 8px 8px 8px; border-radius: 10px; display: block;text-align:justify; text-align-last:justify; float: left;">
-	<div style="margin-top: -30px; margin-left: 20px; background-color: #fff; width: 120px; font-size: 22px; padding-left: 5px;"> Hotel IPTV </div>
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=222.138.78.232" style="color:#000;">222.138.78.232</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=113.9.203.194" style="color:#000;">113.9.203.194</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=61.175.237.198" style="color:#000;">61.175.237.198</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=114.223.33.240" style="color:#000;">114.223.33.240</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=183.191.212.247" style="color:#000;">183.191.212.247</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=58.57.21.166" style="color:#000;">58.57.21.166</a>
-	</span>
-	
-	<div style="clear: both"></div>
-</div>
-
-<div class="box" style="width: 45%; border: 1px solid #ccc; padding: 15px 8px 8px 8px; border-radius: 10px; display: block;text-align:justify; text-align-last:justify; float: right;">
-	<div style="margin-top: -30px; margin-left: 20px; background-color: #fff; width: 130px; font-size: 22px; padding-left: 5px;"> Multicast IP</div>
-    <input type="hidden" id="address" name="address" value="china">
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=61.240.38.128" style="color:#000;">61.240.38.128</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=110.178.52.195" style="color:#000;">110.178.52.195</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=120.42.189.54" style="color:#000;">120.42.189.54</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=111.167.49.238" style="color:#000;">111.167.49.238</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=118.79.19.225" style="color:#000;">118.79.19.225</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=123.20.158.250" style="color:#000;">123.20.158.250</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=203.77.246.14" style="color:#000;">203.77.246.14</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=sss918.synology.me" style="color:#000;">sss918.synology.me</a>
-	</span>
-	
-	<div style="clear: both"></div>
-</div>
-<div style="clear: both"></div>  
-        
-	<br><br>
-    
-	<div class="ad5">
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
-			 crossorigin="anonymous"></script>
-		<!-- 横向自适应 -->
-		<ins class="adsbygoogle"
-			 style="display:block"
-			 data-ad-client="ca-pub-7567038985601528"
-			 data-ad-slot="3736897002"
-			 data-ad-format="auto"
-			 data-full-width-responsive="true"></ins>
-		<script>
-			 (adsbygoogle = window.adsbygoogle || []).push({});
-		</script>		
-		
-	</div>
-
-
-	
-
-<div style="background-color: #fff">
-<br><br>
-<br />
-
-<br />
-<br />
-<br />
-<div style="margin: 0 auto; max-width: 600px; width: 92%; padding: 15px 8px 8px 8px; border-radius: 10px; font-size: 10px; color: #ccc;font-style: italic; text-align: justify;">
-	* We only re-share free Iptv links (such as public IPTV channels, live stream url, m3u8, ts, flv, rtsp, rtmp, txt ect. ) which are already at public accessible websites. We DO NOT host or stream any videos on this website,  We urge all copyright owners, to recognize that links contained within this site are located somewhere else on the web. Please direct all copyright infringement issues to the companies that host these files.
-	<br><br><p align="center" style="font-size: 14px; color: #000; text-align: center;font-style: normal;">Copyright © 2021-2024 FoodieGuide.com</p><br><br></form> 
-	</div>
-</div>
-<div id="copyed">copyed to clip</div>
-  </div>    
-
-
-<script src="jquery-2.2.3.min.js"></script>
-<script src="js/jquery.share.js"></script>
-<script>    
-function change(s){ 
-	document.getElementById("search").value=s;
-	document.getElementById('form1').submit();
-}
-function copyto(content){
-	put = document.createElement("input"); // 直接构建input
-          put.value = content; // 设置内容
-          document.body.appendChild(put); // 添加临时实例
-          put.select(); // 选择实例内容
-          document.execCommand("Copy"); // 执行复制
-          document.body.removeChild(put); // 删除临时实例
-		k=Math.floor(Math.random()*14)+1;
-		document.getElementById("ad0").style.background="url(images/"+k+".gif) no-repeat";
-	$('#copyed').fadeIn(1500);
-	$('#copyed').fadeOut(2000);
-	//document.getElementById("copyed").style.display="block";
-}
-function  cc()
-{
-	var range, el = document.getElementById('search');
-
-	if (el.setSelectionRange) {
-	el.focus();
-
-	el.setSelectionRange(el.value.length, el.value.length)
-
-	} else {
-	range = el.createTextRange();
-
-	range.collapse(false);
-
-	range.select();
-
-	}
-}	
-</script>
-   <!-- Histats.com  START  (aync)-->
-<script type="text/javascript">var _Hasync= _Hasync|| [];
-_Hasync.push(['Histats.start', '1,4835840,4,0,0,0,00010000']);
-_Hasync.push(['Histats.fasi', '1']);
-_Hasync.push(['Histats.track_hits', '']);
-(function() {
-var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
-hs.src = ('//s10.histats.com/js15_as.js');
-(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
-})();</script>
-<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4835840&101" alt="stats count" border="0"></a></noscript>
-<!-- Histats.com  END  -->
-</div>
-</body>
-
-</html>
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
-<html xmlns="http://www.w3.org/1999/xhtml">
-
-	
-<head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
-		<meta name="description" content="Search for public hotel IPTV channels. Free and easy to use, online IPTV m3u8 live stream url search utility, IPTV m3u m3u8 links updated daily">
-		<meta name="apple-mobile-web-app-capable" content="yes">
-		<meta name="apple-mobile-web-app-status-bar-style" content="black">
-		<meta name="format-detection" content="telephone=no">
-		<title>酒店电视直播源搜索｜最新北京联通多线路酒店源、组播源全套直播源分享</title>
-<!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KY4MGK2FJ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-8KY4MGK2FJ');
-</script>
-</head>
-<style>
-	body {
-		font-family: sans-serif;
-		background-color: #ccc;
-		margin: 0;
-	}
-a {
-	text-decoration:none;
-	outline:none;
-    color: #000;
-}	
-	li {
-		float: left;
-		width: 150px;
-		list-style: none;
-	}	
-#copyed {margin: auto; width: 120px; height: 28px; text-align: center;display: none; position: fixed; left: 50%;top: 50%; transform: translate(-50%,-50%); background-color: #000; border: 1px solid #555; font-size: 14px;line-height: 28px;color: #fff;}
-	
-.input[type="text"] {
-    width: 100%;
-    color: #000;
-    background: #fff;
-    outline: none;
-    font-size: 1em;
-    padding: 0.4em 1em;
-    margin-bottom: 1.1em;
-    border: solid 1px #fff;
-    -webkit-appearance: none;
-    border-radius: 3px;
-    -webkit-border-radius: 3px;
-    -moz-border-radius: 3px;
-    font-family: 'Helvetica', sans-serif;
-}	
-.box{//外部的div盒子
-  display: flex;//先设置div里的内容显示同一行
-  justify-content: flex-start;//左右布局
-  flex-wrap: wrap;//换行
-  align-content: flex-start;//紧揍排列
-}	
-.sh {
-	display: inline-block;
-	border: 1px solid #24F1FB; 
-	border-radius: 5px; 
-	/*float: left; */
-	margin: 3px; 
-	padding: 2px 6px; 
-	font-size: 13px;
-	cursor:pointer; 
-	max-width: 200px;
-	text-overflow: ellipsis;
-	white-space: nowrap; 
-	word-break: break-all; 
-	overflow: hidden;
-	background-color: #1a73e8;
-	color: #fff;
-	}
-	.tables {
-		table-layout:fixed; width: 100%; overflow: hidden;
-		font-size: 14px;
-	}
-	.ad1 {
-		display: block;
-	}	
-	.ad2 {
-		display: none;
-	}
-    .ad5 {
-        width: 100%;
-        max-width: 700px;
-        margin: 0 auto;
-    }
-	.fd {
-		margin: 0 auto; 
-		max-width: 533px; 
-		width: 100%; 
-		height: 300px;		
-	}
-	.ad0 {
- 		width: 100%;
-		/*height: 0;
-		padding-bottom: 56.25%;*/
-		background: url(images/3.gif) no-repeat; 
-		text-align: center;
-		background-size: 100% 100%;
-		
-	}
-	.ad3 {
-		display: block;
-	}
-	.ad4 {
-		display: none;
-	}
-	.imgw {
-		width: 16px;
-	}	
-.nu {
-	width:10px; height: 10px;  
-	border-radius: 10px;  color: #fff;text-align: center;
-    font-size: 10px;
-	padding-top: 2px;
-	padding-left: 3px;
-	float: left;
-	margin-left: 5px;
-	margin-top: 5px;
-	}		
-.arrow{
-            width: 0px;
-            height: 0px;
-            border-top: 4px solid transparent;
-            border-bottom: 4px solid transparent;
-      
-            border-left: 5px solid #fff;	
-			margin-left: 2px;
-}	
-	.tdheigh {
-		line-height: 16px;
-		height: 40px;
-	}	
-	.result {
-		font-size: 14px;
-		line-height: 22px;
-		color: var(--black4);
-		padding: 0.6rem 1.5rem;
-		margin: 5px 0;
-		border: 0 none;
-		background-color: #fff;
-			
-	}
-	.channel{
-		font-size: 18px;
-		line-height: 24px;
-		font-weight: var(--font-bold);
-		float: left;
-		width: 58%;
-		overflow: hidden;
-		text-overflow: ellipsis;
-		white-space: nowrap;
-	}
-	.m3u8 {
-		margin-top: 4px;
-	}	
-	@media (max-width: 800px) {
-	.nu {
-		margin-top: 5px;
-	}
-	.tables {
-		font-size: 12px;
-	}
-	.ad1 {
-		display: none;
-	}	
-	.ad2 {
-		display: block;
-	}
-	.ad0 {
-		background-size: 100% 86.25%;
-		height: 0;
-		padding-bottom: 66.25%;
-	}
-	.ad3 {
-		/*display: none;*/
-	}
-	.ad4 {
-		display: block;
-	}
-		.imgw {
-		width: 28px;
-	}
-}
-</style>
-<body style="background-color:#ddd; color:#000;" onload="cc()">
-<div style="background-color: #131313; color:#fff; font-size: 30px; width: 100%; height: 50px; line-height: 50px;padding-left: 0px;">
-	<a href="hoteliptv.php" style="color: #fff;"><div style=" float: left; width: 85%">&nbsp;&nbsp;&nbsp;IPTV <span style="font-size: 14PX;">Link Search</span></div></a> 
-	<div style="float: right; margin-right: 20px; padding-top: 14px;"> <a href="http://foodieguide.com/iptvsearch"><img src="images/home.jpg" width="25"></a> </div>
-</div>
-<div style="clear: both;"></div>	
-<div style="margin: 0 auto; max-width: 950px; width: 100%;">
-	<div style="background-color: #fff;">
-<br />
-<br />
-<div class="fd">
-	<div class="ad0" id="ad0">
-	   <div class="ad3">
-		<style>
-		.vd { width: 533px; height: 300px; }
-		@media(max-width: 500px) { .vd { width: 99%; height: 213px; } }
-		</style>		   
-		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
-			 crossorigin="anonymous"></script>
-		   
-		<!-- 横向自适应 -->
-		<ins class="adsbygoogle vd"
-			 style="display:block"
-			 data-ad-client="ca-pub-7567038985601528"
-			 data-ad-slot="3736897002"
-			 data-ad-format="auto"
-			 data-full-width-responsive="false"</ins>
-		<script>
-			 (adsbygoogle = window.adsbygoogle || []).push({});
-		</script>
-	  </div>
-
-	</div>
-</div>
-<br />
-
-<form id="form1" name="form1" method="post" action="hoteliptv.php">        
-<p align="center">
-	<div style="font-size:28px; text-align: center">	
-		<!--<form id="form1" name="form1" method="post" action="/iptvsearch/">-->
-		
-			<input style="border-radius: 8px;font-size: 18px;line-height: 30px;width:90%; max-width: 400px; padding: 6px;" name="saerch" id="search" type="text" value="北京联通" οnfοcus= "cc()" />
-
-			<input type="submit" name="Submit" value=" " style='background-image: url("search-1.png"); height: 22px; width: 22px; margin-left: -40px; line-height: 30px; border: 0px; background-color: #fff;' />
-			<div style="font-size: 12px;">可输入所在省市区、频道名称、域名、IP等查询酒店源和组播源</div>
-		
-    </div>
-</p>
-		<br><br>
-	</div>
-	<div class="result">
-		<div class="channel" style="float: none;">
-About 597 results        <input type="hidden" id="names" name="names" value="gamestar">    
-		</div>
-	</div>
-	<div class="tables" >
 						<div class="result">
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=drive.mxmy.net:7728'><b><img src="images/link1.jpg" width="17"> drive.mxmy.net:7728</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 17:03上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.246.202.132:8655'><b><img src="images/link1.jpg" width="17"> 114.246.202.132:8655</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 16:02上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.130.86.66:7488'><b><img src="images/link1.jpg" width="17"> 222.130.86.66:7488</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 10:22上线 
-                                   北京市延庆区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.243.102.64:8862'><b><img src="images/link1.jpg" width="17"> 114.243.102.64:8862</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>10</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-21 21:32上线 
-                                   北京市朝阳区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.196.128.239:4340'><b><img src="images/link1.jpg" width="17"> 111.196.128.239:4340</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 01:08上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.130.85.206:1866'><b><img src="images/link1.jpg" width="17"> 222.130.85.206:1866</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-24 22:35上线 
-                                   北京市延庆区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.113.236.69:8942'><b><img src="images/link1.jpg" width="17"> 123.113.236.69:8942</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>69</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-07-25 14:39上线 
-                                   北京市崇文区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.193.231.245:9427'><b><img src="images/link1.jpg" width="17"> 111.193.231.245:9427</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-18 18:08上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.118.51.121:9384'><b><img src="images/link1.jpg" width="17"> 123.118.51.121:9384</b>
+                                <a href= 'hotellist.html?s=123.118.51.121:8686'><b><img src="images/link1.jpg" width="17"> 123.118.51.121:8686</b>
                                
                                 </a>
 																 
@@ -1538,7 +757,36 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.253.253.97:8769'><b><img src="images/link1.jpg" width="17"> 114.253.253.97:8769</b>
+                                <a href= 'hotellist.html?s=221.221.165.219:8888'><b><img src="images/link1.jpg" width="17"> 221.221.165.219:8888</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>41</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-22 05:28上线 
+                                   北京市海淀区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.253.253.97:4001'><b><img src="images/link1.jpg" width="17"> 114.253.253.97:4001</b>
                                
                                 </a>
 																 
@@ -1567,137 +815,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=125.33.92.229:5435'><b><img src="images/link1.jpg" width="17"> 125.33.92.229:5435</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 16:32上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-										<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
-											 crossorigin="anonymous"></script>
-										<!-- 新品上市 -->
-										<ins class="adsbygoogle"
-											 style="display:block"
-											 data-ad-client="ca-pub-7567038985601528"
-											 data-ad-slot="4493902609"
-											 data-ad-format="auto"
-											 data-full-width-responsive="true"></ins>
-										<script>
-											 (adsbygoogle = window.adsbygoogle || []).push({});
-										</script>								
-						</div>
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.193.230.4:1112'><b><img src="images/link1.jpg" width="17"> 111.193.230.4:1112</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 08:24上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=iptv.ccj.gohome.link:4393'><b><img src="images/link1.jpg" width="17"> iptv.ccj.gohome.link:4393</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-20 20:36上线 
-                                   美国组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=sweetown.fun:8793'><b><img src="images/link1.jpg" width="17"> sweetown.fun:8793</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>145</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-05-10 00:56上线 
-                                   美国组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=yfaqkkms.zzmd.fun:8092'><b><img src="images/link1.jpg" width="17"> yfaqkkms.zzmd.fun:8092</b>
+                                <a href= 'hotellist.html?s=noeypszbgd.cn.zzmd.fun:8888'><b><img src="images/link1.jpg" width="17"> noeypszbgd.cn.zzmd.fun:8888</b>
                                
                                 </a>
 																 
@@ -1713,151 +831,6 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div style="font-size: 11px; color: #aaa;">
                                 <i>2024-03-16 16:24上线 
                                    组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.254.90.157:9539'><b><img src="images/link1.jpg" width="17"> 114.254.90.157:9539</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-26 01:45上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.120.54.36:3937'><b><img src="images/link1.jpg" width="17"> 123.120.54.36:3937</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 18:18上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=imzbpfrp.zzmd.fun:6842'><b><img src="images/link1.jpg" width="17"> imzbpfrp.zzmd.fun:6842</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 16:24上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=wg.mxmy.net:3632'><b><img src="images/link1.jpg" width="17"> wg.mxmy.net:3632</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 17:03上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.196.184.130:3445'><b><img src="images/link1.jpg" width="17"> 111.196.184.130:3445</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>25</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-07 03:02上线 
-                                   北京市组播 北京联通                                
                                 </i>
                             </div>
                             <!-- <div style="font-size: 11px; color: #aaa;">
@@ -1873,7 +846,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 
 
 	<div style="background-color: #fff;margin-top: -6px">
-<div style='display:flex;justify-content:center;'><a href='?page=1&net=北京联通&code=31896'><div class='sh'>|<</div></a> <a href='?page=1&net=北京联通&code=31896'><div class='sh'><<</div></a> <a href='?page=1&net=北京联通&code=31896'><div class='sh'>1</div></a><a href='?page=2&net=北京联通&code=31896'><div class='sh' style='background-color: #fff; color: #000;'>2</div></a><a href='?page=3&net=北京联通&code=31896'><div class='sh'>3</div></a><a href='?page=4&net=北京联通&code=31896'><div class='sh'>4</div></a><a href='?page=5&net=北京联通&code=31896'><div class='sh'>5</div></a><a href='?page=6&net=北京联通&code=31896'><div class='sh'>6</div></a><a href='?page=7&net=北京联通&code=31896'><div class='sh'>7</div></a><a href='?page=8&net=北京联通&code=31896'><div class='sh'>8</div></a><a href='?page=3&net=北京联通&code=31896'><div class='sh'>>></div></a> <a href='?page=30&net=北京联通&code=31896'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;"> 
+<div style='display:flex;justify-content:center;'><a href='?page=1&net=北京联通&code=49308'><div class='sh'>|<</div></a> <a href='?page=1&net=北京联通&code=49308'><div class='sh'><<</div></a> <a href='?page=1&net=北京联通&code=49308'><div class='sh' style='background-color: #fff; color: #000;'>1</div></a><a href='?page=2&net=北京联通&code=49308'><div class='sh'>2</div></a><a href='?page=3&net=北京联通&code=49308'><div class='sh'>3</div></a><a href='?page=4&net=北京联通&code=49308'><div class='sh'>4</div></a><a href='?page=5&net=北京联通&code=49308'><div class='sh'>5</div></a><a href='?page=6&net=北京联通&code=49308'><div class='sh'>6</div></a><a href='?page=7&net=北京联通&code=49308'><div class='sh'>7</div></a><a href='?page=8&net=北京联通&code=49308'><div class='sh'>8</div></a><a href='?page=2&net=北京联通&code=49308'><div class='sh'>>></div></a> <a href='?page=30&net=北京联通&code=49308'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;"> 
       
 <br /><br /><br />
 <div style="margin: 0 auto; max-width: 620px; width: 92%;">
@@ -1897,17 +870,12 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=61.175.237.198" style="color:#000;">61.175.237.198</a>
+		<a href="hoteliptv.php?s=171.108.239.79" style="color:#000;">171.108.239.79</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=gxft.7766.org" style="color:#000;">gxft.7766.org</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=mom.cloudns.be" style="color:#000;">mom.cloudns.be</a>
+		<a href="hoteliptv.php?s=113.101.119.130" style="color:#000;">113.101.119.130</a>
 	</span>
 	
 	<div style="clear: both"></div>
@@ -1918,42 +886,42 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
     <input type="hidden" id="address" name="address" value="china">
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=61.240.38.128" style="color:#000;">61.240.38.128</a>
+		<a href="hoteliptv.php?s=118.68.45.194" style="color:#000;">118.68.45.194</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=110.178.52.195" style="color:#000;">110.178.52.195</a>
+		<a href="hoteliptv.php?s=123.122.166.6" style="color:#000;">123.122.166.6</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=223.10.22.103" style="color:#000;">223.10.22.103</a>
+		<a href="hoteliptv.php?s=118.79.115.210" style="color:#000;">118.79.115.210</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=178.163.31.252" style="color:#000;">178.163.31.252</a>
+		<a href="hoteliptv.php?s=171.213.128.68" style="color:#000;">171.213.128.68</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=223.10.119.29" style="color:#000;">223.10.119.29</a>
+		<a href="hoteliptv.php?s=49.75.205.36" style="color:#000;">49.75.205.36</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=vl15191373.imwork.net" style="color:#000;">vl15191373.imwork.net</a>
+		<a href="hoteliptv.php?s=175.9.194.24" style="color:#000;">175.9.194.24</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=223.10.117.215" style="color:#000;">223.10.117.215</a>
+		<a href="hoteliptv.php?s=123.122.162.7" style="color:#000;">123.122.162.7</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=125.123.123.96" style="color:#000;">125.123.123.96</a>
+		<a href="hoteliptv.php?s=171.117.73.233" style="color:#000;">171.117.73.233</a>
 	</span>
 	
 	<div style="clear: both"></div>
@@ -2155,7 +1123,7 @@ a {
  		width: 100%;
 		/*height: 0;
 		padding-bottom: 56.25%;*/
-		background: url(images/5.gif) no-repeat; 
+		background: url(images/2.gif) no-repeat; 
 		text-align: center;
 		background-size: 100% 100%;
 		
@@ -2296,7 +1264,7 @@ a {
 	</div>
 	<div class="result">
 		<div class="channel" style="float: none;">
-About 597 results        <input type="hidden" id="names" name="names" value="gamestar">    
+About 599 results        <input type="hidden" id="names" name="names" value="gamestar">    
 		</div>
 	</div>
 	<div class="tables" >
@@ -2304,7 +1272,36 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.246.196.28:8898'><b><img src="images/link1.jpg" width="17"> 114.246.196.28:8898</b>
+                                <a href= 'hotellist.html?s=124.64.189.63:6305'><b><img src="images/link1.jpg" width="17"> 124.64.189.63:6305</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-22 15:38上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.246.196.28:1577'><b><img src="images/link1.jpg" width="17"> 114.246.196.28:1577</b>
                                
                                 </a>
 																 
@@ -2333,7 +1330,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.254.80.57:7412'><b><img src="images/link1.jpg" width="17"> 114.254.80.57:7412</b>
+                                <a href= 'hotellist.html?s=111.196.131.31:7102'><b><img src="images/link1.jpg" width="17"> 111.196.131.31:7102</b>
                                
                                 </a>
 																 
@@ -2347,7 +1344,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div style="clear: both; "></div>
 
 							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-25 15:35上线 
+                                <i>2024-09-26 06:33上线 
                                    北京市组播 北京联通                                
                                 </i>
                             </div>
@@ -2362,340 +1359,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.193.230.4:1352'><b><img src="images/link1.jpg" width="17"> 111.193.230.4:1352</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 08:24上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.129.34.8:9225'><b><img src="images/link1.jpg" width="17"> 222.129.34.8:9225</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 16:31上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.113.149.152:2393'><b><img src="images/link1.jpg" width="17"> 123.113.149.152:2393</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 09:53上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.130.83.214:3812'><b><img src="images/link1.jpg" width="17"> 222.130.83.214:3812</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 23:59上线 
-                                   北京市延庆区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.131.15.137:4107'><b><img src="images/link1.jpg" width="17"> 222.131.15.137:4107</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 18:28上线 
-                                   北京市丰台区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.130.86.66:4407'><b><img src="images/link1.jpg" width="17"> 222.130.86.66:4407</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 10:22上线 
-                                   北京市延庆区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=222.130.85.206:8293'><b><img src="images/link1.jpg" width="17"> 222.130.85.206:8293</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-24 22:35上线 
-                                   北京市延庆区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=drive.mxmy.net:9777'><b><img src="images/link1.jpg" width="17"> drive.mxmy.net:9777</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-03-16 17:03上线 
-                                   组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.120.54.36:2940'><b><img src="images/link1.jpg" width="17"> 123.120.54.36:2940</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-23 18:18上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-										<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
-											 crossorigin="anonymous"></script>
-										<!-- 新品上市 -->
-										<ins class="adsbygoogle"
-											 style="display:block"
-											 data-ad-client="ca-pub-7567038985601528"
-											 data-ad-slot="4493902609"
-											 data-ad-format="auto"
-											 data-full-width-responsive="true"></ins>
-										<script>
-											 (adsbygoogle = window.adsbygoogle || []).push({});
-										</script>								
-						</div>
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=111.196.128.239:1261'><b><img src="images/link1.jpg" width="17"> 111.196.128.239:1261</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-19 01:08上线 
-                                   北京市组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.243.102.64:6866'><b><img src="images/link1.jpg" width="17"> 114.243.102.64:6866</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>10</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-21 21:32上线 
-                                   北京市朝阳区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=61.49.76.215:5288'><b><img src="images/link1.jpg" width="17"> 61.49.76.215:5288</b>
+                                <a href= 'hotellist.html?s=61.49.76.215:4866'><b><img src="images/link1.jpg" width="17"> 61.49.76.215:4866</b>
                                
                                 </a>
 																 
@@ -2724,7 +1388,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.123.167.240:7585'><b><img src="images/link1.jpg" width="17"> 123.123.167.240:7585</b>
+                                <a href= 'hotellist.html?s=imzbpfrp.zzmd.fun:5762'><b><img src="images/link1.jpg" width="17"> imzbpfrp.zzmd.fun:5762</b>
                                
                                 </a>
 																 
@@ -2734,11 +1398,40 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 								频道数：<span style="font-size: 18px;"><b>145</b></span>
 							</div>
 							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>114</b></span>天</div>							</div>
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
 							<div style="clear: both; "></div>
 
 							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-06-09 23:04上线 
+                                <i>2024-03-16 16:24上线 
+                                   组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=111.193.230.4:7583'><b><img src="images/link1.jpg" width="17"> 111.193.230.4:7583</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-19 08:24上线 
                                    北京市组播 北京联通                                
                                 </i>
                             </div>
@@ -2753,7 +1446,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.116.126.28:3607'><b><img src="images/link1.jpg" width="17"> 123.116.126.28:3607</b>
+                                <a href= 'hotellist.html?s=tnvcn.com:2731'><b><img src="images/link1.jpg" width="17"> tnvcn.com:2731</b>
                                
                                 </a>
 																 
@@ -2767,7 +1460,36 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div style="clear: both; "></div>
 
 							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-24 14:20上线 
+                                <i>2024-09-25 13:53上线 
+                                   美国组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.122.162.7:1446'><b><img src="images/link1.jpg" width="17"> 123.122.162.7:1446</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>59</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-04 03:00上线 
                                    北京市组播 北京联通                                
                                 </i>
                             </div>
@@ -2782,7 +1504,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=114.246.181.171:7114'><b><img src="images/link1.jpg" width="17"> 114.246.181.171:7114</b>
+                                <a href= 'hotellist.html?s=iptv.ccj.gohome.link:9933'><b><img src="images/link1.jpg" width="17"> iptv.ccj.gohome.link:9933</b>
                                
                                 </a>
 																 
@@ -2796,7 +1518,36 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div style="clear: both; "></div>
 
 							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-20 00:55上线 
+                                <i>2024-09-20 20:36上线 
+                                   美国组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.182.147:7600'><b><img src="images/link1.jpg" width="17"> 123.113.182.147:7600</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>58</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-05 20:05上线 
                                    北京市组播 北京联通                                
                                 </i>
                             </div>
@@ -2811,36 +1562,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div class="channel">
                                 
 								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=123.113.249.203:6215'><b><img src="images/link1.jpg" width="17"> 123.113.249.203:6215</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>26</b></span>天</div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-06 14:37上线 
-                                   北京市丰台区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=221.220.130.36:6533'><b><img src="images/link1.jpg" width="17"> 221.220.130.36:6533</b>
+                                <a href= 'hotellist.html?s=123.118.0.177:4420'><b><img src="images/link1.jpg" width="17"> 123.118.0.177:4420</b>
                                
                                 </a>
 																 
@@ -2854,37 +1576,283 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 							<div style="clear: both; "></div>
 
 							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-18 16:42上线 
-                                   北京市大兴区组播 北京联通                                
-                                </i>
-                            </div>
-                            <!-- <div style="font-size: 11px; color: #aaa;">
-                                <i>2024-02-26 03:52上线 
-                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
-                                </i>
-                            </div> -->
-						</div>				
-
-						<div class="result">
-							<div class="channel">
-                                
-								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
-                                <a href= 'hotellist.html?s=221.216.137.230:7884'><b><img src="images/link1.jpg" width="17"> 221.216.137.230:7884</b>
-                               
-                                </a>
-																 
-							</div>
-
-							<div style="float: left">
-								频道数：<span style="font-size: 18px;"><b>145</b></span>
-							</div>
-							<div style="float: right; ">
-								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
-							<div style="clear: both; "></div>
-
-							<div style="font-size: 11px; color: #aaa;">
-                                <i>2024-09-17 07:08上线 
+                                <i>2024-09-20 20:46上线 
                                    北京市海淀区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+										<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
+											 crossorigin="anonymous"></script>
+										<!-- 新品上市 -->
+										<ins class="adsbygoogle"
+											 style="display:block"
+											 data-ad-client="ca-pub-7567038985601528"
+											 data-ad-slot="4493902609"
+											 data-ad-format="auto"
+											 data-full-width-responsive="true"></ins>
+										<script>
+											 (adsbygoogle = window.adsbygoogle || []).push({});
+										</script>								
+						</div>
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.249.161.174:7337'><b><img src="images/link1.jpg" width="17"> 114.249.161.174:7337</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-26 15:10上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.253.210.113:9413'><b><img src="images/link1.jpg" width="17"> 114.253.210.113:9413</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-24 10:07上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.186.207:8781'><b><img src="images/link1.jpg" width="17"> 123.113.186.207:8781</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>65</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-07-29 14:44上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.254.80.57:4212'><b><img src="images/link1.jpg" width="17"> 114.254.80.57:4212</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-25 15:35上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.120.54.36:6768'><b><img src="images/link1.jpg" width="17"> 123.120.54.36:6768</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-23 18:18上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=sweetown.fun:8380'><b><img src="images/link1.jpg" width="17"> sweetown.fun:8380</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>146</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-05-10 00:56上线 
+                                   美国组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=222.130.86.66:9911'><b><img src="images/link1.jpg" width="17"> 222.130.86.66:9911</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-19 10:22上线 
+                                   北京市延庆区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.149.152:1347'><b><img src="images/link1.jpg" width="17"> 123.113.149.152:1347</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-23 09:53上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=mtjkwdrive.zzmd.fun:6668'><b><img src="images/link1.jpg" width="17"> mtjkwdrive.zzmd.fun:6668</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-03-16 16:24上线 
+                                   组播 北京联通                                
                                 </i>
                             </div>
                             <!-- <div style="font-size: 11px; color: #aaa;">
@@ -2900,7 +1868,7 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 
 
 	<div style="background-color: #fff;margin-top: -6px">
-<div style='display:flex;justify-content:center;'><a href='?page=1&net=北京联通&code=65689'><div class='sh'>|<</div></a> <a href='?page=2&net=北京联通&code=65689'><div class='sh'><<</div></a> <a href='?page=1&net=北京联通&code=65689'><div class='sh'>1</div></a><a href='?page=2&net=北京联通&code=65689'><div class='sh'>2</div></a><a href='?page=3&net=北京联通&code=65689'><div class='sh' style='background-color: #fff; color: #000;'>3</div></a><a href='?page=4&net=北京联通&code=65689'><div class='sh'>4</div></a><a href='?page=5&net=北京联通&code=65689'><div class='sh'>5</div></a><a href='?page=6&net=北京联通&code=65689'><div class='sh'>6</div></a><a href='?page=7&net=北京联通&code=65689'><div class='sh'>7</div></a><a href='?page=8&net=北京联通&code=65689'><div class='sh'>8</div></a><a href='?page=4&net=北京联通&code=65689'><div class='sh'>>></div></a> <a href='?page=30&net=北京联通&code=65689'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;"> 
+<div style='display:flex;justify-content:center;'><a href='?page=1&net=北京联通&code=44912'><div class='sh'>|<</div></a> <a href='?page=1&net=北京联通&code=44912'><div class='sh'><<</div></a> <a href='?page=1&net=北京联通&code=44912'><div class='sh'>1</div></a><a href='?page=2&net=北京联通&code=44912'><div class='sh' style='background-color: #fff; color: #000;'>2</div></a><a href='?page=3&net=北京联通&code=44912'><div class='sh'>3</div></a><a href='?page=4&net=北京联通&code=44912'><div class='sh'>4</div></a><a href='?page=5&net=北京联通&code=44912'><div class='sh'>5</div></a><a href='?page=6&net=北京联通&code=44912'><div class='sh'>6</div></a><a href='?page=7&net=北京联通&code=44912'><div class='sh'>7</div></a><a href='?page=8&net=北京联通&code=44912'><div class='sh'>8</div></a><a href='?page=3&net=北京联通&code=44912'><div class='sh'>>></div></a> <a href='?page=30&net=北京联通&code=44912'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;"> 
       
 <br /><br /><br />
 <div style="margin: 0 auto; max-width: 620px; width: 92%;">
@@ -2919,22 +1887,17 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=61.175.237.198" style="color:#000;">61.175.237.198</a>
-	</span>
-	
-	
-	<span class="sh" style="background-color: #fff;max-width: 132px;" >
 		<a href="hoteliptv.php?s=114.223.33.240" style="color:#000;">114.223.33.240</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=111.61.208.131" style="color:#000;">111.61.208.131</a>
+		<a href="hoteliptv.php?s=121.24.99.24" style="color:#000;">121.24.99.24</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=121.24.98.129" style="color:#000;">121.24.98.129</a>
+		<a href="hoteliptv.php?s=220.164.192.48" style="color:#000;">220.164.192.48</a>
 	</span>
 	
 	<div style="clear: both"></div>
@@ -2945,42 +1908,1064 @@ About 597 results        <input type="hidden" id="names" name="names" value="gam
     <input type="hidden" id="address" name="address" value="china">
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=61.240.38.128" style="color:#000;">61.240.38.128</a>
+		<a href="hoteliptv.php?s=118.68.45.194" style="color:#000;">118.68.45.194</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=110.178.52.195" style="color:#000;">110.178.52.195</a>
+		<a href="hoteliptv.php?s=123.122.166.6" style="color:#000;">123.122.166.6</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=124.165.33.233" style="color:#000;">124.165.33.233</a>
+		<a href="hoteliptv.php?s=111.167.49.238" style="color:#000;">111.167.49.238</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=123.20.158.250" style="color:#000;">123.20.158.250</a>
+		<a href="hoteliptv.php?s=171.213.128.68" style="color:#000;">171.213.128.68</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=116.226.59.137" style="color:#000;">116.226.59.137</a>
+		<a href="hoteliptv.php?s=121.233.142.36" style="color:#000;">121.233.142.36</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=223.10.22.103" style="color:#000;">223.10.22.103</a>
+		<a href="hoteliptv.php?s=175.9.194.24" style="color:#000;">175.9.194.24</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=110.178.52.75" style="color:#000;">110.178.52.75</a>
+		<a href="hoteliptv.php?s=27.11.56.179" style="color:#000;">27.11.56.179</a>
 	</span>
 	
 	
 	<span class="sh" style="background-color: #fff;max-width: 132px;" >
-		<a href="hoteliptv.php?s=121.29.133.22" style="color:#000;">121.29.133.22</a>
+		<a href="hoteliptv.php?s=171.117.201.100" style="color:#000;">171.117.201.100</a>
+	</span>
+	
+	<div style="clear: both"></div>
+</div>
+<div style="clear: both"></div>  
+        
+	<br><br>
+    
+	<div class="ad5">
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
+			 crossorigin="anonymous"></script>
+		<!-- 横向自适应 -->
+		<ins class="adsbygoogle"
+			 style="display:block"
+			 data-ad-client="ca-pub-7567038985601528"
+			 data-ad-slot="3736897002"
+			 data-ad-format="auto"
+			 data-full-width-responsive="true"></ins>
+		<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>		
+		
+	</div>
+
+
+	
+
+<div style="background-color: #fff">
+<br><br>
+<br />
+
+<br />
+<br />
+<br />
+<div style="margin: 0 auto; max-width: 600px; width: 92%; padding: 15px 8px 8px 8px; border-radius: 10px; font-size: 10px; color: #ccc;font-style: italic; text-align: justify;">
+	* We only re-share free Iptv links (such as public IPTV channels, live stream url, m3u8, ts, flv, rtsp, rtmp, txt ect. ) which are already at public accessible websites. We DO NOT host or stream any videos on this website,  We urge all copyright owners, to recognize that links contained within this site are located somewhere else on the web. Please direct all copyright infringement issues to the companies that host these files.
+	<br><br><p align="center" style="font-size: 14px; color: #000; text-align: center;font-style: normal;">Copyright © 2021-2024 FoodieGuide.com</p><br><br></form> 
+	</div>
+</div>
+<div id="copyed">copyed to clip</div>
+  </div>    
+
+
+<script src="jquery-2.2.3.min.js"></script>
+<script src="js/jquery.share.js"></script>
+<script>    
+function change(s){ 
+	document.getElementById("search").value=s;
+	document.getElementById('form1').submit();
+}
+function copyto(content){
+	put = document.createElement("input"); // 直接构建input
+          put.value = content; // 设置内容
+          document.body.appendChild(put); // 添加临时实例
+          put.select(); // 选择实例内容
+          document.execCommand("Copy"); // 执行复制
+          document.body.removeChild(put); // 删除临时实例
+		k=Math.floor(Math.random()*14)+1;
+		document.getElementById("ad0").style.background="url(images/"+k+".gif) no-repeat";
+	$('#copyed').fadeIn(1500);
+	$('#copyed').fadeOut(2000);
+	//document.getElementById("copyed").style.display="block";
+}
+function  cc()
+{
+	var range, el = document.getElementById('search');
+
+	if (el.setSelectionRange) {
+	el.focus();
+
+	el.setSelectionRange(el.value.length, el.value.length)
+
+	} else {
+	range = el.createTextRange();
+
+	range.collapse(false);
+
+	range.select();
+
+	}
+}	
+</script>
+   <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,4835840,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?4835840&101" alt="stats count" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+</div>
+</body>
+
+</html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+	
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="viewport" content="width=device-width,height=device-height,inital-scale=1.0,maximum-scale=1.0,user-scalable=no;">
+		<meta name="description" content="Search for public hotel IPTV channels. Free and easy to use, online IPTV m3u8 live stream url search utility, IPTV m3u m3u8 links updated daily">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black">
+		<meta name="format-detection" content="telephone=no">
+		<title>酒店电视直播源搜索｜最新北京联通多线路酒店源、组播源全套直播源分享</title>
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-8KY4MGK2FJ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-8KY4MGK2FJ');
+</script>
+</head>
+<style>
+	body {
+		font-family: sans-serif;
+		background-color: #ccc;
+		margin: 0;
+	}
+a {
+	text-decoration:none;
+	outline:none;
+    color: #000;
+}	
+	li {
+		float: left;
+		width: 150px;
+		list-style: none;
+	}	
+#copyed {margin: auto; width: 120px; height: 28px; text-align: center;display: none; position: fixed; left: 50%;top: 50%; transform: translate(-50%,-50%); background-color: #000; border: 1px solid #555; font-size: 14px;line-height: 28px;color: #fff;}
+	
+.input[type="text"] {
+    width: 100%;
+    color: #000;
+    background: #fff;
+    outline: none;
+    font-size: 1em;
+    padding: 0.4em 1em;
+    margin-bottom: 1.1em;
+    border: solid 1px #fff;
+    -webkit-appearance: none;
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    font-family: 'Helvetica', sans-serif;
+}	
+.box{//外部的div盒子
+  display: flex;//先设置div里的内容显示同一行
+  justify-content: flex-start;//左右布局
+  flex-wrap: wrap;//换行
+  align-content: flex-start;//紧揍排列
+}	
+.sh {
+	display: inline-block;
+	border: 1px solid #24F1FB; 
+	border-radius: 5px; 
+	/*float: left; */
+	margin: 3px; 
+	padding: 2px 6px; 
+	font-size: 13px;
+	cursor:pointer; 
+	max-width: 200px;
+	text-overflow: ellipsis;
+	white-space: nowrap; 
+	word-break: break-all; 
+	overflow: hidden;
+	background-color: #1a73e8;
+	color: #fff;
+	}
+	.tables {
+		table-layout:fixed; width: 100%; overflow: hidden;
+		font-size: 14px;
+	}
+	.ad1 {
+		display: block;
+	}	
+	.ad2 {
+		display: none;
+	}
+    .ad5 {
+        width: 100%;
+        max-width: 700px;
+        margin: 0 auto;
+    }
+	.fd {
+		margin: 0 auto; 
+		max-width: 533px; 
+		width: 100%; 
+		height: 300px;		
+	}
+	.ad0 {
+ 		width: 100%;
+		/*height: 0;
+		padding-bottom: 56.25%;*/
+		background: url(images/12.gif) no-repeat; 
+		text-align: center;
+		background-size: 100% 100%;
+		
+	}
+	.ad3 {
+		display: block;
+	}
+	.ad4 {
+		display: none;
+	}
+	.imgw {
+		width: 16px;
+	}	
+.nu {
+	width:10px; height: 10px;  
+	border-radius: 10px;  color: #fff;text-align: center;
+    font-size: 10px;
+	padding-top: 2px;
+	padding-left: 3px;
+	float: left;
+	margin-left: 5px;
+	margin-top: 5px;
+	}		
+.arrow{
+            width: 0px;
+            height: 0px;
+            border-top: 4px solid transparent;
+            border-bottom: 4px solid transparent;
+      
+            border-left: 5px solid #fff;	
+			margin-left: 2px;
+}	
+	.tdheigh {
+		line-height: 16px;
+		height: 40px;
+	}	
+	.result {
+		font-size: 14px;
+		line-height: 22px;
+		color: var(--black4);
+		padding: 0.6rem 1.5rem;
+		margin: 5px 0;
+		border: 0 none;
+		background-color: #fff;
+			
+	}
+	.channel{
+		font-size: 18px;
+		line-height: 24px;
+		font-weight: var(--font-bold);
+		float: left;
+		width: 58%;
+		overflow: hidden;
+		text-overflow: ellipsis;
+		white-space: nowrap;
+	}
+	.m3u8 {
+		margin-top: 4px;
+	}	
+	@media (max-width: 800px) {
+	.nu {
+		margin-top: 5px;
+	}
+	.tables {
+		font-size: 12px;
+	}
+	.ad1 {
+		display: none;
+	}	
+	.ad2 {
+		display: block;
+	}
+	.ad0 {
+		background-size: 100% 86.25%;
+		height: 0;
+		padding-bottom: 66.25%;
+	}
+	.ad3 {
+		/*display: none;*/
+	}
+	.ad4 {
+		display: block;
+	}
+		.imgw {
+		width: 28px;
+	}
+}
+</style>
+<body style="background-color:#ddd; color:#000;" onload="cc()">
+<div style="background-color: #131313; color:#fff; font-size: 30px; width: 100%; height: 50px; line-height: 50px;padding-left: 0px;">
+	<a href="hoteliptv.php" style="color: #fff;"><div style=" float: left; width: 85%">&nbsp;&nbsp;&nbsp;IPTV <span style="font-size: 14PX;">Link Search</span></div></a> 
+	<div style="float: right; margin-right: 20px; padding-top: 14px;"> <a href="http://foodieguide.com/iptvsearch"><img src="images/home.jpg" width="25"></a> </div>
+</div>
+<div style="clear: both;"></div>	
+<div style="margin: 0 auto; max-width: 950px; width: 100%;">
+	<div style="background-color: #fff;">
+<br />
+<br />
+<div class="fd">
+	<div class="ad0" id="ad0">
+	   <div class="ad3">
+		<style>
+		.vd { width: 533px; height: 300px; }
+		@media(max-width: 500px) { .vd { width: 99%; height: 213px; } }
+		</style>		   
+		<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
+			 crossorigin="anonymous"></script>
+		   
+		<!-- 横向自适应 -->
+		<ins class="adsbygoogle vd"
+			 style="display:block"
+			 data-ad-client="ca-pub-7567038985601528"
+			 data-ad-slot="3736897002"
+			 data-ad-format="auto"
+			 data-full-width-responsive="false"</ins>
+		<script>
+			 (adsbygoogle = window.adsbygoogle || []).push({});
+		</script>
+	  </div>
+
+	</div>
+</div>
+<br />
+
+<form id="form1" name="form1" method="post" action="hoteliptv.php">        
+<p align="center">
+	<div style="font-size:28px; text-align: center">	
+		<!--<form id="form1" name="form1" method="post" action="/iptvsearch/">-->
+		
+			<input style="border-radius: 8px;font-size: 18px;line-height: 30px;width:90%; max-width: 400px; padding: 6px;" name="saerch" id="search" type="text" value="北京联通" οnfοcus= "cc()" />
+
+			<input type="submit" name="Submit" value=" " style='background-image: url("search-1.png"); height: 22px; width: 22px; margin-left: -40px; line-height: 30px; border: 0px; background-color: #fff;' />
+			<div style="font-size: 12px;">可输入所在省市区、频道名称、域名、IP等查询酒店源和组播源</div>
+		
+    </div>
+</p>
+		<br><br>
+	</div>
+	<div class="result">
+		<div class="channel" style="float: none;">
+About 599 results        <input type="hidden" id="names" name="names" value="gamestar">    
+		</div>
+	</div>
+	<div class="tables" >
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=iptv.ccj.gohome.link:6217'><b><img src="images/link1.jpg" width="17"> iptv.ccj.gohome.link:6217</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-20 20:36上线 
+                                   美国组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.120.48.22:8330'><b><img src="images/link1.jpg" width="17"> 123.120.48.22:8330</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-23 18:18上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.237.36:7128'><b><img src="images/link1.jpg" width="17"> 123.113.237.36:7128</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>71</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-07-24 00:53上线 
+                                   北京市崇文区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.254.94.254:8348'><b><img src="images/link1.jpg" width="17"> 114.254.94.254:8348</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-25 09:41上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.254.161:6758'><b><img src="images/link1.jpg" width="17"> 123.113.254.161:6758</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>48</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-15 13:21上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.249.161.174:1555'><b><img src="images/link1.jpg" width="17"> 114.249.161.174:1555</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-26 15:10上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=125.33.92.229:1228'><b><img src="images/link1.jpg" width="17"> 125.33.92.229:1228</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-23 16:32上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=mtjkwdrive.zzmd.fun:5207'><b><img src="images/link1.jpg" width="17"> mtjkwdrive.zzmd.fun:5207</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>200</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-03-16 16:24上线 
+                                   组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=222.130.83.214:3635'><b><img src="images/link1.jpg" width="17"> 222.130.83.214:3635</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-19 23:59上线 
+                                   北京市延庆区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=222.130.86.66:8319'><b><img src="images/link1.jpg" width="17"> 222.130.86.66:8319</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-19 10:22上线 
+                                   北京市延庆区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.253.210.113:5418'><b><img src="images/link1.jpg" width="17"> 114.253.210.113:5418</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-24 10:07上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+										<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7567038985601528"
+											 crossorigin="anonymous"></script>
+										<!-- 新品上市 -->
+										<ins class="adsbygoogle"
+											 style="display:block"
+											 data-ad-client="ca-pub-7567038985601528"
+											 data-ad-slot="4493902609"
+											 data-ad-format="auto"
+											 data-full-width-responsive="true"></ins>
+										<script>
+											 (adsbygoogle = window.adsbygoogle || []).push({});
+										</script>								
+						</div>
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.246.202.132:6595'><b><img src="images/link1.jpg" width="17"> 114.246.202.132:6595</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-23 16:02上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.254.187.194:4454'><b><img src="images/link1.jpg" width="17"> 114.254.187.194:4454</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-26 18:17上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.254.84.73:8288'><b><img src="images/link1.jpg" width="17"> 114.254.84.73:8288</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-25 12:02上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=221.221.153.193:6162'><b><img src="images/link1.jpg" width="17"> 221.221.153.193:6162</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>34</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-29 22:02上线 
+                                   北京市海淀区组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.182.147:4286'><b><img src="images/link1.jpg" width="17"> 123.113.182.147:4286</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color:limegreen; ">存活<span style="font-size: 18px;"><b>58</b></span>天</div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-08-05 20:05上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=123.113.34.218:1144'><b><img src="images/link1.jpg" width="17"> 123.113.34.218:1144</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-22 00:31上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=114.254.90.157:4835'><b><img src="images/link1.jpg" width="17"> 114.254.90.157:4835</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-26 01:45上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=111.196.128.239:9793'><b><img src="images/link1.jpg" width="17"> 111.196.128.239:9793</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-19 01:08上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+						<div class="result">
+							<div class="channel">
+                                
+								<!--<a href='hotellist.html?s=盗链危险!'><b><img src="images/link1.jpg" width="17">拒绝盗链!</b>  -->
+                                <a href= 'hotellist.html?s=111.193.231.245:8464'><b><img src="images/link1.jpg" width="17"> 111.193.231.245:8464</b>
+                               
+                                </a>
+																 
+							</div>
+
+							<div style="float: left">
+								频道数：<span style="font-size: 18px;"><b>145</b></span>
+							</div>
+							<div style="float: right; ">
+								<div style="color: crimson;">暂时失效<span style="font-size: 18px;"><b>&nbsp;</b></span></div>							</div>
+							<div style="clear: both; "></div>
+
+							<div style="font-size: 11px; color: #aaa;">
+                                <i>2024-09-18 18:08上线 
+                                   北京市组播 北京联通                                
+                                </i>
+                            </div>
+                            <!-- <div style="font-size: 11px; color: #aaa;">
+                                <i>2024-02-26 03:52上线 
+                                   请访问官网：https://www.foodieguide.com/iptvsearch 搜索最新直播源                                
+                                </i>
+                            </div> -->
+						</div>				
+
+	</div>
+
+	
+
+
+	<div style="background-color: #fff;margin-top: -6px">
+<div style='display:flex;justify-content:center;'><a href='?page=1&net=北京联通&code=71562'><div class='sh'>|<</div></a> <a href='?page=2&net=北京联通&code=71562'><div class='sh'><<</div></a> <a href='?page=1&net=北京联通&code=71562'><div class='sh'>1</div></a><a href='?page=2&net=北京联通&code=71562'><div class='sh'>2</div></a><a href='?page=3&net=北京联通&code=71562'><div class='sh' style='background-color: #fff; color: #000;'>3</div></a><a href='?page=4&net=北京联通&code=71562'><div class='sh'>4</div></a><a href='?page=5&net=北京联通&code=71562'><div class='sh'>5</div></a><a href='?page=6&net=北京联通&code=71562'><div class='sh'>6</div></a><a href='?page=7&net=北京联通&code=71562'><div class='sh'>7</div></a><a href='?page=8&net=北京联通&code=71562'><div class='sh'>8</div></a><a href='?page=4&net=北京联通&code=71562'><div class='sh'>>></div></a> <a href='?page=30&net=北京联通&code=71562'><div class='sh'>>|</div></a><div style='clear: both;'></div> </div>  <div style="background-color: #fff;margin-top: 6px;"> 
+      
+<br /><br /><br />
+<div style="margin: 0 auto; max-width: 620px; width: 92%;">
+<input type="hidden" id="city" name="city" value="Kaipan">
+<div class="box" style="width: 45%; border: 1px solid #ccc; padding: 15px 8px 8px 8px; border-radius: 10px; display: block;text-align:justify; text-align-last:justify; float: left;">
+	<div style="margin-top: -30px; margin-left: 20px; background-color: #fff; width: 120px; font-size: 22px; padding-left: 5px;"> Hotel IPTV </div>
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=222.138.78.232" style="color:#000;">222.138.78.232</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=113.9.203.194" style="color:#000;">113.9.203.194</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=114.223.33.240" style="color:#000;">114.223.33.240</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=123.11.144.167" style="color:#000;">123.11.144.167</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=222.240.220.198" style="color:#000;">222.240.220.198</a>
+	</span>
+	
+	<div style="clear: both"></div>
+</div>
+
+<div class="box" style="width: 45%; border: 1px solid #ccc; padding: 15px 8px 8px 8px; border-radius: 10px; display: block;text-align:justify; text-align-last:justify; float: right;">
+	<div style="margin-top: -30px; margin-left: 20px; background-color: #fff; width: 130px; font-size: 22px; padding-left: 5px;"> Multicast IP</div>
+    <input type="hidden" id="address" name="address" value="china">
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=118.68.45.194" style="color:#000;">118.68.45.194</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=123.122.166.6" style="color:#000;">123.122.166.6</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=60.27.20.30" style="color:#000;">60.27.20.30</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=175.9.193.128" style="color:#000;">175.9.193.128</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=171.125.90.130" style="color:#000;">171.125.90.130</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=123.118.231.179" style="color:#000;">123.118.231.179</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=118.121.58.80" style="color:#000;">118.121.58.80</a>
+	</span>
+	
+	
+	<span class="sh" style="background-color: #fff;max-width: 132px;" >
+		<a href="hoteliptv.php?s=178.163.3.222" style="color:#000;">178.163.3.222</a>
 	</span>
 	
 	<div style="clear: both"></div>
