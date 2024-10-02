@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x # 开启调试
 # 定义城市参数
 declare -A cities
 cities["taiwan"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
