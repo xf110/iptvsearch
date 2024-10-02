@@ -51,7 +51,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     # 提取源地址并整理
     echo "==== 提取源地址结果 ======" | tee -a "$SUMMARY_FILE"
-    grep -oP "\s\Khttps://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
+    grep -oP "\s\Khttps?://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
     cat "$UNIQUE_SEARCH_RESULTS_FILE" | tee -a "$SUMMARY_FILE"
 
     # 剔除已知干扰地址
