@@ -59,40 +59,46 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     # 测试每个源的下载速度
     echo "==== 整理数据完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
-    lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE")
+    lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE" | xargs)
     i=0
 
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
     while read -r url; do
         i=$((i + 1))
         echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
-        output=$(timeout 40 /usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
+        output=$(timeout 40 /usr/bin/yt-dlp --no-check-certificate --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
 
         # 保存 yt-dlp 输出到日志
         echo "${output}" >>"$YT_DLP_LOG"
 
+        #此前直接使用"${output}" 在mac端运行一次，修改为使用临时文件。
+        :>out.tmp
+        echo "${output}" >out.tmp
+        sync
+        sleep 0.1
+
         # 检查下载是否成功
-        if echo "${output}" | grep -q "ERROR"; then
+        if grep -q "ERROR" out.tmp; then
             echo "下载失败: ${url}" | tee -a "$SUMMARY_FILE"
             echo "下载失败: ${url}" >>"$SPEED_TEST_LOG"
             continue
         fi
 
         # 提取下载速度信息
-        speed=$(echo "${output}" | grep -P "^\[download\]\s[0-9]+" | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
-        speedinfo=$(echo "${output}" | grep -P "^\[download\]\s[0-9]+")
+        speed=$(grep -P "^\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
+        speedinfo=$(grep -P "^\[download\]\s[0-9]+" out.tmp)
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
             echo "速度: ${speedinfo}" | tee -a "$SUMMARY_FILE"
             echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
         else
-            echo "测速失败: ${url}" | tee -a "$SUMMARY_FILE"
+            echo "测速失败！！" | tee -a "$SUMMARY_FILE"
             echo "测速失败: ${url}" >>"$SPEED_TEST_LOG"
         fi
 
         # 清理下载的文件
-        rm -f new-archive.txt output.ts
+        rm -f new-archive.txt output.ts out.tmp
 
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
 
