@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set +x
 # 定义城市参数
 declare -A cities
 cities["beijing"]="%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A"
