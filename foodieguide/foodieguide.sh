@@ -1,175 +1,169 @@
 #!/bin/bash
-set -x # 开启调试
+# set -e  # 遇到错误时立即退出
+# set -x # 调试
+
 # 定义城市参数
 declare -A cities
 cities["taiwan"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
-# cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
-# cities["macao"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
+cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
+cities["macao"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
 
-URL="http://foodieguide.com/iptvsearch/"
-RESPONSE_FILE="response.txt"
-UNIQUE_SEARCH_RESULTS_FILE="unique_searchresults.txt"
-SPEED_TEST_LOG="speedtest.log"
-BEST_URL_RESPONSE_FILE="besturlresponse.txt"
-SUMMARY_FILE="summary.txt"
-YT_DLP_LOG="yt-dlp-output.log"
+base_url="http://foodieguide.com/iptvsearch/"
+response_file="response.txt"
+unique_search_results_file="unique_search_results.txt"
+speed_test_log="speed_test.log"
+best_url_response_file="best_url_response.txt"
+summary_file="summary.txt"
+yt_dlp_log="yt_dlp_output.log"
 
 # 清空或创建汇总文件
-: >${SUMMARY_FILE}
-: >${YT_DLP_LOG}
+: >"${summary_file}"
+: >"${yt_dlp_log}"
 
-for CHANNEL_NAME in "${!cities[@]}"; do
-    IFS=':' read -r CHANNEL_KEY_URL CHANNEL_VALUE <<<"${cities[$CHANNEL_NAME]}"
-    OUTPUT_FILE="${CHANNEL_NAME}_foodieguide.txt"
+for channel_name in "${!cities[@]}"; do
+    IFS=':' read -r channel_key_url channel_value <<<"${cities[$channel_name]}"
+    output_file="${channel_name}_foodieguide.txt"
 
-    echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
+    echo "==== 开始获取数据: ${channel_name} ======" | tee -a "$summary_file"
 
     # 清空响应文件
-    : >${RESPONSE_FILE}
-    : >${SPEED_TEST_LOG}
+    : >"${response_file}"
+    : >"${speed_test_log}"
 
     # 获取第一页数据
-    echo "第1页 下载中" | tee -a "$SUMMARY_FILE"
-    curl -X POST "${URL}" \
+    echo "第1页 下载中" | tee -a "$summary_file"
+    curl -X POST "${base_url}" \
         -H "Accept-Language: zh-CN,zh;q=0.9" \
-        -d "search=${CHANNEL_KEY_URL}&Submit=+" \
+        -d "search=${channel_key_url}&Submit=+" \
         -c cookies.txt \
-        -o "$RESPONSE_FILE"
+        -o "$response_file"
 
-    # 循环获取其余页面数据，使用--data-urlencode 可能会因带参数二次编码而导致异常。
+    # 循环获取其余页面数据
     for page in $(seq 2 3); do
-        echo "第${page}页 下载中" | tee -a "$SUMMARY_FILE"
-        curl -G "${URL}" \
+        echo "第${page}页 下载中" | tee -a "$summary_file"
+        curl -G "${base_url}" \
             -H "Accept-Language: zh-CN,zh;q=0.9" \
             -d "page=${page}" \
-            -d "s=${CHANNEL_KEY_URL}" \
-            -d "l=${CHANNEL_VALUE}" \
+            -d "s=${channel_key_url}" \
+            -d "l=${channel_value}" \
             -b cookies.txt \
-            >>"$RESPONSE_FILE"
+            >>"$response_file"
     done
     rm cookies.txt
 
     # 提取源地址并整理
-    echo "==== 提取源地址结果 ======" | tee -a "$SUMMARY_FILE"
-    grep -oP "\s\Khttps?://[^<]*" "$RESPONSE_FILE" | awk -F/ '!seen[$3]++' >"$UNIQUE_SEARCH_RESULTS_FILE"
-    cat "$UNIQUE_SEARCH_RESULTS_FILE" | tee -a "$SUMMARY_FILE"
+    echo "==== 提取源地址结果 ======" | tee -a "$summary_file"
+    ggrep -oP "\s\Khttps://[^<]*" "$response_file" | awk -F/ '!seen[$3]++' >"$unique_search_results_file"
+    cat "$unique_search_results_file" | tee -a "$summary_file"
 
     # 剔除已知干扰地址
-    sed -i '/epg.pw/d' "$UNIQUE_SEARCH_RESULTS_FILE"
+    sed -i '' '/epg.pw/d' "$unique_search_results_file"
 
     # 测试每个源的下载速度
-    echo "==== 整理数据完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
-    lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE" | xargs)
+    echo "==== 整理数据完成, 开始测速 ======" | tee -a "$summary_file"
+    line_count=$(wc -l <"$unique_search_results_file" | xargs)
+    echo "line count is ${line_count}"
     i=0
 
-    echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
+    echo "========= ${channel_name} ===测速日志==========" >>"$yt_dlp_log"
     while read -r url; do
         i=$((i + 1))
-        echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
-        output=$(timeout 40 /usr/bin/yt-dlp --no-check-certificate --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
-
+        echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$summary_file"
+        output=$(yt-dlp --ignore-config --no-check-certificate --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
+        :> out.tmp
         # 保存 yt-dlp 输出到日志
-        echo "${output}" >>"$YT_DLP_LOG"
-
-        #此前直接使用"${output}" 在mac端运行一次，修改为使用临时文件。
-        :>out.tmp
-        echo "${output}" >out.tmp
-        sync
+        echo "${output}" >>"$yt_dlp_log"
+        echo "${output}" > out.tmp
         sleep 0.1
+        # 这里能正常运行，但是使用echo "${output}"传递时却在mac端异常，windows正常
+        # grep -E "\s\[download\]\s[0-9]+" out.tmp | ggrep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$'
+        # grep -E "\s\[download\]\s[0-9]+" out.tmp
 
         # 检查下载是否成功
         if grep -q "ERROR" out.tmp; then
-            echo "下载失败: ${url}" | tee -a "$SUMMARY_FILE"
-            echo "下载失败: ${url}" >>"$SPEED_TEST_LOG"
+            echo "下载失败" | tee -a "$summary_file"
+            echo "下载失败: ${url}" >>"$speed_test_log"
             continue
         fi
 
         # 提取下载速度信息
-        speed=$(grep -P "^\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
-        speedinfo=$(grep -P "^\[download\]\s[0-9]+" out.tmp)
-
+        speed=$(grep -E "\s\[download\]\s[0-9]+" out.tmp | ggrep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
+        speed_info=$(grep -E "\s\[download\]\s[0-9]+" out.tmp)
+        
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
-            echo "速度: ${speedinfo}" | tee -a "$SUMMARY_FILE"
-            echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
+            echo "连接质量: ${speed_info}" | tee -a "$summary_file"
+            echo "${speed} ${url}" >>"$speed_test_log"
         else
-            echo "测速失败！！" | tee -a "$SUMMARY_FILE"
-            echo "测速失败: ${url}" >>"$SPEED_TEST_LOG"
+            echo "测速失败!!" | tee -a "$summary_file"
+            echo "测速失败: ${url}" >>"$speed_test_log"
         fi
 
         # 清理下载的文件
-        rm -f new-archive.txt output.ts out.tmp
+        rm -f new-archive.txt output.ts
 
-    done <"$UNIQUE_SEARCH_RESULTS_FILE"
-
+    done <"$unique_search_results_file"
 
     # 检查是否有有效的速度信息
-    if [ ! -s "$SPEED_TEST_LOG" ] || ! grep -v '失败' "$SPEED_TEST_LOG" | grep -q '[0-9]'; then
-        echo "没有找到有效的测速结果，跳过 ${CHANNEL_NAME}" | tee -a "$SUMMARY_FILE"
-        continue  # 跳过当前循环，进入下一个频道的处理
+    if [ ! -s "$speed_test_log" ] || ! grep -v '失败' "$speed_test_log" | grep -q '[0-9]'; then
+        echo "没有找到有效的测速结果，跳过 ${channel_name}" | tee -a "$summary_file"
+        continue
     fi
 
     # 排序并选择速度最快的源地址
-    # 检查是否包含 MiB/s（yt-dlp执行的结果会有差异）
-    if grep -E 'MiB/s|KiB/s' "$SPEED_TEST_LOG"; then
-        echo "找到 MiB/s|KiB/s, 执行倒序排列" | tee -a "$SUMMARY_FILE"
-        # 将单位换算一致，使用bc比较方便
-        # sed -i 's/\([0-9.]*\)MiB\/s/echo "\1 * 1024" | bc KiB\/s/e' "$SPEED_TEST_LOG"
-        # 无法使用bc的使用awk将 MiB/s 转换为 KiB/s
+    if grep -E 'MiB/s|KiB/s' "$speed_test_log"; then
+        echo "找到 MiB/s|KiB/s, 执行倒序排列" | tee -a "$summary_file"
 
         awk '{
         if ($1 ~ /MiB\/s/) {
-            # 提取数值部分并转换为 KiB/s
             value = $1;
-            sub(/MiB\/s/, "", value);  # 去掉单位
-            value = value * 1024;  # 转换为 KiB
-            printf "%.2fKiB/s %s\n", value, $2;  # 格式化输出
+            sub(/MiB\/s/, "", value);
+            value = value * 1024;
+            printf "%.2fKiB/s %s\n", value, $2;
         } else {
-            print $0;  # 保留原样
+            print $0;
         }
-    }' "$SPEED_TEST_LOG" >speed_temp.log && mv speed_temp.log "$SPEED_TEST_LOG"
+        }' "$speed_test_log" >speed_temp.log && mv speed_temp.log "$speed_test_log"
 
-
-        grep -v '失败' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
+        grep -v '失败' "$speed_test_log" | sort -n -r | awk '{print $2 " " $1}' >valid_url.txt
     else
-        echo "未找到MiB/s|KiB/s, 执行正序排列" | tee -a "$SUMMARY_FILE"
-        grep -v '失败' "$SPEED_TEST_LOG" | sort -n | awk '{print $2 " " $1}' >validurl.txt
+        echo "未找到MiB/s|KiB/s, 执行正序排列" | tee -a "$summary_file"
+        grep -v '失败' "$speed_test_log" | sort -n | awk '{print $2 " " $1}' >valid_url.txt
     fi
 
-    besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
-    echo "========== 最优源域名: ${besturl}" | tee -a "$SUMMARY_FILE"
+    best_url=$(head -n 1 valid_url.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
+    echo "========== 最优源域名: ${best_url}" | tee -a "$summary_file"
 
-    # 获取 besturl 对应的直播源列表
-    echo "besturl 第1页 下载中" | tee -a "$SUMMARY_FILE"
-    curl -X POST "${URL}" \
+    # 获取 best_url 对应的直播源列表
+    echo "best_url 第1页 下载中" | tee -a "$summary_file"
+    curl -X POST "${base_url}" \
         -H "Accept-Language: zh-CN,zh;q=0.9" \
-        -d "search=${besturl}&Submit=+" \
+        -d "search=${best_url}&Submit=+" \
         -c cookies.txt \
-        -o "$BEST_URL_RESPONSE_FILE"
+        -o "$best_url_response_file"
 
-    max_page=$(grep -oP 'page=\K\d+' "$BEST_URL_RESPONSE_FILE" | sort -nr | head -n1)
-    l=$(grep -oP "&l=\K[^']*" "$BEST_URL_RESPONSE_FILE" | head -n 1)
+    max_page=$(ggrep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr | head -n1)
+    l=$(ggrep -oP "&l=\K[^']*" "$best_url_response_file" | head -n 1)
 
-    if ! ${max_page} ; then
-        # 获取剩余页面的源列表
+    if ! ${max_page}; then
         for page in $(seq 2 "$max_page"); do
-            echo "最大 page 值是: ${max_page}" | tee -a "$SUMMARY_FILE"
-            echo "${besturl} 第${page}页 下载中"  | tee -a "$SUMMARY_FILE"
-            curl -G "${URL}" \
+            echo "最大 page 值是: ${max_page}" | tee -a "$summary_file"
+            echo "${best_url} 第${page}页 下载中"  | tee -a "$summary_file"
+            curl -G "${base_url}" \
                 -H "Accept-Language: zh-CN,zh;q=0.9" \
                 -d "page=${page}" \
-                -d "s=${CHANNEL_KEY_URL}" \
+                -d "s=${channel_key_url}" \
                 -d "l=${l}" \
                 -b cookies.txt \
-                >>"$BEST_URL_RESPONSE_FILE"
+                >>"$best_url_response_file"
         done
-        fi
-        echo "仅此一页"
+    fi
+    echo "仅此一页"
     rm cookies.txt
 
     # 提取频道名称和 m3u8 链接
-    echo "==== 提取频道名称和 m3u8 链接结果 ======" | tee -a "$SUMMARY_FILE"
-    grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps?[^<]*' "$BEST_URL_RESPONSE_FILE" |
+    echo "==== 提取频道名称和 m3u8 链接结果 ======" | tee -a "$summary_file"
+    ggrep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps?[^<]*' "$best_url_response_file" |
         awk '{
         if ($0 ~ /http/) {
             gsub(/ /, "", $0);
@@ -179,14 +173,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         } else {
             channel=$0;
         }
-    }' >"$OUTPUT_FILE"
+    }' >"$output_file"
 
-    sed -i "1i ${CHANNEL_NAME},#genre#" "$OUTPUT_FILE"
-    echo " $OUTPUT_FILE 已经更新完成" | tee -a "$SUMMARY_FILE"
-
-    # 在汇总文件中加入分隔行
-    echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
-    echo "------------------------------" | tee -a "$SUMMARY_FILE"
-
-    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
+    sed -i '' "1i \\ ${channel_name},#genre#" "$output_file"
 done
