@@ -1,0 +1,33 @@
+name: foodieguide/iptvsearch
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Run rm
+      run: |
+        cd $GITHUB_WORKSPACE/foodieguide
+        rm *.txt *.log *.part
+
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE
+        echo "Staging changes..."
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add .
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update foodieguide/iptv"
+        branch: main  # Commit to the main branch
