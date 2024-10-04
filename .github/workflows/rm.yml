@@ -14,7 +14,7 @@ jobs:
     - name: Run rm
       run: |
         cd $GITHUB_WORKSPACE/foodieguide
-        rm *.txt *.log *.part
+        rm *.txt *.log
 
     - name: Update Results
       run: |
