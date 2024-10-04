@@ -1,4 +1,0 @@
-[generic] index: Requesting header
-WARNING: [generic] Could not send HEAD request to https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8: <urlopen error [Errno -2] Name or service not known>
-[generic] index: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urlopen error [Errno -2] Name or service not known> (caused by URLError(gaierror(-2, 'Name or service not known')))
