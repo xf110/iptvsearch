@@ -143,7 +143,7 @@ for channel_name in "${!cities[@]}"; do
         -o "$best_url_response_file"
 
     # 提取最大页面数和 l 参数
-    max_page=$(grep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr | head -n 1)
+    max_page=$(grep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr 2>/dev/null | head -n 1)
     l=$(grep -oP "&l=\K[^']*" "$best_url_response_file" | head -n 1)
 
     # 检查 max_page 是否存在且大于 1
