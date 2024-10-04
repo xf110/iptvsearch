@@ -87,8 +87,8 @@ for channel_name in "${!cities[@]}"; do
         fi
 
         # 提取下载速度信息
-        speed=$(grep -E "\s\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
-        speed_info=$(grep -E "\s\[download\]\s[0-9]+" out.tmp)
+        speed=$(grep -E "\s?\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
+        speed_info=$(grep -E "\s?\[download\]\s[0-9]+" out.tmp)
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
