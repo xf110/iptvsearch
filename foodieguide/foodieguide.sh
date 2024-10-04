@@ -70,10 +70,10 @@ for channel_name in "${!cities[@]}"; do
         i=$((i + 1))
         echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$summary_file"
         output=$(yt-dlp --ignore-config --no-check-certificate --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
-        :> out.tmp
+        : >out.tmp
         # 保存 yt-dlp 输出到日志
         echo "${output}" >>"$yt_dlp_log"
-        echo "${output}" > out.tmp
+        echo "${output}" >out.tmp
         sleep 0.1
         # 这里能正常运行，但是使用echo "${output}"传递时却在mac端异常，windows正常
         # grep -E "\s\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$'
@@ -89,7 +89,7 @@ for channel_name in "${!cities[@]}"; do
         # 提取下载速度信息
         speed=$(grep -E "\s\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
         speed_info=$(grep -E "\s\[download\]\s[0-9]+" out.tmp)
-        
+
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
             echo "连接质量: ${speed_info}" | tee -a "$summary_file"
@@ -142,13 +142,17 @@ for channel_name in "${!cities[@]}"; do
         -c cookies.txt \
         -o "$best_url_response_file"
 
-    max_page=$(grep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr | head -n1)
+    # 提取最大页面数和 l 参数
+    max_page=$(grep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr | head -n 1)
     l=$(grep -oP "&l=\K[^']*" "$best_url_response_file" | head -n 1)
 
-    if ! ${max_page}; then
+    # 检查 max_page 是否存在且大于 1
+    if [[ -n "$max_page" && "$max_page" -gt 1 ]]; then
+        echo "最大 page 值是: ${max_page}" | tee -a "$summary_file"
+
+        # 从第二页开始分页下载
         for page in $(seq 2 "$max_page"); do
-            echo "最大 page 值是: ${max_page}" | tee -a "$summary_file"
-            echo "${best_url} 第${page}页 下载中"  | tee -a "$summary_file"
+            echo "${best_url} 第${page}页 下载中" | tee -a "$summary_file"
             curl -G "${base_url}" \
                 -H "Accept-Language: zh-CN,zh;q=0.9" \
                 -d "page=${page}" \
@@ -157,8 +161,10 @@ for channel_name in "${!cities[@]}"; do
                 -b cookies.txt \
                 >>"$best_url_response_file"
         done
+    else
+        echo "仅此一页" | tee -a "$summary_file"
     fi
-    echo "仅此一页"
+
     rm cookies.txt
 
     # 提取频道名称和 m3u8 链接
