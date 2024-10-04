@@ -69,18 +69,17 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     while IFS= read -r address; do
         i=$((i + 1))
         allllist=$(curl -G "${URL2}" -d "s=${address}" --compressed)
-        # echo "${allllist}" >> out.put
+        echo "${allllist}" >> out.put
 
         if echo "${allllist}" | grep '暂时失效'; then
             echo "[第$i/$lines个] ${address} 暂时失效" | tee -a "$SUMMARY_FILE"
         else
             echo "[第$i/$lines个] ${address} 地址有效" | tee -a "$SUMMARY_FILE"
-            tmp_allllist=$(mktemp)
-            echo "${allllist}" > ${tmp_allllist}
-            echo " allllist : " | tee -a "$SUMMARY_FILE"
-            echo "${tmp_allllist}" | tee -a "$SUMMARY_FILE"
+            :>out.tmp
+            echo "${allllist}" > out.tmp
+            cat out.tmp | tee -a "$SUMMARY_FILE"
             echo "vaildURL list :" | tee -a "$SUMMARY_FILE"
-            echo "$(grep -oP "\s\Khttps?://${address}[^<]*" ${tmp_allllist} | head -n 1)" >>validurlist.txt | tee -a "$SUMMARY_FILE"
+            echo "$(grep -oP "\s\Khttps?://${address}[^<]*" out.tmp | head -n 1)" >>validurlist.txt | tee -a "$SUMMARY_FILE"
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
     mv validurlist.txt "$UNIQUE_SEARCH_RESULTS_FILE"
