@@ -20,11 +20,19 @@ jobs:
         pwd
         which yt-dlp
 
+    # - name: Run hoteliptv.sh
+    #   run: |
+    #     cd $GITHUB_WORKSPACE/foodieguide
+    #     bash ./hoteliptv.sh
+    #     for file in $(find . -name '*_hotel_foodieguide.txt'); do
+    #       bash ../speedtest/rtp2m3u.sh "$file"
+    #     done
+
     - name: Run foodieguide.sh
       run: |
         cd $GITHUB_WORKSPACE/foodieguide
-        bash ./hoteliptv.sh
-        for file in $(find . -name '*_hotel_foodieguide.txt'); do
+        bash ./foodieguide.sh
+        for file in $(find . -name '*_foodieguide.txt'); do
           bash ../speedtest/rtp2m3u.sh "$file"
         done
 
