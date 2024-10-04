@@ -53,11 +53,11 @@ for channel_name in "${!cities[@]}"; do
 
     # 提取源地址并整理
     echo "==== 提取源地址结果 ======" | tee -a "$summary_file"
-    ggrep -oP "\s\Khttps://[^<]*" "$response_file" | awk -F/ '!seen[$3]++' >"$unique_search_results_file"
+    grep -oP "\s\Khttps://[^<]*" "$response_file" | awk -F/ '!seen[$3]++' >"$unique_search_results_file"
     cat "$unique_search_results_file" | tee -a "$summary_file"
 
     # 剔除已知干扰地址
-    sed -i '' '/epg.pw/d' "$unique_search_results_file"
+    sed -i '/epg.pw/d' "$unique_search_results_file"
 
     # 测试每个源的下载速度
     echo "==== 整理数据完成, 开始测速 ======" | tee -a "$summary_file"
@@ -76,7 +76,7 @@ for channel_name in "${!cities[@]}"; do
         echo "${output}" > out.tmp
         sleep 0.1
         # 这里能正常运行，但是使用echo "${output}"传递时却在mac端异常，windows正常
-        # grep -E "\s\[download\]\s[0-9]+" out.tmp | ggrep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$'
+        # grep -E "\s\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$'
         # grep -E "\s\[download\]\s[0-9]+" out.tmp
 
         # 检查下载是否成功
@@ -87,7 +87,7 @@ for channel_name in "${!cities[@]}"; do
         fi
 
         # 提取下载速度信息
-        speed=$(grep -E "\s\[download\]\s[0-9]+" out.tmp | ggrep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
+        speed=$(grep -E "\s\[download\]\s[0-9]+" out.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
         speed_info=$(grep -E "\s\[download\]\s[0-9]+" out.tmp)
         
         # 如果文件存在且大小合理，认为测速成功
@@ -142,8 +142,8 @@ for channel_name in "${!cities[@]}"; do
         -c cookies.txt \
         -o "$best_url_response_file"
 
-    max_page=$(ggrep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr | head -n1)
-    l=$(ggrep -oP "&l=\K[^']*" "$best_url_response_file" | head -n 1)
+    max_page=$(grep -oP 'page=\K\d+' "$best_url_response_file" | sort -nr | head -n1)
+    l=$(grep -oP "&l=\K[^']*" "$best_url_response_file" | head -n 1)
 
     if ! ${max_page}; then
         for page in $(seq 2 "$max_page"); do
@@ -163,7 +163,7 @@ for channel_name in "${!cities[@]}"; do
 
     # 提取频道名称和 m3u8 链接
     echo "==== 提取频道名称和 m3u8 链接结果 ======" | tee -a "$summary_file"
-    ggrep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps?[^<]*' "$best_url_response_file" |
+    grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps?[^<]*' "$best_url_response_file" |
         awk '{
         if ($0 ~ /http/) {
             gsub(/ /, "", $0);
@@ -175,5 +175,5 @@ for channel_name in "${!cities[@]}"; do
         }
     }' >"$output_file"
 
-    sed -i '' "1i \\ ${channel_name},#genre#" "$output_file"
+    sed -i "1i \\ ${channel_name},#genre#" "$output_file"
 done
