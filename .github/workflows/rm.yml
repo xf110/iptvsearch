@@ -1,4 +1,4 @@
-name: foodieguide/iptvsearch
+name: foodieguide/rm
 
 on:
   workflow_dispatch:
