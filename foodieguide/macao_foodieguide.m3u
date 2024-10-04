@@ -1,29 +1,41 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Fri Oct  4 08:53:44 UTC 2024
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title=" macao",凤凰中文
-http://pi.0472.org/tv/cbn.php?id=xfjcHD
-#EXTINF:-1 tvg-id="澳亚卫视" tvg-name="澳亚卫视" tvg-logo="https://live.fanmingming.com/tv/澳亚卫视.png" group-title=" macao",澳亚卫视
-https://pi.0472.org/tv/aoya.php?auth=2309081833
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title=" macao",翡翠台
-https://pi.0472.org/tv/fct.php?auth=230918
-#EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://live.fanmingming.com/tv/澳视澳门.png" group-title=" macao",澳视澳门
-https://pi.0472.org/tv/asam.php?auth=2309081833
-#EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title=" macao",梨园频道
-https://pi.0472.org/tv/hn.php?id=154
-#EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://live.fanmingming.com/tv/澳视澳门.png" group-title=" macao",澳视澳门
-https://pi.0472.org/tv/asam.php?auth=230918
-#EXTINF:-1 tvg-id="澳亚卫视" tvg-name="澳亚卫视" tvg-logo="https://live.fanmingming.com/tv/澳亚卫视.png" group-title=" macao",澳亚卫视
-https://pi.0472.org/tv/aoya.php?auth=230918
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/明珠台.png" group-title=" macao",明珠台
-https://pi.0472.org/tv/mzt.php?auth=230918
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/明珠台.png" group-title=" macao",明珠台
-https://pi.0472.org/tv/mzt.php?auth=2309081833
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title=" macao",翡翠台
-https://pi.0472.org/tv/fct.php?auth=2309081833
-#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title=" macao",CHC高清电影
-http://pi.0472.org/tv/cbn.php?id=chcgqdyHD
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title=" macao",CHC家庭影院
-http://pi.0472.org/tv/cbn.php?id=chcjtyyHD
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title=" macao",CHC动作电影
-http://pi.0472.org/tv/cbn.php?id=chcdzdyHD
+# Fri Oct  4 09:36:16 UTC 2024
+#EXTINF:-1 tvg-id="澳门2_611" tvg-name="澳门2_611" tvg-logo="https://live.fanmingming.com/tv/澳门2_611.png" group-title=" macao",澳门2_611
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱1台" tvg-name="大爱1台" tvg-logo="https://live.fanmingming.com/tv/大爱1台.png" group-title=" macao",大爱1台
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="TJB대전방송(SBS大田)" tvg-name="TJB대전방송(SBS大田)" tvg-logo="https://live.fanmingming.com/tv/TJB대전방송(SBS大田).png" group-title=" macao",TJB 대전방송(SBS 大田)
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="半岛电视台" tvg-name="半岛电视台" tvg-logo="https://live.fanmingming.com/tv/半岛电视台.png" group-title=" macao",半岛电视台
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱一台" tvg-name="大爱一台" tvg-logo="https://live.fanmingming.com/tv/大爱一台.png" group-title=" macao",大爱一台
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="吉林卫视" tvg-name="吉林卫视" tvg-logo="https://live.fanmingming.com/tv/吉林卫视.png" group-title=" macao",吉林卫视
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="澳门2_609" tvg-name="澳门2_609" tvg-logo="https://live.fanmingming.com/tv/澳门2_609.png" group-title=" macao",澳门2_609
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大愛2台" tvg-name="大愛2台" tvg-logo="https://live.fanmingming.com/tv/大愛2台.png" group-title=" macao",大愛2台
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8?$1280x720
+#EXTINF:-1 tvg-id="大愛1台" tvg-name="大愛1台" tvg-logo="https://live.fanmingming.com/tv/大愛1台.png" group-title=" macao",大愛1台
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8?$1280x720
+#EXTINF:-1 tvg-id="大愛1台" tvg-name="大愛1台" tvg-logo="https://live.fanmingming.com/tv/大愛1台.png" group-title=" macao",大愛1台
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大愛2台" tvg-name="大愛2台" tvg-logo="https://live.fanmingming.com/tv/大愛2台.png" group-title=" macao",大愛2台
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2台" tvg-name="大爱2台" tvg-logo="https://live.fanmingming.com/tv/大爱2台.png" group-title=" macao",大爱2台
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱1" tvg-name="大爱1" tvg-logo="https://live.fanmingming.com/tv/大爱1.png" group-title=" macao",大爱1
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱2" tvg-name="大爱2" tvg-logo="https://live.fanmingming.com/tv/大爱2.png" group-title=" macao",大爱2
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2" tvg-name="大爱2" tvg-logo="https://live.fanmingming.com/tv/大爱2.png" group-title=" macao",大爱2
+http://pulltv1.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱" tvg-name="大爱" tvg-logo="https://live.fanmingming.com/tv/大爱.png" group-title=" macao",大爱
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="DaAi1" tvg-name="DaAi1" tvg-logo="https://live.fanmingming.com/tv/DaAi1.png" group-title=" macao",DaAi 1
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱" tvg-name="大爱" tvg-logo="https://live.fanmingming.com/tv/大爱.png" group-title=" macao",大爱
+http://pulltv1.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大愛" tvg-name="大愛" tvg-logo="https://live.fanmingming.com/tv/大愛.png" group-title=" macao",大愛
+https://pulltv1.wanfudaluye.com/live/tv1.m3u8
