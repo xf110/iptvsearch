@@ -3,12 +3,12 @@
 [generic] 01: Downloading m3u8 information
 [info] 01: Downloading 1 format(s): 0
 [download] Destination: output.ts
-[hls @ 0x561e4cb777c0] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x561e4cb777c0] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18711364.ts' for reading
-[hls @ 0x561e4cb777c0] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18711365.ts' for reading
-[h264 @ 0x561e4d1b0580] Increasing reorder buffer to 2
+[hls @ 0x5608eca527c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5608eca527c0] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18711439.ts' for reading
+[hls @ 0x5608eca527c0] Opening 'https://live-hls-web-ajb.getaj.net/AJB/20190515T014705-01-18711440.ts' for reading
+[h264 @ 0x5608ed08b580] Increasing reorder buffer to 2
 Input #0, hls, from 'https://live-hls-web-ajb.getaj.net/AJB/01.m3u8':
-  Duration: N/A, start: 65803.937000, bitrate: N/A
+  Duration: N/A, start: 66553.937000, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -31,10 +31,10 @@ Stream mapping:
   Stream #0:0 -> #0:0 (copy)
   Stream #0:1 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.01 bitrate=  27.3kbits/s speed=1.41e+04x    frame=  127 fps=0.0 q=-1.0 Lsize=    3895kB time=00:00:04.98 bitrate=6401.6kbits/s speed=24.6x    
-video:3812kB audio:79kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.101538%
-[ffmpeg] Downloaded 3988776 bytes
-[download] 100% of 3.80MiB in 00:01
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=  43.9kbits/s speed=N/A    frame=  127 fps=0.0 q=-1.0 Lsize=    3738kB time=00:00:04.97 bitrate=6149.3kbits/s speed= 480x    
+video:3654kB audio:79kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.105689%
+[ffmpeg] Downloaded 3827520 bytes
+[download] 100% of 3.65MiB in 00:00
 [generic] index-fhd: Requesting header
 WARNING: [generic] Could not send HEAD request to https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8: HTTP Error 403: Forbidden
 [generic] index-fhd: Downloading webpage
@@ -43,21 +43,21 @@ ERROR: [generic] Unable to download webpage: HTTP Error 403: Forbidden (caused b
 [generic] index: Downloading m3u8 information
 [info] index: Downloading 1 format(s): 2978
 [download] Destination: output.ts
-[hls @ 0x5561883337c0] Skip ('#EXT-X-VERSION:4')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:07.836Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:13.842Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:19.848Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:25.854Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:31.860Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:37.866Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:43.872Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:49.878Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:55.884Z')
-[hls @ 0x5561883337c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:01.890Z')
-[hls @ 0x5561883337c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240930T012912/index_2M/00020/index_2M_01825.ts' for reading
-[hls @ 0x5561883337c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240930T012912/index_2M/00020/index_2M_01826.ts' for reading
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-VERSION:4')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:49:44.592Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:49:50.598Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:49:56.604Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:02.610Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:08.616Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:14.622Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:20.628Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:26.634Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:32.640Z')
+[hls @ 0x563e60ac57c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:38.646Z')
+[hls @ 0x563e60ac57c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240930T012912/index_2M/00020/index_2M_01951.ts' for reading
+[hls @ 0x563e60ac57c0] Opening 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/20240930T012912/index_2M/00020/index_2M_01952.ts' for reading
 Input #0, hls, from 'https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_2M.m3u8':
-  Duration: N/A, start: 84985.880800, bitrate: N/A
+  Duration: N/A, start: 85742.636800, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -80,10 +80,10 @@ Stream mapping:
   Stream #0:0 -> #0:0 (copy)
   Stream #0:1 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=34909.1kbits/s speed=N/A    frame=  150 fps=0.0 q=-1.0 Lsize=    1210kB time=00:00:04.98 bitrate=1987.8kbits/s speed= 404x    
-video:1129kB audio:78kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.278603%
-[ffmpeg] Downloaded 1239252 bytes
-[download] 100% of 1.18MiB in 00:00
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=34909.1kbits/s speed=  11x    frame=  150 fps=0.0 q=-1.0 Lsize=    1165kB time=00:00:04.97 bitrate=1919.5kbits/s speed= 547x    
+video:1083kB audio:78kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.288788%
+[ffmpeg] Downloaded 1192887 bytes
+[download] 100% of 1.14MiB in 00:00
 [generic] 492391?c=香港: Requesting header
 WARNING: [generic] Could not send HEAD request to https://ktpremium.com:443/M919HR/5577/492391?c=香港: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)>
 [generic] 492391?c=香港: Downloading webpage
@@ -94,14 +94,14 @@ WARNING: [generic] Could not send HEAD request to https://rthktv32-live.akamaize
 ERROR: [generic] Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: 'Forbidden'>); please report this issue on  https://github.com/yt-dlp/yt-dlp/issues?q= , filling out the appropriate issue template. Confirm you are on the latest version using  yt-dlp -U
 [generic] playlist: Requesting header
 [generic] playlist: Downloading m3u8 information
-[info] playlist: Downloading 1 format(s): 1072
+[info] playlist: Downloading 1 format(s): 943
 [download] Destination: output.ts
-[hls @ 0x55a1f52b67c0] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x55a1f52b67c0] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
-[hls @ 0x55a1f52b67c0] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-ubqpfivuk_23324.ts' for reading
-[hls @ 0x55a1f52b67c0] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-ubqpfivuk_23325.ts' for reading
+[hls @ 0x5595e1e807c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5595e1e807c0] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:65')
+[hls @ 0x5595e1e807c0] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-ubqpfivuk_23400.ts' for reading
+[hls @ 0x5595e1e807c0] Opening 'https://js1.amtb.cn/liveedge/_definst_/livetv/media-ubqpfivuk_23401.ts' for reading
 Input #0, hls, from 'https://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8':
-  Duration: N/A, start: 41823.203622, bitrate: N/A
+  Duration: N/A, start: 42583.663622, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -127,10 +127,10 @@ Stream mapping:
   Stream #0:1 -> #0:0 (copy)
   Stream #0:2 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame=   60 fps=0.0 q=-1.0 size=       0kB time=00:00:02.00 bitrate=   0.2kbits/s speed=3.57x    frame=  131 fps=119 q=-1.0 size=     256kB time=00:00:04.36 bitrate= 480.2kbits/s speed=3.96x    frame=  151 fps=122 q=-1.0 Lsize=     524kB time=00:00:04.98 bitrate= 860.0kbits/s speed=4.02x    
-video:440kB audio:78kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 1.066489%
-[ffmpeg] Downloaded 536089 bytes
-[download] 100% of 523.52KiB in 00:05
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame=  116 fps=0.0 q=-1.0 size=     256kB time=00:00:03.86 bitrate= 542.6kbits/s speed=7.59x    frame=  151 fps=0.0 q=-1.0 Lsize=     628kB time=00:00:04.99 bitrate=1029.3kbits/s speed=9.15x    
+video:543kB audio:79kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.887371%
+[ffmpeg] Downloaded 642817 bytes
+[download] 100% of 627.75KiB in 00:03
 [generic] master: Requesting header
 WARNING: [generic] Could not send HEAD request to https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc: <urlopen error [Errno -2] Name or service not known>
 [generic] master: Downloading webpage
@@ -148,15 +148,15 @@ ERROR: [generic] Unable to download webpage: <urlopen error [Errno -5] No addres
 [generic] playlist: Downloading m3u8 information
 [info] playlist: Downloading 1 format(s): 4292
 [download] Destination: output.ts
-[hls @ 0x55fd40e6f7c0] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x55fd40e6f7c0] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:66')
-[hls @ 0x55fd40e6f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:22.173Z')
-[hls @ 0x55fd40e6f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:28.173Z')
-[hls @ 0x55fd40e6f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:34.173Z')
-[hls @ 0x55fd40e6f7c0] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/2qo8mo9u_659c60020d9743ed813a8f655a35dde4_media_400920.ts' for reading
-[hls @ 0x55fd40e6f7c0] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/2qo8mo9u_b6f801754fe24ad29e8df59f3dd97b06_media_400921.ts' for reading
+[hls @ 0x5567dcc077c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5567dcc077c0] Skip ('#EXT-X-DISCONTINUITY-SEQUENCE:66')
+[hls @ 0x5567dcc077c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:52.173Z')
+[hls @ 0x5567dcc077c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:58.173Z')
+[hls @ 0x5567dcc077c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:04.173Z')
+[hls @ 0x5567dcc077c0] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/2qo8mo9u_56ad733202c9466dab64c5d7e147a0fb_media_401045.ts' for reading
+[hls @ 0x5567dcc077c0] Opening 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/2qo8mo9u_670951aca7ac44a0b244ef660d76c314_media_401046.ts' for reading
 Input #0, hls, from 'https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/ap-northeast-1/6282251407001/profile_0/chunklist.m3u8':
-  Duration: N/A, start: 19481.104778, bitrate: N/A
+  Duration: N/A, start: 20231.120778, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -182,10 +182,10 @@ Stream mapping:
   Stream #0:1 -> #0:0 (copy)
   Stream #0:2 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame=  151 fps=0.0 q=-1.0 Lsize=    2848kB time=00:00:04.99 bitrate=4674.3kbits/s speed= 609x    
-video:2725kB audio:118kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.196942%
-[ffmpeg] Downloaded 2916743 bytes
-[download] 100% of 2.78MiB in 00:00
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    frame=  151 fps=0.0 q=-1.0 Lsize=    3064kB time=00:00:04.99 bitrate=5027.9kbits/s speed=21.3x    
+video:2941kB audio:117kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.183450%
+[ffmpeg] Downloaded 3137381 bytes
+[download] 100% of 2.99MiB in 00:00
 [generic] 515015?c=台湾: Requesting header
 WARNING: [generic] Could not send HEAD request to https://ktpremium.com:443/M919HR/5577/515015?c=台湾: <urlopen error [SSL: TLSV1_ALERT_INTERNAL_ERROR] tlsv1 alert internal error (_ssl.c:1007)>
 [generic] 515015?c=台湾: Downloading webpage
@@ -211,12 +211,12 @@ ERROR: [generic] Unable to download webpage: <urlopen error [Errno -2] Name or s
 [generic] tv2: Downloading m3u8 information
 [info] tv2: Downloading 1 format(s): 0
 [download] Destination: output.ts
-[hls @ 0x55fafb3227c0] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x55fafb3227c0] Skip ('#EXT-X-ALLOW-CACHE:NO')
-[hls @ 0x55fafb3227c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727567494.ts?txspiseq=10148518862127745775' for reading
-[hls @ 0x55fafb3227c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727567495.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x5619e76377c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5619e76377c0] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[hls @ 0x5619e76377c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727567748.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x5619e76377c0] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727567749.ts?txspiseq=10148518862127745775' for reading
 Input #0, hls, from 'https://pulltv1.wanfudaluye.com/live/tv2.m3u8':
-  Duration: N/A, start: 27048.542889, bitrate: N/A
+  Duration: N/A, start: 27811.295178, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -239,21 +239,21 @@ Stream mapping:
   Stream #0:0 -> #0:0 (copy)
   Stream #0:1 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x55fafb62a340] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727567496.ts?txspiseq=10148518862127745775' for reading
-frame=  151 fps=0.0 q=-1.0 Lsize=     925kB time=00:00:04.99 bitrate=1517.6kbits/s speed=13.6x    
-video:841kB audio:79kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.549001%
-[ffmpeg] Downloaded 947064 bytes
-[download] 100% of 924.87KiB in 00:02
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x5619e793f340] Opening 'https://pulltv1.wanfudaluye.com/live/tv2-1727567750.ts?txspiseq=10148518862127745775' for reading
+frame=  150 fps=0.0 q=-1.0 Lsize=     936kB time=00:00:04.99 bitrate=1535.6kbits/s speed=10.4x    
+video:852kB audio:79kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.569344%
+[ffmpeg] Downloaded 958276 bytes
+[download] 100% of 935.82KiB in 00:02
 [generic] tv2: Requesting header
 [generic] tv2: Downloading m3u8 information
 [info] tv2: Downloading 1 format(s): 0
 [download] Destination: output.ts
-[hls @ 0x561650cc67c0] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x561650cc67c0] Skip ('#EXT-X-ALLOW-CACHE:NO')
-[hls @ 0x561650cc67c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727567495.ts?txspiseq=10148518862127745775' for reading
-[hls @ 0x561650cc67c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727567496.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x5560a7e3c7c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x5560a7e3c7c0] Skip ('#EXT-X-ALLOW-CACHE:NO')
+[hls @ 0x5560a7e3c7c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727567749.ts?txspiseq=10148518862127745775' for reading
+[hls @ 0x5560a7e3c7c0] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727567750.ts?txspiseq=10148518862127745775' for reading
 Input #0, hls, from 'https://pulltv2.wanfudaluye.com/live/tv2.m3u8':
-  Duration: N/A, start: 27051.538267, bitrate: N/A
+  Duration: N/A, start: 27814.313778, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -276,32 +276,32 @@ Stream mapping:
   Stream #0:0 -> #0:0 (copy)
   Stream #0:1 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x561650fce340] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727567497.ts?txspiseq=10148518862127745775' for reading
-frame=   90 fps= 71 q=-1.0 size=     512kB time=00:00:02.99 bitrate=1400.4kbits/s speed=2.37x    frame=  151 fps=114 q=-1.0 Lsize=     939kB time=00:00:04.99 bitrate=1538.5kbits/s speed=3.79x    
-video:856kB audio:77kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.603493%
-[ffmpeg] Downloaded 961371 bytes
-[download] 100% of 938.84KiB in 00:01
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=N/A    [https @ 0x5560a8144340] Opening 'https://pulltv2.wanfudaluye.com/live/tv2-1727567751.ts?txspiseq=10148518862127745775' for reading
+frame=  151 fps=0.0 q=-1.0 Lsize=     998kB time=00:00:04.99 bitrate=1638.2kbits/s speed=22.8x    
+video:915kB audio:78kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.562166%
+[ffmpeg] Downloaded 1022319 bytes
+[download] 100% of 998.36KiB in 00:01
 [generic] live: Requesting header
 [generic] live: Downloading m3u8 information
 [info] live: Downloading 1 format(s): 2410
 [download] Destination: output.ts
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-VERSION:6')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:41.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:37:51.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:01.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:11.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:21.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:31.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:41.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:38:51.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:39:01.635Z')
-[hls @ 0x564de00d77c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:39:11.635Z')
-[hls @ 0x564de00d77c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
-[hls @ 0x564de00d77c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00013646.m4s?duration=10' for reading
-[hls @ 0x564de00d77c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00013647.m4s?duration=10' for reading
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-VERSION:6')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-INDEPENDENT-SEGMENTS')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:31.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:41.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:50:51.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:01.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:11.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:21.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:31.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:41.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:51:51.635Z')
+[hls @ 0x563a4bcac7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T08:52:01.635Z')
+[hls @ 0x563a4bcac7c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/init-segments/WIFI-2096k-1080p-init000.mp4' for reading
+[hls @ 0x563a4bcac7c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00013723.m4s?duration=10' for reading
+[hls @ 0x563a4bcac7c0] Opening 'https://reflect-vod-cmac.cablecast.tv/live-11/live/segments/WIFI-2096k-1080p-00013724.m4s?duration=10' for reading
 Input #0, hls, from 'https://reflect-vod-cmac.cablecast.tv/live-11/live/WIFI-2096k-1080p.m3u8?duration=0':
-  Duration: N/A, start: 136533.476667, bitrate: 0 kb/s
+  Duration: N/A, start: 137303.476667, bitrate: 0 kb/s
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -325,10 +325,10 @@ Output #0, mp4, to 'file:output.ts.part':
 Stream mapping:
   Stream #0:0 -> #0:0 (copy)
 Press [q] to stop, [?] for help
-frame=    1 fps=0.0 q=-1.0 size=       0kB time=-00:00:00.06 bitrate=N/A speed=N/A    frame=  152 fps=0.0 q=-1.0 Lsize=    1242kB time=00:00:04.96 bitrate=2048.2kbits/s speed= 210x    
-video:1239kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.213807%
-[ffmpeg] Downloaded 1271613 bytes
-[download] 100% of 1.21MiB in 00:01
+frame=    1 fps=0.0 q=-1.0 size=       0kB time=-00:00:00.06 bitrate=N/A speed=N/A    frame=  152 fps=0.0 q=-1.0 Lsize=    1312kB time=00:00:04.96 bitrate=2164.0kbits/s speed= 428x    
+video:1309kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.202945%
+[ffmpeg] Downloaded 1343476 bytes
+[download] 100% of 1.28MiB in 00:01
 [generic] asam: Requesting header
 [redirect] Following redirect to https://0472.org/hls/cgtn.m3u8
 [generic] cgtn: Requesting header
@@ -337,18 +337,18 @@ WARNING: [generic] Could not send HEAD request to https://0472.org/hls/cgtn.m3u8
 [generic] cgtn: Downloading m3u8 information
 [info] cgtn: Downloading 1 format(s): 1000
 [download] Destination: output.ts
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-VERSION:3')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-ALLOW-CACHE:YES')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:38:42+08:00')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:38:52+08:00')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:39:02+08:00')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:39:12+08:00')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:39:22+08:00')
-[hls @ 0x5563a65797c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:39:32+08:00')
-[hls @ 0x5563a65797c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726899193.ts' for reading
-[hls @ 0x5563a65797c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726899194.ts' for reading
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-VERSION:3')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-ALLOW-CACHE:YES')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:51:22+08:00')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:51:31+08:00')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:51:42+08:00')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:51:52+08:00')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:52:02+08:00')
+[hls @ 0x55a3c895f7c0] Skip ('#EXT-X-PROGRAM-DATE-TIME:2024-10-04T16:52:11+08:00')
+[hls @ 0x55a3c895f7c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726899269.ts' for reading
+[hls @ 0x55a3c895f7c0] Opening 'https://english-livetx.cgtn.com/hls/yypdyyctzbhd-1726899270.ts' for reading
 Input #0, hls, from 'https://english-livetx.cgtn.com/hls/yypdyyctzb_hd.m3u8':
-  Duration: N/A, start: 44956.313311, bitrate: N/A
+  Duration: N/A, start: 45716.313311, bitrate: N/A
   Program 0 
     Metadata:
       variant_bitrate : 0
@@ -371,10 +371,10 @@ Stream mapping:
   Stream #0:1 -> #0:0 (copy)
   Stream #0:0 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.01 bitrate=  25.6kbits/s speed=N/A    frame=  125 fps=0.0 q=-1.0 Lsize=     982kB time=00:00:04.98 bitrate=1613.2kbits/s speed= 160x    
-video:937kB audio:40kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.510647%
-[ffmpeg] Downloaded 1005210 bytes
-[download] 100% of 981.65KiB in 00:01
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=  76.6kbits/s speed=N/A    frame=  125 fps=0.0 q=-1.0 Lsize=    1261kB time=00:00:04.99 bitrate=2068.1kbits/s speed=78.7x    
+video:1221kB audio:36kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 0.394891%
+[ffmpeg] Downloaded 1291766 bytes
+[download] 100% of 1.23MiB in 00:01
 [generic] live: Requesting header
 WARNING: [generic] Could not send HEAD request to https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8: <urlopen error timed out>
 [generic] live: Downloading webpage
@@ -386,7 +386,7 @@ ERROR: [generic] Unable to download webpage: <urlopen error [Errno -5] No addres
 [generic] 17: Requesting header
 WARNING: [generic] Could not send HEAD request to https://live.yzd.jialiangos.com:4443/live/fhw/17: <urlopen error _ssl.c:990: The handshake operation timed out>
 [generic] 17: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urlopen error _ssl.c:990: The handshake operation timed out> (caused by URLError(TimeoutError('_ssl.c:990: The handshake operation timed out')))
+ERROR: [generic] Unable to download webpage: <urlopen error timed out> (caused by URLError(TimeoutError('timed out')))
 [generic] index: Requesting header
 WARNING: [generic] Could not send HEAD request to https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8: <urlopen error [Errno -2] Name or service not known>
 [generic] index: Downloading webpage
