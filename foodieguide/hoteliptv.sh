@@ -55,6 +55,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     }
     ' "$RESPONSE_FILE" >"${tmp_file}"
     grep -oP '<b><img[^>]*>\K[^<]*' "${tmp_file}" | grep -v '盗链' | sed 's/ //g' | sort | uniq >"$UNIQUE_SEARCH_RESULTS_FILE"
+    echo "unique search results :" | tee -a "$SUMMARY_FILE"
     cat "$UNIQUE_SEARCH_RESULTS_FILE" | tee -a "$SUMMARY_FILE"
 
     # 剔除已知干扰地址
@@ -75,7 +76,10 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         else
             echo "[第$i/$lines个] ${address} 地址有效" | tee -a "$SUMMARY_FILE"
             tmp_allllist=$(mktemp)
-            echo "${allllist}" > ${tmp_allllist} | tee -a "$SUMMARY_FILE"
+            echo "${allllist}" > ${tmp_allllist}
+            echo " allllist : " | tee -a "$SUMMARY_FILE"
+            echo "${tmp_allllist}" | tee -a "$SUMMARY_FILE"
+            echo "vaildURL list :" | tee -a "$SUMMARY_FILE"
             echo "$(grep -oP "\s\Khttps?://${address}[^<]*" ${tmp_allllist} | head -n 1)" >>validurlist.txt | tee -a "$SUMMARY_FILE"
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
