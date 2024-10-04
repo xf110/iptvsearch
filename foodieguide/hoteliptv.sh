@@ -1,5 +1,5 @@
 #!/bin/bash
-set +x
+
 # 定义城市参数
 declare -A cities
 cities["beijing"]="%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A"
@@ -12,7 +12,7 @@ SPEED_TEST_LOG="speedtest.log"
 BEST_URL_RESPONSE_FILE="besturlresponse.txt"
 SUMMARY_FILE="summary.txt"
 YT_DLP_LOG="yt-dlp-output.log"
-# OUTPUT_FILE="${CHANNEL_NAME}_hotel_foodieguide.txt"
+# OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
 
 # 清空或创建日志文件
 : >${SUMMARY_FILE}
@@ -20,7 +20,7 @@ YT_DLP_LOG="yt-dlp-output.log"
 
 for CHANNEL_NAME in "${!cities[@]}"; do
     IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
-    OUTPUT_FILE="${CHANNEL_NAME}_hotel_foodieguide.txt"
+    OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
 
     echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
 
@@ -93,7 +93,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     while read -r url; do
         i=$((i + 1))
         echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
-        output=$(timeout 40 yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
+        output=$(timeout 40 /usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
 
         # 保存 yt-dlp 输出到日志
         echo "${output}" >>"$YT_DLP_LOG"
@@ -102,6 +102,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         if echo "${output}" | grep -q "ERROR"; then
             echo "下载失败: ${url}" | tee -a "$SUMMARY_FILE"
             echo "下载失败: ${url}" >>"$SPEED_TEST_LOG"
+            rm new-archive.txt output.ts
             continue
         fi
 
