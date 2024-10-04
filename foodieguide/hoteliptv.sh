@@ -1,5 +1,5 @@
 #!/bin/bash
-
+set -x
 # 定义城市参数
 declare -A cities
 cities["beijing"]="%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A"
@@ -75,8 +75,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         else
             echo "[第$i/$lines个] ${address} 地址有效" | tee -a "$SUMMARY_FILE"
             tmp_allllist=$(mktemp)
-            echo "${allllist}" > ${tmp_allllist}
-            echo "$(grep -oP "\s\Khttps?://${address}[^<]*" ${tmp_allllist} | head -n 1)" >>validurlist.txt
+            echo "${allllist}" > ${tmp_allllist} | tee -a "$SUMMARY_FILE"
+            echo "$(grep -oP "\s\Khttps?://${address}[^<]*" ${tmp_allllist} | head -n 1)" >>validurlist.txt | tee -a "$SUMMARY_FILE"
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
     mv validurlist.txt "$UNIQUE_SEARCH_RESULTS_FILE"
