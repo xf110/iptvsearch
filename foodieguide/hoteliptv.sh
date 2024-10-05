@@ -71,20 +71,27 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$CURL_LOG"
     while IFS= read -r url; do
         i=$((i + 1))
+        :>curl.list
+
         echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
-        allllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
-        : >out.tmp
+        # allllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
+        curl -X GET "${URL2}" \
+        -G \
+        --data-urlencode "s=${url}" \
+        --data-urlencode "y=y" \
+        --compressed \
+        -o curl.list
+
         # 保存 yt-dlp 输出到日志
 
-        echo -e "[第 ${i}/${line_count} 个]: ${url} ${allllist}" >>"$CURL_LOG"
-        echo "${allllist}" >out.tmp
+        echo -e "[第 ${i}/${line_count} 个]: ${url} curl.list" >>"$CURL_LOG"
         sleep 0.1
 
-        if grep -q '暂时失效' out.tmp; then
+        if grep -q '暂时失效' curl.list; then
                 echo "暂时失效" | tee -a "$SUMMARY_FILE"
             else
                 echo "地址有效" | tee -a "$SUMMARY_FILE"
-                echo "$(grep -oP "\s\Khttps?://${url}[^<]*" out.tmp | head -n 1)" >>validurlist.txt
+                echo "$(grep -oP "\s\Khttps?://${url}[^<]*" curl.list | head -n 1)" >>validurlist.txt
 
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
@@ -172,14 +179,6 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 获取 besturl 对应的直播源列表
 
     echo "${besturl} 源列表获取中 " | tee -a "$SUMMARY_FILE"
-
-    # curl -X GET "http://foodieguide.com/iptvsearch/allllist.php" \
-    #  -G \
-    #  --data-urlencode "s=123.118.231.179:9090" \
-    #  --data-urlencode "y=y" \
-    #  --compressed \
-    #  -o "$BEST_URL_RESPONSE_FILE"
-
     curl -X GET "http://foodieguide.com/iptvsearch/allllist.php" \
         -G \
         --data-urlencode "s=${besturl}" \
