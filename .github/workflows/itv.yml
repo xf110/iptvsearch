@@ -72,7 +72,8 @@ jobs:
           # EOL
 
           # 8. 增加香港频道
-          curl -L -o sichuan_hongkong.tmp https://mirror.ghproxy.com/raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/Sichuan_333.txt
+          # curl -L -o sichuan_hongkong.tmp https://mirror.ghproxy.com/raw.githubusercontent.com/redrainl/iptv/main/speedtest/txt/Sichuan_333.txt
+          curl -L -o sichuan_hongkong.tmp https://raw.githubusercontent.com/fqw000/iptv/refs/heads/main/output/sichuan_telecom_hotle_foodieguide.txt
           sed -i '/凤凰|CHANNEL-V|CHANNELV|星空/,+1d' "$output_file"
           awk '/凤凰|CHANNEL-V|CHANNELV|星空(?!精选)/ {print $0;}' "sichuan_hongkong.tmp" | sort -t ',' -k 1,1 -u > "./hongkong.tmp"
           sort "./hongkong.tmp" | uniq > "./hongkong.tmp.tmp" | mv "./hongkong.tmp.tmp" "./hongkong.tmp"
@@ -107,7 +108,7 @@ jobs:
           sed -n '/英語\|英语\|VOA/{N;s/\(group-title="\)[^"]*/\1英语/;p;}' "$output_file" > temp.txt
           cat temp.txt >> "$output_file"
           rm temp.txt
-          
+
           # 多个空格转为1个空格,多个空行合并为一个空行
           sed 's/ \+/ /g' "$output_file" | sed -n l 
           sed -i '/^$/N;/^\n$/D' "$output_file"
