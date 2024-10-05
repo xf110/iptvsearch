@@ -1,0 +1,87 @@
+#EXTM3U
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+# Sat Oct  5 07:40:45 UTC 2024
+#EXTINF:-1 tvg-id="NHK华语" tvg-name="NHK华语" tvg-logo="https://live.fanmingming.com/tv/NHK华语.png" group-title=" hongkong",NHK 华语
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title=" hongkong",NHK World
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="香港开电视/HKSTVHKS" tvg-name="香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/香港开电视/HKSTVHKS.png" group-title=" hongkong",香港开电视 / HKSTV-HKS
+ 香港開電視
+#EXTINF:-1 tvg-id="MavTVMotorsportsNetwork" tvg-name="MavTVMotorsportsNetwork" tvg-logo="https://live.fanmingming.com/tv/MavTVMotorsportsNetwork.png" group-title=" hongkong",Mav TV Motorsports Network
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="香港开电视/HKSTVHKS" tvg-name="香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/香港开电视/HKSTVHKS.png" group-title=" hongkong",香港开电视 / HKSTV-HKS
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="WNJSDT2(NHKWORLD)(1080p)" tvg-name="WNJSDT2(NHKWORLD)(1080p)" tvg-logo="https://live.fanmingming.com/tv/WNJSDT2(NHKWORLD)(1080p).png" group-title=" hongkong",WNJS-DT2 (NHK WORLD) (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG(480p)[Not24/7]" tvg-name="NHKG(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/NHKG(480p)[Not24/7].png" group-title=" hongkong",NHK G (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG(480p)[Not24/7]" tvg-name="NHKG(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/NHKG(480p)[Not24/7].png" group-title=" hongkong",NHK G (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan(1080p)" tvg-name="NHKWorldJapan(1080p)" tvg-logo="https://live.fanmingming.com/tv/NHKWorldJapan(1080p).png" group-title=" hongkong",NHK World Japan (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="FoodNetworkHD(720p)" tvg-name="FoodNetworkHD(720p)" tvg-logo="https://live.fanmingming.com/tv/FoodNetworkHD(720p).png" group-title=" hongkong",Food Network HD (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan(720p)" tvg-name="NHKWorldJapan(720p)" tvg-logo="https://live.fanmingming.com/tv/NHKWorldJapan(720p).png" group-title=" hongkong",NHK World Japan (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkJapan" tvg-name="CartoonNetworkJapan" tvg-logo="https://live.fanmingming.com/tv/CartoonNetworkJapan.png" group-title=" hongkong",Cartoon Network Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="ANNJapaNews24(720p)[Not24/7]" tvg-name="ANNJapaNews24(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/ANNJapaNews24(720p)[Not24/7].png" group-title=" hongkong",ANN JapaNews24 (720p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TVCampane1(720p)" tvg-name="TVCampane1(720p)" tvg-logo="https://live.fanmingming.com/tv/TVCampane1(720p).png" group-title=" hongkong",TV Campane 1 (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TelesudTrapani(720p)[Not24/7]" tvg-name="TelesudTrapani(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/TelesudTrapani(720p)[Not24/7].png" group-title=" hongkong",Telesud Trapani (720p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TVRIWorld(720p)" tvg-name="TVRIWorld(720p)" tvg-logo="https://live.fanmingming.com/tv/TVRIWorld(720p).png" group-title=" hongkong",TVRI World (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="MTA1World(720p)" tvg-name="MTA1World(720p)" tvg-logo="https://live.fanmingming.com/tv/MTA1World(720p).png" group-title=" hongkong",MTA1 World (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="MXLive(Webcam)" tvg-name="MXLive(Webcam)" tvg-logo="https://live.fanmingming.com/tv/MXLive(Webcam).png" group-title=" hongkong",MX Live (Webcam)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldNews(SpanishSubs)(720p)" tvg-name="NHKWorldNews(SpanishSubs)(720p)" tvg-logo="https://live.fanmingming.com/tv/NHKWorldNews(SpanishSubs)(720p).png" group-title=" hongkong",NHK World News (Spanish Subs) (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKworldJapan" tvg-name="NHKworldJapan" tvg-logo="https://live.fanmingming.com/tv/NHKworldJapan.png" group-title=" hongkong",NHK world Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelJapan(480p)[Not24/7]" tvg-name="DisneyChannelJapan(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/DisneyChannelJapan(480p)[Not24/7].png" group-title=" hongkong",Disney Channel Japan (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="GoldTV(576p)" tvg-name="GoldTV(576p)" tvg-logo="https://live.fanmingming.com/tv/GoldTV(576p).png" group-title=" hongkong",Gold TV (576p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="GoldTV(576p)" tvg-name="GoldTV(576p)" tvg-logo="https://live.fanmingming.com/tv/GoldTV(576p).png" group-title=" hongkong",Gold TV (576p)
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="GoldTV(576p)" tvg-name="GoldTV(576p)" tvg-logo="https://live.fanmingming.com/tv/GoldTV(576p).png" group-title=" hongkong",Gold TV (576p)
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
+#EXTINF:-1 tvg-id="TVJapi(720p)" tvg-name="TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/TVJapi(720p).png" group-title=" hongkong",TV Japi (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="RadioJavanTV" tvg-name="RadioJavanTV" tvg-logo="https://live.fanmingming.com/tv/RadioJavanTV.png" group-title=" hongkong",Radio Javan TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWORLDTV" tvg-name="NHKWORLDTV" tvg-logo="https://live.fanmingming.com/tv/NHKWORLDTV.png" group-title=" hongkong",NHK WORLD TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorldFHD" tvg-name="NHKWorldFHD" tvg-logo="https://live.fanmingming.com/tv/NHKWorldFHD.png" group-title=" hongkong",NHKWorld FHD
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK華語" tvg-name="NHK華語" tvg-logo="https://live.fanmingming.com/tv/NHK華語.png" group-title=" hongkong",NHK 華語
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TV(高清)" tvg-name="TV(高清)" tvg-logo="https://live.fanmingming.com/tv/TV(高清).png" group-title=" hongkong",TV(高清)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK世界" tvg-name="NHK世界" tvg-logo="https://live.fanmingming.com/tv/NHK世界.png" group-title=" hongkong",NHK世界
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title=" hongkong",NHK World
+http://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="InwildTV" tvg-name="InwildTV" tvg-logo="https://live.fanmingming.com/tv/InwildTV.png" group-title=" hongkong",Inwild TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK_world" tvg-name="NHK_world" tvg-logo="https://live.fanmingming.com/tv/NHK_world.png" group-title=" hongkong",NHK_world
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title=" hongkong",NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="日·NHK" tvg-name="日·NHK" tvg-logo="https://live.fanmingming.com/tv/日·NHK.png" group-title=" hongkong",日·NHK
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title=" hongkong",NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="OrlerTV" tvg-name="OrlerTV" tvg-logo="https://live.fanmingming.com/tv/OrlerTV.png" group-title=" hongkong",Orler TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG" tvg-name="NHKG" tvg-logo="https://live.fanmingming.com/tv/NHKG.png" group-title=" hongkong",NHK G
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG" tvg-name="NHKG" tvg-logo="https://live.fanmingming.com/tv/NHKG.png" group-title=" hongkong",NHK G
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://live.fanmingming.com/tv/NHK.png" group-title=" hongkong",NHK
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="BSTTVBashkirskoeSputnikovoeTV" tvg-name="BSTTVBashkirskoeSputnikovoeTV" tvg-logo="https://live.fanmingming.com/tv/BSTTVBashkirskoeSputnikovoeTV.png" group-title=" hongkong",BST TV Bashkirskoe Sputnikovoe TV
+ RU | BST TV Bashkirskoe Sputnikovoe TV

@@ -1,0 +1,31 @@
+#EXTM3U
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+# Sat Oct  5 07:40:44 UTC 2024
+#EXTINF:-1 tvg-id="大爱2台" tvg-name="大爱2台" tvg-logo="https://live.fanmingming.com/tv/大爱2台.png" group-title=" macao",大爱2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2(720p)" tvg-name="大爱2(720p)" tvg-logo="https://live.fanmingming.com/tv/大爱2(720p).png" group-title=" macao",大爱2 (720p)
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱二台" tvg-name="大爱二台" tvg-logo="https://live.fanmingming.com/tv/大爱二台.png" group-title=" macao",大爱二台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="澳门2_610" tvg-name="澳门2_610" tvg-logo="https://live.fanmingming.com/tv/澳门2_610.png" group-title=" macao",澳门2_610
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱1台" tvg-name="大爱1台" tvg-logo="https://live.fanmingming.com/tv/大爱1台.png" group-title=" macao",大爱1台
+https://pulltv2.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱1台" tvg-name="大爱1台" tvg-logo="https://live.fanmingming.com/tv/大爱1台.png" group-title=" macao",大爱1台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大愛2台" tvg-name="大愛2台" tvg-logo="https://live.fanmingming.com/tv/大愛2台.png" group-title=" macao",大愛2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大愛2台" tvg-name="大愛2台" tvg-logo="https://live.fanmingming.com/tv/大愛2台.png" group-title=" macao",大愛2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8?$1280x720
+#EXTINF:-1 tvg-id="大爱1" tvg-name="大爱1" tvg-logo="https://live.fanmingming.com/tv/大爱1.png" group-title=" macao",大爱1
+https://pulltv2.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱2" tvg-name="大爱2" tvg-logo="https://live.fanmingming.com/tv/大爱2.png" group-title=" macao",大爱2
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2" tvg-name="大爱2" tvg-logo="https://live.fanmingming.com/tv/大爱2.png" group-title=" macao",大爱2
+http://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱" tvg-name="大爱" tvg-logo="https://live.fanmingming.com/tv/大爱.png" group-title=" macao",大爱
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="DaAi2" tvg-name="DaAi2" tvg-logo="https://live.fanmingming.com/tv/DaAi2.png" group-title=" macao",DaAi 2
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大愛" tvg-name="大愛" tvg-logo="https://live.fanmingming.com/tv/大愛.png" group-title=" macao",大愛
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
