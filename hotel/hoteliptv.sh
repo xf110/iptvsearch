@@ -208,5 +208,5 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 在汇总文件中加入分隔行
     echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
-    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} curl.list curl.log out.put out.tmp validurl.txt validurlist.txt yt.tmp
+    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
 done
