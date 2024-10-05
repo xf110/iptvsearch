@@ -17,6 +17,7 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y yt-dlp ffmpeg sed nmap
+        pip install --upgrade yt-dlp
         pwd
         which yt-dlp
 
