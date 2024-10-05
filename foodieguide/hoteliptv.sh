@@ -108,7 +108,6 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
     while read -r url; do
         i=$((i + 1))
-        echo "[第 ${i}/${lines} 个]:  ${url}" >>"$SPEED_TEST_LOG"
         echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
         output=$(timeout 40 yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
 
@@ -127,7 +126,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
         # 提取下载速度信息
         speed=$(grep -P "^\s?\[download\]\s+[0-9]+%" yt.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
-        speedinfo=$(grep -P "^\[download\]\s[0-9]+" yt.tmp)
+        speedinfo=$(grep -P "^\s?\[download\]\s+[0-9]+%" yt.tmp)
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
@@ -208,5 +207,5 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 在汇总文件中加入分隔行
     echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
-    # rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
+    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} curl.list curl.log out.put out.tmp validurl.txt validurlist.txt yt.tmp yt-dlp.log
 done
