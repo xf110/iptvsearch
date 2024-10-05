@@ -97,7 +97,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
                 echo "暂时失效" | tee -a "$SUMMARY_FILE"
             else
                 echo "地址有效" | tee -a "$SUMMARY_FILE"
-                echo "$(grep -oP "\s\Khttps?://${url}[^<]*" curl.list | head -n 1)" >>validurlist.txt
+                echo "$(grep -oP "\s\Khttps?://${url}[^<]*" curl.list 2>/dev/null | head -n 1)" >>validurlist.txt
 
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
