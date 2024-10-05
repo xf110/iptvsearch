@@ -37,13 +37,13 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&url=Ca94122" \
         -o "$RESPONSE_FILE"
 
-    # 2-2页面
-    for page in $(seq 2 2); do
-        echo "第${page}页加载中"
-        curl -G "${URL}" \
-            -d "page=${page}" \
-            -d "net=${NET_VALUE}" \
-            >>"$RESPONSE_FILE"
+    # # 2-2页面 数据太多，一页也就足够了
+    # for page in $(seq 2 2); do
+    #     echo "第${page}页加载中"
+    #     curl -G "${URL}" \
+    #         -d "page=${page}" \
+    #         -d "net=${NET_VALUE}" \
+    #         >>"$RESPONSE_FILE"
     done
 
 ## 提取源地址，并进行整理
@@ -208,5 +208,5 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 在汇总文件中加入分隔行
     echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
-    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
+    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${SUMMARY_FILE} ${YT_DLP_LOG} curl.list curl.log validurl.txt validurlist.txt yt.tmp
 done
