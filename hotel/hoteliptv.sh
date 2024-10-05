@@ -37,8 +37,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&url=Ca94122" \
         -o "$RESPONSE_FILE"
 
-    # 2-3页面
-    for page in $(seq 2 3); do
+    # 2-2页面
+    for page in $(seq 2 2); do
         echo "第${page}页加载中"
         curl -G "${URL}" \
             -d "page=${page}" \
