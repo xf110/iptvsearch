@@ -74,7 +74,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         :>curl.list
 
         echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
-        # allllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
+        # curllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
         curl -X GET "${URL2}" \
         -G \
         --data-urlencode "s=${url}" \
@@ -114,9 +114,11 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
         # 保存 yt-dlp 输出到日志
         echo "${output}" >>"$YT_DLP_LOG"
+        :>yt.tmp
+        echo "${output}" >yt.tmp
 
         # 检查下载是否成功
-        if echo "${output}" | grep -q "ERROR"; then
+        if ! grep -qE "\s?\[download\]\s+[0-9]+%" yt.tmp; then
             echo "下载失败: ${url}" | tee -a "$SUMMARY_FILE"
             echo "下载失败: ${url}" >>"$SPEED_TEST_LOG"
             rm new-archive.txt output.ts
@@ -124,15 +126,15 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         fi
 
         # 提取下载速度信息
-        speed=$(echo "${output}" | grep -P "^\[download\]\s[0-9]+" | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
-        speedinfo=$(echo "${output}" | grep -P "^\[download\]\s[0-9]+")
+        speed=$(grep -P "^\[download\]\s[0-9]+" yt.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
+        speedinfo=$(grep -P "^\[download\]\s[0-9]+" yt.tmp)
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
                 echo "速度: ${speedinfo}" | tee -a "$SUMMARY_FILE"
                 echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
             else
-                echo "测速失败: ${url}" | tee -a "$SUMMARY_FILE"
+                echo "测速失败!!" | tee -a "$SUMMARY_FILE"
                 echo "测速失败: ${url}" >>"$SPEED_TEST_LOG"
         fi
 
