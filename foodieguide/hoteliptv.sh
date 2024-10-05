@@ -76,7 +76,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         : >out.tmp
         # 保存 yt-dlp 输出到日志
 
-        echo -e "[第 ${i}/${line_count} 个]: \n ${url} ${allllist}" >>"$CURL_LOG"
+        echo -e "[第 ${i}/${line_count} 个]: ${url} ${allllist}" >>"$CURL_LOG"
         echo "${allllist}" >out.tmp
         sleep 0.1
 
@@ -89,14 +89,14 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
 
-    mv validurlist.txt "$UNIQUE_SEARCH_RESULTS_FILE"
+    # mv validurlist.txt "$UNIQUE_SEARCH_RESULTS_FILE"
 
     # 剔除已知干扰地址
-    # sed -i '/epg.pw/d' "$UNIQUE_SEARCH_RESULTS_FILE"
+    # sed -i '/epg.pw/d' validurlist.txt
 
     # 测试每个源的下载速度
     echo "==== 整理数据完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
-    lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE")
+    lines=$(wc -l <validurlist.txt)
     i=0
 
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
@@ -132,7 +132,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         # 清理下载的文件
         rm -f new-archive.txt output.ts
 
-    done <"$UNIQUE_SEARCH_RESULTS_FILE"
+    done < validurlist.txt
 
     # 检查是否有有效的速度信息
     if [ ! -s "$SPEED_TEST_LOG" ] || ! grep -v '失败' "$SPEED_TEST_LOG" | grep -q '[0-9]'; then
