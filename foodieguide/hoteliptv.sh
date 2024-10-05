@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+
 # 定义城市参数
 declare -A cities
 cities["beijing"]="%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A"
@@ -12,16 +12,18 @@ SPEED_TEST_LOG="speedtest.log"
 BEST_URL_RESPONSE_FILE="besturlresponse.txt"
 SUMMARY_FILE="summary.txt"
 YT_DLP_LOG="yt-dlp-output.log"
+CURL_LOG="curl.log"
 # OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
 
 # 清空或创建日志文件
 : >${SUMMARY_FILE}
 : >${YT_DLP_LOG}
+: >${CURL_LOG}
 
 for CHANNEL_NAME in "${!cities[@]}"; do
     IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
     OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
-
+## 获取当前可用的酒店源，数据较多，只获取前3页
     echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
 
     # 清空响应文件
@@ -31,7 +33,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 第一页
     curl -X POST "${URL}" \
         -H "Accept-Language: en-CN,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,en-GB;q=0.6,en-US;q=0.5" \
-        -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&address=Ca94122" \
+        -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&url=Ca94122" \
         -o "$RESPONSE_FILE"
 
     # 2-3页面
@@ -43,7 +45,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
             >>"$RESPONSE_FILE"
     done
 
-    # 提取源地址，并进行整理
+## 提取源地址，并进行整理
     tmp_file=$(mktemp)
     # 使用 awk 处理文件
     awk '
@@ -55,33 +57,38 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     }
     ' "$RESPONSE_FILE" >"${tmp_file}"
     grep -oP '<b><img[^>]*>\K[^<]*' "${tmp_file}" | grep -v '盗链' | sed 's/ //g' | sort | uniq >"$UNIQUE_SEARCH_RESULTS_FILE"
-    echo "unique search results :" | tee -a "$SUMMARY_FILE"
+    echo " unique search result : " | tee -a "$SUMMARY_FILE"
     cat "$UNIQUE_SEARCH_RESULTS_FILE" | tee -a "$SUMMARY_FILE"
 
-    # 剔除已知干扰地址
+    # 剔除已知干扰地址，按需配置
 
-    # 筛选有效地址  # 测试每个源的下载速度
-    echo "==== 有效地址提取完成, 开始测速 ======"
-
-    lines=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE")
+## 筛选有效刑，测试每个源的下载速度，选择最优源
+    echo "==== 有效地址提取完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
+    line_count=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE" | xargs)
+    echo "line count is ${line_count}"
     i=0
     : >validurlist.txt
-    while IFS= read -r address; do
+    echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$CURL_LOG"
+    while IFS= read -r url; do
         i=$((i + 1))
-        allllist=$(curl -G "${URL2}" -d "s=${address}" --compressed)
-        echo "${allllist}" >> out.put
+        echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
+        allllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
+        : >out.tmp
+        # 保存 yt-dlp 输出到日志
 
-        if echo "${allllist}" | grep '暂时失效'; then
-            echo "[第$i/$lines个] ${address} 暂时失效" | tee -a "$SUMMARY_FILE"
-        else
-            echo "[第$i/$lines个] ${address} 地址有效" | tee -a "$SUMMARY_FILE"
-            :>out.tmp
-            echo "${allllist}" > out.tmp
-            cat out.tmp | tee -a "$SUMMARY_FILE"
-            echo "vaildURL list :" | tee -a "$SUMMARY_FILE"
-            echo "$(grep -oP "\s\Khttps?://${address}[^<]*" out.tmp | head -n 1)" >>validurlist.txt | tee -a "$SUMMARY_FILE"
+        echo -e "[第 ${i}/${line_count} 个]: \n ${url} ${allllist}" >>"$CURL_LOG"
+        echo "${allllist}" >out.tmp
+        sleep 0.1
+
+        if grep -q '暂时失效' out.tmp; then
+                echo "暂时失效" | tee -a "$SUMMARY_FILE"
+            else
+                echo "地址有效" | tee -a "$SUMMARY_FILE"
+                echo "$(grep -oP "\s\Khttps?://${url}[^<]*" out.tmp | head -n 1)" >>validurlist.txt
+
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
+
     mv validurlist.txt "$UNIQUE_SEARCH_RESULTS_FILE"
 
     # 剔除已知干扰地址
@@ -96,7 +103,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     while read -r url; do
         i=$((i + 1))
         echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
-        output=$(timeout 40 /usr/bin/yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
+        output=$(timeout 40 yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
 
         # 保存 yt-dlp 输出到日志
         echo "${output}" >>"$YT_DLP_LOG"
@@ -115,11 +122,11 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
-            echo "速度: ${speedinfo}" | tee -a "$SUMMARY_FILE"
-            echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
-        else
-            echo "测速失败: ${url}" | tee -a "$SUMMARY_FILE"
-            echo "测速失败: ${url}" >>"$SPEED_TEST_LOG"
+                echo "速度: ${speedinfo}" | tee -a "$SUMMARY_FILE"
+                echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
+            else
+                echo "测速失败: ${url}" | tee -a "$SUMMARY_FILE"
+                echo "测速失败: ${url}" >>"$SPEED_TEST_LOG"
         fi
 
         # 清理下载的文件
@@ -130,7 +137,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 检查是否有有效的速度信息
     if [ ! -s "$SPEED_TEST_LOG" ] || ! grep -v '失败' "$SPEED_TEST_LOG" | grep -q '[0-9]'; then
         echo "没有找到有效的测速结果，跳过 ${CHANNEL_NAME}" | tee -a "$SUMMARY_FILE"
-        continue  # 跳过当前循环，进入下一个频道的处理
+        continue # 跳过当前循环，进入下一个频道的处理
     fi
 
     # 排序并选择速度最快的源地址
@@ -143,20 +150,20 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
         awk '{
         if ($1 ~ /MiB\/s/) {
-            # 提取数值部分并转换为 KiB/s
-            value = $1;
-            sub(/MiB\/s/, "", value);  # 去掉单位
-            value = value * 1024;  # 转换为 KiB
-            printf "%.2fKiB/s %s\n", value, $2;  # 格式化输出
-        } else {
-            print $0;  # 保留原样
-        }
-    }' "$SPEED_TEST_LOG" >speed_temp.log && mv speed_temp.log "$SPEED_TEST_LOG"
+                # 提取数值部分并转换为 KiB/s
+                value = $1;
+                sub(/MiB\/s/, "", value);  # 去掉单位
+                value = value * 1024;  # 转换为 KiB
+                printf "%.2fKiB/s %s\n", value, $2;  # 格式化输出
+            } else {
+                print $0;  # 保留原样
+            }
+            }' "$SPEED_TEST_LOG" >speed_temp.log && mv speed_temp.log "$SPEED_TEST_LOG"
 
-        grep -v '失败' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
-    else
-        echo "未找到MiB/s|KiB/s, 执行正序排列" | tee -a "$SUMMARY_FILE"
-        grep -v '失败' "$SPEED_TEST_LOG" | sort -n | awk '{print $2 " " $1}' >validurl.txt
+            grep -v '失败' "$SPEED_TEST_LOG" | sort -n -r | awk '{print $2 " " $1}' >validurl.txt
+        else
+            echo "未找到MiB/s|KiB/s, 执行正序排列" | tee -a "$SUMMARY_FILE"
+            grep -v '失败' "$SPEED_TEST_LOG" | sort -n | awk '{print $2 " " $1}' >validurl.txt
     fi
 
     besturl=$(head -n 1 validurl.txt | sed -n 's|.*//\([^/]*\)/.*|\1|p')
@@ -200,7 +207,5 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     # 在汇总文件中加入分隔行
     echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
-
     # rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} validurl.txt
-
 done
