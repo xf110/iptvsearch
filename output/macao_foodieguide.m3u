@@ -1,29 +1,37 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Sat Oct  5 11:28:53 UTC 2024
-#EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title=" macao",凤凰中文
-http://pi.0472.org/tv/cbn.php?id=xfjcHD
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title=" macao",翡翠台
-https://pi.0472.org/tv/fct.php?auth=230918
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/明珠台.png" group-title=" macao",明珠台
-https://pi.0472.org/tv/mzt.php?auth=230918
-#EXTINF:-1 tvg-id="澳亚卫视" tvg-name="澳亚卫视" tvg-logo="https://live.fanmingming.com/tv/澳亚卫视.png" group-title=" macao",澳亚卫视
-https://pi.0472.org/tv/aoya.php?auth=2309081833
-#EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://live.fanmingming.com/tv/澳视澳门.png" group-title=" macao",澳视澳门
-https://pi.0472.org/tv/asam.php?auth=2309081833
-#EXTINF:-1 tvg-id="梨园频道" tvg-name="梨园频道" tvg-logo="https://live.fanmingming.com/tv/梨园频道.png" group-title=" macao",梨园频道
-https://pi.0472.org/tv/hn.php?id=154
-#EXTINF:-1 tvg-id="澳视澳门" tvg-name="澳视澳门" tvg-logo="https://live.fanmingming.com/tv/澳视澳门.png" group-title=" macao",澳视澳门
-https://pi.0472.org/tv/asam.php?auth=230918
-#EXTINF:-1 tvg-id="澳亚卫视" tvg-name="澳亚卫视" tvg-logo="https://live.fanmingming.com/tv/澳亚卫视.png" group-title=" macao",澳亚卫视
-https://pi.0472.org/tv/aoya.php?auth=230918
-#EXTINF:-1 tvg-id="明珠台" tvg-name="明珠台" tvg-logo="https://live.fanmingming.com/tv/明珠台.png" group-title=" macao",明珠台
-https://pi.0472.org/tv/mzt.php?auth=2309081833
-#EXTINF:-1 tvg-id="翡翠台" tvg-name="翡翠台" tvg-logo="https://live.fanmingming.com/tv/翡翠台.png" group-title=" macao",翡翠台
-https://pi.0472.org/tv/fct.php?auth=2309081833
-#EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title=" macao",CHC高清电影
-http://pi.0472.org/tv/cbn.php?id=chcgqdyHD
-#EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title=" macao",CHC家庭影院
-http://pi.0472.org/tv/cbn.php?id=chcjtyyHD
-#EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title=" macao",CHC动作电影
-http://pi.0472.org/tv/cbn.php?id=chcdzdyHD
+# Sat Oct  5 16:03:26 UTC 2024
+#EXTINF:-1 tvg-id="FresnoCMAC1PublicChannel(720p)" tvg-name="FresnoCMAC1PublicChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC1PublicChannel(720p).png" group-title=" macao",Fresno CMAC 1 Public Channel (720p)
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="FresnoCMAC2EducationChannel(720p)" tvg-name="FresnoCMAC2EducationChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC2EducationChannel(720p).png" group-title=" macao",Fresno CMAC 2 Education Channel (720p)
+https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
+#EXTINF:-1 tvg-id="FresnoCMAC3GovernmentChannel(720p)" tvg-name="FresnoCMAC3GovernmentChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC3GovernmentChannel(720p).png" group-title=" macao",Fresno CMAC 3 Government Channel (720p)
+https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
+#EXTINF:-1 tvg-id="澳門MACAU" tvg-name="澳門MACAU" tvg-logo="https://live.fanmingming.com/tv/澳門MACAU.png" group-title=" macao",澳門-MACAU
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="Edgesportsrestoftheworld" tvg-name="Edgesportsrestoftheworld" tvg-logo="https://live.fanmingming.com/tv/Edgesportsrestoftheworld.png" group-title=" macao",Edgesports rest of the world
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="24/7:MACGIVER(2016)TEMP1" tvg-name="24/7:MACGIVER(2016)TEMP1" tvg-logo="https://live.fanmingming.com/tv/24/7:MACGIVER(2016)TEMP1.png" group-title=" macao",24/7: MACGIVER (2016) TEMP 1
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="California:FresnoVisalia" tvg-name="California:FresnoVisalia" tvg-logo="https://live.fanmingming.com/tv/California:FresnoVisalia.png" group-title=" macao",California: Fresno-Visalia
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="FresnoCMAC1PublicChannel(720p)" tvg-name="FresnoCMAC1PublicChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC1PublicChannel(720p).png" group-title=" macao",Fresno CMAC 1 Public Channel (720p)
+https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
+#EXTINF:-1 tvg-id="FresnoCMAC2EducationChannel(720p)" tvg-name="FresnoCMAC2EducationChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC2EducationChannel(720p).png" group-title=" macao",Fresno CMAC 2 Education Channel (720p)
+https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
+#EXTINF:-1 tvg-id="FreshNewsTV(720p)" tvg-name="FreshNewsTV(720p)" tvg-logo="https://live.fanmingming.com/tv/FreshNewsTV(720p).png" group-title=" macao",Fresh News TV (720p)
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="EPG:MidnightPulp" tvg-name="EPG:MidnightPulp" tvg-logo="https://live.fanmingming.com/tv/EPG:MidnightPulp.png" group-title=" macao",EPG : Midnight Pulp
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="FeelGoodTV(720p)" tvg-name="FeelGoodTV(720p)" tvg-logo="https://live.fanmingming.com/tv/FeelGoodTV(720p).png" group-title=" macao",Feel Good TV (720p)
+https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
+#EXTINF:-1 tvg-id="CanalMacau" tvg-name="CanalMacau" tvg-logo="https://live.fanmingming.com/tv/CanalMacau.png" group-title=" macao",Canal Macau
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="Disney+7" tvg-name="Disney+7" tvg-logo="https://live.fanmingming.com/tv/Disney+7.png" group-title=" macao",Disney +7
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="CypressPublicAccessChannel36(CypressCA)(360p)" tvg-name="CypressPublicAccessChannel36(CypressCA)(360p)" tvg-logo="https://live.fanmingming.com/tv/CypressPublicAccessChannel36(CypressCA)(360p).png" group-title=" macao",Cypress Public Access Channel 36 (Cypress CA) (360p)
+https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+#EXTINF:-1 tvg-id="FairfieldFairTVEducationChannel(FairfieldCT)(1080p)" tvg-name="FairfieldFairTVEducationChannel(FairfieldCT)(1080p)" tvg-logo="https://live.fanmingming.com/tv/FairfieldFairTVEducationChannel(FairfieldCT)(1080p).png" group-title=" macao",Fairfield FairTV Education Channel (Fairfield CT) (1080p)
+https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
+#EXTINF:-1 tvg-id="FairfieldFairTVGovernmentChannel(FairfieldCT)(1080p)" tvg-name="FairfieldFairTVGovernmentChannel(FairfieldCT)(1080p)" tvg-logo="https://live.fanmingming.com/tv/FairfieldFairTVGovernmentChannel(FairfieldCT)(1080p).png" group-title=" macao",Fairfield FairTV Government Channel (Fairfield CT) (1080p)
+https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
