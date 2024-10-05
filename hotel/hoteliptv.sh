@@ -142,7 +142,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
-                echo "速度: ${speedinfo}" | tee -a "$SUMMARY_FILE"
+                echo "${speedinfo}" | tee -a "$SUMMARY_FILE"
                 echo "${speed} ${url}" >>"$SPEED_TEST_LOG"
             else
                 echo "测速失败!!" | tee -a "$SUMMARY_FILE"
