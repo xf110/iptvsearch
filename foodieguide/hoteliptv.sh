@@ -2,7 +2,8 @@
 
 # 定义城市参数
 declare -A cities
-cities["beijing"]="%E5%8C%97%E4%BA%AC%E8%81%94%E9%80%9A"
+cities=["beijing"]="%E5%8C%97%E4%BA%AC"
+cityes=["sichuan_telecom"]="%E5%9B%9B%E5%B7%9D%E7%94%B5%E4%BF%A1"
 
 URL="http://www.foodieguide.com/iptvsearch/hoteliptv.php"
 URL2="http://www.foodieguide.com/iptvsearch/allllist.php"
