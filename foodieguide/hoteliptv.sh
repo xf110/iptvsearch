@@ -105,10 +105,10 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     echo "==== 整理数据完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
     lines=$(wc -l <validurlist.txt)
     i=0
-
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
     while read -r url; do
         i=$((i + 1))
+        echo "[第 ${i}/${lines} 个]:  ${url}" >>"$SPEED_TEST_LOG"
         echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
         output=$(timeout 40 yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
 
@@ -118,7 +118,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         echo "${output}" >yt.tmp
 
         # 检查下载是否成功
-        if ! grep -qE "\s?\[download\]\s+[0-9]+%" yt.tmp; then
+        if ! grep -qE "^\s?\[download\]\s+[0-9]+%" yt.tmp; then
             echo "下载失败: ${url}" | tee -a "$SUMMARY_FILE"
             echo "下载失败: ${url}" >>"$SPEED_TEST_LOG"
             rm new-archive.txt output.ts
@@ -126,7 +126,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         fi
 
         # 提取下载速度信息
-        speed=$(grep -P "^\[download\]\s[0-9]+" yt.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
+        speed=$(grep -P "^\s?\[download\]\s+[0-9]+%" yt.tmp | grep -oP 'at\s\K[0-9]+.*$|in\s\K[0-9]+:[0-9]+$')
         speedinfo=$(grep -P "^\[download\]\s[0-9]+" yt.tmp)
 
         # 如果文件存在且大小合理，认为测速成功
