@@ -2,8 +2,8 @@
 
 # 定义城市参数
 declare -A cities
-cities=["beijing"]="%E5%8C%97%E4%BA%AC"
-cityes=["sichuan_telecom"]="%E5%9B%9B%E5%B7%9D%E7%94%B5%E4%BF%A1"
+cities["beijing"]="%E5%8C%97%E4%BA%AC"
+cityes["sichuan_telecom"]="%E5%9B%9B%E5%B7%9D%E7%94%B5%E4%BF%A1"
 
 URL="http://www.foodieguide.com/iptvsearch/hoteliptv.php"
 URL2="http://www.foodieguide.com/iptvsearch/allllist.php"
@@ -23,7 +23,7 @@ CURL_LOG="curl.log"
 
 for CHANNEL_NAME in "${!cities[@]}"; do
     IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
-    OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
+    OUTPUT_FILE="$../hotel/{CHANNEL_NAME}_hotle_foodieguide.txt"
 ## 获取当前可用的酒店源，数据较多，只获取前3页
     echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
 
