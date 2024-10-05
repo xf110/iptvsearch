@@ -44,7 +44,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     #         -d "page=${page}" \
     #         -d "net=${NET_VALUE}" \
     #         >>"$RESPONSE_FILE"
-    done
+    # done
 
 ## 提取源地址，并进行整理
     tmp_file=$(mktemp)
@@ -68,6 +68,11 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     line_count=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE" | xargs)
     echo "line count is ${line_count}"
     i=0
+    # 检查 validurlist.txt 是否达到 10 行，达到则跳出循环
+    if [ "$(wc -l < validurlist.txt)" -ge 10 ]; then
+        echo "validurlist.txt 已达到 10 行，跳出测速循环" | tee -a "$SUMMARY_FILE"
+        break
+    fi
     : >validurlist.txt
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$CURL_LOG"
     while IFS= read -r url; do
@@ -109,6 +114,12 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
     while read -r url; do
         i=$((i + 1))
+        # 检查 SPEED_TEST_LOG 中有效行数，剔除“测速失败”的行，达到 5 行则跳出循环
+        valid_speed_count=$(grep -v '测速失败' "$SPEED_TEST_LOG" | wc -l | xargs)
+        if [ "$valid_speed_count" -ge 5 ]; then
+            echo "SPEED_TEST_LOG 中有效测速行数已达到 5 行，跳出循环" | tee -a "$SUMMARY_FILE"
+            break
+        fi
         echo "[第 ${i}/${lines} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
         output=$(timeout 40 yt-dlp --ignore-config --no-cache-dir --output "output.ts" --download-archive new-archive.txt --external-downloader ffmpeg --external-downloader-args "ffmpeg:-t 5" "${url}" 2>&1)
 
