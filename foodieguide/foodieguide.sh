@@ -182,6 +182,6 @@ for channel_name in "${!cities[@]}"; do
     }' >"$output_file"
 
     sed -i "1i \\ ${channel_name},#genre#" "$output_file"
-    rm ${response_file} ${unique_search_results_file} $speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp caild_url.txt
+    rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp vaild_url.txt
 
 done
