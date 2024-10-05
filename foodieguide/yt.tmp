@@ -1,89 +1,170 @@
 [generic] 239.3.1: Requesting header
-WARNING: [generic] Could not send HEAD request to http://noeypszbgd.cn.zzmd.fun:8888/rtp/239.3.1.129:8008: Remote end closed connection without response
+WARNING: [generic] Could not send HEAD request to http://sweetown.fun:4000/rtp/239.3.1.129:8008: Remote end closed connection without response
 [generic] 239.3.1: Downloading webpage
 WARNING: [generic] Falling back on generic information extractor.
 WARNING: [generic] URL could be a direct video link, returning it as such.
 [info] 239.3.1: Downloading 1 format(s): 0
 [download] Destination: output.ts
 WARNING: The video format is unknown. Trying to download as ts according to the filename
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[mpegts @ 0x55c2a19a57c0] Packet corrupt (stream = 0, dts = 3564808480).
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[mpegts @ 0x55c2a19a57c0] Packet corrupt (stream = 0, dts = 3565049680).
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[mpegts @ 0x5572b00677c0] Packet corrupt (stream = 0, dts = 3697605280).
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[mpegts @ 0x55c2a19a57c0] Packet corrupt (stream = 0, dts = 3565056880).
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[mpegts @ 0x55c2a19a57c0] Packet corrupt (stream = 0, dts = 3565510480).
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[mpegts @ 0x55c2a19a57c0] Packet corrupt (stream = 0, dts = 3565964080).
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[h264 @ 0x55c2a19b0300] non-existing PPS 0 referenced
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[mpegts @ 0x5572b00677c0] Packet corrupt (stream = 0, dts = 3697720480).
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
     Last message repeated 1 times
-[h264 @ 0x55c2a19b0300] decode_slice_header error
-[h264 @ 0x55c2a19b0300] no frame!
-[mpegts @ 0x55c2a19a57c0] decoding for stream 0 failed
-[mpegts @ 0x55c2a19a57c0] Could not find codec parameters for stream 0 (Video: h264 ([27][0][0][0] / 0x001B), none): unspecified size
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[mpegts @ 0x5572b00677c0] Packet corrupt (stream = 0, dts = 3697821280).
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[mpegts @ 0x5572b00677c0] Packet corrupt (stream = 0, dts = 3697965280).
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[mpegts @ 0x5572b00677c0] Packet corrupt (stream = 0, dts = 3698109280).
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 1 times
+[h264 @ 0x5572b00722c0] decode_slice_header error
+[h264 @ 0x5572b00722c0] no frame!
+[h264 @ 0x5572b00722c0] non-existing PPS 0 referenced
+[mpegts @ 0x5572b00677c0] decoding for stream 0 failed
+[mpegts @ 0x5572b00677c0] Could not find codec parameters for stream 0 (Video: h264 ([27][0][0][0] / 0x001B), none): unspecified size
 Consider increasing the value for the 'analyzeduration' (0) and 'probesize' (5000000) options
-Input #0, mpegts, from 'http://noeypszbgd.cn.zzmd.fun:8888/rtp/239.3.1.129:8008':
-  Duration: N/A, start: 39608.583111, bitrate: N/A
+Input #0, mpegts, from 'http://sweetown.fun:4000/rtp/239.3.1.129:8008':
+  Duration: N/A, start: 41083.983111, bitrate: N/A
   Program 1 
     Metadata:
       service_name    : 
@@ -99,7 +180,9 @@ Stream mapping:
   Stream #0:0 -> #0:0 (copy)
   Stream #0:1 -> #0:1 (copy)
 Press [q] to stop, [?] for help
-frame=    0 fps=0.0 q=-1.0 Lsize=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    
-video:0kB audio:0kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: unknown
-Output file is empty, nothing was encoded (check -ss / -t / -frames parameters if used)
-Exiting normally, received signal 15.
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:00.00 bitrate=N/A speed=   0x    [NULL @ 0x5572b00722c0] non-existing PPS 0 referenced
+    Last message repeated 2 times
+frame=    0 fps=0.0 q=-1.0 size=       0kB time=00:00:04.51 bitrate=   0.0kbits/s speed=6.55x    frame=    0 fps=0.0 q=-1.0 Lsize=      34kB time=00:00:04.51 bitrate=  62.3kbits/s speed=5.73x    
+video:0kB audio:28kB subtitle:0kB other streams:0kB global headers:0kB muxing overhead: 22.069445%
+[ffmpeg] Downloaded 35156 bytes
+[download] 100% of 34.33KiB in 00:11
