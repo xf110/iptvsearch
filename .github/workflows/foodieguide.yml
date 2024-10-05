@@ -22,19 +22,19 @@ jobs:
 
     - name: Run hoteliptv.sh
       run: |
-        cd $GITHUB_WORKSPACE/foodieguide
+        cd $GITHUB_WORKSPACE/hotel
         bash ./hoteliptv.sh
         for file in $(find . -name '*_hotel_foodieguide.txt'); do
           bash ../speedtest/rtp2m3u.sh "$file"
         done
 
-    # - name: Run foodieguide.sh
-    #   run: |
-    #     cd $GITHUB_WORKSPACE/foodieguide
-    #     bash ./foodieguide.sh
-    #     for file in $(find . -name '*_foodieguide.txt'); do
-    #       bash ../speedtest/rtp2m3u.sh "$file"
-    #     done
+    - name: Run foodieguide.sh
+      run: |
+        cd $GITHUB_WORKSPACE/foodieguide
+        bash ./foodieguide.sh
+        for file in $(find . -name '*_foodieguide.txt'); do
+          bash ../speedtest/rtp2m3u.sh "$file"
+        done
 
     - name: Update Results
       run: |
