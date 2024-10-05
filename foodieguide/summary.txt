@@ -15,17 +15,17 @@ https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3
 https://test.zapi.us.kg/?id=phtv-hk
 ==== 整理数据完成, 开始测速 ======
 [第 1/9 个]:  https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-连接质量: [download] 100% of 3.84MiB in 00:01
+连接质量: [download] 100% of 3.58MiB in 00:01
 [第 2/9 个]:  https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
 下载失败
 [第 3/9 个]:  https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-连接质量: [download] 100% of 282.79KiB in 00:00
+连接质量: [download] 100% of 1.17MiB in 00:00
 [第 4/9 个]:  https://ktpremium.com:443/M919HR/5577/492391?c=香港
 下载失败
 [第 5/9 个]:  https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream5/streamPlaylist.m3u8
 下载失败
 [第 6/9 个]:  https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-连接质量: [download] 100% of 583.31KiB in 00:04
+连接质量: [download] 100% of 493.40KiB in 00:04
 [第 7/9 个]:  https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
 下载失败
 [第 8/9 个]:  https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
@@ -52,7 +52,7 @@ https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeas
 https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
 ==== 整理数据完成, 开始测速 ======
 [第 1/6 个]:  https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-连接质量: [download] 100% of 2.77MiB in 00:00
+连接质量: [download] 100% of 2.73MiB in 00:00
 [第 2/6 个]:  https://ktpremium.com:443/M919HR/5577/515015?c=台湾
 下载失败
 [第 3/6 个]:  https://bsex.serv00.net/Smart.php?id=sanlitaiwan
@@ -77,8 +77,8 @@ bcovlive-a.akamaihd.net 第5页 下载中
 第2页 下载中
 第3页 下载中
 ==== 提取源地址结果 ======
-https://pulltv1.wanfudaluye.com/live/tv2.m3u8
 https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+https://pulltv1.wanfudaluye.com/live/tv2.m3u8
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 https://pi.0472.org/tv/asam.php?auth=2309081833
 https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
@@ -86,14 +86,14 @@ https://test.zapi.us.kg/?id=tdm
 https://live.yzd.jialiangos.com:4443/live/fhw/17
 https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
 ==== 整理数据完成, 开始测速 ======
-[第 1/8 个]:  https://pulltv1.wanfudaluye.com/live/tv2.m3u8
-连接质量: [download] 100% of 924.84KiB in 00:01
-[第 2/8 个]:  https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-连接质量: [download] 100% of 1.20MiB in 00:01
+[第 1/8 个]:  https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
+连接质量: [download] 100% of 1.16MiB in 00:02
+[第 2/8 个]:  https://pulltv1.wanfudaluye.com/live/tv2.m3u8
+连接质量: [download] 100% of 936.02KiB in 00:01
 [第 3/8 个]:  https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-连接质量: [download] 100% of 917.82KiB in 00:00
+连接质量: [download] 100% of 959.59KiB in 00:00
 [第 4/8 个]:  https://pi.0472.org/tv/asam.php?auth=2309081833
-连接质量: [download] 100% of 1.33MiB in 00:01
+连接质量: [download] 100% of 1.23MiB in 00:01
 [第 5/8 个]:  https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
 下载失败
 [第 6/8 个]:  https://test.zapi.us.kg/?id=tdm
