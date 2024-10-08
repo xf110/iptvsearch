@@ -158,7 +158,7 @@ jobs:
           temp_file="tmp_file.m3u8"
 
           # 1. 使用 cat 命令去除空行写入临时文件
-          cat "$input_file"  > "$temp_file"
+          cat "$input_file" | grep -v '^$' > "$temp_file"
 
           # 2. 将时间戳覆盖到 output 文件，修改epg源
           # echo "# $(date)" > "$output_file"
@@ -197,7 +197,7 @@ jobs:
           #EXTINF:-1 tvg-name="" group-title="香港",凤凰香港台
           http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
           #EXTINF:-1 tvg-name="" group-title="香港",凤凰资讯台
-          http://58.144.154.93/live/0701pin72.m3u8
+          http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8
           EOL
 
           # 8. 增加香港频道
@@ -216,12 +216,14 @@ jobs:
           #rm "sichuan_hongkong.tmp" "./hongkong.tmp" "./hongkong.m3u"
 
 
-          # 增加 TMDB-To-VOD-Playlist/
-          curl -L -o tmdbtovod.tmp https://mirror.ghproxy.com/github.com/fqw000/TMDB-To-VOD-Playlist/blob/main/channels/m3u_formatted.dat?raw=1
-          # sed -i '' 's/group-title="[^"]*"/group-title="国外"/g' tmdbtovod.tmp
-          cat tmdbtovod.tmp >> "$output_file"
-          rm tmdbtovod.tmp
+          # # 增加 TMDB-To-VOD-Playlist/
+          # curl -L -o tmdbtovod.tmp https://mirror.ghproxy.com/github.com/fqw000/TMDB-To-VOD-Playlist/blob/main/channels/m3u_formatted.dat?raw=1
+          # # sed -i '' 's/group-title="[^"]*"/group-title="国外"/g' tmdbtovod.tmp
+          # cat tmdbtovod.tmp >> "$output_file"
+          # rm tmdbtovod.tmp
 
+          # 增加moveonjoy
+          grep -v 'EXTM3U' moveonjoy.m3u >> "$output_file"
 
           # 9. 整理 动画 频道
           # Step 1: Capture the lines with specified keywords and the next line, modify group-title, and append to a temporary file
