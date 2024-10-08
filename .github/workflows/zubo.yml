@@ -17,13 +17,14 @@ jobs:
       run: |
         sudo apt-get update
         sudo apt-get install -y yt-dlp sed nmap
+        pip install --upgrade yt-dlp
         which yt-dlp
 
     - name: Run Multitest Script
       #working-directory: iptv/speedtest
       run: |
         cd $GITHUB_WORKSPACE/speedtest
-        bash ./multi.sh
+        # bash ./multi.sh
         # bash ./fofa_all.sh
         bash ./fofa.sh
         bash ./rtp2m3u.sh './zubo_fofa.txt'
