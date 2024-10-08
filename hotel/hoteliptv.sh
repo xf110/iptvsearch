@@ -68,17 +68,18 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     line_count=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE" | xargs)
     echo "line count is ${line_count}"
     i=0
-    # 检查 validurlist.txt 是否达到 10 行，达到则跳出循环
-    if [ "$(wc -l < validurlist.txt)" -ge 10 ]; then
-        echo "validurlist.txt 已达到 10 行，跳出测速循环" | tee -a "$SUMMARY_FILE"
-        break
-    fi
     : >validurlist.txt
     echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$CURL_LOG"
     while IFS= read -r url; do
         i=$((i + 1))
         :>curl.list
 
+        # 检查 validurlist.txt 是否达到 10 行，达到则跳出循环
+        if [ "$(wc -l < validurlist.txt)" -ge 10 ]; then
+            echo "validurlist.txt 已达到 10 行，跳出测速循环" | tee -a "$SUMMARY_FILE"
+            break
+        fi
+    
         echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
         # curllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
         curl -X GET "${URL2}" \
@@ -87,12 +88,9 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         --data-urlencode "y=y" \
         --compressed \
         -o curl.list
-
         # 保存 yt-dlp 输出到日志
-
         echo -e "[第 ${i}/${line_count} 个]: ${url} curl.list" >>"$CURL_LOG"
         sleep 0.1
-
         if grep -q '暂时失效' curl.list; then
                 echo "暂时失效" | tee -a "$SUMMARY_FILE"
             else
