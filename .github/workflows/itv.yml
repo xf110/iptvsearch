@@ -94,7 +94,7 @@ jobs:
           # rm tmdbtovod.tmp
 
           # 增加moveonjoy
-          grep -v 'EXTM3U' moveonjoy.m3u >> "$output_file"
+          grep -v 'EXTM3U' MoveOnJoy.m3u >> "$output_file"
 
           # 9. 整理 动画 频道
           # Step 1: Capture the lines with specified keywords and the next line, modify group-title, and append to a temporary file
