@@ -158,6 +158,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     curl -X POST "${URL}" \
         -H "Accept-Language: en-CN,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,en-GB;q=0.6,en-US;q=0.5" \
         -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&url=Ca94122" \
+        --connect-timeout 20 \
+        --max-time 60 \
         -o "$RESPONSE_FILE"
 
     # 2-3页面 数据太多，一页也就足够了
@@ -166,6 +168,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         curl -G "${URL}" \
             -d "page=${page}" \
             -d "net=${NET_VALUE}" \
+            --connect-timeout 20 \
+            --max-time 60 \
             >>"$RESPONSE_FILE"
     done
 
