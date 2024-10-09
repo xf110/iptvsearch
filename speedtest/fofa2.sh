@@ -13,7 +13,10 @@ cities=(
     [3]="SiChuan_unicom_334 udp/239.93.0.169:5140 四川联通 'udpxy && country=\"CN\" && region=\"Sichuan\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [5]="HeNan_unicom_172 rtp/225.1.4.98:1127 河南联通 'udpxy && country=\"CN\" && region=\"HeNan\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [6]="ChongQing_telecom_161 rtp/235.254.196.249:1268 重庆电信 'udpxy && country=\"CN\" && region=\"Chongqing\" && org=\"Chinanet\" && protocol=\"http\"'"
-    [7]="FuJian_telecom_114 rtp/239.61.3.4:9542 附件电信 'udpxy && country=\"CN\" && region=\"Fujian\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [7]="FuJian_telecom_114 rtp/239.61.3.4:9542 福建电信 'udpxy && country=\"CN\" && region=\"Fujian\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [8]="GanSu_telecom_105 udp/239.255.30.250:8231 甘肃电信 'udpxy && country=\"CN\" && region=\"Gansu\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [9]="GuangDong_mobile_332 udp/239.77.1.19:5146 广东移动 'udpxy && country=\"CN\" && region=\"Guangdong\" && org=\"Chinanet\" && protocol=\"http\"'"
+
 
 )
 
@@ -30,15 +33,11 @@ process_city() {
     # rm -f $validIP
 
     # 搜索最新 IP
-    echo "===============从 fofa 检索 ip+端口================="
-    echo "$url_fofa"
+    echo "=============== fofa查找 ${city} 当前可用ip ================="
     curl -o search_result.html "$url_fofa"
     echo "$ipfile"
     grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' > "$ipfile"
     rm -f search_result.html
-
-
-
 
     # 遍历 IP 地址并测试
     while IFS= read -r ip; do
@@ -51,6 +50,43 @@ process_city() {
         fi
     done < "$ipfile"
 
+    if [ ! -f "$validIP" ]; then
+        echo "当前无可用的ip，请稍候重试"
+        exit 1
+    fi
+
+    echo "============= 检索到有效ip,开始测速 ==============="
+    linescount=$(wc -l < "$validIP")
+    echo "[$validIP]有效ip有 $linescount 个"
+
+    time=$(date +%Y%m%d%H%M%S)
+    i=0
+    while IFS= read -r line; do
+        i=$((i + 1))
+        ip="$line"
+        url="http://$ip/$stream"
+        curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >fofa.tmp 2>&1
+        a=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
+
+        echo "第 $i/$lines 个：$ip $a"
+        echo "$ip $a" >> "speedtest_${city}_$time.log"
+    done < "$validIP"
+    rm if fofa.tmp
+
+    awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r >"ip/${city}_result.txt"
+
+    ip1=$(awk 'NR==1{print $2}' ip/${city}_result.txt)
+    # ip2=$(awk 'NR==2{print $2}' ip/${city}_result.txt)
+    # ip3=$(awk 'NR==3{print $2}' ip/${city}_result.txt)
+
+    echo "speedtest_${city}_$time.log"
+    cat speedtest_${city}_$time.log
+    echo "ip/${city}_result.txt"
+    cat "ip/${city}_result.txt"
+    rm -f "speedtest_${city}_$time.log"
+
+    template="../multicastSource/${city}.txt"
+    perl -i -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$template" 
     # …………
 
 
