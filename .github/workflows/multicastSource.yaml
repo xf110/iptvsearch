@@ -1,0 +1,42 @@
+name: multicastSourceListUpdate
+
+on:
+  workflow_dispatch:
+
+jobs:
+  run-script:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout Repository
+      uses: actions/checkout@v2
+
+    - name: Install Dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y yt-dlp ffmpeg sed nmap
+        pip install --upgrade yt-dlp
+        pwd
+        which yt-dlp
+
+    - name: Run multicast_all.sh
+      run: |
+        cd $GITHUB_WORKSPACE/multicastSource
+        bash ./multicast_all.sh
+        for file in $(find ../output/ -name '*.txt'); do
+          bash ../speedtest/rtp2m3u.sh "$file"
+        done
+
+    - name: Update Results
+      run: |
+        cd $GITHUB_WORKSPACE
+        echo "Staging changes..."
+        git config --global user.email "action@github.com"
+        git config --global user.name "GitHub Action"
+        git add .
+
+    - name: Commit changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: "Update multicastSource"
+        branch: main
