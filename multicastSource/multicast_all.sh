@@ -214,6 +214,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         --data-urlencode "s=${url}" \
         --data-urlencode "y=y" \
         --compressed \
+        --connect-timeout 10 \
+        --max-time 60 \
         -o curl.list
         # 保存 yt-dlp 输出到日志
         echo -e "[第 ${i}/${line_count} 个]: ${url} curl.list" >>"$CURL_LOG"
@@ -322,6 +324,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         --data-urlencode "s=${besturl}" \
         --data-urlencode "y=y" \
         --compressed \
+        --connect-timeout 10 \
+        --max-time 60 \
         -o "$BEST_URL_RESPONSE_FILE"
 
     # 提取频道名称和 m3u8 链接
