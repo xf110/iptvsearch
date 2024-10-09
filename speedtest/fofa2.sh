@@ -23,7 +23,7 @@ process_city() {
 
     # 使用城市名作为默认文件名，格式为 CityName.ip
     ipfile="ip/${city}_ip.txt"
-    validIP_ip="ip/${city}_validIP.txt"
+    validIP="ip/${city}_validIP.txt"
     # rm -f $validIP_ip
 
     # 搜索最新 IP
