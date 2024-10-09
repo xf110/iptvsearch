@@ -2,16 +2,16 @@
 # 使用fofa提取各省市组播源地址
 
 # 默认选择 0 执行全部
-city_choice=2
+city_choice=0
 # city_choice=(1 3 5 ) # 指定多个选项时使用
 
 # 定义城市选项
 declare -A cities
 cities=(
-    [1]="ShangHai_telecom_103 udp/239.45.1.4:5140 上海电信 'udpxy && country=\"CN\" && region=\"Shanghai\" && org=\"China Telecom Group\" && protocol=\"http\"'"
+    [1]="ShangHai_telecom_103 udp/239.45.3.209:5140 上海电信 'udpxy && country=\"CN\" && region=\"Shanghai\" && org=\"China Telecom Group\" && protocol=\"http\"'"
     [2]="BeiJing_unicom_145 rtp/239.3.1.236:2000 北京联通 'udpxy && country=\"CN\" && region=\"Beijing\" && org=\"China Unicom Beijing Province Network\" && protocol=\"http\"'"
-    [3]="GuangZhou_mobile_200 udp/239.45.1.5:5140 广州移动 'udpxy && country=\"CN\" && region=\"Guangzhou\" && org=\"China Mobile Group\" && protocol=\"http\"'"
-    [5]="ShenZhen_telecom_300 udp/239.45.1.6:5140 深圳电信 'udpxy && country=\"CN\" && region=\"Shenzhen\" && org=\"China Telecom Group\" && protocol=\"http\"'"
+    [3]="SiChuan_unicom_334 udp/239.93.0.169:5140 四川联通 'udpxy && country=\"CN\" && region=\"Sichuan\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
+    [5]="HeNan_unicom_172 rtp/225.1.4.98:1127 河南联通 'udpxy && country=\"CN\" && region=\"HeNan\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
 )
 
 # 定义处理城市的函数
@@ -24,7 +24,7 @@ process_city() {
     # 使用城市名作为默认文件名，格式为 CityName.ip
     ipfile="ip/${city}_ip.txt"
     validIP="ip/${city}_validIP.txt"
-    # rm -f $validIP_ip
+    # rm -f $validIP
 
     # 搜索最新 IP
     echo "===============从 fofa 检索 ip+端口================="
