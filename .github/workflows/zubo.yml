@@ -25,8 +25,8 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/speedtest
         # bash ./multi.sh
-        bash ./fofa_all.sh
-        # bash ./fofa.sh
+        # bash ./fofa_all.sh
+        bash ./fofa2.sh
         bash ./rtp2m3u.sh './zubo_fofa.txt'
 
     # - name: Run add 凤凰-星空-channel v to itv.m3u
