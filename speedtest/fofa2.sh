@@ -68,25 +68,25 @@ process_city() {
         curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >fofa.tmp 2>&1
         a=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
 
-        echo "第 $i/$lines 个：$ip $a"
+        echo "第 $i/$linescount 个：$ip $a"
         echo "$ip $a" >> "speedtest_${city}_$time.log"
     done < "$validIP"
-    rm if fofa.tmp
+    rm -f fofa.tmp
 
-    awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r >"ip/${city}_result.txt"
-
-    ip1=$(awk 'NR==1{print $2}' ip/${city}_result.txt)
-    # ip2=$(awk 'NR==2{print $2}' ip/${city}_result.txt)
-    # ip3=$(awk 'NR==3{print $2}' ip/${city}_result.txt)
+    awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r | uniq >"ip/${city}_result.txt"
 
     echo "speedtest_${city}_$time.log"
     cat speedtest_${city}_$time.log
     echo "ip/${city}_result.txt"
     cat "ip/${city}_result.txt"
     rm -f "speedtest_${city}_$time.log"
-
+    
+    ip1=$(awk 'NR==1{print $2}' ip/${city}_result.txt)
+    # ip2=$(awk 'NR==2{print $2}' ip/${city}_result.txt)
+    # ip3=$(awk 'NR==3{print $2}' ip/${city}_result.txt)
     template="../multicastSource/${city}.txt"
     perl -i -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$template" 
+    echo "../multicastSource/${city}.txt 已更新！"
     # …………
 
 
