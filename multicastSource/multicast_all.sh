@@ -324,7 +324,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     line_count_output=$(($(wc -l < "$OUTPUT_FILE") - 1))
     NEW_output="${OUTPUT_FILE//NUM/$line_count_output}"
     mv "$OUTPUT_FILE" "$NEW_output"
-    echo " $OUTPUT_FILE 已经更新完成" | tee -a "$SUMMARY_FILE"
+    echo " $$NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
 
     # 在汇总文件中加入分隔行
     echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
