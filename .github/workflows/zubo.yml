@@ -1,4 +1,4 @@
-name: Daily Job_fofa
+name: getNewIP_fofa
 
 on:
   schedule:
