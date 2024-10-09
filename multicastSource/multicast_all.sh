@@ -146,14 +146,14 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&url=Ca94122" \
         -o "$RESPONSE_FILE"
 
-    # # 2-2页面 数据太多，一页也就足够了
-    # for page in $(seq 2 2); do
-    #     echo "第${page}页加载中"
-    #     curl -G "${URL}" \
-    #         -d "page=${page}" \
-    #         -d "net=${NET_VALUE}" \
-    #         >>"$RESPONSE_FILE"
-    # done
+    # 2-2页面 数据太多，一页也就足够了
+    for page in $(seq 2 2); do
+        echo "第${page}页加载中"
+        curl -G "${URL}" \
+            -d "page=${page}" \
+            -d "net=${NET_VALUE}" \
+            >>"$RESPONSE_FILE"
+    done
 
 ## 提取源地址，并进行整理
     tmp_file=$(mktemp)
