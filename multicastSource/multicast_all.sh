@@ -337,7 +337,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     sed -i "1i ${CHANNEL_NAME},#genre#" "$OUTPUT_FILE"
     line_count_output=$(($(wc -l < "$OUTPUT_FILE") - 1))
-    NEW_output="${OUTPUT_FILE//NUM/$line_count_output}
+    NEW_output="${OUTPUT_FILE//NUM/$line_count_output}"
     mv "$OUTPUT_FILE" "$NEW_output"
     echo " $NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
 
