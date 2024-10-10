@@ -144,7 +144,7 @@ CURL_LOG="curl.log"
 for CHANNEL_NAME in "${!cities[@]}"; do
     IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
     OUTPUT_FILE="./${CHANNEL_NAME}_NUM.txt"
-## 获取当前可用的酒店源，数据较多，只获取前3页
+    ## 获取当前可用的酒店源，数据较多，只获取前3页
     echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
 
     # 清空响应文件
@@ -155,8 +155,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     curl -X POST "${URL}" \
         -H "Accept-Language: en-CN,en;q=0.9,zh-CN;q=0.8,zh;q=0.7,en-GB;q=0.6,en-US;q=0.5" \
         -d "saerch=${NET_VALUE}&Submit=+&names=Tom&city=HeZhou&url=Ca94122" \
-        --connect-timeout 10 \
-        --max-time 60 \
+        --connect-timeout 5 \
+        --max-time 15 \
         -o "$RESPONSE_FILE"
 
     # # 2-2页面 数据太多，一页也就足够了，酌情调整
@@ -165,12 +165,12 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     #     curl -G "${URL}" \
     #         -d "page=${page}" \
     #         -d "net=${NET_VALUE}" \
-    #         --connect-timeout 10 \
-    #         --max-time 60 \
+    #         --connect-timeout 5 \
+    #         --max-time 15 \
     #         >>"$RESPONSE_FILE"
     # done
 
-## 提取源地址，并进行整理
+    ## 提取源地址，并进行整理
     tmp_file=$(mktemp)
     # 使用 awk 处理文件
     awk '
@@ -187,7 +187,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     # 剔除已知干扰地址，按需配置
 
-## 筛选有效刑，测试每个源的下载速度，选择最优源
+    ## 筛选有效刑，测试每个源的下载速度，选择最优源
     echo "==== 有效地址提取完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
     line_count=$(wc -l <"$UNIQUE_SEARCH_RESULTS_FILE" | xargs)
     echo "line count is ${line_count}"
@@ -203,7 +203,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
             echo "validurlist.txt 已达到 10 行，跳出测速循环" | tee -a "$SUMMARY_FILE"
             break
         fi
-    
+
         echo "[第 ${i}/${line_count} 个]:  ${url}" | tee -a "$SUMMARY_FILE"
         # curllist=$(curl -G "${URL2}" -d "s=${url}" --compressed)
         curl -X GET "${URL2}" \
@@ -211,8 +211,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         --data-urlencode "s=${url}" \
         --data-urlencode "y=y" \
         --compressed \
-        --connect-timeout 10 \
-        --max-time 60 \
+        --connect-timeout 5 \
+        --max-time 15 \
         -o curl.list
         # 保存 yt-dlp 输出到日志
         echo -e "[第 ${i}/${line_count} 个]: ${url} curl.list" >>"$CURL_LOG"
@@ -225,8 +225,6 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
         fi
     done <"$UNIQUE_SEARCH_RESULTS_FILE"
-
-    # mv validurlist.txt "$UNIQUE_SEARCH_RESULTS_FILE"
 
     # 剔除已知干扰地址
     # sed -i '/epg.pw/d' validurlist.txt
@@ -272,10 +270,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
                 echo "测速失败!!" | tee -a "$SUMMARY_FILE"
                 echo "测速失败: ${url}" >>"$SPEED_TEST_LOG"
         fi
-
         # 清理下载的文件
         rm -f new-archive.txt output.ts
-
     done < validurlist.txt
 
     # 检查是否有有效的速度信息
@@ -321,8 +317,8 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         --data-urlencode "s=${besturl}" \
         --data-urlencode "y=y" \
         --compressed \
-        --connect-timeout 10 \
-        --max-time 60 \
+        --connect-timeout 6 \
+        --max-time 20 \
         -o "$BEST_URL_RESPONSE_FILE"
 
     # 提取频道名称和 m3u8 链接
