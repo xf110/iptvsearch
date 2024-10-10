@@ -125,6 +125,9 @@ cities["ZheJiang_mobile"]="%E6%B5%99%E6%B1%9F%E7%A7%BB%E5%8A%A8"
 cities["ZheJiang_unicom"]="%E6%B5%99%E6%B1%9F%E8%81%94%E9%80%9A"
 cities["ZheJiang_telecom"]="%E6%B5%99%E6%B1%9F%E7%94%B5%E4%BF%A1"
 
+# 初始化成功和失败的城市列表
+updated_cities=()
+failed_cities=()
 
 URL="http://www.foodieguide.com/iptvsearch/hoteliptv.php"
 URL2="http://www.foodieguide.com/iptvsearch/allllist.php"
@@ -141,11 +144,11 @@ CURL_LOG="curl.log"
 : >${YT_DLP_LOG}
 : >${CURL_LOG}
 
-for CHANNEL_NAME in "${!cities[@]}"; do
-    IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
-    OUTPUT_FILE="./${CHANNEL_NAME}_NUM.txt"
+for city in "${!cities[@]}"; do
+    IFS=':' read -r NET_VALUE <<<"${cities[$city]}"
+    OUTPUT_FILE="./${city}_NUM.txt"
     ## 获取当前可用的酒店源，数据较多，只获取前3页
-    echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
+    echo "==== 开始获取数据: ${city} ======" | tee -a "$SUMMARY_FILE"
 
     # 清空响应文件
     : >${RESPONSE_FILE}
@@ -193,7 +196,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     echo "line count is ${line_count}"
     i=0
     : >validurlist.txt
-    echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$CURL_LOG"
+    echo "========= ${city} ===测速日志==========" >>"$CURL_LOG"
     while IFS= read -r url; do
         i=$((i + 1))
         :>curl.list
@@ -233,7 +236,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
     echo "==== 整理数据完成, 开始测速 ======" | tee -a "$SUMMARY_FILE"
     lines=$(wc -l <validurlist.txt)
     i=0
-    echo "========= ${CHANNEL_NAME} ===测速日志==========" >>"$YT_DLP_LOG"
+    echo "========= ${city} ===测速日志==========" >>"$YT_DLP_LOG"
     while read -r url; do
         i=$((i + 1))
         # 检查 SPEED_TEST_LOG 中有效行数，剔除“测速失败”的行，达到 5 行则跳出循环
@@ -276,7 +279,7 @@ for CHANNEL_NAME in "${!cities[@]}"; do
 
     # 检查是否有有效的速度信息
     if [ ! -s "$SPEED_TEST_LOG" ] || ! grep -v '失败' "$SPEED_TEST_LOG" | grep -q '[0-9]'; then
-        echo "没有找到有效的测速结果，跳过 ${CHANNEL_NAME}" | tee -a "$SUMMARY_FILE"
+        echo "没有找到有效的测速结果，跳过 ${city}" | tee -a "$SUMMARY_FILE"
         continue # 跳过当前循环，进入下一个频道的处理
     fi
 
@@ -335,14 +338,16 @@ for CHANNEL_NAME in "${!cities[@]}"; do
         }
     }' >"$OUTPUT_FILE"
 
-    sed -i "1i ${CHANNEL_NAME},#genre#" "$OUTPUT_FILE"
+    sed -i "1i ${city},#genre#" "$OUTPUT_FILE"
     line_count_output=$(($(wc -l < "$OUTPUT_FILE") - 1))
     NEW_output="${OUTPUT_FILE//NUM/$line_count_output}"
+    updated_cities[i]="${city}"
     mv "$OUTPUT_FILE" "$NEW_output"
     echo " $NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
 
     # 在汇总文件中加入分隔行
-    echo "==== ${CHANNEL_NAME} 处理完成 ======" | tee -a "$SUMMARY_FILE"
+    echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
     rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${SUMMARY_FILE} ${YT_DLP_LOG} curl.list curl.log validurl.txt validurlist.txt yt.tmp
+    echo "本次更新城市列表： ${updated_cities[@]}"
 done
