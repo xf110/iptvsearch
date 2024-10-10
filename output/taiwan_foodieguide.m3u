@@ -1,10 +1,20 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Wed Oct  9 12:47:02 UTC 2024
+# Thu Oct 10 01:32:05 UTC 2024
+#EXTINF:-1 tvg-id="曼联官方MUTV" tvg-name="曼联官方MUTV" tvg-logo="https://live.fanmingming.com/tv/曼联官方MUTV.png" group-title=" taiwan",曼联官方 MUTV
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
+#EXTINF:-1 tvg-id="曼聯官方MUTV" tvg-name="曼聯官方MUTV" tvg-logo="https://live.fanmingming.com/tv/曼聯官方MUTV.png" group-title=" taiwan",曼聯官方 MUTV
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 #EXTINF:-1 tvg-id="i24NewsFHD" tvg-name="i24NewsFHD" tvg-logo="https://live.fanmingming.com/tv/i24NewsFHD.png" group-title=" taiwan",i24 News FHD
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
+#EXTINF:-1 tvg-id="TVMAX(720p)" tvg-name="TVMAX(720p)" tvg-logo="https://live.fanmingming.com/tv/TVMAX(720p).png" group-title=" taiwan",TVMAX (720p)
+https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="台湾Plus" tvg-name="台湾Plus" tvg-logo="https://live.fanmingming.com/tv/台湾Plus.png" group-title=" taiwan",台湾Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
+#EXTINF:-1 tvg-id="CBCNews" tvg-name="CBCNews" tvg-logo="https://live.fanmingming.com/tv/CBCNews.png" group-title=" taiwan",CBC News
+https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
+#EXTINF:-1 tvg-id="MUTV" tvg-name="MUTV" tvg-logo="https://live.fanmingming.com/tv/MUTV.png" group-title=" taiwan",MUTV
+https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 #EXTINF:-1 tvg-id="I24NewsArabic(720p)" tvg-name="I24NewsArabic(720p)" tvg-logo="https://live.fanmingming.com/tv/I24NewsArabic(720p).png" group-title=" taiwan",I24 News Arabic (720p)
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="GlobalMontrealQuebec" tvg-name="GlobalMontrealQuebec" tvg-logo="https://live.fanmingming.com/tv/GlobalMontrealQuebec.png" group-title=" taiwan",Global Montreal Quebec
@@ -35,6 +45,10 @@ https://bcovlive-a.akamaihd.net/1ad942d15d9643bea6d199b729e79e48/us-east-1/61839
 https://bcovlive-a.akamaihd.net/045bd3b615254da880c3db79b2e42fd0/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="ArkamArabicS01E09" tvg-name="ArkamArabicS01E09" tvg-logo="https://live.fanmingming.com/tv/ArkamArabicS01E09.png" group-title=" taiwan",Arkam-Arabic S01 E09
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
+#EXTINF:-1 tvg-id="ArkamArabicS01E09" tvg-name="ArkamArabicS01E09" tvg-logo="https://live.fanmingming.com/tv/ArkamArabicS01E09.png" group-title=" taiwan",Arkam-Arabic S01 E09
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="ArkamArabicS01E09" tvg-name="ArkamArabicS01E09" tvg-logo="https://live.fanmingming.com/tv/ArkamArabicS01E09.png" group-title=" taiwan",Arkam-Arabic S01 E09
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="StormcastNovelasTV" tvg-name="StormcastNovelasTV" tvg-logo="https://live.fanmingming.com/tv/StormcastNovelasTV.png" group-title=" taiwan",Stormcast Novelas TV
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="AnAmericanChristmasCarol" tvg-name="AnAmericanChristmasCarol" tvg-logo="https://live.fanmingming.com/tv/AnAmericanChristmasCarol.png" group-title=" taiwan",An American Christmas Carol
@@ -45,20 +59,12 @@ https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/62
 https://bcovlive-a.akamaihd.net/385ca06841b3430f99327f0c44d6d008/ap-south-1/6313884884001/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCAmerica(720p)" tvg-name="BBCAmerica(720p)" tvg-logo="https://live.fanmingming.com/tv/BBCAmerica(720p).png" group-title=" taiwan",BBC America (720p)
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
-#EXTINF:-1 tvg-id="BBCAmerica(720p)" tvg-name="BBCAmerica(720p)" tvg-logo="https://live.fanmingming.com/tv/BBCAmerica(720p).png" group-title=" taiwan",BBC America (720p)
-http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
-#EXTINF:-1 tvg-id="BBCAmerica(720p)" tvg-name="BBCAmerica(720p)" tvg-logo="https://live.fanmingming.com/tv/BBCAmerica(720p).png" group-title=" taiwan",BBC America (720p)
-http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="Xumo:745Stadium" tvg-name="Xumo:745Stadium" tvg-logo="https://live.fanmingming.com/tv/Xumo:745Stadium.png" group-title=" taiwan",Xumo : 745 Stadium
 https://bcovlive-a.akamaihd.net/79ebca453e6340dcb32b09707ce3fb82/us-east-1/5994000126001/8036529875f74c81b5f50851bffbc421/playlist_ssaiM.m3u8
 #EXTINF:-1 tvg-id="TheDesignNetwork" tvg-name="TheDesignNetwork" tvg-logo="https://live.fanmingming.com/tv/TheDesignNetwork.png" group-title=" taiwan",The Design Network
 https://bcovlive-a.akamaihd.net/1ad942d15d9643bea6d199b729e79e48/us-east-1/6183977686001/playlist.m3u8
-#EXTINF:-1 tvg-id="曼联官方MUTV" tvg-name="曼联官方MUTV" tvg-logo="https://live.fanmingming.com/tv/曼联官方MUTV.png" group-title=" taiwan",曼联官方 MUTV
-https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCArabic(720p)" tvg-name="BBCArabic(720p)" tvg-logo="https://live.fanmingming.com/tv/BBCArabic(720p).png" group-title=" taiwan",BBC Arabic (720p)
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
-#EXTINF:-1 tvg-id="曼聯官方MUTV" tvg-name="曼聯官方MUTV" tvg-logo="https://live.fanmingming.com/tv/曼聯官方MUTV.png" group-title=" taiwan",曼聯官方 MUTV
-https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 #EXTINF:-1 tvg-id="Punt3VallUixó" tvg-name="Punt3VallUixó" tvg-logo="https://live.fanmingming.com/tv/Punt3VallUixó.png" group-title=" taiwan",Punt 3 Vall Uixó
 https://bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="SportsnetEastCA" tvg-name="SportsnetEastCA" tvg-logo="https://live.fanmingming.com/tv/SportsnetEastCA.png" group-title=" taiwan",Sportsnet East CA
@@ -87,16 +93,16 @@ https://bcovlive-a.akamaihd.net/b3ed62003de946c896f4f541b908376e/us-east-1/62407
 https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="FILM1SUNDANCE" tvg-name="FILM1SUNDANCE" tvg-logo="https://live.fanmingming.com/tv/FILM1SUNDANCE.png" group-title=" taiwan",FILM 1 SUNDANCE
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
+#EXTINF:-1 tvg-id="FILM1SUNDANCE" tvg-name="FILM1SUNDANCE" tvg-logo="https://live.fanmingming.com/tv/FILM1SUNDANCE.png" group-title=" taiwan",FILM 1 SUNDANCE
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="FILM1SUNDANCE" tvg-name="FILM1SUNDANCE" tvg-logo="https://live.fanmingming.com/tv/FILM1SUNDANCE.png" group-title=" taiwan",FILM 1 SUNDANCE
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="ARBBCARABIC" tvg-name="ARBBCARABIC" tvg-logo="https://live.fanmingming.com/tv/ARBBCARABIC.png" group-title=" taiwan",AR - BBC ARABIC
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="FRMTVDanceHD" tvg-name="FRMTVDanceHD" tvg-logo="https://live.fanmingming.com/tv/FRMTVDanceHD.png" group-title=" taiwan",FR MTV Dance HD
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="BridgeTVDance" tvg-name="BridgeTVDance" tvg-logo="https://live.fanmingming.com/tv/BridgeTVDance.png" group-title=" taiwan",Bridge TV Dance
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
-#EXTINF:-1 tvg-id="BridgeTVDance" tvg-name="BridgeTVDance" tvg-logo="https://live.fanmingming.com/tv/BridgeTVDance.png" group-title=" taiwan",Bridge TV Dance
-http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
-#EXTINF:-1 tvg-id="BridgeTVDance" tvg-name="BridgeTVDance" tvg-logo="https://live.fanmingming.com/tv/BridgeTVDance.png" group-title=" taiwan",Bridge TV Dance
-http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="TVMChannel(576p)[Geoblocked]" tvg-name="TVMChannel(576p)[Geoblocked]" tvg-logo="https://live.fanmingming.com/tv/TVMChannel(576p)[Geoblocked].png" group-title=" taiwan",TVMChannel (576p) [Geo-blocked]
 https://bcovlive-a.akamaihd.net/474b6caf58f8407fb1d1cc1ef64f50ff/us-west-2/6058004209001/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="CBSNewsNewYork" tvg-name="CBSNewsNewYork" tvg-logo="https://live.fanmingming.com/tv/CBSNewsNewYork.png" group-title=" taiwan",CBS News New York
@@ -131,20 +137,18 @@ https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/62
 https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8
 #EXTINF:-1 tvg-id="i24News(I)" tvg-name="i24News(I)" tvg-logo="https://live.fanmingming.com/tv/i24News(I).png" group-title=" taiwan",i24 News (I)
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
-#EXTINF:-1 tvg-id="TVMAX(720p)" tvg-name="TVMAX(720p)" tvg-logo="https://live.fanmingming.com/tv/TVMAX(720p).png" group-title=" taiwan",TVMAX (720p)
-https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
 #EXTINF:-1 tvg-id="CBNEspañol" tvg-name="CBNEspañol" tvg-logo="https://live.fanmingming.com/tv/CBNEspañol.png" group-title=" taiwan",CBN Español
 https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCEarthHD" tvg-name="BBCEarthHD" tvg-logo="https://live.fanmingming.com/tv/BBCEarthHD.png" group-title=" taiwan",BBC Earth HD
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
+#EXTINF:-1 tvg-id="BBCEarthHD" tvg-name="BBCEarthHD" tvg-logo="https://live.fanmingming.com/tv/BBCEarthHD.png" group-title=" taiwan",BBC Earth HD
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="BBCEarthHD" tvg-name="BBCEarthHD" tvg-logo="https://live.fanmingming.com/tv/BBCEarthHD.png" group-title=" taiwan",BBC Earth HD
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="Ayaat(720p)" tvg-name="Ayaat(720p)" tvg-logo="https://live.fanmingming.com/tv/Ayaat(720p).png" group-title=" taiwan",Ayaat (720p)
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="TaiwanPlus" tvg-name="TaiwanPlus" tvg-logo="https://live.fanmingming.com/tv/TaiwanPlus.png" group-title=" taiwan",Taiwan Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-#EXTINF:-1 tvg-id="TaiwanPlus" tvg-name="TaiwanPlus" tvg-logo="https://live.fanmingming.com/tv/TaiwanPlus.png" group-title=" taiwan",Taiwan Plus
-http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
-#EXTINF:-1 tvg-id="TaiwanPlus" tvg-name="TaiwanPlus" tvg-logo="https://live.fanmingming.com/tv/TaiwanPlus.png" group-title=" taiwan",Taiwan Plus
-http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="BCI24NEWS" tvg-name="BCI24NEWS" tvg-logo="https://live.fanmingming.com/tv/BCI24NEWS.png" group-title=" taiwan",BCI 24 NEWS
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="SUNDANCETV" tvg-name="SUNDANCETV" tvg-logo="https://live.fanmingming.com/tv/SUNDANCETV.png" group-title=" taiwan",SUNDANCE TV
@@ -175,8 +179,6 @@ https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/62407
 https://bcovlive-a.akamaihd.net/1ad942d15d9643bea6d199b729e79e48/us-east-1/6183977686001/playlist.m3u8
 #EXTINF:-1 tvg-id="Redbox:ReelzChannel" tvg-name="Redbox:ReelzChannel" tvg-logo="https://live.fanmingming.com/tv/Redbox:ReelzChannel.png" group-title=" taiwan",Redbox : Reelz Channel
  Reelz Channel
-#EXTINF:-1 tvg-id="CBCNews" tvg-name="CBCNews" tvg-logo="https://live.fanmingming.com/tv/CBCNews.png" group-title=" taiwan",CBC News
-https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="CBNNews" tvg-name="CBNNews" tvg-logo="https://live.fanmingming.com/tv/CBNNews.png" group-title=" taiwan",CBN News
 https://bcovlive-a.akamaihd.net/re8d9f611ee4a490a9bb59e52db91414d/us-east-1/734546207001/playlist.m3u8
 #EXTINF:-1 tvg-id="CBNNews" tvg-name="CBNNews" tvg-logo="https://live.fanmingming.com/tv/CBNNews.png" group-title=" taiwan",CBN News
@@ -187,20 +189,18 @@ https://bcovlive-a.akamaihd.net/5e531be3ed6c41229b2af2d9bffba88d/us-east-1/61839
 https://bcovlive-a.akamaihd.net/0b75ef0a49e24704a4ca023d3a82c2df/ap-south-1/6203311941001/playlist.m3u8
 #EXTINF:-1 tvg-id="ÀPunt" tvg-name="ÀPunt" tvg-logo="https://live.fanmingming.com/tv/ÀPunt.png" group-title=" taiwan",À Punt
 https://bcovlive-a.akamaihd.net/469e448f034b4d46afa4bcac53297d60/eu-central-1/6057955885001/playlist_dvr.m3u8
+#EXTINF:-1 tvg-id="ÀPunt" tvg-name="ÀPunt" tvg-logo="https://live.fanmingming.com/tv/ÀPunt.png" group-title=" taiwan",À Punt
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="ÀPunt" tvg-name="ÀPunt" tvg-logo="https://live.fanmingming.com/tv/ÀPunt.png" group-title=" taiwan",À Punt
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="Stadium" tvg-name="Stadium" tvg-logo="https://live.fanmingming.com/tv/Stadium.png" group-title=" taiwan",Stadium
 https://bcovlive-a.akamaihd.net/79ebca453e6340dcb32b09707ce3fb82/us-east-1/5994000126001/8036529875f74c81b5f50851bffbc421/playlist_ssaiM.m3u8
-#EXTINF:-1 tvg-id="Stadium" tvg-name="Stadium" tvg-logo="https://live.fanmingming.com/tv/Stadium.png" group-title=" taiwan",Stadium
-http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
-#EXTINF:-1 tvg-id="Stadium" tvg-name="Stadium" tvg-logo="https://live.fanmingming.com/tv/Stadium.png" group-title=" taiwan",Stadium
-http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="AuténticaTelevisión(720p)[Not24/7]" tvg-name="AuténticaTelevisión(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/AuténticaTelevisión(720p)[Not24/7].png" group-title=" taiwan",Auténtica Televisión (720p) [Not 24/7]
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="TVI24" tvg-name="TVI24" tvg-logo="https://live.fanmingming.com/tv/TVI24.png" group-title=" taiwan",TVI24
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="Reelz" tvg-name="Reelz" tvg-logo="https://live.fanmingming.com/tv/Reelz.png" group-title=" taiwan",Reelz
 https://bcovlive-a.akamaihd.net/c733a9aa448a4a44a10c527c6f5bf7a4/us-east-1/5245389775001/playlist.m3u8
-#EXTINF:-1 tvg-id="MUTV" tvg-name="MUTV" tvg-logo="https://live.fanmingming.com/tv/MUTV.png" group-title=" taiwan",MUTV
-https://bcovlive-a.akamaihd.net/r2d2c4ca5bf57456fb1d16255c1a535c8/eu-west-1/6058004203001/playlist.m3u8
 #EXTINF:-1 tvg-id="TVNuevoLeónCanal28(XHMNLTDT)(720p)" tvg-name="TVNuevoLeónCanal28(XHMNLTDT)(720p)" tvg-logo="https://live.fanmingming.com/tv/TVNuevoLeónCanal28(XHMNLTDT)(720p).png" group-title=" taiwan",TV Nuevo León Canal 28 (XHMNL-TDT) (720p)
 https://bcovlive-a.akamaihd.net/575d86160eb143458d51f7ab187a4e68/us-east-1/6101674910001/playlist.m3u8
 #EXTINF:-1 tvg-id="IFC" tvg-name="IFC" tvg-logo="https://live.fanmingming.com/tv/IFC.png" group-title=" taiwan",IFC
