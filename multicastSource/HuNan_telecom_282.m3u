@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:19 UTC 2024
+# Thu Oct 10 11:27:23 UTC 2024
 #EXTINF:-1 tvg-id="湖南卫视FHD" tvg-name="湖南卫视FHD" tvg-logo="https://live.fanmingming.com/tv/湖南卫视FHD.png" group-title="HuNan_telecom",湖南卫视FHD
 http://223.145.224.79:8000/udp/239.76.245.115:1234
 #EXTINF:-1 tvg-id="湖南经视FHD" tvg-name="湖南经视FHD" tvg-logo="https://live.fanmingming.com/tv/湖南经视FHD.png" group-title="HuNan_telecom",湖南经视FHD

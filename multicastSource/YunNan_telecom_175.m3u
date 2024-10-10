@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:29 UTC 2024
+# Thu Oct 10 11:27:32 UTC 2024
 #EXTINF:-1 tvg-id="云南4K" tvg-name="云南4K" tvg-logo="https://live.fanmingming.com/tv/云南4K.png" group-title="YunNan_telecom",云南4K
 http://enlen.vip:4022/udp/239.200.200.178:8884
 #EXTINF:-1 tvg-id="云南康旅" tvg-name="云南康旅" tvg-logo="https://live.fanmingming.com/tv/云南康旅.png" group-title="YunNan_telecom",云南康旅

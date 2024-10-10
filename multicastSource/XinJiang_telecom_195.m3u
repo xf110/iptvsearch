@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:57 UTC 2024
+# Thu Oct 10 11:28:03 UTC 2024
 #EXTINF:-1 tvg-id="包头TV1" tvg-name="包头TV1" tvg-logo="https://live.fanmingming.com/tv/包头TV1.png" group-title="XinJiang_telecom",包头TV1
 http://110.157.221.178:8088/udp/238.125.3.12:5140
 #EXTINF:-1 tvg-id="包头TV2" tvg-name="包头TV2" tvg-logo="https://live.fanmingming.com/tv/包头TV2.png" group-title="XinJiang_telecom",包头TV2

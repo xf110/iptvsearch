@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:30 UTC 2024
+# Thu Oct 10 11:27:33 UTC 2024
 #EXTINF:-1 tvg-id="海南公共HD" tvg-name="海南公共HD" tvg-logo="https://live.fanmingming.com/tv/海南公共HD.png" group-title="HaiNan_telecom",海南公共 HD
 http://112.66.226.177:8886/rtp/239.253.64.14:5140
 #EXTINF:-1 tvg-id="海南公共" tvg-name="海南公共" tvg-logo="https://live.fanmingming.com/tv/海南公共.png" group-title="HaiNan_telecom",海南公共

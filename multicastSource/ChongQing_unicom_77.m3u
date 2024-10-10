@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:53 UTC 2024
+# Thu Oct 10 11:28:00 UTC 2024
 #EXTINF:-1 tvg-id="重庆新闻HD" tvg-name="重庆新闻HD" tvg-logo="https://live.fanmingming.com/tv/重庆新闻HD.png" group-title="ChongQing_unicom",重庆新闻HD
 http://27.10.117.58:8000/udp/225.0.4.188:7980
 #EXTINF:-1 tvg-id="重庆社会与法HD" tvg-name="重庆社会与法HD" tvg-logo="https://live.fanmingming.com/tv/重庆社会与法HD.png" group-title="ChongQing_unicom",重庆社会与法HD

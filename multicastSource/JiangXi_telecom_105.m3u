@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:24 UTC 2024
+# Thu Oct 10 11:27:27 UTC 2024
 #EXTINF:-1 tvg-id="江西卫视" tvg-name="江西卫视" tvg-logo="https://live.fanmingming.com/tv/江西卫视.png" group-title="JiangXi_telecom",江西卫视
 http://115.150.15.242:5566/udp/239.252.220.63:5140
 #EXTINF:-1 tvg-id="江西二套" tvg-name="江西二套" tvg-logo="https://live.fanmingming.com/tv/江西二套.png" group-title="JiangXi_telecom",江西二套

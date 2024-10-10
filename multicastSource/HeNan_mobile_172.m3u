@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 07:08:26 UTC 2024
+# Thu Oct 10 11:27:29 UTC 2024
 #EXTINF:-1 tvg-id="河南卫视高清" tvg-name="河南卫视高清" tvg-logo="https://live.fanmingming.com/tv/河南卫视高清.png" group-title="HeNan_mobile",河南卫视高清
 http://221.15.227.34:8181/rtp/225.1.4.98:1127
 #EXTINF:-1 tvg-id="河南都市频道高清" tvg-name="河南都市频道高清" tvg-logo="https://live.fanmingming.com/tv/河南都市频道高清.png" group-title="HeNan_mobile",河南都市频道高清
