@@ -21,7 +21,7 @@ cities["GanSu_mobile"]="%E7%94%98%E8%82%83%E7%A7%BB%E5%8A%A8"
 cities["GanSu_unicom"]="%E7%94%98%E8%82%83%E8%81%94%E9%80%9A"
 cities["GanSu_telecom"]="%E7%94%98%E8%82%83%E7%94%B5%E4%BF%A1"
 
-cities["GuangDong_mobile"]="%E5%B9%BF%E4%B8%9C%E7%A7%BB%E5%8A%A8"
+# cities["GuangDong_mobile"]="%E5%B9%BF%E4%B8%9C%E7%A7%BB%E5%8A%A8"
 cities["GuangDong_unicom"]="%E5%B9%BF%E4%B8%9C%E8%81%94%E9%80%9A"
 cities["GuangDong_telecom"]="%E5%B9%BF%E4%B8%9C%E7%94%B5%E4%BF%A1"
 
@@ -45,15 +45,15 @@ cities["HeBei_mobile"]="%E6%B2%B3%E5%8C%97%E7%A7%BB%E5%8A%A8"
 cities["HeBei_unicom"]="%E6%B2%B3%E5%8C%97%E8%81%94%E9%80%9A"
 cities["HeBei_telecom"]="%E6%B2%B3%E5%8C%97%E7%94%B5%E4%BF%A1"
 
-cities["HeLongJiang_mobile"]="%E9%BB%91%E9%BE%99%E6%B1%9F%E7%A7%BB%E5%8A%A8"
-cities["HeLongJiang_unicom"]="%E9%BB%91%E9%BE%99%E6%B1%9F%E8%81%94%E9%80%9A"
-cities["HeLongJiang_telecom"]="%E9%BB%91%E9%BE%99%E6%B1%9F%E7%94%B5%E4%BF%A1"
-
-cities["HeNan_mobile"]="%E6%B2%B3%E5%8D%97%E7%A7%BB%E5%8A%A8"
+# cities["HeNan_mobile"]="%E6%B2%B3%E5%8D%97%E7%A7%BB%E5%8A%A8"
 cities["HeNan_unicom"]="%E6%B2%B3%E5%8D%97%E8%81%94%E9%80%9A"
 cities["HeNan_telecom"]="%E6%B2%B3%E5%8D%97%E7%94%B5%E4%BF%A1"
 
-cities["HuBei_mobile"]="%E6%B9%96%E5%8C%97%E7%A7%BB%E5%8A%A8"
+cities["HeiLongJiang"]="%E9%BB%91%E9%BE%99%E6%B1%9F"
+# cities["HeiLongJiang_unicom"]="%E9%BB%91%E9%BE%99%E6%B1%9F%E8%81%94%E9%80%9A"
+# cities["HeiLongJiang_telecom"]="%E9%BB%91%E9%BE%99%E6%B1%9F%E7%94%B5%E4%BF%A1"
+
+# cities["HuBei_mobile"]="%E6%B9%96%E5%8C%97%E7%A7%BB%E5%8A%A8"
 cities["HuBei_unicom"]="%E6%B9%96%E5%8C%97%E8%81%94%E9%80%9A"
 cities["HuBei_telecom"]="%E6%B9%96%E5%8C%97%E7%94%B5%E4%BF%A1"
 
@@ -61,9 +61,9 @@ cities["HuNan_mobile"]="%E6%B9%96%E5%8D%97%E7%A7%BB%E5%8A%A8"
 cities["HuNan_unicom"]="%E6%B9%96%E5%8D%97%E8%81%94%E9%80%9A"
 cities["HuNan_telecom"]="%E6%B9%96%E5%8D%97%E7%94%B5%E4%BF%A1"
 
-cities["JiLin_mobile"]="%E5%90%89%E6%9E%97%E7%A7%BB%E5%8A%A8"
-cities["JiLin_unicom"]="%E5%90%89%E6%9E%97%E8%81%94%E9%80%9A"
-cities["JiLin_telecom"]="%E5%90%89%E6%9E%97%E7%94%B5%E4%BF%A1"
+cities["JiLin"]="%E5%90%89%E6%9E%97"
+# cities["JiLin_unicom"]="%E5%90%89%E6%9E%97%E8%81%94%E9%80%9A"
+# cities["JiLin_telecom"]="%E5%90%89%E6%9E%97%E7%94%B5%E4%BF%A1"
 
 cities["JiangSu_mobile"]="%E6%B1%9F%E8%8B%8F%E7%A7%BB%E5%8A%A8"
 cities["JiangSu_unicom"]="%E6%B1%9F%E8%8B%8F%E8%81%94%E9%80%9A"
@@ -77,17 +77,17 @@ cities["LiaoNing_mobile"]="%E8%BE%BD%E5%AE%81%E7%A7%BB%E5%8A%A8"
 cities["LiaoNing_unicom"]="%E8%BE%BD%E5%AE%81%E8%81%94%E9%80%9A"
 cities["LiaoNing_telecom"]="%E8%BE%BD%E5%AE%81%E7%94%B5%E4%BF%A1"
 
-cities["NeiMengGu_mobile"]="%E5%86%85%E8%92%99%E7%A7%BB%E5%8A%A8"
-cities["NeiMengGu_unicom"]="%E5%86%85%E8%92%99%E8%81%94%E9%80%9A"
-cities["NeiMengGu_telecom"]="%E5%86%85%E8%92%99%E7%94%B5%E4%BF%A1"
+cities["NeiMengGu"]="%E5%86%85%E8%92%99"
+# cities["NeiMengGu_unicom"]="%E5%86%85%E8%92%99%E8%81%94%E9%80%9A"
+# cities["NeiMengGu_telecom"]="%E5%86%85%E8%92%99%E7%94%B5%E4%BF%A1"
 
 cities["NingXia_mobile"]="%E5%AE%81%E5%A4%8F%E7%A7%BB%E5%8A%A8"
 cities["NingXia_unicom"]="%E5%AE%81%E5%A4%8F%E8%81%94%E9%80%9A"
 cities["NingXia_telecom"]="%E5%AE%81%E5%A4%8F%E7%94%B5%E4%BF%A1"
 
-cities["QingHai_mobile"]="%E9%9D%92%E6%B5%B7%E7%A7%BB%E5%8A%A8"
+# cities["QingHai_mobile"]="%E9%9D%92%E6%B5%B7%E7%A7%BB%E5%8A%A8"
 cities["QingHai_unicom"]="%E9%9D%92%E6%B5%B7%E8%81%94%E9%80%9A"
-cities["QingHai_telecom"]="%E9%9D%92%E6%B5%B7%E7%94%B5%E4%BF%A1"
+# cities["QingHai_telecom"]="%E9%9D%92%E6%B5%B7%E7%94%B5%E4%BF%A1"
 
 cities["ShanDong_mobile"]="%E5%B1%B1%E4%B8%9C%E7%A7%BB%E5%8A%A8"
 cities["ShanDong_unicom"]="%E5%B1%B1%E4%B8%9C%E8%81%94%E9%80%9A"
@@ -143,8 +143,9 @@ CURL_LOG="curl.log"
 : >${SUMMARY_FILE}
 : >${YT_DLP_LOG}
 : >${CURL_LOG}
-
+l=0
 for city in "${!cities[@]}"; do
+    l=i=$((l + 1))
     IFS=':' read -r NET_VALUE <<<"${cities[$city]}"
     OUTPUT_FILE="./${city}_NUM.txt"
     ## 获取当前可用的酒店源，数据较多，只获取前3页
@@ -280,7 +281,7 @@ for city in "${!cities[@]}"; do
     # 检查是否有有效的速度信息
     if [ ! -s "$SPEED_TEST_LOG" ] || ! grep -v '失败' "$SPEED_TEST_LOG" | grep -q '[0-9]'; then
         echo "没有找到有效的测速结果，跳过 ${city}" | tee -a "$SUMMARY_FILE"
-        failed_cities[i]="${city}"
+        failed_cities[l]="${city}"
         continue # 跳过当前循环，进入下一个频道的处理
     fi
 
@@ -342,7 +343,7 @@ for city in "${!cities[@]}"; do
     sed -i "1i ${city},#genre#" "$OUTPUT_FILE"
     line_count_output=$(($(wc -l < "$OUTPUT_FILE") - 1))
     NEW_output="${OUTPUT_FILE//NUM/$line_count_output}"
-    updated_cities[i]="${city}"
+    updated_cities[l]="${city}"
     mv "$OUTPUT_FILE" "$NEW_output"
     echo " $NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
 
