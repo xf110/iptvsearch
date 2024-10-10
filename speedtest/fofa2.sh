@@ -2,7 +2,7 @@
 # 使用fofa提取各省市组播源地址
 
 # 默认选择 0 执行全部
-city_choice=0
+city_choice=2
 # city_choice=(1 3 5 ) # 指定多个选项时使用
 
 # 定义城市选项
