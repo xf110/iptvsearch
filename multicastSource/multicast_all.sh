@@ -350,8 +350,9 @@ for city in "${!cities[@]}"; do
     # 在汇总文件中加入分隔行
     echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
-    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} curl.list curl.log validurl.txt validurlist.txt yt.tmp
     echo "本次更新城市列表： ${updated_cities[@]}" | tee -a "$SUMMARY_FILE"
     echo "未更新城市列表： ${failed_cities[@]}" | tee -a "$SUMMARY_FILE"
+    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} ${SUMMARY_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
+
 
 done
