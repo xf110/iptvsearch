@@ -280,6 +280,7 @@ for city in "${!cities[@]}"; do
     # 检查是否有有效的速度信息
     if [ ! -s "$SPEED_TEST_LOG" ] || ! grep -v '失败' "$SPEED_TEST_LOG" | grep -q '[0-9]'; then
         echo "没有找到有效的测速结果，跳过 ${city}" | tee -a "$SUMMARY_FILE"
+        failed_cities[i]="${city}"
         continue # 跳过当前循环，进入下一个频道的处理
     fi
 
@@ -321,7 +322,7 @@ for city in "${!cities[@]}"; do
         --data-urlencode "y=y" \
         --compressed \
         --connect-timeout 6 \
-        --max-time 20 \
+        --max-time 30 \
         -o "$BEST_URL_RESPONSE_FILE"
 
     # 提取频道名称和 m3u8 链接
@@ -348,6 +349,8 @@ for city in "${!cities[@]}"; do
     # 在汇总文件中加入分隔行
     echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
-    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${SUMMARY_FILE} ${YT_DLP_LOG} curl.list curl.log validurl.txt validurlist.txt yt.tmp
-    echo "本次更新城市列表： ${updated_cities[@]}"
+    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} curl.list curl.log validurl.txt validurlist.txt yt.tmp
+    echo "本次更新城市列表： ${updated_cities[@]}" | tee -a "$SUMMARY_FILE"
+    echo "未更新城市列表： ${failed_cities[@]}" | tee -a "$SUMMARY_FILE"
+
 done
