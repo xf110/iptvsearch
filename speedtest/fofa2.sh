@@ -17,7 +17,6 @@ cities=(
     [8]="GanSu_telecom_105 udp/239.255.30.250:8231 甘肃电信 'udpxy && country=\"CN\" && region=\"Gansu\" && org=\"Chinanet\" && protocol=\"http\"'"
     [9]="GuangDong_mobile_332 udp/239.77.1.19:5146 广东移动 'udpxy && country=\"CN\" && region=\"Guangdong\" && org=\"Chinanet\" && protocol=\"http\"'"
 
-
 )
 
 # url编码函数
@@ -110,7 +109,7 @@ process_city() {
     echo "$template 已更新！"
     cat "$template" >> domestic.txt
 
-    ecoh -e "${template}地址已经更新为：${ip1} time:$(date +%Y/%m/%d/%H:%M:%S)" >>msg.txt
+    echo -e "${template}地址已经更新为：${ip1} time:$(date +%Y/%m/%d/%H:%M:%S)" >>msg.txt
     # …………
 
 
@@ -136,7 +135,6 @@ else
 fi
 
 # bark通知
-cat "msg.txt"
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
 rm msg.txt
