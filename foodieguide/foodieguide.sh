@@ -22,7 +22,7 @@ yt_dlp_log="yt_dlp_output.log"
 
 for channel_name in "${!cities[@]}"; do
     IFS=':' read -r channel_key_url channel_value <<<"${cities[$channel_name]}"
-    output_file="../output/${channel_name}_foodieguide.txt"
+    output_file="../output/${channel_name}.txt"
 
     echo "==== 开始获取数据: ${channel_name} ======" | tee -a "$summary_file"
 
