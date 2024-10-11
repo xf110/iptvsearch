@@ -2,8 +2,8 @@
 # 使用fofa提取各省市组播源地址
 
 # 默认选择 0 执行全部
-city_choice=2
-# city_choice=(1 3 5 ) # 指定多个选项时使用
+city_choice=0
+# city_choice=(2 5 8 ) # 指定多个选项时使用
 
 # 定义城市选项
 declare -A cities
@@ -86,13 +86,16 @@ process_city() {
     # ip3=$(awk 'NR==3{print $2}' ip/${city}_result.txt)
     template="../multicastSource/${city}.txt"
     perl -i -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$template" 
-    echo "../multicastSource/${city}.txt 已更新！"
+    echo "$template 已更新！"
+    cat "$template" >> domestic.txt
+
     # …………
 
 
 }
 
 # 处理选项
+:>domestic.txt
 if [ $city_choice -eq 0 ]; then
     for option in "${!cities[@]}"; do
         IFS=' ' read -r city stream channel_key query <<< "${cities[$option]}"
@@ -108,3 +111,4 @@ else
         echo "选择无法匹配：请检查输入 $city_choice。"
     fi
 fi
+curl 
