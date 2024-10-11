@@ -1,13 +1,13 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 12:45:04 UTC 2024
+# Fri Oct 11 01:33:15 UTC 2024
 #EXTINF:-1 tvg-id="AlJazeeraBalkans(1080p)" tvg-name="AlJazeeraBalkans(1080p)" tvg-logo="https://live.fanmingming.com/tv/AlJazeeraBalkans(1080p).png" group-title=" hongkong",Al Jazeera Balkans (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
+#EXTINF:-1 tvg-id="香港开电视/HKSTVHKS" tvg-name="香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/香港开电视/HKSTVHKS.png" group-title=" hongkong",香港开电视 / HKSTV-HKS
+https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
 #EXTINF:-1 tvg-id="半岛电视台" tvg-name="半岛电视台" tvg-logo="https://live.fanmingming.com/tv/半岛电视台.png" group-title=" hongkong",半岛电视台
 https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
 #EXTINF:-1 tvg-id="香港开电视" tvg-name="香港开电视" tvg-logo="https://live.fanmingming.com/tv/香港开电视.png" group-title=" hongkong",香港开电视
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-id="香港开电视/HKSTVHKS" tvg-name="香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/香港开电视/HKSTVHKS.png" group-title=" hongkong",香港开电视 / HKSTV-HKS
 https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
 #EXTINF:-1 tvg-id="北京卫视(1080p)" tvg-name="北京卫视(1080p)" tvg-logo="https://live.fanmingming.com/tv/北京卫视(1080p).png" group-title=" hongkong",北京卫视 (1080p)
 https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
