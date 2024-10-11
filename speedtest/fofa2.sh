@@ -2,8 +2,8 @@
 # 使用fofa提取各省市组播源地址
 
 # 默认选择 0 执行全部
-city_choice=0
-# city_choice=(2 5 8 ) # 指定多个选项时使用
+# city_choice=0
+city_choice=(2 5 8 ) # 指定多个选项时使用
 
 # 定义城市选项
 declare -A cities
@@ -19,6 +19,27 @@ cities=(
 
 
 )
+
+# url编码函数
+urlencode() {
+    # urlencode <string>
+    old_lang=$LANG
+    LANG=C
+    old_lc_collate=$LC_COLLATE
+    LC_COLLATE=C
+
+    local length="${#1}"
+    for (( i = 0; i < length; i++ )); do
+        local c="${1:i:1}"
+        case $c in
+            [a-zA-Z0-9.~_-]) printf "$c" ;;
+            *) printf '%%%02X' "'$c" ;;
+        esac
+    done
+
+    LANG=$old_lang
+    LC_COLLATE=$old_lc_collate
+}
 
 # 定义处理城市的函数
 process_city() {
@@ -89,6 +110,7 @@ process_city() {
     echo "$template 已更新！"
     cat "$template" >> domestic.txt
 
+    ecoh -e "${template}地址已经更新为：${ip1} time:$(date +%Y/%m/%d/%H:%M:%S)" >>msg.txt
     # …………
 
 
@@ -96,6 +118,7 @@ process_city() {
 
 # 处理选项
 :>domestic.txt
+:>msg.txt
 if [ $city_choice -eq 0 ]; then
     for option in "${!cities[@]}"; do
         IFS=' ' read -r city stream channel_key query <<< "${cities[$option]}"
@@ -111,4 +134,8 @@ else
         echo "选择无法匹配：请检查输入 $city_choice。"
     fi
 fi
-curl 
+
+# bark通知
+msg_urlencode=$(urlencode "$(cat msg.txt)")
+curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
+rm msg.txt
