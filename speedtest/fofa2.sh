@@ -81,19 +81,35 @@ process_city() {
 
     time=$(date +%Y%m%d%H%M%S)
     i=0
-    while IFS= read -r line; do
-        i=$((i + 1))
-        ip="$line"
-        url="http://$ip/$stream"
-        curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >fofa.tmp 2>&1
-        a=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
+    valid_count=0  # 记录有效IP的计数
 
-        echo "第 $i/$linescount 个：$ip $a"
-        echo "$ip $a" >> "speedtest_${city}_$time.log"
-    done < "$validIP"
-    rm -f fofa.tmp
+while IFS= read -r line; do
+    i=$((i + 1))
+    ip="$line"
+    url="http://$ip/$stream"
+    
+    curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null > fofa.tmp 2>&1
+    a=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
 
-    awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r | uniq >"ip/${city}_result.txt"
+    echo "第 $i/$linescount 个：$ip $a"
+    echo "$ip $a" >> "speedtest_${city}_$time.log"
+    
+    if [[ $a == *"M"* || $a == *"k"* ]]; then
+        valid_count=$((valid_count + 1))
+    fi
+
+    # 如果有效IP数达到了10个，则终止循环
+    if [ "$valid_count" -ge 10 ]; then
+        echo "已找到10个有效IP，提前结束循环"
+        break
+    fi
+
+done < "$validIP"
+
+rm -f fofa.tmp
+
+# 只取前 10 个有效的 IP 进行排序和保存
+awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r | uniq | head -n 10 >"ip/${city}_result.txt"
 
     echo "speedtest_${city}_$time.log"
     cat speedtest_${city}_$time.log
