@@ -183,3 +183,4 @@ cat msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
 rm msg.txt
+bash ./rtp2m3u.sh domestic.txt
