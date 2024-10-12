@@ -209,7 +209,7 @@ urlencode() {
 }
 
 # bark通知
-msg="港澳台直播源列表已更新 $(TZ=date +%Y/%m/%d/%H:%M:%S)"
+msg="港澳台直播源列表已更新 $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)"
 msg_urlencode=$(urlencode "$msg")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
 
