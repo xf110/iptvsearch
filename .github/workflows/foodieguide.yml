@@ -26,7 +26,7 @@ jobs:
         cd $GITHUB_WORKSPACE/hotel
         bash ./hoteliptv.sh
         for file in $(find ../output/ -name '*_hotel_foodieguide.txt'); do
-          bash ../speedtest/rtp2m3u.sh "$file"
+          bash ../rtp2m3u.sh "$file"
         done
 
     - name: Run foodieguide.sh
@@ -34,7 +34,7 @@ jobs:
         cd $GITHUB_WORKSPACE/foodieguide
         bash ./foodieguide.sh
         for file in $(find ../output/ -name '*_foodieguide.txt'); do
-          bash ../speedtest/rtp2m3u.sh "$file"
+          bash ../rtp2m3u.sh "$file"
         done
 
     - name: Update Results
