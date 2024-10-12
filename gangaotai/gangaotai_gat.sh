@@ -22,7 +22,7 @@ yt_dlp_log="yt_dlp_output.log"
 
 for channel_name in "${!cities[@]}"; do
     IFS=':' read -r channel_key_url channel_value <<<"${cities[$channel_name]}"
-    output_file="../output/${channel_name}_gat.txt"
+    output_file="../output/${channel_name}_gat_NUM.txt"
 
     echo "==== 开始获取数据: ${channel_name} ======" | tee -a "$summary_file"
 
@@ -182,6 +182,9 @@ for channel_name in "${!cities[@]}"; do
     }' >"$output_file"
 
     sed -i "1i \\${channel_name},#genre#" "$output_file"
+    linescount=$(($(wc -l < "$output_file") - 1))
+    NEW_output="${out_file//NUM/$linescount}"
+    mv "$output" "NEW_output"
     rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
