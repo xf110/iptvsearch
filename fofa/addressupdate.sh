@@ -125,7 +125,7 @@ awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r | uniq | 
     echo "$template 已更新！"
     cat "$template" >> domestic.txt
 
-    echo -e "${template}地址已经更新为：${ip1} time:$(date +%Y/%m/%d/%H:%M:%S)" >>msg.txt
+    echo -e "${city}地址已经更新为：${ip1} time:$(date +%Y/%m/%d/%H:%M:%S)" >>msg.txt
     # …………
 
 
