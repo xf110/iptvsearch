@@ -185,3 +185,32 @@ for channel_name in "${!cities[@]}"; do
     rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
+
+
+# url编码函数
+urlencode() {
+    # urlencode <string>
+    old_lang=$LANG
+    LANG=C
+    old_lc_collate=$LC_COLLATE
+    LC_COLLATE=C
+
+    local length="${#1}"
+    for (( i = 0; i < length; i++ )); do
+        local c="${1:i:1}"
+        case $c in
+            [a-zA-Z0-9.~_-]) printf "$c" ;;
+            *) printf '%%%02X' "'$c" ;;
+        esac
+    done
+
+    LANG=$old_lang
+    LC_COLLATE=$old_lc_collate
+}
+
+# bark通知
+msg="港澳台直播源列表已更新 $(date +%Y/%m/%d/%H:%M:%S)"
+msg_urlencode=$(urlencode "$msg")
+curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
+
+
