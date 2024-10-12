@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Sat Oct 12 05:43:58 UTC 2024
+# Sat Oct 12 08:15:43 UTC 2024
 #EXTINF:-1 tvg-id="IFCEast(1080p)" tvg-name="IFCEast(1080p)" tvg-logo="https://live.fanmingming.com/tv/IFCEast(1080p).png" group-title=" taiwan",IFC East (1080p)
 https://bcovlive-a.akamaihd.net/7304338dca7a4c91b8f0504de0342687/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="i24NewsFHD" tvg-name="i24NewsFHD" tvg-logo="https://live.fanmingming.com/tv/i24NewsFHD.png" group-title=" taiwan",i24 News FHD
