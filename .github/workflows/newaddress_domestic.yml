@@ -23,8 +23,8 @@ jobs:
     - name: Run addressupdate Script
       #working-directory: iptv/fofa
       run: |
-        cd $GITHUB_WORKSPACE/speedtest
-        bash ./addresupdate.sh
+        cd $GITHUB_WORKSPACE/fofa
+        bash ./addressupdate.sh
         # bash ./rtp2m3u.sh './zubo_fofa.txt'
         bash ../rtp2m3u.sh domestic.txt
 
