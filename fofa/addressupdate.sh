@@ -48,6 +48,10 @@ process_city() {
     local url_fofa=$4
 
     # 使用城市名作为默认文件名，格式为 CityName.ip
+    
+    # 检查目录下ip文件夹是否存在，不存在就创建
+    [ -d "./ip" ] || mkdir -p "./ip" 
+    
     ipfile="ip/${city}_ip.txt"
     validIP="ip/${city}_validIP.txt"
     # rm -f $validIP
