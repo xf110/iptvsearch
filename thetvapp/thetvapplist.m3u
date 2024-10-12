@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Fri Oct 11 22:19:38 UTC 2024
+# Sat Oct 12 00:44:10 UTC 2024
 #EXTINF:-1 tvg-id="ae" tvg-name="ae" tvg-logo="https://live.fanmingming.com/tv/ae.png" group-title="thetvapp",ae
 https://v16.thetvapp.to/hls/AEEast/index.m3u8?token=OUZBNmhRZHNNdUZRbjNFOVRqcnlsNDZvT09DUkg3Y20xcVVXczRnTw==
 #EXTINF:-1 tvg-id="accnetwork" tvg-name="accnetwork" tvg-logo="https://live.fanmingming.com/tv/accnetwork.png" group-title="thetvapp",acc network
