@@ -56,11 +56,12 @@ jobs:
           cat "$temp_file" >> "$output_file"
 
           # 7. 追加台湾频道
-          sed '1d' "foodieguide/taiwan_foodieguide.m3u" >> "$output_file"
+          sed '1d' "output/taiwan_gat.m3u" >> "$output_file"
           # sed '1d' "speedtest/template/taiwantonkiang.m3u" | sed 's/"台湾"/"台湾2"/g' >> "$output_file"
 
           # 8. 追加香港、增加动画
-          #sed -n '521,$p' "speedtest/template/sichuan_telecom_333.m3u" >> "$output_file"
+          # awk '/凤凰|星空|CHANNELV/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
+
 
           cat <<EOL >> "$output_file"
           #EXTINF:-1 tvg-name="" group-title="香港",凤凰中文台HD
