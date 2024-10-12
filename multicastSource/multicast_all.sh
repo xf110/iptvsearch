@@ -346,6 +346,8 @@ for city in "${!cities[@]}"; do
     updated_cities[l]="${city}"
     mv "$OUTPUT_FILE" "$NEW_output"
     echo " $NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
+    bash ../rtp2m3u.sh "$NEW_output"
+    echo "${city}_${line_count_output}.m3u 已经更新完成 "
 
     # 在汇总文件中加入分隔行
     echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
