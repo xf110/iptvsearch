@@ -1,4 +1,4 @@
-name: getNewIP_fofa
+name: newaddress_domestic_fofa
 
 on:
   schedule:
@@ -20,24 +20,15 @@ jobs:
         pip install --upgrade yt-dlp
         which yt-dlp
 
-    - name: Run Multitest Script
-      #working-directory: iptv/speedtest
+    - name: Run addressupdate Script
+      #working-directory: iptv/fofa
       run: |
         cd $GITHUB_WORKSPACE/speedtest
-        # bash ./multi.sh
-        # bash ./fofa_all.sh
-        bash ./fofa2.sh
+        bash ./addresupdate.sh
         # bash ./rtp2m3u.sh './zubo_fofa.txt'
+        bash ../rtp2m3u.sh domestic.txt
 
-    # - name: Run add 凤凰-星空-channel v to itv.m3u
-      # working-directory: iptv
-      # run: |
-        # cd $GITHUB_WORKSPACE
-        # sed -i '/凤凰|CHANNEL-V|星空/,+1d' "./itv.m3u"
-        # awk '/凤凰|CHANNEL-V|星空/ {print $0; getline; print $0;}' "./speedtest/zubo_fofa.m3u" > "./hongkong.tmp"
-        # cat "./hongkong.tmp" >> "./itv.m3u"
-        # sed -i '/凤凰\|CHANNEL-V\|星空/ s/group-title="[^"]*"/group-title="香港"/g' "./itv.m3u"
-
+  
     - name: Update Results
       run: |
         cd $GITHUB_WORKSPACE
@@ -45,5 +36,5 @@ jobs:
         git config --local user.name "GitHub Action"
         git add .
         git status
-        git commit -m "Update results_fofa "
+        git commit -m "Update address in doemstic.txt "
         git push
