@@ -1,4 +1,4 @@
-name: foodieguide/iptvsearch
+name: gangaotai_gat
 
 on:
   schedule:
@@ -21,18 +21,10 @@ jobs:
         pwd
         which yt-dlp
 
-    # - name: Run hoteliptv.sh
-    #   run: |
-    #     cd $GITHUB_WORKSPACE/hotel
-    #     bash ./hoteliptv.sh
-    #     for file in $(find ../output/ -name '*_hotel_foodieguide.txt'); do
-    #       bash ../rtp2m3u.sh "$file"
-    #     done
-
-    - name: Run foodieguide.sh
+    - name: Run gangaotai_gat.sh
       run: |
-        cd $GITHUB_WORKSPACE/foodieguide
-        bash ./foodieguide.sh
+        cd $GITHUB_WORKSPACE/gangaotai
+        bash ./gangaotai.sh
         for file in $(find ../output/ -name '*_gat.txt'); do
           bash ../rtp2m3u.sh "$file"
         done
