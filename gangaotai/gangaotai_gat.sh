@@ -183,8 +183,9 @@ for channel_name in "${!cities[@]}"; do
 
     sed -i "1i \\${channel_name},#genre#" "$output_file"
     linescount=$(($(wc -l < "$output_file") - 1))
-    NEW_output="${out_file//NUM/$linescount}"
+    NEW_output="${output_file//NUM/$linescount}"
     mv "$output" "NEW_output"
+    
     rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
