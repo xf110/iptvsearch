@@ -24,7 +24,7 @@ jobs:
     - name: Run gangaotai_gat.sh
       run: |
         cd $GITHUB_WORKSPACE/gangaotai
-        bash ./gangaotai.sh
+        bash ./gangaotai_gat.sh
         for file in $(find ../output/ -name '*_gat.txt'); do
           bash ../rtp2m3u.sh "$file"
         done
