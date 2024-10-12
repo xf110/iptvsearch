@@ -117,6 +117,13 @@ jobs:
           # Remove temporary files
           rm "$temp_file"
           mv processed_itv.m3u itv.m3u
+
+      - name: bark
+        run: |
+          cd $GITHUB_WORKSPACE
+          msg_urlencode=$(bash ./url_process/encode.sh "itv updated $(date +%Y/%m/%d/%H:%M:%S)")
+          curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+        
       - name: Stage changes
         run: |
           echo "Staging changes..."
