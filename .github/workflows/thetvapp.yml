@@ -39,7 +39,7 @@ jobs:
     - name: bark
       run: |
         cd $GITHUB_WORKSPACE
-        msg_urlencode=$(bash ./url_process/encode.sh "thetvappLIst updated $(date +%Y/%m/%d/%H:%M:%S)")
+        msg_urlencode=$(bash ./url_process/encode.sh "thetvappLIst updated $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)")
         curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
         
     - name: Stage changes
