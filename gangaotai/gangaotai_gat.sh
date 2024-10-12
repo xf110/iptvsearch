@@ -6,7 +6,7 @@
 declare -A cities
 cities["taiwan"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
 cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
-cities["macao"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
+cities["macau"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
 
 base_url="http://foodieguide.com/iptvsearch/"
 response_file="response.txt"
@@ -19,10 +19,11 @@ yt_dlp_log="yt_dlp_output.log"
 # 清空或创建汇总文件
 : >"${summary_file}"
 : >"${yt_dlp_log}"
+:> msg.tmp
 
 for channel_name in "${!cities[@]}"; do
     IFS=':' read -r channel_key_url channel_value <<<"${cities[$channel_name]}"
-    output_file="../output/${channel_name}_gat_NUM.txt"
+    output_file="./output/${channel_name}_gat_NUM.txt"
 
     echo "==== 开始获取数据: ${channel_name} ======" | tee -a "$summary_file"
 
@@ -184,12 +185,14 @@ for channel_name in "${!cities[@]}"; do
     sed -i "1i \\${channel_name},#genre#" "$output_file"
     linescount=$(($(wc -l < "$output_file") - 1))
     NEW_output="${output_file//NUM/$linescount}"
-    mv "$output" "NEW_output"
-    
+    mv "$output_file" "$NEW_output"
+
+    echo "${channel_name}_$linescount ：${best_url}" >> msg.tmp
+
     rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
-
+sed -i "1i 港澳台直播源列表已更新 $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)" msg.tmp
 
 # url编码函数
 urlencode() {
@@ -213,8 +216,6 @@ urlencode() {
 }
 
 # bark通知
-msg="港澳台直播源列表已更新 $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)"
-msg_urlencode=$(urlencode "$msg")
-curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
-
-
+msg_urlencode=$(urlencode "$(cat msg.tmp)")
+curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+rm -f msg.tmp
