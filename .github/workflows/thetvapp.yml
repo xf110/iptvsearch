@@ -34,8 +34,14 @@ jobs:
         sed -i '1i thetvapp,#genre#' thetvapplist.txt
         sed -i 's|-| |g' thetvapplist.txt
         sed -i 's| live stream||g' thetvapplist.txt
-        bash ../speedtest/rtp2m3u.sh "thetvapplist.txt"
-
+        bash ../rtp2m3u.sh "thetvapplist.txt"
+        
+    - name: bark
+      run: |
+        cd $GITHUB_WORKSPACE
+        msg_urlencode=$(bash ./url_process/encode.sh "thetvappLIst updated $(date +%Y/%m/%d/%H:%M:%S)")
+        curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
+        
     - name: Stage changes
       run: |
         echo "Staging changes..."
