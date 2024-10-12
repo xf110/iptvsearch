@@ -158,5 +158,5 @@ fi
 # bark通知
 cat msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
-curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}"
+curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
 rm msg.txt
