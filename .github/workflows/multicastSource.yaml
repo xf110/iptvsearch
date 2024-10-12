@@ -23,12 +23,12 @@ jobs:
       run: |
         cd $GITHUB_WORKSPACE/multicastSource
         bash ./multicast_all.sh
-        for file in $(find ../multicastSource/ -name '*_-1.txt'); do
-          rm -f "$file"
-        done
-        for file in $(find ../multicastSource/ -name '*.txt'); do
-          bash ../speedtest/rtp2m3u.sh "$file"
-        done
+        # for file in $(find ../multicastSource/ -name '*_-1.txt'); do
+        #   rm -f "$file"
+        # done
+        # for file in $(find ../multicastSource/ -name '*.txt'); do
+        #   bash ../speedtest/rtp2m3u.sh "$file"
+        # done
 
     - name: Update Results
       run: |
