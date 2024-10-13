@@ -5,6 +5,9 @@
 # city_choice=0
 city_choice=(2 5 8 ) # 指定多个选项时使用
 
+# todo
+# 提取现有地址参与测速
+
 # 定义城市选项
 declare -A cities
 cities=(
