@@ -195,7 +195,7 @@ for channel_name in "${!cities[@]}"; do
     rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
-sed -iE "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n港澳台直播源列表已更新: " msg.tmp
+sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n港澳台直播源列表已更新: " msg.tmp
 
 # url编码函数
 urlencode() {
