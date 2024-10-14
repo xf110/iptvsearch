@@ -183,6 +183,7 @@ echo '香港,#genre#' >> output.list
 grep -iE '凤凰|星空|channel v' tmp.list >> output.list
 
 echo '港澳台,#genre#' >> output.list
+cat '../output/hongkong_gat_*.txt'
 grep -v '#genre#' '../output/hongkong_gat_*.txt' >> output.list
 grep -v '#genre#' '../output/taiwan_gat_*.txt' >> output.list
 grep -v '#genre#' '../output/macau_gat_*.txt' >> output.list
