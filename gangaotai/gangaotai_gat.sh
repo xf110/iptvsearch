@@ -7,6 +7,7 @@ declare -A cities
 cities["taiwan"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
 cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
 cities["macau"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
+cities["feicuitai"]="%E7%BF%A1%E7%BF%A0%E5%8F%Bl:eowuxJvaa8bre/oee/oOWPsA=="
 
 base_url="http://foodieguide.com/iptvsearch/"
 response_file="response.txt"
