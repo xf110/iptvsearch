@@ -182,9 +182,6 @@ grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
 echo '香港,#genre#' >> output.list
 grep -iE '凤凰|星空|channel v' tmp.list >> output.list
 
-echo '动画,#genre#' >> output.list
-grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby' tmp.list >> output.list
-
 echo '港澳台,#genre#' >> output.list
 grep -E 'http' '../output/hongkong_gat_*.txt' >> output.list
 grep -E 'http' '../output/taiwan_gat_*.txt' >> output.list
@@ -193,9 +190,12 @@ grep -E 'http' '../output/macau_gat_*.txt' >> output.list
 # echo 'theTvApp,#genre#' >> output.list
 cat '../thetvapp/thetvapplist.txt' >> output.list
 
-
 echo '其他频道,#genre#' >> output.list
 grep -iEv 'CCTV|卫视|凤凰|星空|channel v|动画|动漫|少儿|儿童|卡通|炫动|baby' tmp.list >> output.list
+
+echo '动画,#genre#' >> output.list
+grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby' tmp.list >> output.list
+
 mv output.list domestic.txt
 
 
