@@ -137,7 +137,7 @@ process_city() {
     echo "$template m3u 已更新！"
     cat "$template" >>domestic.txt
 
-    echo -e "${city}地址已经更新为： ${ip1}" >>msg.txt
+    echo -e "${city}：${ip1}" >>msg.txt
     # …………
 
 }
