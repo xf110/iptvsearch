@@ -167,7 +167,9 @@ for channel_name in "${!cities[@]}"; do
     fi
 
     rm cookies.txt
-
+    # 清除已经的文件，NUM不能会导致旧文件无法被覆盖需要手动删除
+    rm "../output/${channel_name}*.txt" 2>/dev/null
+    
     # 提取频道名称和 m3u8 链接
     echo "==== 提取频道名称和 m3u8 链接结果 ======" | tee -a "$summary_file"
     grep -oP '^\s*<div style="float: left;"[^>]*>\K[^<]*(?=</div>)|\s\Khttps?[^<]*' "$best_url_response_file" |
