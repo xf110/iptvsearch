@@ -137,14 +137,14 @@ process_city() {
     echo "$template m3u 已更新！"
     cat "$template" >>domestic.txt
 
-    echo -e "${city}地址已经更新为： ${ip1} >>msg.txt
+    echo -e "${city}地址已经更新为： ${ip1}" >>msg.txt
     # …………
 
 }
 
 # 处理选项
 : >domestic.txt
-: >msg.txt
+: >msg.txtA
 
 if [ ${#city_choice[@]} -eq 1 ] && [ ${city_choice[0]} -eq 0 ]; then
     # 如果选择0，处理全部城市
@@ -166,7 +166,7 @@ else
     done
 fi
 
-#domestic.txt频道处理
+# domestic.txt频道处理
 
 grep -vE '画中画|购|购物|購物|#genre#' domestic.txt | sed 's/CCTV\([^-]\)/CCTV-\1/g' | sed -E 's/[[:space:]]*(高清|HD|\[高清\]|\[超清\]|\[HDR\])//g' | awk -F, '!seen[$1]++' | sort -t, -k1,1 -V > tmp.list
 
