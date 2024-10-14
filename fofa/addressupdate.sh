@@ -137,7 +137,7 @@ process_city() {
     echo "$template m3u 已更新！"
     cat "$template" >>domestic.txt
 
-    echo -e "${city}地址已经更新为：${ip1} time:$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)" >>msg.txt
+    echo -e "${city}地址已经更新为： ${ip1} >>msg.txt
     # …………
 
 }
@@ -167,7 +167,8 @@ else
 fi
 
 # bark通知
-cat msg.txt
+# cat msg.txt
+sed -iE "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n国内直播源地址已更新：" msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
 rm msg.txt
