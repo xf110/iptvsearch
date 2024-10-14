@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Mon Oct 14 09:16:59 CST 2024
+# Mon Oct 14 11:31:50 CST 2024
 #EXTINF:-1 tvg-id="甘肃文化影视" tvg-name="甘肃文化影视" tvg-logo="https://live.fanmingming.com/tv/甘肃文化影视.png" group-title="GanSu_telecom",甘肃文化影视
 http://60.164.128.167:8029/udp/239.255.30.250:8231
 #EXTINF:-1 tvg-id="甘肃公共" tvg-name="甘肃公共" tvg-logo="https://live.fanmingming.com/tv/甘肃公共.png" group-title="GanSu_telecom",甘肃公共
