@@ -183,9 +183,9 @@ echo '香港,#genre#' >> output.list
 grep -iE '凤凰|星空|channel v' tmp.list >> output.list
 
 echo '港澳台,#genre#' >> output.list
-grep -E 'http' '../output/hongkong_gat_*.txt' >> output.list
-grep -E 'http' '../output/taiwan_gat_*.txt' >> output.list
-grep -E 'http' '../output/macau_gat_*.txt' >> output.list
+grep -v '#genre#' '../output/hongkong_gat_*.txt' >> output.list
+grep -v '#genre#' '../output/taiwan_gat_*.txt' >> output.list
+grep -v '#genre#' '../output/macau_gat_*.txt' >> output.list
 
 # echo 'theTvApp,#genre#' >> output.list
 cat '../thetvapp/thetvapplist.txt' >> output.list
