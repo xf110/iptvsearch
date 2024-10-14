@@ -166,6 +166,37 @@ else
     done
 fi
 
+#domestic.txt频道处理
+
+grep -vE '画中画|购|购物|購物|#genre#' domestic.txt | sed 's/CCTV\([^-]\)/CCTV-\1/g' | sed -E 's/[[:space:]]*(高清|HD|\[高清\]|\[超清\]|\[HDR\])//g' | awk -F, '!seen[$1]++' | sort -t, -k1,1 -V > tmp.list
+
+# 异常处理
+sed -i '/＋/d; /CCTV-4 中文国际 欧洲/d; /CCTV-4 中文国际 美洲/d; /CCTV-4欧洲/d; /CCTV-4美洲/d; /CCTV-16 奥林匹克/d' tmp.list
+
+echo '中央电视台,#genre#' > output.list
+grep 'CCTV' tmp.list >> output.list
+
+echo '卫视频道,#genre#' >> output.list
+grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
+
+echo '香港,#genre#' >> output.list
+grep -i '凤凰|星空|channel v' tmp.list >> output.list
+
+echo '动画,#genre#' >> output.list
+grep '动画|动漫|少儿|儿童|卡通|炫动' tmp.list >>out.list
+
+echo '港澳台,#genre#' >> output.list
+grep 'http' ../output/*_gat*.txt >> output.list
+
+# echo 'theTvApp,#genre#' >> output.list
+cat '../thetvapp/thetvapplist.txt' >> output.list
+
+
+echo '其他频道,#genre#' >> output.list
+grep -Ev 'CCTV|卫视|凤凰|星空|channel v|动画|动漫|少儿|儿童|卡通|炫动' tmp.list >> output.list
+mv output.list domestic.txt
+
+
 # bark通知
 # cat msg.txt
 sed -iE "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n国内直播源地址已更新：" msg.txt
