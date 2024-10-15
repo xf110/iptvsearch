@@ -16,7 +16,7 @@ https://pi.0472.org/tv/fct.php?auth=2309081833
 [第 3/4 个]:  https://edge6a.v2h-cdn.com/jade/jade.stream/playlist.m3u8
 下载失败
 [第 4/4 个]:  https://pi.0472.org/tv/fct.php?auth=2309081833
-连接质量: [download] 100% of    1.28MiB in 00:00:01 at 798.61KiB/s
+连接质量: [download] 100% of    1.30MiB in 00:00:02 at 559.21KiB/s
 找到 MiB/s|KiB/s, 执行倒序排列
 ========== 最优源域名: pi.0472.org
 pi.0472.org 第1页 下载中
@@ -40,19 +40,19 @@ https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3
 https://test.zapi.us.kg/?id=phtv-hk
 ==== 整理数据完成, 开始测速 ======
 [第 1/10 个]:  https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-连接质量: [download] 100% of    3.94MiB in 00:00:00 at 5.82MiB/s
+连接质量: [download] 100% of    4.03MiB in 00:00:00 at 6.48MiB/s
 [第 2/10 个]:  https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-连接质量: [download] 100% of    1.54MiB in 00:00:03 at 412.70KiB/s
+连接质量: [download] 100% of    1.59MiB in 00:00:04 at 348.39KiB/s
 [第 3/10 个]:  https://rthktv32-live.akamaized.net/hls/live/2036819/RTHKTV32/stream2/streamPlaylist.m3u8
 下载失败
 [第 4/10 个]:  https://hoytv-live-stream.hoy.tv/ch77/index-fhd.m3u8
 下载失败
 [第 5/10 个]:  https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
-连接质量: [download] 100% of    1.07MiB in 00:00:00 at 7.20MiB/s
+连接质量: [download] 100% of  801.57KiB in 00:00:00 at 4.81MiB/s
 [第 6/10 个]:  https://ktpremium.com:443/M919HR/5577/492391?c=香港
 下载失败
 [第 7/10 个]:  https://js1.amtb.cn/liveedge/_definst_/livetv/playlist.m3u8
-连接质量: [download] 100% of  649.74KiB in 00:00:03 at 167.83KiB/s
+连接质量: [download] 100% of  563.63KiB in 00:00:04 at 113.86KiB/s
 [第 8/10 个]:  https://tvb.mytvsuper.us.kg/stream/tvb/null-19/master.m3u8?u=btjson&p=213f2541f159ac2ec56f4173f3731fdd6ac1ea725a0c7892870cf85ea22cb3cc
 下载失败
 [第 9/10 个]:  https://z02.ubtvfans.com/live/rx1/2810/babd6519bebc0baac3da4c6a72c8351e/index.m3u8
@@ -60,10 +60,9 @@ https://test.zapi.us.kg/?id=phtv-hk
 [第 10/10 个]:  https://test.zapi.us.kg/?id=phtv-hk
 下载失败
 找到 MiB/s|KiB/s, 执行倒序排列
-========== 最优源域名: nhkwlive-ojp.akamaized.net
-nhkwlive-ojp.akamaized.net 第1页 下载中
-最大 page 值是: 2
-nhkwlive-ojp.akamaized.net 第2页 下载中
+========== 最优源域名: live-hls-web-ajb.getaj.net
+live-hls-web-ajb.getaj.net 第1页 下载中
+仅此一页
 ==== 提取频道名称和 m3u8 链接结果 ======
 ==== 开始获取数据: taiwan ======
 第1页 下载中
@@ -79,7 +78,7 @@ https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeas
 https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
 ==== 整理数据完成, 开始测速 ======
 [第 1/6 个]:  https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
-连接质量: [download] 100% of    3.01MiB in 00:00:00 at 9.82MiB/s
+连接质量: [download] 100% of    2.84MiB in 00:00:00 at 5.57MiB/s
 [第 2/6 个]:  https://ktpremium.com:443/M919HR/5577/515015?c=台湾
 下载失败
 [第 3/6 个]:  https://bsex.serv00.net/Smart.php?id=sanlitaiwan
@@ -114,13 +113,13 @@ https://live.yzd.jialiangos.com:4443/live/fhw/17
 https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
 ==== 整理数据完成, 开始测速 ======
 [第 1/8 个]:  https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-连接质量: [download] 100% of    1.05MiB in 00:00:00 at 2.46MiB/s
+连接质量: [download] 100% of  984.98KiB in 00:00:01 at 947.02KiB/s
 [第 2/8 个]:  https://pulltv1.wanfudaluye.com/live/tv2.m3u8
-连接质量: [download] 100% of  962.77KiB in 00:00:00 at 1.12MiB/s
+连接质量: [download] 100% of  991.41KiB in 00:00:01 at 561.92KiB/s
 [第 3/8 个]:  https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-连接质量: [download] 100% of  895.94KiB in 00:00:00 at 1.57MiB/s
+连接质量: [download] 100% of    1.30MiB in 00:00:01 at 882.67KiB/s
 [第 4/8 个]:  https://pi.0472.org/tv/asam.php?auth=2309081833
-连接质量: [download] 100% of    1.28MiB in 00:00:01 at 915.30KiB/s
+连接质量: [download] 100% of    1.34MiB in 00:00:01 at 781.69KiB/s
 [第 5/8 个]:  https://live.mastvnet.com/lsdream/MSTV/1500/live.m3u8
 下载失败
 [第 6/8 个]:  https://test.zapi.us.kg/?id=tdm
