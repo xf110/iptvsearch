@@ -13,8 +13,8 @@ jobs:
 
     - name: Run rm
       run: |
-        cd $GITHUB_WORKSPACE/foodieguide
-        rm *.txt *.log
+        cd $GITHUB_WORKSPACE/output
+        rm *.txt *.log 2>/dev/null
 
     - name: Update Results
       run: |
