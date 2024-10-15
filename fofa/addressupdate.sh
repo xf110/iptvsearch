@@ -189,6 +189,7 @@ grep -v '#genre#' ../output/macau_gat_*.txt >> output.list
 
 # echo 'theTvApp,#genre#' >> output.list
 cat '../thetvapp/thetvapplist.txt' >> output.list
+cat '../MoveOnJoy.txt' >> output.list
 
 echo '其他频道,#genre#' >> output.list
 grep -iEv 'CCTV|卫视|凤凰|星空|channel v|动画|动漫|少儿|儿童|卡通|炫动|baby' tmp.list >> output.list
