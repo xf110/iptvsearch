@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 15 09:15:58 CST 2024
+# Tue Oct 15 20:37:24 CST 2024
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="中央电视台",CCTV-1
 http://123.117.36.74:4001/rtp/239.3.1.129:8008
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="中央电视台",CCTV-2
@@ -119,6 +119,90 @@ http://60.164.128.167:8029/udp/239.255.30.50:8231
 http://60.164.128.167:8029/udp/239.255.30.70:8231
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰香港.png" group-title="香港",凤凰香港
 http://60.164.128.167:8029/udp/239.255.30.123:8231
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorld" tvg-name="../output/hongkong_gat_42.txt:NHKWorld" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorld.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK World
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:香港开电视/HKSTVHKS" tvg-name="../output/hongkong_gat_42.txt:香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:香港开电视/HKSTVHKS.png" group-title="港澳台",../output/hongkong_gat_42.txt:香港开电视 / HKSTV-HKS
+ 香港開電視
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:MavTVMotorsportsNetwork" tvg-name="../output/hongkong_gat_42.txt:MavTVMotorsportsNetwork" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:MavTVMotorsportsNetwork.png" group-title="港澳台",../output/hongkong_gat_42.txt:Mav TV Motorsports Network
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:香港开电视/HKSTVHKS" tvg-name="../output/hongkong_gat_42.txt:香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:香港开电视/HKSTVHKS.png" group-title="港澳台",../output/hongkong_gat_42.txt:香港开电视 / HKSTV-HKS
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:WNJSDT2(NHKWORLD)(1080p)" tvg-name="../output/hongkong_gat_42.txt:WNJSDT2(NHKWORLD)(1080p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:WNJSDT2(NHKWORLD)(1080p).png" group-title="港澳台",../output/hongkong_gat_42.txt:WNJS-DT2 (NHK WORLD) (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKG(480p)[Not24/7]" tvg-name="../output/hongkong_gat_42.txt:NHKG(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKG(480p)[Not24/7].png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK G (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKG(480p)[Not24/7]" tvg-name="../output/hongkong_gat_42.txt:NHKG(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKG(480p)[Not24/7].png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK G (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorldJapan(1080p)" tvg-name="../output/hongkong_gat_42.txt:NHKWorldJapan(1080p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorldJapan(1080p).png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK World Japan (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:FoodNetworkHD(720p)" tvg-name="../output/hongkong_gat_42.txt:FoodNetworkHD(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:FoodNetworkHD(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:Food Network HD (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorldJapan(720p)" tvg-name="../output/hongkong_gat_42.txt:NHKWorldJapan(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorldJapan(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK World Japan (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:CartoonNetworkJapan" tvg-name="../output/hongkong_gat_42.txt:CartoonNetworkJapan" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:CartoonNetworkJapan.png" group-title="港澳台",../output/hongkong_gat_42.txt:Cartoon Network Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:ANNJapaNews24(720p)[Not24/7]" tvg-name="../output/hongkong_gat_42.txt:ANNJapaNews24(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:ANNJapaNews24(720p)[Not24/7].png" group-title="港澳台",../output/hongkong_gat_42.txt:ANN JapaNews24 (720p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TVCampane1(720p)" tvg-name="../output/hongkong_gat_42.txt:TVCampane1(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TVCampane1(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:TV Campane 1 (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TelesudTrapani(720p)[Not24/7]" tvg-name="../output/hongkong_gat_42.txt:TelesudTrapani(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TelesudTrapani(720p)[Not24/7].png" group-title="港澳台",../output/hongkong_gat_42.txt:Telesud Trapani (720p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TVRIWorld(720p)" tvg-name="../output/hongkong_gat_42.txt:TVRIWorld(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TVRIWorld(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:TVRI World (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:MTA1World(720p)" tvg-name="../output/hongkong_gat_42.txt:MTA1World(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:MTA1World(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:MTA1 World (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:MXLive(Webcam)" tvg-name="../output/hongkong_gat_42.txt:MXLive(Webcam)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:MXLive(Webcam).png" group-title="港澳台",../output/hongkong_gat_42.txt:MX Live (Webcam)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorldNews(SpanishSubs)(720p)" tvg-name="../output/hongkong_gat_42.txt:NHKWorldNews(SpanishSubs)(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorldNews(SpanishSubs)(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK World News (Spanish Subs) (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKworldJapan" tvg-name="../output/hongkong_gat_42.txt:NHKworldJapan" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKworldJapan.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK world Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:DisneyChannelJapan(480p)[Not24/7]" tvg-name="../output/hongkong_gat_42.txt:DisneyChannelJapan(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:DisneyChannelJapan(480p)[Not24/7].png" group-title="港澳台",../output/hongkong_gat_42.txt:Disney Channel Japan (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:GoldTV(576p)" tvg-name="../output/hongkong_gat_42.txt:GoldTV(576p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:GoldTV(576p).png" group-title="港澳台",../output/hongkong_gat_42.txt:Gold TV (576p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TVJapi(720p)" tvg-name="../output/hongkong_gat_42.txt:TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TVJapi(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:TV Japi (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TVJapi(720p)" tvg-name="../output/hongkong_gat_42.txt:TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TVJapi(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:TV Japi (720p)
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TVJapi(720p)" tvg-name="../output/hongkong_gat_42.txt:TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TVJapi(720p).png" group-title="港澳台",../output/hongkong_gat_42.txt:TV Japi (720p)
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:RadioJavanTV" tvg-name="../output/hongkong_gat_42.txt:RadioJavanTV" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:RadioJavanTV.png" group-title="港澳台",../output/hongkong_gat_42.txt:Radio Javan TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWORLDTV" tvg-name="../output/hongkong_gat_42.txt:NHKWORLDTV" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWORLDTV.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK WORLD TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorldFHD" tvg-name="../output/hongkong_gat_42.txt:NHKWorldFHD" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorldFHD.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHKWorld FHD
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHK华语" tvg-name="../output/hongkong_gat_42.txt:NHK华语" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHK华语.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK 华语
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHK華語" tvg-name="../output/hongkong_gat_42.txt:NHK華語" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHK華語.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK 華語
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:TV(高清)" tvg-name="../output/hongkong_gat_42.txt:TV(高清)" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:TV(高清).png" group-title="港澳台",../output/hongkong_gat_42.txt:TV(高清)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHK世界" tvg-name="../output/hongkong_gat_42.txt:NHK世界" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHK世界.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK世界
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorld" tvg-name="../output/hongkong_gat_42.txt:NHKWorld" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorld.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK World
+http://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:InwildTV" tvg-name="../output/hongkong_gat_42.txt:InwildTV" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:InwildTV.png" group-title="港澳台",../output/hongkong_gat_42.txt:Inwild TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHK_world" tvg-name="../output/hongkong_gat_42.txt:NHK_world" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHK_world.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK_world
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorld" tvg-name="../output/hongkong_gat_42.txt:NHKWorld" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorld.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:日·NHK" tvg-name="../output/hongkong_gat_42.txt:日·NHK" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:日·NHK.png" group-title="港澳台",../output/hongkong_gat_42.txt:日·NHK
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKWorld" tvg-name="../output/hongkong_gat_42.txt:NHKWorld" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKWorld.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:OrlerTV" tvg-name="../output/hongkong_gat_42.txt:OrlerTV" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:OrlerTV.png" group-title="港澳台",../output/hongkong_gat_42.txt:Orler TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKG" tvg-name="../output/hongkong_gat_42.txt:NHKG" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKG.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK G
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHKG" tvg-name="../output/hongkong_gat_42.txt:NHKG" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHKG.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK G
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:NHK" tvg-name="../output/hongkong_gat_42.txt:NHK" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:NHK.png" group-title="港澳台",../output/hongkong_gat_42.txt:NHK
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="../output/hongkong_gat_42.txt:BSTTVBashkirskoeSputnikovoeTV" tvg-name="../output/hongkong_gat_42.txt:BSTTVBashkirskoeSputnikovoeTV" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_42.txt:BSTTVBashkirskoeSputnikovoeTV.png" group-title="港澳台",../output/hongkong_gat_42.txt:BST TV Bashkirskoe Sputnikovoe TV
+ RU | BST TV Bashkirskoe Sputnikovoe TV
 #EXTINF:-1 tvg-id="../output/hongkong_gat_5.txt:香港佛陀" tvg-name="../output/hongkong_gat_5.txt:香港佛陀" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_5.txt:香港佛陀.png" group-title="港澳台",../output/hongkong_gat_5.txt:香港佛陀
 http://js1.amtb.cn/liveedge/_definst_/livetv/chunklist.m3u8?$1280x720
 #EXTINF:-1 tvg-id="../output/hongkong_gat_5.txt:香港佛陀" tvg-name="../output/hongkong_gat_5.txt:香港佛陀" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_5.txt:香港佛陀.png" group-title="港澳台",../output/hongkong_gat_5.txt:香港佛陀
@@ -143,12 +227,10 @@ https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u
 #EXTINF:-1 tvg-id="../output/hongkong_gat_7.txt:面包" tvg-name="../output/hongkong_gat_7.txt:面包" tvg-logo="https://live.fanmingming.com/tv/../output/hongkong_gat_7.txt:面包.png" group-title="港澳台",../output/hongkong_gat_7.txt:面包
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
-#EXTINF:-1 tvg-id="IFCEast(1080p)" tvg-name="IFCEast(1080p)" tvg-logo="https://live.fanmingming.com/tv/IFCEast(1080p).png" group-title="港澳台",IFC East (1080p)
-https://bcovlive-a.akamaihd.net/7304338dca7a4c91b8f0504de0342687/us-east-1/6240731308001/playlist.m3u8
+#EXTINF:-1 tvg-id="i24News(I)" tvg-name="i24News(I)" tvg-logo="https://live.fanmingming.com/tv/i24News(I).png" group-title="港澳台",i24 News (I)
+https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="TVMAX(720p)" tvg-name="TVMAX(720p)" tvg-logo="https://live.fanmingming.com/tv/TVMAX(720p).png" group-title="港澳台",TVMAX (720p)
 https://bcovlive-a.akamaihd.net/74f665e9ff8447639d4de4b8b458d8ae/us-east-1/6058004209001/playlist_dvr.m3u8
-#EXTINF:-1 tvg-id="i24NewsFHD" tvg-name="i24NewsFHD" tvg-logo="https://live.fanmingming.com/tv/i24NewsFHD.png" group-title="港澳台",i24 News FHD
-https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="台湾Plus" tvg-name="台湾Plus" tvg-logo="https://live.fanmingming.com/tv/台湾Plus.png" group-title="港澳台",台湾Plus
 https://bcovlive-a.akamaihd.net/rce33d845cb9e42dfa302c7ac345f7858/ap-northeast-1/6282251407001/playlist.m3u8
 #EXTINF:-1 tvg-id="CBN新闻" tvg-name="CBN新闻" tvg-logo="https://live.fanmingming.com/tv/CBN新闻.png" group-title="港澳台",CBN新闻
@@ -187,12 +269,12 @@ https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/53
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="AnAmericanChristmasCarol" tvg-name="AnAmericanChristmasCarol" tvg-logo="https://live.fanmingming.com/tv/AnAmericanChristmasCarol.png" group-title="港澳台",An American Christmas Carol
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
-#EXTINF:-1 tvg-id="AnAmericanChristmasCarol" tvg-name="AnAmericanChristmasCarol" tvg-logo="https://live.fanmingming.com/tv/AnAmericanChristmasCarol.png" group-title="港澳台",An American Christmas Carol
-http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
-#EXTINF:-1 tvg-id="AnAmericanChristmasCarol" tvg-name="AnAmericanChristmasCarol" tvg-logo="https://live.fanmingming.com/tv/AnAmericanChristmasCarol.png" group-title="港澳台",An American Christmas Carol
-http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="ABCNewsAustralia" tvg-name="ABCNewsAustralia" tvg-logo="https://live.fanmingming.com/tv/ABCNewsAustralia.png" group-title="港澳台",ABC News Australia
 https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8
+#EXTINF:-1 tvg-id="ABCNewsAustralia" tvg-name="ABCNewsAustralia" tvg-logo="https://live.fanmingming.com/tv/ABCNewsAustralia.png" group-title="港澳台",ABC News Australia
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="ABCNewsAustralia" tvg-name="ABCNewsAustralia" tvg-logo="https://live.fanmingming.com/tv/ABCNewsAustralia.png" group-title="港澳台",ABC News Australia
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
 #EXTINF:-1 tvg-id="AlMashhad(1080p)" tvg-name="AlMashhad(1080p)" tvg-logo="https://live.fanmingming.com/tv/AlMashhad(1080p).png" group-title="港澳台",Al Mashhad (1080p)
 https://bcovlive-a.akamaihd.net/385ca06841b3430f99327f0c44d6d008/ap-south-1/6313884884001/playlist.m3u8
 #EXTINF:-1 tvg-id="BBCAmerica(720p)" tvg-name="BBCAmerica(720p)" tvg-logo="https://live.fanmingming.com/tv/BBCAmerica(720p).png" group-title="港澳台",BBC America (720p)
@@ -217,6 +299,8 @@ https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/53
 https://bcovlive-a.akamaihd.net/c9bf201b06694453bb29282f97191f58/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="StingrayAmbience" tvg-name="StingrayAmbience" tvg-logo="https://live.fanmingming.com/tv/StingrayAmbience.png" group-title="港澳台",Stingray Ambience
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
+#EXTINF:-1 tvg-id="IFCEast(1080p)" tvg-name="IFCEast(1080p)" tvg-logo="https://live.fanmingming.com/tv/IFCEast(1080p).png" group-title="港澳台",IFC East (1080p)
+https://bcovlive-a.akamaihd.net/7304338dca7a4c91b8f0504de0342687/us-east-1/6240731308001/playlist.m3u8
 #EXTINF:-1 tvg-id="France24Arabic" tvg-name="France24Arabic" tvg-logo="https://live.fanmingming.com/tv/France24Arabic.png" group-title="港澳台",France 24 Arabic
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="CBNNews(1080p)" tvg-name="CBNNews(1080p)" tvg-logo="https://live.fanmingming.com/tv/CBNNews(1080p).png" group-title="港澳台",CBN News (1080p)
@@ -275,7 +359,7 @@ https://bcovlive-a.akamaihd.net/b3ed62003de946c896f4f541b908376e/us-east-1/62407
 https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8
 #EXTINF:-1 tvg-id="ArizaS01E12" tvg-name="ArizaS01E12" tvg-logo="https://live.fanmingming.com/tv/ArizaS01E12.png" group-title="港澳台",Ariza S01 E12
 https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/6203311941001/playlist.m3u8
-#EXTINF:-1 tvg-id="i24News(I)" tvg-name="i24News(I)" tvg-logo="https://live.fanmingming.com/tv/i24News(I).png" group-title="港澳台",i24 News (I)
+#EXTINF:-1 tvg-id="i24NewsFHD" tvg-name="i24NewsFHD" tvg-logo="https://live.fanmingming.com/tv/i24NewsFHD.png" group-title="港澳台",i24 News FHD
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="CBNEspañol" tvg-name="CBNEspañol" tvg-logo="https://live.fanmingming.com/tv/CBNEspañol.png" group-title="港澳台",CBN Español
 https://bcovlive-a.akamaihd.net/r21fb8503a4a74d098b798f16922b2a36/us-east-1/734546207001/playlist.m3u8
@@ -379,15 +463,13 @@ http://pi.0472.org/tv/cbn.php?id=chcgqdyHD
 http://pi.0472.org/tv/cbn.php?id=chcjtyyHD
 #EXTINF:-1 tvg-id="../output/macau_gat_13.txt:CHC动作电影" tvg-name="../output/macau_gat_13.txt:CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_13.txt:CHC动作电影.png" group-title="港澳台",../output/macau_gat_13.txt:CHC动作电影
 http://pi.0472.org/tv/cbn.php?id=chcdzdyHD
-#EXTINF:-1 tvg-id="../output/macau_gat_14.txt:澳门2_610" tvg-name="../output/macau_gat_14.txt:澳门2_610" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:澳门2_610.png" group-title="港澳台",../output/macau_gat_14.txt:澳门2_610
-https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱2台" tvg-name="../output/macau_gat_14.txt:大爱2台" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱2台.png" group-title="港澳台",../output/macau_gat_14.txt:大爱2台
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
-#EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱1" tvg-name="../output/macau_gat_14.txt:大爱1" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱1.png" group-title="港澳台",../output/macau_gat_14.txt:大爱1
-https://pulltv2.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱2(720p)" tvg-name="../output/macau_gat_14.txt:大爱2(720p)" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱2(720p).png" group-title="港澳台",../output/macau_gat_14.txt:大爱2 (720p)
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱二台" tvg-name="../output/macau_gat_14.txt:大爱二台" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱二台.png" group-title="港澳台",../output/macau_gat_14.txt:大爱二台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="../output/macau_gat_14.txt:澳门2_610" tvg-name="../output/macau_gat_14.txt:澳门2_610" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:澳门2_610.png" group-title="港澳台",../output/macau_gat_14.txt:澳门2_610
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱1台" tvg-name="../output/macau_gat_14.txt:大爱1台" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱1台.png" group-title="港澳台",../output/macau_gat_14.txt:大爱1台
 https://pulltv2.wanfudaluye.com/live/tv1.m3u8
@@ -397,6 +479,8 @@ https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大愛2台" tvg-name="../output/macau_gat_14.txt:大愛2台" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大愛2台.png" group-title="港澳台",../output/macau_gat_14.txt:大愛2台
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8?$1280x720
+#EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱1" tvg-name="../output/macau_gat_14.txt:大爱1" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱1.png" group-title="港澳台",../output/macau_gat_14.txt:大爱1
+https://pulltv2.wanfudaluye.com/live/tv1.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱2" tvg-name="../output/macau_gat_14.txt:大爱2" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱2.png" group-title="港澳台",../output/macau_gat_14.txt:大爱2
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大爱2" tvg-name="../output/macau_gat_14.txt:大爱2" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大爱2.png" group-title="港澳台",../output/macau_gat_14.txt:大爱2
@@ -408,241 +492,241 @@ https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="../output/macau_gat_14.txt:大愛" tvg-name="../output/macau_gat_14.txt:大愛" tvg-logo="https://live.fanmingming.com/tv/../output/macau_gat_14.txt:大愛.png" group-title="港澳台",../output/macau_gat_14.txt:大愛
 https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="ae" tvg-name="ae" tvg-logo="https://live.fanmingming.com/tv/ae.png" group-title="thetvapp",ae
-https://v10.thetvapp.to/hls/AEEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/AEEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="accnetwork" tvg-name="accnetwork" tvg-logo="https://live.fanmingming.com/tv/accnetwork.png" group-title="thetvapp",acc network
-https://v5.thetvapp.to/hls/ACCNetwork/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/ACCNetwork/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="amc" tvg-name="amc" tvg-logo="https://live.fanmingming.com/tv/amc.png" group-title="thetvapp",amc
-https://v5.thetvapp.to/hls/AMCEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/AMCEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="americanheroeschannel" tvg-name="americanheroeschannel" tvg-logo="https://live.fanmingming.com/tv/americanheroeschannel.png" group-title="thetvapp",american heroes channel
-https://v12.thetvapp.to/hls/AmericanHeroesChannel/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="animalplanet" tvg-name="animalplanet" tvg-logo="https://live.fanmingming.com/tv/animalplanet.png" group-title="thetvapp",animal planet
-https://v12.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bbcamerica" tvg-name="bbcamerica" tvg-logo="https://live.fanmingming.com/tv/bbcamerica.png" group-title="thetvapp",bbc america
-https://v7.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bbcworldnewshd" tvg-name="bbcworldnewshd" tvg-logo="https://live.fanmingming.com/tv/bbcworldnewshd.png" group-title="thetvapp",bbc world news hd
-https://v7.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bet" tvg-name="bet" tvg-logo="https://live.fanmingming.com/tv/bet.png" group-title="thetvapp",bet
-https://v15.thetvapp.to/hls/BETEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/BETEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bether" tvg-name="bether" tvg-logo="https://live.fanmingming.com/tv/bether.png" group-title="thetvapp",bet her
-https://v3.thetvapp.to/hls/BETHerEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/BETHerEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bigtennetwork" tvg-name="bigtennetwork" tvg-logo="https://live.fanmingming.com/tv/bigtennetwork.png" group-title="thetvapp",big ten network
-https://v3.thetvapp.to/hls/BTN/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/BTN/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bloombergtv" tvg-name="bloombergtv" tvg-logo="https://live.fanmingming.com/tv/bloombergtv.png" group-title="thetvapp",bloomberg tv
-https://v3.thetvapp.to/hls/BloombergTV/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/BloombergTV/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="boomerang" tvg-name="boomerang" tvg-logo="https://live.fanmingming.com/tv/boomerang.png" group-title="thetvapp",boomerang
-https://v14.thetvapp.to/hls/Boomerang/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v12.thetvapp.to/hls/Boomerang/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="bravo" tvg-name="bravo" tvg-logo="https://live.fanmingming.com/tv/bravo.png" group-title="thetvapp",bravo
-https://v11.thetvapp.to/hls/BravoEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/BravoEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cartoonnetwork" tvg-name="cartoonnetwork" tvg-logo="https://live.fanmingming.com/tv/cartoonnetwork.png" group-title="thetvapp",cartoon network
-https://v11.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cbssportsnetwork" tvg-name="cbssportsnetwork" tvg-logo="https://live.fanmingming.com/tv/cbssportsnetwork.png" group-title="thetvapp",cbs sports network
-https://v4.thetvapp.to/hls/CBSSportsNetworkUSA/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cinemax" tvg-name="cinemax" tvg-logo="https://live.fanmingming.com/tv/cinemax.png" group-title="thetvapp",cinemax
-https://v2.thetvapp.to/hls/CinemaxEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/CinemaxEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cmt" tvg-name="cmt" tvg-logo="https://live.fanmingming.com/tv/cmt.png" group-title="thetvapp",cmt
-https://v2.thetvapp.to/hls/CMTEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v11.thetvapp.to/hls/CMTEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cnbc" tvg-name="cnbc" tvg-logo="https://live.fanmingming.com/tv/cnbc.png" group-title="thetvapp",cnbc
-https://v8.thetvapp.to/hls/CNBC/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/CNBC/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cnn" tvg-name="cnn" tvg-logo="https://live.fanmingming.com/tv/cnn.png" group-title="thetvapp",cnn
-https://v8.thetvapp.to/hls/CNN/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/CNN/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="comedycentral" tvg-name="comedycentral" tvg-logo="https://live.fanmingming.com/tv/comedycentral.png" group-title="thetvapp",comedy central
-https://v16.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cookingchannel" tvg-name="cookingchannel" tvg-logo="https://live.fanmingming.com/tv/cookingchannel.png" group-title="thetvapp",cooking channel
-https://v16.thetvapp.to/hls/CookingChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/CookingChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="crimeinvestigationhd" tvg-name="crimeinvestigationhd" tvg-logo="https://live.fanmingming.com/tv/crimeinvestigationhd.png" group-title="thetvapp",crime investigation hd
-https://v13.thetvapp.to/hls/CrimePlusInvestigation/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/CrimePlusInvestigation/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cspan" tvg-name="cspan" tvg-logo="https://live.fanmingming.com/tv/cspan.png" group-title="thetvapp",cspan
-https://v15.thetvapp.to/hls/CSPAN/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/CSPAN/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="cspan2" tvg-name="cspan2" tvg-logo="https://live.fanmingming.com/tv/cspan2.png" group-title="thetvapp",cspan 2
-https://v4.thetvapp.to/hls/CSPAN2/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v8.thetvapp.to/hls/CSPAN2/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="destinationamerica" tvg-name="destinationamerica" tvg-logo="https://live.fanmingming.com/tv/destinationamerica.png" group-title="thetvapp",destination america
-https://v4.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="discovery" tvg-name="discovery" tvg-logo="https://live.fanmingming.com/tv/discovery.png" group-title="thetvapp",discovery
-https://v12.thetvapp.to/hls/DiscoveryChannelEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v9.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="discoveryfamilychannel" tvg-name="discoveryfamilychannel" tvg-logo="https://live.fanmingming.com/tv/discoveryfamilychannel.png" group-title="thetvapp",discovery family channel
-https://v12.thetvapp.to/hls/DiscoveryFamily/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v9.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="discoverylife" tvg-name="discoverylife" tvg-logo="https://live.fanmingming.com/tv/discoverylife.png" group-title="thetvapp",discovery life
-https://v5.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v13.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="disneychanneleast" tvg-name="disneychanneleast" tvg-logo="https://live.fanmingming.com/tv/disneychanneleast.png" group-title="thetvapp",disney channel east
-https://v5.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v13.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="disneyjunior" tvg-name="disneyjunior" tvg-logo="https://live.fanmingming.com/tv/disneyjunior.png" group-title="thetvapp",disney junior
-https://v5.thetvapp.to/hls/DisneyJuniorEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v12.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="disneyxd" tvg-name="disneyxd" tvg-logo="https://live.fanmingming.com/tv/disneyxd.png" group-title="thetvapp",disney xd
-https://v9.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="e" tvg-name="e" tvg-logo="https://live.fanmingming.com/tv/e.png" group-title="thetvapp",e
-https://v9.thetvapp.to/hls/EEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v11.thetvapp.to/hls/EEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="espn" tvg-name="espn" tvg-logo="https://live.fanmingming.com/tv/espn.png" group-title="thetvapp",espn
-https://v9.thetvapp.to/hls/ESPN/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/ESPN/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="espn2" tvg-name="espn2" tvg-logo="https://live.fanmingming.com/tv/espn2.png" group-title="thetvapp",espn2
-https://v2.thetvapp.to/hls/ESPN2/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/ESPN2/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="espnews" tvg-name="espnews" tvg-logo="https://live.fanmingming.com/tv/espnews.png" group-title="thetvapp",espnews
-https://v2.thetvapp.to/hls/ESPNews/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/ESPNews/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="espnu" tvg-name="espnu" tvg-logo="https://live.fanmingming.com/tv/espnu.png" group-title="thetvapp",espnu
-https://v11.thetvapp.to/hls/ESPNU/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/ESPNU/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-logo="https://live.fanmingming.com/tv/foodnetwork.png" group-title="thetvapp",food network
-https://v7.thetvapp.to/hls/FoodNetworkEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="foxbusinessnetwork" tvg-name="foxbusinessnetwork" tvg-logo="https://live.fanmingming.com/tv/foxbusinessnetwork.png" group-title="thetvapp",fox business network
-https://v15.thetvapp.to/hls/FoxBusiness/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/FoxBusiness/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="foxnewschannel" tvg-name="foxnewschannel" tvg-logo="https://live.fanmingming.com/tv/foxnewschannel.png" group-title="thetvapp",fox news channel
-https://v12.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="foxsports1" tvg-name="foxsports1" tvg-logo="https://live.fanmingming.com/tv/foxsports1.png" group-title="thetvapp",fox sports 1
-https://v12.thetvapp.to/hls/FoxSports1/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/FoxSports1/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="foxsports2" tvg-name="foxsports2" tvg-logo="https://live.fanmingming.com/tv/foxsports2.png" group-title="thetvapp",fox sports 2
-https://v12.thetvapp.to/hls/FoxSports2/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/FoxSports2/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="freeform" tvg-name="freeform" tvg-logo="https://live.fanmingming.com/tv/freeform.png" group-title="thetvapp",freeform
-https://v16.thetvapp.to/hls/FreeformEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/FreeformEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="fusehd" tvg-name="fusehd" tvg-logo="https://live.fanmingming.com/tv/fusehd.png" group-title="thetvapp",fuse hd
-https://v16.thetvapp.to/hls/FuseEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/FuseEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="fx" tvg-name="fx" tvg-logo="https://live.fanmingming.com/tv/fx.png" group-title="thetvapp",fx
-https://v3.thetvapp.to/hls/FXEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/FXEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="fxmovie" tvg-name="fxmovie" tvg-logo="https://live.fanmingming.com/tv/fxmovie.png" group-title="thetvapp",fx movie
-https://v3.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="fxx" tvg-name="fxx" tvg-logo="https://live.fanmingming.com/tv/fxx.png" group-title="thetvapp",fxx
-https://v8.thetvapp.to/hls/FXXEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/FXXEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="fyi" tvg-name="fyi" tvg-logo="https://live.fanmingming.com/tv/fyi.png" group-title="thetvapp",fyi
-https://v11.thetvapp.to/hls/FYIEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/FYIEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="golfchannel" tvg-name="golfchannel" tvg-logo="https://live.fanmingming.com/tv/golfchannel.png" group-title="thetvapp",golf channel
-https://v11.thetvapp.to/hls/GolfChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/GolfChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hallmark" tvg-name="hallmark" tvg-logo="https://live.fanmingming.com/tv/hallmark.png" group-title="thetvapp",hallmark
-https://v11.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hallmarkdramahd" tvg-name="hallmarkdramahd" tvg-logo="https://live.fanmingming.com/tv/hallmarkdramahd.png" group-title="thetvapp",hallmark drama hd
-https://v14.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hallmarkmoviesmysterieshd" tvg-name="hallmarkmoviesmysterieshd" tvg-logo="https://live.fanmingming.com/tv/hallmarkmoviesmysterieshd.png" group-title="thetvapp",hallmark movies mysteries hd
-https://v14.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hbo2east" tvg-name="hbo2east" tvg-logo="https://live.fanmingming.com/tv/hbo2east.png" group-title="thetvapp",hbo 2 east
-https://v14.thetvapp.to/hls/HBO2East/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v8.thetvapp.to/hls/HBO2East/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hbocomedyhd" tvg-name="hbocomedyhd" tvg-logo="https://live.fanmingming.com/tv/hbocomedyhd.png" group-title="thetvapp",hbo comedy hd
-https://v7.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v8.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hboeast" tvg-name="hboeast" tvg-logo="https://live.fanmingming.com/tv/hboeast.png" group-title="thetvapp",hbo east
-https://v13.thetvapp.to/hls/HBOEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/HBOEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hbofamilyeast" tvg-name="hbofamilyeast" tvg-logo="https://live.fanmingming.com/tv/hbofamilyeast.png" group-title="thetvapp",hbo family east
-https://v13.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hbosignature" tvg-name="hbosignature" tvg-logo="https://live.fanmingming.com/tv/hbosignature.png" group-title="thetvapp",hbo signature
-https://v4.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hbozonehd" tvg-name="hbozonehd" tvg-logo="https://live.fanmingming.com/tv/hbozonehd.png" group-title="thetvapp",hbo zone hd
-https://v4.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hgtv" tvg-name="hgtv" tvg-logo="https://live.fanmingming.com/tv/hgtv.png" group-title="thetvapp",hgtv
-https://v4.thetvapp.to/hls/HGTVEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/HGTVEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="history" tvg-name="history" tvg-logo="https://live.fanmingming.com/tv/history.png" group-title="thetvapp",history
-https://v4.thetvapp.to/hls/HistoryEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/HistoryEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="hln" tvg-name="hln" tvg-logo="https://live.fanmingming.com/tv/hln.png" group-title="thetvapp",hln
-https://v2.thetvapp.to/hls/HLN/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v13.thetvapp.to/hls/HLN/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="ifc" tvg-name="ifc" tvg-logo="https://live.fanmingming.com/tv/ifc.png" group-title="thetvapp",ifc
-https://v7.thetvapp.to/hls/IFCEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/IFCEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="investigationdiscovery" tvg-name="investigationdiscovery" tvg-logo="https://live.fanmingming.com/tv/investigationdiscovery.png" group-title="thetvapp",investigation discovery
-https://v8.thetvapp.to/hls/InvestigationDiscoveryEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="iontelevisioneasthd" tvg-name="iontelevisioneasthd" tvg-logo="https://live.fanmingming.com/tv/iontelevisioneasthd.png" group-title="thetvapp",ion television east hd
-https://v5.thetvapp.to/hls/IONTVEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/IONTVEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="lifetime" tvg-name="lifetime" tvg-logo="https://live.fanmingming.com/tv/lifetime.png" group-title="thetvapp",lifetime
-https://v5.thetvapp.to/hls/LifetimeEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/LifetimeEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="lmn" tvg-name="lmn" tvg-logo="https://live.fanmingming.com/tv/lmn.png" group-title="thetvapp",lmn
-https://v5.thetvapp.to/hls/LifetimeMoviesEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="logo" tvg-name="logo" tvg-logo="https://live.fanmingming.com/tv/logo.png" group-title="thetvapp",logo
-https://v15.thetvapp.to/hls/LogoEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/LogoEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="metvtoons" tvg-name="metvtoons" tvg-logo="https://live.fanmingming.com/tv/metvtoons.png" group-title="thetvapp",metv toons
-https://v14.thetvapp.to/hls/metv toons/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v12.thetvapp.to/hls/metv toons/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="mlbnetwork" tvg-name="mlbnetwork" tvg-logo="https://live.fanmingming.com/tv/mlbnetwork.png" group-title="thetvapp",mlb network
-https://v14.thetvapp.to/hls/MLBNetwork/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v12.thetvapp.to/hls/MLBNetwork/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="moremax" tvg-name="moremax" tvg-logo="https://live.fanmingming.com/tv/moremax.png" group-title="thetvapp",moremax
-https://v9.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v11.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="motortrendhd" tvg-name="motortrendhd" tvg-logo="https://live.fanmingming.com/tv/motortrendhd.png" group-title="thetvapp",motortrend hd
-https://v11.thetvapp.to/hls/Motortrend/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v11.thetvapp.to/hls/Motortrend/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="moviemax" tvg-name="moviemax" tvg-logo="https://live.fanmingming.com/tv/moviemax.png" group-title="thetvapp",moviemax
-https://v16.thetvapp.to/hls/MovieMaxEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="msnbc" tvg-name="msnbc" tvg-logo="https://live.fanmingming.com/tv/msnbc.png" group-title="thetvapp",msnbc
-https://v6.thetvapp.to/hls/MSNBC/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v15.thetvapp.to/hls/MSNBC/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="mtv" tvg-name="mtv" tvg-logo="https://live.fanmingming.com/tv/mtv.png" group-title="thetvapp",mtv
-https://v2.thetvapp.to/hls/MTVEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/MTVEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="natgeowild" tvg-name="natgeowild" tvg-logo="https://live.fanmingming.com/tv/natgeowild.png" group-title="thetvapp",nat geo wild
-https://v15.thetvapp.to/hls/NationalGeographicWildEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nationalgeographic" tvg-name="nationalgeographic" tvg-logo="https://live.fanmingming.com/tv/nationalgeographic.png" group-title="thetvapp",national geographic
-https://v15.thetvapp.to/hls/NationalGeographicEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nbatv" tvg-name="nbatv" tvg-logo="https://live.fanmingming.com/tv/nbatv.png" group-title="thetvapp",nba tv
-https://v8.thetvapp.to/hls/NBATV/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v9.thetvapp.to/hls/NBATV/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="newsmaxtv" tvg-name="newsmaxtv" tvg-logo="https://live.fanmingming.com/tv/newsmaxtv.png" group-title="thetvapp",newsmax tv
-https://v8.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v6.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nflnetwork" tvg-name="nflnetwork" tvg-logo="https://live.fanmingming.com/tv/nflnetwork.png" group-title="thetvapp",nfl network
-https://v3.thetvapp.to/hls/NFLNetwork/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v12.thetvapp.to/hls/NFLNetwork/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nflredzone" tvg-name="nflredzone" tvg-logo="https://live.fanmingming.com/tv/nflredzone.png" group-title="thetvapp",nfl red zone
-https://v3.thetvapp.to/hls/NFLRedZone/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/NFLRedZone/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nhlnetwork" tvg-name="nhlnetwork" tvg-logo="https://live.fanmingming.com/tv/nhlnetwork.png" group-title="thetvapp",nhl network
-https://v6.thetvapp.to/hls/NHLNetwork/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/NHLNetwork/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nickjr" tvg-name="nickjr" tvg-logo="https://live.fanmingming.com/tv/nickjr.png" group-title="thetvapp",nick jr
-https://v12.thetvapp.to/hls/NickJrEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/NickJrEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nickelodeoneast" tvg-name="nickelodeoneast" tvg-logo="https://live.fanmingming.com/tv/nickelodeoneast.png" group-title="thetvapp",nickelodeon east
-https://v4.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="nicktoons" tvg-name="nicktoons" tvg-logo="https://live.fanmingming.com/tv/nicktoons.png" group-title="thetvapp",nicktoons
-https://v7.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="outdoorchannel" tvg-name="outdoorchannel" tvg-logo="https://live.fanmingming.com/tv/outdoorchannel.png" group-title="thetvapp",outdoor channel
-https://v7.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v8.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="own" tvg-name="own" tvg-logo="https://live.fanmingming.com/tv/own.png" group-title="thetvapp",own
-https://v13.thetvapp.to/hls/OWNEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/OWNEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="oxygentruecrime" tvg-name="oxygentruecrime" tvg-logo="https://live.fanmingming.com/tv/oxygentruecrime.png" group-title="thetvapp",oxygen true crime
-https://v2.thetvapp.to/hls/OxygenEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v16.thetvapp.to/hls/OxygenEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="pbs13wnetnewyork" tvg-name="pbs13wnetnewyork" tvg-logo="https://live.fanmingming.com/tv/pbs13wnetnewyork.png" group-title="thetvapp",pbs 13 wnet new york
-https://v2.thetvapp.to/hls/WNET/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/WNET/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="reelzchannel" tvg-name="reelzchannel" tvg-logo="https://live.fanmingming.com/tv/reelzchannel.png" group-title="thetvapp",reelzchannel
-https://v15.thetvapp.to/hls/Reelz/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/Reelz/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="science" tvg-name="science" tvg-logo="https://live.fanmingming.com/tv/science.png" group-title="thetvapp",science
-https://v15.thetvapp.to/hls/Science/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/Science/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="secnetwork" tvg-name="secnetwork" tvg-logo="https://live.fanmingming.com/tv/secnetwork.png" group-title="thetvapp",sec network
-https://v16.thetvapp.to/hls/SECN/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/SECN/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="showtimee" tvg-name="showtimee" tvg-logo="https://live.fanmingming.com/tv/showtimee.png" group-title="thetvapp",showtime e
-https://v16.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="showtime2" tvg-name="showtime2" tvg-logo="https://live.fanmingming.com/tv/showtime2.png" group-title="thetvapp",showtime 2
-https://v16.thetvapp.to/hls/Showtime2East/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/Showtime2East/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="starzeast" tvg-name="starzeast" tvg-logo="https://live.fanmingming.com/tv/starzeast.png" group-title="thetvapp",starz east
-https://v16.thetvapp.to/hls/StarzEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v8.thetvapp.to/hls/StarzEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="sundancetvhd" tvg-name="sundancetvhd" tvg-logo="https://live.fanmingming.com/tv/sundancetvhd.png" group-title="thetvapp",sundancetv hd
-https://v5.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v8.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="syfy" tvg-name="syfy" tvg-logo="https://live.fanmingming.com/tv/syfy.png" group-title="thetvapp",syfy
-https://v5.thetvapp.to/hls/SyfyEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/SyfyEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="tbs" tvg-name="tbs" tvg-logo="https://live.fanmingming.com/tv/tbs.png" group-title="thetvapp",tbs
-https://v8.thetvapp.to/hls/TBSEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v7.thetvapp.to/hls/TBSEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="tcm" tvg-name="tcm" tvg-logo="https://live.fanmingming.com/tv/tcm.png" group-title="thetvapp",tcm
-https://v8.thetvapp.to/hls/TCMEast/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/TCMEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="teennick" tvg-name="teennick" tvg-logo="https://live.fanmingming.com/tv/teennick.png" group-title="thetvapp",teennick
-https://v12.thetvapp.to/hls/TeenNickEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/TeenNickEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="telemundoeast" tvg-name="telemundoeast" tvg-logo="https://live.fanmingming.com/tv/telemundoeast.png" group-title="thetvapp",telemundo east
-https://v12.thetvapp.to/hls/TelemundoEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v10.thetvapp.to/hls/TelemundoEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="tennischannel" tvg-name="tennischannel" tvg-logo="https://live.fanmingming.com/tv/tennischannel.png" group-title="thetvapp",tennis channel
-https://v9.thetvapp.to/hls/TennisChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/TennisChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="thecw" tvg-name="thecw" tvg-logo="https://live.fanmingming.com/tv/thecw.png" group-title="thetvapp",the cw
-https://v9.thetvapp.to/hls/WPIX/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v4.thetvapp.to/hls/WPIX/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="themoviechanneleast" tvg-name="themoviechanneleast" tvg-logo="https://live.fanmingming.com/tv/themoviechanneleast.png" group-title="thetvapp",the movie channel east
-https://v11.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v13.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="theweatherchannel" tvg-name="theweatherchannel" tvg-logo="https://live.fanmingming.com/tv/theweatherchannel.png" group-title="thetvapp",the weather channel
-https://v11.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v13.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="tlc" tvg-name="tlc" tvg-logo="https://live.fanmingming.com/tv/tlc.png" group-title="thetvapp",tlc
-https://v4.thetvapp.to/hls/TLCEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v13.thetvapp.to/hls/TLCEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="tnt" tvg-name="tnt" tvg-logo="https://live.fanmingming.com/tv/tnt.png" group-title="thetvapp",tnt
-https://v14.thetvapp.to/hls/TNTEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/TNTEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="travelchannel" tvg-name="travelchannel" tvg-logo="https://live.fanmingming.com/tv/travelchannel.png" group-title="thetvapp",travel channel
-https://v2.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="trutv" tvg-name="trutv" tvg-logo="https://live.fanmingming.com/tv/trutv.png" group-title="thetvapp",trutv
-https://v2.thetvapp.to/hls/truTVEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v2.thetvapp.to/hls/truTVEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="tvonehd" tvg-name="tvonehd" tvg-logo="https://live.fanmingming.com/tv/tvonehd.png" group-title="thetvapp",tv one hd
-https://v3.thetvapp.to/hls/TVOne/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/TVOne/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="universalkids" tvg-name="universalkids" tvg-logo="https://live.fanmingming.com/tv/universalkids.png" group-title="thetvapp",universal kids
-https://v15.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v3.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="univisioneast" tvg-name="univisioneast" tvg-logo="https://live.fanmingming.com/tv/univisioneast.png" group-title="thetvapp",univision east
-https://v7.thetvapp.to/hls/UnivisionEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/UnivisionEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="usanetwork" tvg-name="usanetwork" tvg-logo="https://live.fanmingming.com/tv/usanetwork.png" group-title="thetvapp",usa network
-https://v7.thetvapp.to/hls/USANetworkEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/USANetworkEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="vh1" tvg-name="vh1" tvg-logo="https://live.fanmingming.com/tv/vh1.png" group-title="thetvapp",vh1
-https://v6.thetvapp.to/hls/VH1East/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v5.thetvapp.to/hls/VH1East/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="vice" tvg-name="vice" tvg-logo="https://live.fanmingming.com/tv/vice.png" group-title="thetvapp",vice
-https://v14.thetvapp.to/hls/VICETV/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v11.thetvapp.to/hls/VICETV/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="wabcnewyorkabceast" tvg-name="wabcnewyorkabceast" tvg-logo="https://live.fanmingming.com/tv/wabcnewyorkabceast.png" group-title="thetvapp",wabc new york abc east
-https://v14.thetvapp.to/hls/WABCDT1/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/WABCDT1/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="wcbsnewyorkcbseast" tvg-name="wcbsnewyorkcbseast" tvg-logo="https://live.fanmingming.com/tv/wcbsnewyorkcbseast.png" group-title="thetvapp",wcbs new york cbs east
-https://v11.thetvapp.to/hls/WCBSDT1/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/WCBSDT1/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="wetv" tvg-name="wetv" tvg-logo="https://live.fanmingming.com/tv/wetv.png" group-title="thetvapp",we tv
-https://v13.thetvapp.to/hls/WeTVEast/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v14.thetvapp.to/hls/WeTVEast/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="wnbcnewyorknbceast" tvg-name="wnbcnewyorknbceast" tvg-logo="https://live.fanmingming.com/tv/wnbcnewyorknbceast.png" group-title="thetvapp",wnbc new york nbc east
-https://v8.thetvapp.to/hls/WNBCDT1/index.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v9.thetvapp.to/hls/WNBCDT1/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="wnywnewyorkfoxeast" tvg-name="wnywnewyorkfoxeast" tvg-logo="https://live.fanmingming.com/tv/wnywnewyorkfoxeast.png" group-title="thetvapp",wnyw new york fox east
-https://v6.thetvapp.to/hls/WNYWDT1/tracks v2a1/mono.m3u8?token=S2x3M3BGaTNvb1BXaHdWSXdicEZGRnZIdGZnajJGQVo4bk1kMFpUSg==
+https://v9.thetvapp.to/hls/WNYWDT1/index.m3u8?token=eEJZZGVldDRkWDNCQURwVmZvSTQ4dlQxQmFyd2o5ZFlVMjFDUkFYVQ==
 #EXTINF:-1 tvg-id="4K超清" tvg-name="4K超清" tvg-logo="https://live.fanmingming.com/tv/4K超清.png" group-title="其他频道",4K超清
 http://123.117.36.74:4001/rtp/239.3.1.249:8001
 #EXTINF:-1 tvg-id="BRTV体育休闲" tvg-name="BRTV体育休闲" tvg-logo="https://live.fanmingming.com/tv/BRTV体育休闲.png" group-title="其他频道",BRTV体育休闲
