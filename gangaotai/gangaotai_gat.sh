@@ -1,6 +1,6 @@
 #!/bin/bash
 # set -e  # 遇到错误时立即退出
-# set -x # 调试
+set -x # 调试
 
 # 定义城市参数
 declare -A cities
@@ -137,7 +137,7 @@ for channel_name in "${!cities[@]}"; do
     echo "========== 最优源域名: ${best_url}" | tee -a "$summary_file"
 
     # 获取 best_url 对应的直播源列表
-    echo "best_url 第1页 下载中" | tee -a "$summary_file"
+    echo "$best_url 第1页 下载中" | tee -a "$summary_file"
     curl -X POST "${base_url}" \
         -H "Accept-Language: zh-CN,zh;q=0.9" \
         -d "search=${best_url}&Submit=+" \
@@ -192,7 +192,7 @@ for channel_name in "${!cities[@]}"; do
 
     echo "${channel_name}_$linescount ：${best_url}" >> msg.tmp
 
-    rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${summary_file} ${yt_dlp_log} out.tmp valid_url.txt
+    rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
 sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n港澳台直播源列表已更新: " msg.tmp
