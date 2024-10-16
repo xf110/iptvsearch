@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Wed Oct 16 09:15:31 CST 2024
+# Wed Oct 16 20:40:04 CST 2024
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="中央电视台",CCTV-1
 http://123.117.36.74:4001/rtp/239.3.1.129:8008
 #EXTINF:-1 tvg-id="CCTV2" tvg-name="CCTV2" tvg-logo="https://live.fanmingming.com/tv/CCTV2.png" group-title="中央电视台",CCTV-2
@@ -34,7 +34,7 @@ http://123.117.36.74:4001/rtp/239.3.1.65:8132
 #EXTINF:-1 tvg-id="CCTV15" tvg-name="CCTV15" tvg-logo="https://live.fanmingming.com/tv/CCTV15.png" group-title="中央电视台",CCTV-15
 http://123.117.36.74:4001/rtp/239.3.1.153:8136
 #EXTINF:-1 tvg-id="CCTV16" tvg-name="CCTV16" tvg-logo="https://live.fanmingming.com/tv/CCTV16.png" group-title="中央电视台",CCTV-16
-http://61.53.168.147:18888/rtp/225.1.5.46:1356
+http://125.43.42.143:9999/rtp/225.1.5.46:1356
 #EXTINF:-1 tvg-id="CCTV17" tvg-name="CCTV17" tvg-logo="https://live.fanmingming.com/tv/CCTV17.png" group-title="中央电视台",CCTV-17
 http://123.117.36.74:4001/rtp/239.3.1.151:8144
 #EXTINF:-1 tvg-id="BRTV北京卫视" tvg-name="BRTV北京卫视" tvg-logo="https://live.fanmingming.com/tv/BRTV北京卫视.png" group-title="卫视频道",BRTV北京卫视
@@ -52,7 +52,7 @@ http://123.117.36.74:4001/rtp/239.3.1.144:4120
 #EXTINF:-1 tvg-id="内蒙古卫视" tvg-name="内蒙古卫视" tvg-logo="https://live.fanmingming.com/tv/内蒙古卫视.png" group-title="卫视频道",内蒙古卫视
 http://123.117.36.74:4001/rtp/239.3.1.43:8176
 #EXTINF:-1 tvg-id="北京卫视" tvg-name="北京卫视" tvg-logo="https://live.fanmingming.com/tv/北京卫视.png" group-title="卫视频道",北京卫视
-http://61.53.168.147:18888/rtp/225.1.4.81:1110
+http://125.43.42.143:9999/rtp/225.1.4.81:1110
 #EXTINF:-1 tvg-id="南方卫视" tvg-name="南方卫视" tvg-logo="https://live.fanmingming.com/tv/南方卫视.png" group-title="卫视频道",南方卫视
 http://123.117.36.74:4001/rtp/239.3.1.161:8001
 #EXTINF:-1 tvg-id="厦门卫视" tvg-name="厦门卫视" tvg-logo="https://live.fanmingming.com/tv/厦门卫视.png" group-title="卫视频道",厦门卫视
@@ -86,7 +86,7 @@ http://123.117.36.74:4001/rtp/239.3.1.148:8072
 #EXTINF:-1 tvg-id="河南卫视" tvg-name="河南卫视" tvg-logo="https://live.fanmingming.com/tv/河南卫视.png" group-title="卫视频道",河南卫视
 http://123.117.36.74:4001/rtp/239.3.1.27:8128
 #EXTINF:-1 tvg-id="河南卫视4K" tvg-name="河南卫视4K" tvg-logo="https://live.fanmingming.com/tv/河南卫视4K.png" group-title="卫视频道",河南卫视4K
-http://61.53.168.147:18888/rtp/225.1.4.254:1300
+http://125.43.42.143:9999/rtp/225.1.4.254:1300
 #EXTINF:-1 tvg-id="浙江卫视" tvg-name="浙江卫视" tvg-logo="https://live.fanmingming.com/tv/浙江卫视.png" group-title="卫视频道",浙江卫视
 http://123.117.36.74:4001/rtp/239.3.1.137:8036
 #EXTINF:-1 tvg-id="海南卫视" tvg-name="海南卫视" tvg-logo="https://live.fanmingming.com/tv/海南卫视.png" group-title="卫视频道",海南卫视
@@ -119,22 +119,90 @@ http://60.164.128.167:8029/udp/239.255.30.50:8231
 http://60.164.128.167:8029/udp/239.255.30.70:8231
 #EXTINF:-1 tvg-id="凤凰香港" tvg-name="凤凰香港" tvg-logo="https://live.fanmingming.com/tv/凤凰香港.png" group-title="香港",凤凰香港
 http://60.164.128.167:8029/udp/239.255.30.123:8231
-#EXTINF:-1 tvg-id="AlJazeeraBalkans(1080p)" tvg-name="AlJazeeraBalkans(1080p)" tvg-logo="https://live.fanmingming.com/tv/AlJazeeraBalkans(1080p).png" group-title="港澳台",Al Jazeera Balkans (1080p)
-https://live-hls-web-ajb.getaj.net/AJB/index.m3u8
-#EXTINF:-1 tvg-id="半岛电视台" tvg-name="半岛电视台" tvg-logo="https://live.fanmingming.com/tv/半岛电视台.png" group-title="港澳台",半岛电视台
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-id="香港开电视" tvg-name="香港开电视" tvg-logo="https://live.fanmingming.com/tv/香港开电视.png" group-title="港澳台",香港开电视
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title="港澳台",NHK World
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
 #EXTINF:-1 tvg-id="香港开电视/HKSTVHKS" tvg-name="香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/香港开电视/HKSTVHKS.png" group-title="港澳台",香港开电视 / HKSTV-HKS
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-id="北京卫视(1080p)" tvg-name="北京卫视(1080p)" tvg-logo="https://live.fanmingming.com/tv/北京卫视(1080p).png" group-title="港澳台",北京卫视 (1080p)
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-id="云南Ⅰ红河综合台(1080p)" tvg-name="云南Ⅰ红河综合台(1080p)" tvg-logo="https://live.fanmingming.com/tv/云南Ⅰ红河综合台(1080p).png" group-title="港澳台",云南 Ⅰ 红河综合台 (1080p)
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-id="罗山电视台(1080p)[Not24/7]" tvg-name="罗山电视台(1080p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/罗山电视台(1080p)[Not24/7].png" group-title="港澳台",罗山电视台 (1080p) [Not 24/7]
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
-#EXTINF:-1 tvg-id="福州电视台少儿频道(FZTV少儿)(1080p)" tvg-name="福州电视台少儿频道(FZTV少儿)(1080p)" tvg-logo="https://live.fanmingming.com/tv/福州电视台少儿频道(FZTV少儿)(1080p).png" group-title="港澳台",福州电视台少儿频道 (FZTV-少儿) (1080p)
-https://live-hls-web-ajb.getaj.net/AJB/01.m3u8
+ 香港開電視
+#EXTINF:-1 tvg-id="MavTVMotorsportsNetwork" tvg-name="MavTVMotorsportsNetwork" tvg-logo="https://live.fanmingming.com/tv/MavTVMotorsportsNetwork.png" group-title="港澳台",Mav TV Motorsports Network
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="香港开电视/HKSTVHKS" tvg-name="香港开电视/HKSTVHKS" tvg-logo="https://live.fanmingming.com/tv/香港开电视/HKSTVHKS.png" group-title="港澳台",香港开电视 / HKSTV-HKS
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="WNJSDT2(NHKWORLD)(1080p)" tvg-name="WNJSDT2(NHKWORLD)(1080p)" tvg-logo="https://live.fanmingming.com/tv/WNJSDT2(NHKWORLD)(1080p).png" group-title="港澳台",WNJS-DT2 (NHK WORLD) (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG(480p)[Not24/7]" tvg-name="NHKG(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/NHKG(480p)[Not24/7].png" group-title="港澳台",NHK G (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG(480p)[Not24/7]" tvg-name="NHKG(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/NHKG(480p)[Not24/7].png" group-title="港澳台",NHK G (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan(1080p)" tvg-name="NHKWorldJapan(1080p)" tvg-logo="https://live.fanmingming.com/tv/NHKWorldJapan(1080p).png" group-title="港澳台",NHK World Japan (1080p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="FoodNetworkHD(720p)" tvg-name="FoodNetworkHD(720p)" tvg-logo="https://live.fanmingming.com/tv/FoodNetworkHD(720p).png" group-title="港澳台",Food Network HD (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldJapan(720p)" tvg-name="NHKWorldJapan(720p)" tvg-logo="https://live.fanmingming.com/tv/NHKWorldJapan(720p).png" group-title="港澳台",NHK World Japan (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="CartoonNetworkJapan" tvg-name="CartoonNetworkJapan" tvg-logo="https://live.fanmingming.com/tv/CartoonNetworkJapan.png" group-title="港澳台",Cartoon Network Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="ANNJapaNews24(720p)[Not24/7]" tvg-name="ANNJapaNews24(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/ANNJapaNews24(720p)[Not24/7].png" group-title="港澳台",ANN JapaNews24 (720p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TVCampane1(720p)" tvg-name="TVCampane1(720p)" tvg-logo="https://live.fanmingming.com/tv/TVCampane1(720p).png" group-title="港澳台",TV Campane 1 (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TelesudTrapani(720p)[Not24/7]" tvg-name="TelesudTrapani(720p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/TelesudTrapani(720p)[Not24/7].png" group-title="港澳台",Telesud Trapani (720p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TVRIWorld(720p)" tvg-name="TVRIWorld(720p)" tvg-logo="https://live.fanmingming.com/tv/TVRIWorld(720p).png" group-title="港澳台",TVRI World (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="MTA1World(720p)" tvg-name="MTA1World(720p)" tvg-logo="https://live.fanmingming.com/tv/MTA1World(720p).png" group-title="港澳台",MTA1 World (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="MXLive(Webcam)" tvg-name="MXLive(Webcam)" tvg-logo="https://live.fanmingming.com/tv/MXLive(Webcam).png" group-title="港澳台",MX Live (Webcam)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWorldNews(SpanishSubs)(720p)" tvg-name="NHKWorldNews(SpanishSubs)(720p)" tvg-logo="https://live.fanmingming.com/tv/NHKWorldNews(SpanishSubs)(720p).png" group-title="港澳台",NHK World News (Spanish Subs) (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKworldJapan" tvg-name="NHKworldJapan" tvg-logo="https://live.fanmingming.com/tv/NHKworldJapan.png" group-title="港澳台",NHK world Japan
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="DisneyChannelJapan(480p)[Not24/7]" tvg-name="DisneyChannelJapan(480p)[Not24/7]" tvg-logo="https://live.fanmingming.com/tv/DisneyChannelJapan(480p)[Not24/7].png" group-title="港澳台",Disney Channel Japan (480p) [Not 24/7]
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="GoldTV(576p)" tvg-name="GoldTV(576p)" tvg-logo="https://live.fanmingming.com/tv/GoldTV(576p).png" group-title="港澳台",Gold TV (576p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="TVJapi(720p)" tvg-name="TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/TVJapi(720p).png" group-title="港澳台",TV Japi (720p)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TVJapi(720p)" tvg-name="TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/TVJapi(720p).png" group-title="港澳台",TV Japi (720p)
+http-equiv="Content-Type"content="text/html;charset=UTF-8"/>
+#EXTINF:-1 tvg-id="TVJapi(720p)" tvg-name="TVJapi(720p)" tvg-logo="https://live.fanmingming.com/tv/TVJapi(720p).png" group-title="港澳台",TV Japi (720p)
+http-equiv="X-Frame-Options"content="SAMEORIGIN/DENY">
+#EXTINF:-1 tvg-id="RadioJavanTV" tvg-name="RadioJavanTV" tvg-logo="https://live.fanmingming.com/tv/RadioJavanTV.png" group-title="港澳台",Radio Javan TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKWORLDTV" tvg-name="NHKWORLDTV" tvg-logo="https://live.fanmingming.com/tv/NHKWORLDTV.png" group-title="港澳台",NHK WORLD TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorldFHD" tvg-name="NHKWorldFHD" tvg-logo="https://live.fanmingming.com/tv/NHKWorldFHD.png" group-title="港澳台",NHKWorld FHD
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK华语" tvg-name="NHK华语" tvg-logo="https://live.fanmingming.com/tv/NHK华语.png" group-title="港澳台",NHK 华语
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHK華語" tvg-name="NHK華語" tvg-logo="https://live.fanmingming.com/tv/NHK華語.png" group-title="港澳台",NHK 華語
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="TV(高清)" tvg-name="TV(高清)" tvg-logo="https://live.fanmingming.com/tv/TV(高清).png" group-title="港澳台",TV(高清)
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK世界" tvg-name="NHK世界" tvg-logo="https://live.fanmingming.com/tv/NHK世界.png" group-title="港澳台",NHK世界
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title="港澳台",NHK World
+http://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="InwildTV" tvg-name="InwildTV" tvg-logo="https://live.fanmingming.com/tv/InwildTV.png" group-title="港澳台",Inwild TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK_world" tvg-name="NHK_world" tvg-logo="https://live.fanmingming.com/tv/NHK_world.png" group-title="港澳台",NHK_world
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title="港澳台",NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="日·NHK" tvg-name="日·NHK" tvg-logo="https://live.fanmingming.com/tv/日·NHK.png" group-title="港澳台",日·NHK
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHKWorld" tvg-name="NHKWorld" tvg-logo="https://live.fanmingming.com/tv/NHKWorld.png" group-title="港澳台",NHKWorld
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="OrlerTV" tvg-name="OrlerTV" tvg-logo="https://live.fanmingming.com/tv/OrlerTV.png" group-title="港澳台",Orler TV
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG" tvg-name="NHKG" tvg-logo="https://live.fanmingming.com/tv/NHKG.png" group-title="港澳台",NHK G
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index.m3u8
+#EXTINF:-1 tvg-id="NHKG" tvg-name="NHKG" tvg-logo="https://live.fanmingming.com/tv/NHKG.png" group-title="港澳台",NHK G
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="NHK" tvg-name="NHK" tvg-logo="https://live.fanmingming.com/tv/NHK.png" group-title="港澳台",NHK
+https://nhkwlive-ojp.akamaized.net/hls/live/2003459/nhkwlive-ojp-en/index_4M.m3u8
+#EXTINF:-1 tvg-id="BSTTVBashkirskoeSputnikovoeTV" tvg-name="BSTTVBashkirskoeSputnikovoeTV" tvg-logo="https://live.fanmingming.com/tv/BSTTVBashkirskoeSputnikovoeTV.png" group-title="港澳台",BST TV Bashkirskoe Sputnikovoe TV
+ RU | BST TV Bashkirskoe Sputnikovoe TV
 #EXTINF:-1 tvg-id="i24News(I)" tvg-name="i24News(I)" tvg-logo="https://live.fanmingming.com/tv/i24News(I).png" group-title="港澳台",i24 News (I)
 https://bcovlive-a.akamaihd.net/773a2fa387914315ad11e6957cd54f6e/eu-central-1/5377161796001/playlist-all_dvr.m3u8
 #EXTINF:-1 tvg-id="TVMAX(720p)" tvg-name="TVMAX(720p)" tvg-logo="https://live.fanmingming.com/tv/TVMAX(720p).png" group-title="港澳台",TVMAX (720p)
@@ -345,266 +413,266 @@ https://bcovlive-a.akamaihd.net/ed81ac1118414d4fa893d3a83ccec9be/eu-central-1/62
 https://bcovlive-a.akamaihd.net/385ca06841b3430f99327f0c44d6d008/ap-south-1/6313884884001/playlist.m3u8
 #EXTINF:-1 tvg-id="SFGovTV2SanFranciscoTheCityChannel(720p)" tvg-name="SFGovTV2SanFranciscoTheCityChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/SFGovTV2SanFranciscoTheCityChannel(720p).png" group-title="港澳台",SFGovTV2 San Francisco The City Channel (720p)
 https://bcovlive-a.akamaihd.net/4d972ec6f41241f2b4286f8bdcc8dae9/us-east-1/6240731308001/playlist.m3u8
-#EXTINF:-1 tvg-id="FresnoCMAC1PublicChannel(720p)" tvg-name="FresnoCMAC1PublicChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC1PublicChannel(720p).png" group-title="港澳台",Fresno CMAC 1 Public Channel (720p)
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="FresnoCMAC2EducationChannel(720p)" tvg-name="FresnoCMAC2EducationChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC2EducationChannel(720p).png" group-title="港澳台",Fresno CMAC 2 Education Channel (720p)
-https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
-#EXTINF:-1 tvg-id="Edgesportsrestoftheworld" tvg-name="Edgesportsrestoftheworld" tvg-logo="https://live.fanmingming.com/tv/Edgesportsrestoftheworld.png" group-title="港澳台",Edgesports rest of the world
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="24/7:MACGIVER(2016)TEMP1" tvg-name="24/7:MACGIVER(2016)TEMP1" tvg-logo="https://live.fanmingming.com/tv/24/7:MACGIVER(2016)TEMP1.png" group-title="港澳台",24/7: MACGIVER (2016) TEMP 1
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="California:FresnoVisalia" tvg-name="California:FresnoVisalia" tvg-logo="https://live.fanmingming.com/tv/California:FresnoVisalia.png" group-title="港澳台",California: Fresno-Visalia
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="FresnoCMAC1PublicChannel(720p)" tvg-name="FresnoCMAC1PublicChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC1PublicChannel(720p).png" group-title="港澳台",Fresno CMAC 1 Public Channel (720p)
-https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
-#EXTINF:-1 tvg-id="FresnoCMAC2EducationChannel(720p)" tvg-name="FresnoCMAC2EducationChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC2EducationChannel(720p).png" group-title="港澳台",Fresno CMAC 2 Education Channel (720p)
-https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
-#EXTINF:-1 tvg-id="FreshNewsTV(720p)" tvg-name="FreshNewsTV(720p)" tvg-logo="https://live.fanmingming.com/tv/FreshNewsTV(720p).png" group-title="港澳台",Fresh News TV (720p)
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="FresnoCMAC3GovernmentChannel(720p)" tvg-name="FresnoCMAC3GovernmentChannel(720p)" tvg-logo="https://live.fanmingming.com/tv/FresnoCMAC3GovernmentChannel(720p).png" group-title="港澳台",Fresno CMAC 3 Government Channel (720p)
-https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
-#EXTINF:-1 tvg-id="EPG:MidnightPulp" tvg-name="EPG:MidnightPulp" tvg-logo="https://live.fanmingming.com/tv/EPG:MidnightPulp.png" group-title="港澳台",EPG : Midnight Pulp
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="FeelGoodTV(720p)" tvg-name="FeelGoodTV(720p)" tvg-logo="https://live.fanmingming.com/tv/FeelGoodTV(720p).png" group-title="港澳台",Feel Good TV (720p)
-https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
-#EXTINF:-1 tvg-id="澳門MACAU" tvg-name="澳門MACAU" tvg-logo="https://live.fanmingming.com/tv/澳門MACAU.png" group-title="港澳台",澳門-MACAU
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="CanalMacau" tvg-name="CanalMacau" tvg-logo="https://live.fanmingming.com/tv/CanalMacau.png" group-title="港澳台",Canal Macau
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="Disney+7" tvg-name="Disney+7" tvg-logo="https://live.fanmingming.com/tv/Disney+7.png" group-title="港澳台",Disney +7
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="CypressPublicAccessChannel36(CypressCA)(360p)" tvg-name="CypressPublicAccessChannel36(CypressCA)(360p)" tvg-logo="https://live.fanmingming.com/tv/CypressPublicAccessChannel36(CypressCA)(360p).png" group-title="港澳台",Cypress Public Access Channel 36 (Cypress CA) (360p)
-https://reflect-vod-cmac.cablecast.tv/live-11/live/live.m3u8
-#EXTINF:-1 tvg-id="FairfieldFairTVEducationChannel(FairfieldCT)(1080p)" tvg-name="FairfieldFairTVEducationChannel(FairfieldCT)(1080p)" tvg-logo="https://live.fanmingming.com/tv/FairfieldFairTVEducationChannel(FairfieldCT)(1080p).png" group-title="港澳台",Fairfield FairTV Education Channel (Fairfield CT) (1080p)
-https://reflect-vod-cmac.cablecast.tv/live-12/live/live.m3u8
-#EXTINF:-1 tvg-id="FairfieldFairTVGovernmentChannel(FairfieldCT)(1080p)" tvg-name="FairfieldFairTVGovernmentChannel(FairfieldCT)(1080p)" tvg-logo="https://live.fanmingming.com/tv/FairfieldFairTVGovernmentChannel(FairfieldCT)(1080p).png" group-title="港澳台",Fairfield FairTV Government Channel (Fairfield CT) (1080p)
-https://reflect-vod-cmac.cablecast.tv/live-13/live/live.m3u8
+#EXTINF:-1 tvg-id="澳门2_610" tvg-name="澳门2_610" tvg-logo="https://live.fanmingming.com/tv/澳门2_610.png" group-title="港澳台",澳门2_610
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2台" tvg-name="大爱2台" tvg-logo="https://live.fanmingming.com/tv/大爱2台.png" group-title="港澳台",大爱2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2(720p)" tvg-name="大爱2(720p)" tvg-logo="https://live.fanmingming.com/tv/大爱2(720p).png" group-title="港澳台",大爱2 (720p)
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱二台" tvg-name="大爱二台" tvg-logo="https://live.fanmingming.com/tv/大爱二台.png" group-title="港澳台",大爱二台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱1台" tvg-name="大爱1台" tvg-logo="https://live.fanmingming.com/tv/大爱1台.png" group-title="港澳台",大爱1台
+https://pulltv2.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱1台" tvg-name="大爱1台" tvg-logo="https://live.fanmingming.com/tv/大爱1台.png" group-title="港澳台",大爱1台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大愛2台" tvg-name="大愛2台" tvg-logo="https://live.fanmingming.com/tv/大愛2台.png" group-title="港澳台",大愛2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大愛2台" tvg-name="大愛2台" tvg-logo="https://live.fanmingming.com/tv/大愛2台.png" group-title="港澳台",大愛2台
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8?$1280x720
+#EXTINF:-1 tvg-id="大爱1" tvg-name="大爱1" tvg-logo="https://live.fanmingming.com/tv/大爱1.png" group-title="港澳台",大爱1
+https://pulltv2.wanfudaluye.com/live/tv1.m3u8
+#EXTINF:-1 tvg-id="大爱2" tvg-name="大爱2" tvg-logo="https://live.fanmingming.com/tv/大爱2.png" group-title="港澳台",大爱2
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱2" tvg-name="大爱2" tvg-logo="https://live.fanmingming.com/tv/大爱2.png" group-title="港澳台",大爱2
+http://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大爱" tvg-name="大爱" tvg-logo="https://live.fanmingming.com/tv/大爱.png" group-title="港澳台",大爱
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="DaAi2" tvg-name="DaAi2" tvg-logo="https://live.fanmingming.com/tv/DaAi2.png" group-title="港澳台",DaAi 2
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
+#EXTINF:-1 tvg-id="大愛" tvg-name="大愛" tvg-logo="https://live.fanmingming.com/tv/大愛.png" group-title="港澳台",大愛
+https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 #EXTINF:-1 tvg-id="ae" tvg-name="ae" tvg-logo="https://live.fanmingming.com/tv/ae.png" group-title="thetvapp",ae
-https://v15.thetvapp.to/hls/AEEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/AEEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="accnetwork" tvg-name="accnetwork" tvg-logo="https://live.fanmingming.com/tv/accnetwork.png" group-title="thetvapp",acc network
-https://v15.thetvapp.to/hls/ACCNetwork/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/ACCNetwork/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="amc" tvg-name="amc" tvg-logo="https://live.fanmingming.com/tv/amc.png" group-title="thetvapp",amc
-https://v8.thetvapp.to/hls/AMCEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/AMCEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="americanheroeschannel" tvg-name="americanheroeschannel" tvg-logo="https://live.fanmingming.com/tv/americanheroeschannel.png" group-title="thetvapp",american heroes channel
-https://v8.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="animalplanet" tvg-name="animalplanet" tvg-logo="https://live.fanmingming.com/tv/animalplanet.png" group-title="thetvapp",animal planet
-https://v12.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="bbcamerica" tvg-name="bbcamerica" tvg-logo="https://live.fanmingming.com/tv/bbcamerica.png" group-title="thetvapp",bbc america
-https://v12.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="bbcworldnewshd" tvg-name="bbcworldnewshd" tvg-logo="https://live.fanmingming.com/tv/bbcworldnewshd.png" group-title="thetvapp",bbc world news hd
-https://v5.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
+#EXTINF:-1 tvg-id="bet" tvg-name="bet" tvg-logo="https://live.fanmingming.com/tv/bet.png" group-title="thetvapp",bet
+https://v3.thetvapp.to/hls/BETEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="bether" tvg-name="bether" tvg-logo="https://live.fanmingming.com/tv/bether.png" group-title="thetvapp",bet her
-https://v13.thetvapp.to/hls/BETHerEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v13.thetvapp.to/hls/BETHerEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="bigtennetwork" tvg-name="bigtennetwork" tvg-logo="https://live.fanmingming.com/tv/bigtennetwork.png" group-title="thetvapp",big ten network
-https://v13.thetvapp.to/hls/BTN/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v2.thetvapp.to/hls/BTN/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="bloombergtv" tvg-name="bloombergtv" tvg-logo="https://live.fanmingming.com/tv/bloombergtv.png" group-title="thetvapp",bloomberg tv
-https://v11.thetvapp.to/hls/BloombergTV/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v2.thetvapp.to/hls/BloombergTV/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
+#EXTINF:-1 tvg-id="boomerang" tvg-name="boomerang" tvg-logo="https://live.fanmingming.com/tv/boomerang.png" group-title="thetvapp",boomerang
+https://v15.thetvapp.to/hls/Boomerang/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="bravo" tvg-name="bravo" tvg-logo="https://live.fanmingming.com/tv/bravo.png" group-title="thetvapp",bravo
-https://v3.thetvapp.to/hls/BravoEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v15.thetvapp.to/hls/BravoEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cartoonnetwork" tvg-name="cartoonnetwork" tvg-logo="https://live.fanmingming.com/tv/cartoonnetwork.png" group-title="thetvapp",cartoon network
-https://v3.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cbssportsnetwork" tvg-name="cbssportsnetwork" tvg-logo="https://live.fanmingming.com/tv/cbssportsnetwork.png" group-title="thetvapp",cbs sports network
-https://v2.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
+#EXTINF:-1 tvg-id="cinemax" tvg-name="cinemax" tvg-logo="https://live.fanmingming.com/tv/cinemax.png" group-title="thetvapp",cinemax
+https://v7.thetvapp.to/hls/CinemaxEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cmt" tvg-name="cmt" tvg-logo="https://live.fanmingming.com/tv/cmt.png" group-title="thetvapp",cmt
-https://v14.thetvapp.to/hls/CMTEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/CMTEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
+#EXTINF:-1 tvg-id="cnbc" tvg-name="cnbc" tvg-logo="https://live.fanmingming.com/tv/cnbc.png" group-title="thetvapp",cnbc
+https://v6.thetvapp.to/hls/CNBC/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cnn" tvg-name="cnn" tvg-logo="https://live.fanmingming.com/tv/cnn.png" group-title="thetvapp",cnn
-https://v7.thetvapp.to/hls/CNN/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v14.thetvapp.to/hls/CNN/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="comedycentral" tvg-name="comedycentral" tvg-logo="https://live.fanmingming.com/tv/comedycentral.png" group-title="thetvapp",comedy central
-https://v16.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v14.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cookingchannel" tvg-name="cookingchannel" tvg-logo="https://live.fanmingming.com/tv/cookingchannel.png" group-title="thetvapp",cooking channel
-https://v9.thetvapp.to/hls/CookingChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/CookingChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
+#EXTINF:-1 tvg-id="crimeinvestigationhd" tvg-name="crimeinvestigationhd" tvg-logo="https://live.fanmingming.com/tv/crimeinvestigationhd.png" group-title="thetvapp",crime investigation hd
+https://v16.thetvapp.to/hls/CrimePlusInvestigation/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cspan" tvg-name="cspan" tvg-logo="https://live.fanmingming.com/tv/cspan.png" group-title="thetvapp",cspan
-https://v10.thetvapp.to/hls/CSPAN/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/CSPAN/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="cspan2" tvg-name="cspan2" tvg-logo="https://live.fanmingming.com/tv/cspan2.png" group-title="thetvapp",cspan 2
-https://v10.thetvapp.to/hls/CSPAN2/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/CSPAN2/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="destinationamerica" tvg-name="destinationamerica" tvg-logo="https://live.fanmingming.com/tv/destinationamerica.png" group-title="thetvapp",destination america
-https://v13.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="discovery" tvg-name="discovery" tvg-logo="https://live.fanmingming.com/tv/discovery.png" group-title="thetvapp",discovery
-https://v16.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="discoveryfamilychannel" tvg-name="discoveryfamilychannel" tvg-logo="https://live.fanmingming.com/tv/discoveryfamilychannel.png" group-title="thetvapp",discovery family channel
-https://v8.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="discoverylife" tvg-name="discoverylife" tvg-logo="https://live.fanmingming.com/tv/discoverylife.png" group-title="thetvapp",discovery life
-https://v8.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="disneychanneleast" tvg-name="disneychanneleast" tvg-logo="https://live.fanmingming.com/tv/disneychanneleast.png" group-title="thetvapp",disney channel east
-https://v5.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="disneyjunior" tvg-name="disneyjunior" tvg-logo="https://live.fanmingming.com/tv/disneyjunior.png" group-title="thetvapp",disney junior
-https://v5.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="disneyxd" tvg-name="disneyxd" tvg-logo="https://live.fanmingming.com/tv/disneyxd.png" group-title="thetvapp",disney xd
-https://v6.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="e" tvg-name="e" tvg-logo="https://live.fanmingming.com/tv/e.png" group-title="thetvapp",e
-https://v15.thetvapp.to/hls/EEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/EEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="espn" tvg-name="espn" tvg-logo="https://live.fanmingming.com/tv/espn.png" group-title="thetvapp",espn
-https://v15.thetvapp.to/hls/ESPN/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/ESPN/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="espn2" tvg-name="espn2" tvg-logo="https://live.fanmingming.com/tv/espn2.png" group-title="thetvapp",espn2
-https://v15.thetvapp.to/hls/ESPN2/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/ESPN2/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="espnews" tvg-name="espnews" tvg-logo="https://live.fanmingming.com/tv/espnews.png" group-title="thetvapp",espnews
-https://v2.thetvapp.to/hls/ESPNews/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/ESPNews/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="espnu" tvg-name="espnu" tvg-logo="https://live.fanmingming.com/tv/espnu.png" group-title="thetvapp",espnu
-https://v2.thetvapp.to/hls/ESPNU/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/ESPNU/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="foodnetwork" tvg-name="foodnetwork" tvg-logo="https://live.fanmingming.com/tv/foodnetwork.png" group-title="thetvapp",food network
-https://v11.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="foxbusinessnetwork" tvg-name="foxbusinessnetwork" tvg-logo="https://live.fanmingming.com/tv/foxbusinessnetwork.png" group-title="thetvapp",fox business network
-https://v11.thetvapp.to/hls/FoxBusiness/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v8.thetvapp.to/hls/FoxBusiness/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="foxnewschannel" tvg-name="foxnewschannel" tvg-logo="https://live.fanmingming.com/tv/foxnewschannel.png" group-title="thetvapp",fox news channel
-https://v7.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v2.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="foxsports1" tvg-name="foxsports1" tvg-logo="https://live.fanmingming.com/tv/foxsports1.png" group-title="thetvapp",fox sports 1
-https://v7.thetvapp.to/hls/FoxSports1/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v2.thetvapp.to/hls/FoxSports1/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="foxsports2" tvg-name="foxsports2" tvg-logo="https://live.fanmingming.com/tv/foxsports2.png" group-title="thetvapp",fox sports 2
-https://v16.thetvapp.to/hls/FoxSports2/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/FoxSports2/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="freeform" tvg-name="freeform" tvg-logo="https://live.fanmingming.com/tv/freeform.png" group-title="thetvapp",freeform
-https://v16.thetvapp.to/hls/FreeformEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v5.thetvapp.to/hls/FreeformEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="fusehd" tvg-name="fusehd" tvg-logo="https://live.fanmingming.com/tv/fusehd.png" group-title="thetvapp",fuse hd
-https://v12.thetvapp.to/hls/FuseEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v5.thetvapp.to/hls/FuseEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="fx" tvg-name="fx" tvg-logo="https://live.fanmingming.com/tv/fx.png" group-title="thetvapp",fx
-https://v12.thetvapp.to/hls/FXEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v10.thetvapp.to/hls/FXEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="fxmovie" tvg-name="fxmovie" tvg-logo="https://live.fanmingming.com/tv/fxmovie.png" group-title="thetvapp",fx movie
-https://v12.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v10.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="fxx" tvg-name="fxx" tvg-logo="https://live.fanmingming.com/tv/fxx.png" group-title="thetvapp",fxx
-https://v4.thetvapp.to/hls/FXXEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
-#EXTINF:-1 tvg-id="fyi" tvg-name="fyi" tvg-logo="https://live.fanmingming.com/tv/fyi.png" group-title="thetvapp",fyi
-https://v9.thetvapp.to/hls/FYIEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v14.thetvapp.to/hls/FXXEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="golfchannel" tvg-name="golfchannel" tvg-logo="https://live.fanmingming.com/tv/golfchannel.png" group-title="thetvapp",golf channel
-https://v9.thetvapp.to/hls/GolfChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/GolfChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hallmark" tvg-name="hallmark" tvg-logo="https://live.fanmingming.com/tv/hallmark.png" group-title="thetvapp",hallmark
-https://v14.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v9.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hallmarkdramahd" tvg-name="hallmarkdramahd" tvg-logo="https://live.fanmingming.com/tv/hallmarkdramahd.png" group-title="thetvapp",hallmark drama hd
-https://v11.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v13.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hallmarkmoviesmysterieshd" tvg-name="hallmarkmoviesmysterieshd" tvg-logo="https://live.fanmingming.com/tv/hallmarkmoviesmysterieshd.png" group-title="thetvapp",hallmark movies mysteries hd
-https://v8.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v13.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hbo2east" tvg-name="hbo2east" tvg-logo="https://live.fanmingming.com/tv/hbo2east.png" group-title="thetvapp",hbo 2 east
-https://v8.thetvapp.to/hls/HBO2East/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v15.thetvapp.to/hls/HBO2East/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hbocomedyhd" tvg-name="hbocomedyhd" tvg-logo="https://live.fanmingming.com/tv/hbocomedyhd.png" group-title="thetvapp",hbo comedy hd
-https://v8.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v15.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hboeast" tvg-name="hboeast" tvg-logo="https://live.fanmingming.com/tv/hboeast.png" group-title="thetvapp",hbo east
-https://v3.thetvapp.to/hls/HBOEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v5.thetvapp.to/hls/HBOEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hbofamilyeast" tvg-name="hbofamilyeast" tvg-logo="https://live.fanmingming.com/tv/hbofamilyeast.png" group-title="thetvapp",hbo family east
-https://v3.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hbosignature" tvg-name="hbosignature" tvg-logo="https://live.fanmingming.com/tv/hbosignature.png" group-title="thetvapp",hbo signature
-https://v5.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hbozonehd" tvg-name="hbozonehd" tvg-logo="https://live.fanmingming.com/tv/hbozonehd.png" group-title="thetvapp",hbo zone hd
-https://v5.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hgtv" tvg-name="hgtv" tvg-logo="https://live.fanmingming.com/tv/hgtv.png" group-title="thetvapp",hgtv
-https://v14.thetvapp.to/hls/HGTVEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/HGTVEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="history" tvg-name="history" tvg-logo="https://live.fanmingming.com/tv/history.png" group-title="thetvapp",history
-https://v14.thetvapp.to/hls/HistoryEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/HistoryEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="hln" tvg-name="hln" tvg-logo="https://live.fanmingming.com/tv/hln.png" group-title="thetvapp",hln
-https://v13.thetvapp.to/hls/HLN/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v8.thetvapp.to/hls/HLN/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="ifc" tvg-name="ifc" tvg-logo="https://live.fanmingming.com/tv/ifc.png" group-title="thetvapp",ifc
-https://v13.thetvapp.to/hls/IFCEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/IFCEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="investigationdiscovery" tvg-name="investigationdiscovery" tvg-logo="https://live.fanmingming.com/tv/investigationdiscovery.png" group-title="thetvapp",investigation discovery
-https://v7.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="iontelevisioneasthd" tvg-name="iontelevisioneasthd" tvg-logo="https://live.fanmingming.com/tv/iontelevisioneasthd.png" group-title="thetvapp",ion television east hd
-https://v4.thetvapp.to/hls/IONTVEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/IONTVEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="lifetime" tvg-name="lifetime" tvg-logo="https://live.fanmingming.com/tv/lifetime.png" group-title="thetvapp",lifetime
-https://v4.thetvapp.to/hls/LifetimeEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/LifetimeEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="lmn" tvg-name="lmn" tvg-logo="https://live.fanmingming.com/tv/lmn.png" group-title="thetvapp",lmn
-https://v3.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v9.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="logo" tvg-name="logo" tvg-logo="https://live.fanmingming.com/tv/logo.png" group-title="thetvapp",logo
-https://v9.thetvapp.to/hls/LogoEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/LogoEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="metvtoons" tvg-name="metvtoons" tvg-logo="https://live.fanmingming.com/tv/metvtoons.png" group-title="thetvapp",metv toons
-https://v9.thetvapp.to/hls/metv toons/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/metv toons/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="mlbnetwork" tvg-name="mlbnetwork" tvg-logo="https://live.fanmingming.com/tv/mlbnetwork.png" group-title="thetvapp",mlb network
-https://v16.thetvapp.to/hls/MLBNetwork/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v8.thetvapp.to/hls/MLBNetwork/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="moremax" tvg-name="moremax" tvg-logo="https://live.fanmingming.com/tv/moremax.png" group-title="thetvapp",moremax
-https://v2.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="motortrendhd" tvg-name="motortrendhd" tvg-logo="https://live.fanmingming.com/tv/motortrendhd.png" group-title="thetvapp",motortrend hd
-https://v12.thetvapp.to/hls/Motortrend/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/Motortrend/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="moviemax" tvg-name="moviemax" tvg-logo="https://live.fanmingming.com/tv/moviemax.png" group-title="thetvapp",moviemax
-https://v12.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="msnbc" tvg-name="msnbc" tvg-logo="https://live.fanmingming.com/tv/msnbc.png" group-title="thetvapp",msnbc
-https://v12.thetvapp.to/hls/MSNBC/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/MSNBC/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="mtv" tvg-name="mtv" tvg-logo="https://live.fanmingming.com/tv/mtv.png" group-title="thetvapp",mtv
-https://v7.thetvapp.to/hls/MTVEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v13.thetvapp.to/hls/MTVEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="natgeowild" tvg-name="natgeowild" tvg-logo="https://live.fanmingming.com/tv/natgeowild.png" group-title="thetvapp",nat geo wild
-https://v7.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v13.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nationalgeographic" tvg-name="nationalgeographic" tvg-logo="https://live.fanmingming.com/tv/nationalgeographic.png" group-title="thetvapp",national geographic
-https://v2.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v5.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nbatv" tvg-name="nbatv" tvg-logo="https://live.fanmingming.com/tv/nbatv.png" group-title="thetvapp",nba tv
-https://v2.thetvapp.to/hls/NBATV/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v14.thetvapp.to/hls/NBATV/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="newsmaxtv" tvg-name="newsmaxtv" tvg-logo="https://live.fanmingming.com/tv/newsmaxtv.png" group-title="thetvapp",newsmax tv
-https://v16.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v9.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nflnetwork" tvg-name="nflnetwork" tvg-logo="https://live.fanmingming.com/tv/nflnetwork.png" group-title="thetvapp",nfl network
-https://v16.thetvapp.to/hls/NFLNetwork/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v9.thetvapp.to/hls/NFLNetwork/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nflredzone" tvg-name="nflredzone" tvg-logo="https://live.fanmingming.com/tv/nflredzone.png" group-title="thetvapp",nfl red zone
-https://v13.thetvapp.to/hls/NFLRedZone/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
-#EXTINF:-1 tvg-id="nhlnetwork" tvg-name="nhlnetwork" tvg-logo="https://live.fanmingming.com/tv/nhlnetwork.png" group-title="thetvapp",nhl network
-https://v13.thetvapp.to/hls/NHLNetwork/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/NFLRedZone/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nickjr" tvg-name="nickjr" tvg-logo="https://live.fanmingming.com/tv/nickjr.png" group-title="thetvapp",nick jr
-https://v14.thetvapp.to/hls/NickJrEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v15.thetvapp.to/hls/NickJrEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nickelodeoneast" tvg-name="nickelodeoneast" tvg-logo="https://live.fanmingming.com/tv/nickelodeoneast.png" group-title="thetvapp",nickelodeon east
-https://v15.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="nicktoons" tvg-name="nicktoons" tvg-logo="https://live.fanmingming.com/tv/nicktoons.png" group-title="thetvapp",nicktoons
-https://v3.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="outdoorchannel" tvg-name="outdoorchannel" tvg-logo="https://live.fanmingming.com/tv/outdoorchannel.png" group-title="thetvapp",outdoor channel
-https://v5.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="own" tvg-name="own" tvg-logo="https://live.fanmingming.com/tv/own.png" group-title="thetvapp",own
-https://v8.thetvapp.to/hls/OWNEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/OWNEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="oxygentruecrime" tvg-name="oxygentruecrime" tvg-logo="https://live.fanmingming.com/tv/oxygentruecrime.png" group-title="thetvapp",oxygen true crime
-https://v8.thetvapp.to/hls/OxygenEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/OxygenEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="pbs13wnetnewyork" tvg-name="pbs13wnetnewyork" tvg-logo="https://live.fanmingming.com/tv/pbs13wnetnewyork.png" group-title="thetvapp",pbs 13 wnet new york
-https://v14.thetvapp.to/hls/WNET/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/WNET/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="reelzchannel" tvg-name="reelzchannel" tvg-logo="https://live.fanmingming.com/tv/reelzchannel.png" group-title="thetvapp",reelzchannel
-https://v11.thetvapp.to/hls/Reelz/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/Reelz/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="science" tvg-name="science" tvg-logo="https://live.fanmingming.com/tv/science.png" group-title="thetvapp",science
-https://v11.thetvapp.to/hls/Science/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/Science/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="secnetwork" tvg-name="secnetwork" tvg-logo="https://live.fanmingming.com/tv/secnetwork.png" group-title="thetvapp",sec network
-https://v9.thetvapp.to/hls/SECN/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/SECN/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="showtimee" tvg-name="showtimee" tvg-logo="https://live.fanmingming.com/tv/showtimee.png" group-title="thetvapp",showtime e
-https://v9.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="showtime2" tvg-name="showtime2" tvg-logo="https://live.fanmingming.com/tv/showtime2.png" group-title="thetvapp",showtime 2
-https://v4.thetvapp.to/hls/Showtime2East/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/Showtime2East/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="starzeast" tvg-name="starzeast" tvg-logo="https://live.fanmingming.com/tv/starzeast.png" group-title="thetvapp",starz east
-https://v15.thetvapp.to/hls/StarzEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/StarzEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="sundancetvhd" tvg-name="sundancetvhd" tvg-logo="https://live.fanmingming.com/tv/sundancetvhd.png" group-title="thetvapp",sundancetv hd
-https://v15.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="syfy" tvg-name="syfy" tvg-logo="https://live.fanmingming.com/tv/syfy.png" group-title="thetvapp",syfy
-https://v15.thetvapp.to/hls/SyfyEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v5.thetvapp.to/hls/SyfyEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="tbs" tvg-name="tbs" tvg-logo="https://live.fanmingming.com/tv/tbs.png" group-title="thetvapp",tbs
-https://v3.thetvapp.to/hls/TBSEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/TBSEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="tcm" tvg-name="tcm" tvg-logo="https://live.fanmingming.com/tv/tcm.png" group-title="thetvapp",tcm
-https://v3.thetvapp.to/hls/TCMEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/TCMEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="teennick" tvg-name="teennick" tvg-logo="https://live.fanmingming.com/tv/teennick.png" group-title="thetvapp",teennick
-https://v13.thetvapp.to/hls/TeenNickEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/TeenNickEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="telemundoeast" tvg-name="telemundoeast" tvg-logo="https://live.fanmingming.com/tv/telemundoeast.png" group-title="thetvapp",telemundo east
-https://v13.thetvapp.to/hls/TelemundoEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v10.thetvapp.to/hls/TelemundoEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="tennischannel" tvg-name="tennischannel" tvg-logo="https://live.fanmingming.com/tv/tennischannel.png" group-title="thetvapp",tennis channel
-https://v14.thetvapp.to/hls/TennisChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v10.thetvapp.to/hls/TennisChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="thecw" tvg-name="thecw" tvg-logo="https://live.fanmingming.com/tv/thecw.png" group-title="thetvapp",the cw
-https://v12.thetvapp.to/hls/WPIX/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v15.thetvapp.to/hls/WPIX/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="themoviechanneleast" tvg-name="themoviechanneleast" tvg-logo="https://live.fanmingming.com/tv/themoviechanneleast.png" group-title="thetvapp",the movie channel east
-https://v11.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v15.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="theweatherchannel" tvg-name="theweatherchannel" tvg-logo="https://live.fanmingming.com/tv/theweatherchannel.png" group-title="thetvapp",the weather channel
-https://v11.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v11.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="tlc" tvg-name="tlc" tvg-logo="https://live.fanmingming.com/tv/tlc.png" group-title="thetvapp",tlc
-https://v8.thetvapp.to/hls/TLCEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/TLCEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="tnt" tvg-name="tnt" tvg-logo="https://live.fanmingming.com/tv/tnt.png" group-title="thetvapp",tnt
-https://v8.thetvapp.to/hls/TNTEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v12.thetvapp.to/hls/TNTEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="travelchannel" tvg-name="travelchannel" tvg-logo="https://live.fanmingming.com/tv/travelchannel.png" group-title="thetvapp",travel channel
-https://v5.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="trutv" tvg-name="trutv" tvg-logo="https://live.fanmingming.com/tv/trutv.png" group-title="thetvapp",trutv
-https://v7.thetvapp.to/hls/truTVEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v16.thetvapp.to/hls/truTVEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="tvonehd" tvg-name="tvonehd" tvg-logo="https://live.fanmingming.com/tv/tvonehd.png" group-title="thetvapp",tv one hd
-https://v7.thetvapp.to/hls/TVOne/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v7.thetvapp.to/hls/TVOne/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="universalkids" tvg-name="universalkids" tvg-logo="https://live.fanmingming.com/tv/universalkids.png" group-title="thetvapp",universal kids
-https://v2.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="univisioneast" tvg-name="univisioneast" tvg-logo="https://live.fanmingming.com/tv/univisioneast.png" group-title="thetvapp",univision east
-https://v2.thetvapp.to/hls/UnivisionEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/UnivisionEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="usanetwork" tvg-name="usanetwork" tvg-logo="https://live.fanmingming.com/tv/usanetwork.png" group-title="thetvapp",usa network
-https://v14.thetvapp.to/hls/USANetworkEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v3.thetvapp.to/hls/USANetworkEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="vh1" tvg-name="vh1" tvg-logo="https://live.fanmingming.com/tv/vh1.png" group-title="thetvapp",vh1
-https://v6.thetvapp.to/hls/VH1East/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/VH1East/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="vice" tvg-name="vice" tvg-logo="https://live.fanmingming.com/tv/vice.png" group-title="thetvapp",vice
-https://v4.thetvapp.to/hls/VICETV/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v6.thetvapp.to/hls/VICETV/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="wabcnewyorkabceast" tvg-name="wabcnewyorkabceast" tvg-logo="https://live.fanmingming.com/tv/wabcnewyorkabceast.png" group-title="thetvapp",wabc new york abc east
-https://v4.thetvapp.to/hls/WABCDT1/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v8.thetvapp.to/hls/WABCDT1/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="wcbsnewyorkcbseast" tvg-name="wcbsnewyorkcbseast" tvg-logo="https://live.fanmingming.com/tv/wcbsnewyorkcbseast.png" group-title="thetvapp",wcbs new york cbs east
-https://v9.thetvapp.to/hls/WCBSDT1/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v8.thetvapp.to/hls/WCBSDT1/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="wetv" tvg-name="wetv" tvg-logo="https://live.fanmingming.com/tv/wetv.png" group-title="thetvapp",we tv
-https://v9.thetvapp.to/hls/WeTVEast/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v8.thetvapp.to/hls/WeTVEast/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="wnbcnewyorknbceast" tvg-name="wnbcnewyorknbceast" tvg-logo="https://live.fanmingming.com/tv/wnbcnewyorknbceast.png" group-title="thetvapp",wnbc new york nbc east
-https://v5.thetvapp.to/hls/WNBCDT1/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v2.thetvapp.to/hls/WNBCDT1/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="wnywnewyorkfoxeast" tvg-name="wnywnewyorkfoxeast" tvg-logo="https://live.fanmingming.com/tv/wnywnewyorkfoxeast.png" group-title="thetvapp",wnyw new york fox east
-https://v5.thetvapp.to/hls/WNYWDT1/index.m3u8?token=RUx6aXdkZFR6eDBKQWttYTZUTjNVcklyWmE0RGlFdkc0RE9YTzNVYw==
+https://v4.thetvapp.to/hls/WNYWDT1/index.m3u8?token=Tzd2WTh3VkxPNnpnU3NscU1zREE4T0hTbk5KRW00NVUweWNneVZOUA==
 #EXTINF:-1 tvg-id="ABC(WOLO)" tvg-name="ABC(WOLO)" tvg-logo="https://live.fanmingming.com/tv/ABC(WOLO).png" group-title="MoveOnJoy",ABC (WOLO)
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork" tvg-name="ACCNetwork" tvg-logo="https://live.fanmingming.com/tv/ACCNetwork.png" group-title="MoveOnJoy",ACC Network
@@ -892,7 +960,7 @@ http://123.117.36.74:4001/rtp/239.3.1.55:4120
 #EXTINF:-1 tvg-id="CETV4" tvg-name="CETV4" tvg-logo="https://live.fanmingming.com/tv/CETV4.png" group-title="其他频道",CETV4
 http://123.117.36.74:4001/rtp/239.3.1.56:4120
 #EXTINF:-1 tvg-id="CGTN" tvg-name="CGTN" tvg-logo="https://live.fanmingming.com/tv/CGTN.png" group-title="其他频道",CGTN
-http://61.53.168.147:18888/rtp/225.1.4.16:1045
+http://125.43.42.143:9999/rtp/225.1.4.16:1045
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="其他频道",CGTN 俄语
 http://123.117.36.74:4001/rtp/239.3.1.220:4220
 #EXTINF:-1 tvg-id="CGTN新闻" tvg-name="CGTN新闻" tvg-logo="https://live.fanmingming.com/tv/CGTN新闻.png" group-title="其他频道",CGTN 新闻
@@ -906,33 +974,33 @@ http://123.117.36.74:4001/rtp/239.3.1.216:4220
 #EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿拉伯语.png" group-title="其他频道",CGTN 阿拉伯语
 http://123.117.36.74:4001/rtp/239.3.1.219:4220
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="其他频道",CGTN俄语
-http://61.53.168.147:18888/rtp/225.1.5.39:1349
+http://125.43.42.143:9999/rtp/225.1.5.39:1349
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png" group-title="其他频道",CGTN法语
-http://61.53.168.147:18888/rtp/225.1.5.37:1347
+http://125.43.42.143:9999/rtp/225.1.5.37:1347
 #EXTINF:-1 tvg-id="CGTN英文纪录" tvg-name="CGTN英文纪录" tvg-logo="https://live.fanmingming.com/tv/CGTN英文纪录.png" group-title="其他频道",CGTN英文纪录
-http://61.53.168.147:18888/rtp/225.1.5.35:1345
+http://125.43.42.143:9999/rtp/225.1.5.35:1345
 #EXTINF:-1 tvg-id="CGTN英语" tvg-name="CGTN英语" tvg-logo="https://live.fanmingming.com/tv/CGTN英语.png" group-title="其他频道",CGTN英语
-http://61.53.168.147:18888/rtp/225.1.5.34:1344
+http://125.43.42.143:9999/rtp/225.1.5.34:1344
 #EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" tvg-logo="https://live.fanmingming.com/tv/CGTN西班牙语.png" group-title="其他频道",CGTN西班牙语
-http://61.53.168.147:18888/rtp/225.1.5.36:1346
+http://125.43.42.143:9999/rtp/225.1.5.36:1346
 #EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿拉伯语.png" group-title="其他频道",CGTN阿拉伯语
-http://61.53.168.147:18888/rtp/225.1.5.38:1348
+http://125.43.42.143:9999/rtp/225.1.5.38:1348
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="其他频道",CHC动作电影
-http://61.53.168.147:18888/rtp/225.1.4.208:1261
+http://125.43.42.143:9999/rtp/225.1.4.208:1261
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="其他频道",CHC家庭影院
-http://61.53.168.147:18888/rtp/225.1.4.209:1262
+http://125.43.42.143:9999/rtp/225.1.4.209:1262
 #EXTINF:-1 tvg-id="CHC电影" tvg-name="CHC电影" tvg-logo="https://live.fanmingming.com/tv/CHC电影.png" group-title="其他频道",CHC电影
-http://61.53.168.147:18888/rtp/225.1.4.207:1260
+http://125.43.42.143:9999/rtp/225.1.4.207:1260
 #EXTINF:-1 tvg-id="IPTV5+" tvg-name="IPTV5+" tvg-logo="https://live.fanmingming.com/tv/IPTV5+.png" group-title="其他频道",IPTV5+
 http://60.164.128.167:8029/udp/239.255.30.115:8231
 #EXTINF:-1 tvg-id="IPTV法治" tvg-name="IPTV法治" tvg-logo="https://live.fanmingming.com/tv/IPTV法治.png" group-title="其他频道",IPTV法治
-http://61.53.168.147:18888/rtp/225.1.4.188:1237
+http://125.43.42.143:9999/rtp/225.1.4.188:1237
 #EXTINF:-1 tvg-id="IPTV相声小品" tvg-name="IPTV相声小品" tvg-logo="https://live.fanmingming.com/tv/IPTV相声小品.png" group-title="其他频道",IPTV相声小品
-http://61.53.168.147:18888/rtp/225.1.4.186:1235
+http://125.43.42.143:9999/rtp/225.1.4.186:1235
 #EXTINF:-1 tvg-id="IPTV谍战剧场" tvg-name="IPTV谍战剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV谍战剧场.png" group-title="其他频道",IPTV谍战剧场
-http://61.53.168.147:18888/rtp/225.1.4.185:1240
+http://125.43.42.143:9999/rtp/225.1.4.185:1240
 #EXTINF:-1 tvg-id="IPTV野外" tvg-name="IPTV野外" tvg-logo="https://live.fanmingming.com/tv/IPTV野外.png" group-title="其他频道",IPTV野外
-http://61.53.168.147:18888/rtp/225.1.4.187:1236
+http://125.43.42.143:9999/rtp/225.1.4.187:1236
 #EXTINF:-1 tvg-id="MAX极速汽车" tvg-name="MAX极速汽车" tvg-logo="https://live.fanmingming.com/tv/MAX极速汽车.png" group-title="其他频道",MAX极速汽车
 http://60.164.128.167:8029/udp/239.255.30.149:8231
 #EXTINF:-1 tvg-id="SITV欢笑剧场" tvg-name="SITV欢笑剧场" tvg-logo="https://live.fanmingming.com/tv/SITV欢笑剧场.png" group-title="其他频道",SITV欢笑剧场
@@ -950,11 +1018,11 @@ http://123.117.36.74:4001/rtp/239.3.1.188:8001
 #EXTINF:-1 tvg-id="中国教育1台" tvg-name="中国教育1台" tvg-logo="https://live.fanmingming.com/tv/中国教育1台.png" group-title="其他频道",中国教育1台
 http://60.164.128.167:8029/udp/239.255.30.90:8231
 #EXTINF:-1 tvg-id="中国教育1" tvg-name="中国教育1" tvg-logo="https://live.fanmingming.com/tv/中国教育1.png" group-title="其他频道",中国教育-1
-http://61.53.168.147:18888/rtp/225.1.4.173:1712
+http://125.43.42.143:9999/rtp/225.1.4.173:1712
 #EXTINF:-1 tvg-id="中国教育2" tvg-name="中国教育2" tvg-logo="https://live.fanmingming.com/tv/中国教育2.png" group-title="其他频道",中国教育-2
-http://61.53.168.147:18888/rtp/225.1.4.165:1206
+http://125.43.42.143:9999/rtp/225.1.4.165:1206
 #EXTINF:-1 tvg-id="中国教育4" tvg-name="中国教育4" tvg-logo="https://live.fanmingming.com/tv/中国教育4.png" group-title="其他频道",中国教育-4
-http://61.53.168.147:18888/rtp/225.1.4.171:1710
+http://125.43.42.143:9999/rtp/225.1.4.171:1710
 #EXTINF:-1 tvg-id="临夏文旅" tvg-name="临夏文旅" tvg-logo="https://live.fanmingming.com/tv/临夏文旅.png" group-title="其他频道",临夏文旅
 http://60.164.128.167:8029/udp/239.255.30.108:8231
 #EXTINF:-1 tvg-id="临夏新闻" tvg-name="临夏新闻" tvg-logo="https://live.fanmingming.com/tv/临夏新闻.png" group-title="其他频道",临夏新闻
@@ -962,13 +1030,13 @@ http://60.164.128.167:8029/udp/239.255.30.107:8231
 #EXTINF:-1 tvg-id="临夏经济" tvg-name="临夏经济" tvg-logo="https://live.fanmingming.com/tv/临夏经济.png" group-title="其他频道",临夏经济
 http://60.164.128.167:8029/udp/239.255.30.106:8231
 #EXTINF:-1 tvg-id="乒羽频道" tvg-name="乒羽频道" tvg-logo="https://live.fanmingming.com/tv/乒羽频道.png" group-title="其他频道",乒羽频道
-http://61.53.168.147:18888/rtp/225.1.4.210:1263
+http://125.43.42.143:9999/rtp/225.1.4.210:1263
 #EXTINF:-1 tvg-id="五星体育" tvg-name="五星体育" tvg-logo="https://live.fanmingming.com/tv/五星体育.png" group-title="其他频道",五星体育
 http://60.164.128.167:8029/udp/239.255.29.45:8231
 #EXTINF:-1 tvg-id="体育" tvg-name="体育" tvg-logo="https://live.fanmingming.com/tv/体育.png" group-title="其他频道",体育
 http://60.164.128.167:8029/udp/239.255.29.31:8231
 #EXTINF:-1 tvg-id="体育竞技" tvg-name="体育竞技" tvg-logo="https://live.fanmingming.com/tv/体育竞技.png" group-title="其他频道",体育竞技
-http://61.53.168.147:18888/rtp/225.1.4.235:1281
+http://125.43.42.143:9999/rtp/225.1.4.235:1281
 #EXTINF:-1 tvg-id="体育赛事" tvg-name="体育赛事" tvg-logo="https://live.fanmingming.com/tv/体育赛事.png" group-title="其他频道",体育赛事
 http://123.117.36.74:4001/rtp/239.3.1.157:8176
 #EXTINF:-1 tvg-id="光影" tvg-name="光影" tvg-logo="https://live.fanmingming.com/tv/光影.png" group-title="其他频道",光影
@@ -998,7 +1066,7 @@ http://60.164.128.167:8029/udp/239.255.29.36:8231
 #EXTINF:-1 tvg-id="国学" tvg-name="国学" tvg-logo="https://live.fanmingming.com/tv/国学.png" group-title="其他频道",国学
 http://123.117.36.74:4001/rtp/239.3.1.77:4120
 #EXTINF:-1 tvg-id="国学频道" tvg-name="国学频道" tvg-logo="https://live.fanmingming.com/tv/国学频道.png" group-title="其他频道",国学频道
-http://61.53.168.147:18888/rtp/225.1.4.196:1311
+http://125.43.42.143:9999/rtp/225.1.4.196:1311
 #EXTINF:-1 tvg-id="地理" tvg-name="地理" tvg-logo="https://live.fanmingming.com/tv/地理.png" group-title="其他频道",地理
 http://123.117.36.74:4001/rtp/239.3.1.71:4120
 #EXTINF:-1 tvg-id="城市剧场" tvg-name="城市剧场" tvg-logo="https://live.fanmingming.com/tv/城市剧场.png" group-title="其他频道",城市剧场
@@ -1008,7 +1076,7 @@ http://123.117.36.74:4001/rtp/239.3.1.83:4120
 #EXTINF:-1 tvg-id="大健康" tvg-name="大健康" tvg-logo="https://live.fanmingming.com/tv/大健康.png" group-title="其他频道",大健康
 http://123.117.36.74:4001/rtp/239.3.1.251:8001
 #EXTINF:-1 tvg-id="大象新闻" tvg-name="大象新闻" tvg-logo="https://live.fanmingming.com/tv/大象新闻.png" group-title="其他频道",大象新闻
-http://61.53.168.147:18888/rtp/225.1.5.45:1355
+http://125.43.42.143:9999/rtp/225.1.5.45:1355
 #EXTINF:-1 tvg-id="好学生" tvg-name="好学生" tvg-logo="https://live.fanmingming.com/tv/好学生.png" group-title="其他频道",好学生
 http://123.117.36.74:4001/rtp/239.3.1.81:4120
 #EXTINF:-1 tvg-id="家庭影院" tvg-name="家庭影院" tvg-logo="https://live.fanmingming.com/tv/家庭影院.png" group-title="其他频道",家庭影院
@@ -1034,7 +1102,7 @@ http://123.117.36.74:4001/rtp/239.3.1.96:8001
 #EXTINF:-1 tvg-id="收视指南" tvg-name="收视指南" tvg-logo="https://live.fanmingming.com/tv/收视指南.png" group-title="其他频道",收视指南
 http://123.117.36.74:4001/rtp/239.3.1.193:8012
 #EXTINF:-1 tvg-id="新蔡电视台" tvg-name="新蔡电视台" tvg-logo="https://live.fanmingming.com/tv/新蔡电视台.png" group-title="其他频道",新蔡电视台
-http://61.53.168.147:18888/rtp/225.1.5.29:1341
+http://125.43.42.143:9999/rtp/225.1.5.29:1341
 #EXTINF:-1 tvg-id="早教" tvg-name="早教" tvg-logo="https://live.fanmingming.com/tv/早教.png" group-title="其他频道",早教
 http://123.117.36.74:4001/rtp/239.3.1.79:4120
 #EXTINF:-1 tvg-id="星光影院" tvg-name="星光影院" tvg-logo="https://live.fanmingming.com/tv/星光影院.png" group-title="其他频道",星光影院
@@ -1052,31 +1120,31 @@ http://123.117.36.74:4001/rtp/239.3.1.87:4120
 #EXTINF:-1 tvg-id="每日影院" tvg-name="每日影院" tvg-logo="https://live.fanmingming.com/tv/每日影院.png" group-title="其他频道",每日影院
 http://123.117.36.74:4001/#rtp/239.3.1.111:8001
 #EXTINF:-1 tvg-id="河南IPTV导视" tvg-name="河南IPTV导视" tvg-logo="https://live.fanmingming.com/tv/河南IPTV导视.png" group-title="其他频道",河南IPTV-导视
-http://61.53.168.147:18888/rtp/225.1.4.194:1244
+http://125.43.42.143:9999/rtp/225.1.4.194:1244
 #EXTINF:-1 tvg-id="河南乡村频道" tvg-name="河南乡村频道" tvg-logo="https://live.fanmingming.com/tv/河南乡村频道.png" group-title="其他频道",河南乡村频道
-http://61.53.168.147:18888/rtp/225.1.4.120:1149
+http://125.43.42.143:9999/rtp/225.1.4.120:1149
 #EXTINF:-1 tvg-id="河南公共频道" tvg-name="河南公共频道" tvg-logo="https://live.fanmingming.com/tv/河南公共频道.png" group-title="其他频道",河南公共频道
-http://61.53.168.147:18888/rtp/225.1.4.58:1087
+http://125.43.42.143:9999/rtp/225.1.4.58:1087
 #EXTINF:-1 tvg-id="河南国际频道" tvg-name="河南国际频道" tvg-logo="https://live.fanmingming.com/tv/河南国际频道.png" group-title="其他频道",河南国际频道
-http://61.53.168.147:18888/rtp/225.1.4.102:1131
+http://125.43.42.143:9999/rtp/225.1.4.102:1131
 #EXTINF:-1 tvg-id="河南文物宝库" tvg-name="河南文物宝库" tvg-logo="https://live.fanmingming.com/tv/河南文物宝库.png" group-title="其他频道",河南文物宝库
-http://61.53.168.147:18888/rtp/225.1.4.100:1129
+http://125.43.42.143:9999/rtp/225.1.4.100:1129
 #EXTINF:-1 tvg-id="河南新闻频道" tvg-name="河南新闻频道" tvg-logo="https://live.fanmingming.com/tv/河南新闻频道.png" group-title="其他频道",河南新闻频道
-http://61.53.168.147:18888/rtp/225.1.4.56:1085
+http://125.43.42.143:9999/rtp/225.1.4.56:1085
 #EXTINF:-1 tvg-id="河南梨园频道" tvg-name="河南梨园频道" tvg-logo="https://live.fanmingming.com/tv/河南梨园频道.png" group-title="其他频道",河南梨园频道
-http://61.53.168.147:18888/rtp/225.1.4.99:1128
+http://125.43.42.143:9999/rtp/225.1.4.99:1128
 #EXTINF:-1 tvg-id="河南武术世界" tvg-name="河南武术世界" tvg-logo="https://live.fanmingming.com/tv/河南武术世界.png" group-title="其他频道",河南武术世界
-http://61.53.168.147:18888/rtp/225.1.4.101:1130
+http://125.43.42.143:9999/rtp/225.1.4.101:1130
 #EXTINF:-1 tvg-id="河南民生频道" tvg-name="河南民生频道" tvg-logo="https://live.fanmingming.com/tv/河南民生频道.png" group-title="其他频道",河南民生频道
-http://61.53.168.147:18888/rtp/225.1.4.53:1082
+http://125.43.42.143:9999/rtp/225.1.4.53:1082
 #EXTINF:-1 tvg-id="河南法治频道" tvg-name="河南法治频道" tvg-logo="https://live.fanmingming.com/tv/河南法治频道.png" group-title="其他频道",河南法治频道
-http://61.53.168.147:18888/rtp/225.1.4.54:1083
+http://125.43.42.143:9999/rtp/225.1.4.54:1083
 #EXTINF:-1 tvg-id="河南电视剧频道" tvg-name="河南电视剧频道" tvg-logo="https://live.fanmingming.com/tv/河南电视剧频道.png" group-title="其他频道",河南电视剧频道
-http://61.53.168.147:18888/rtp/225.1.4.55:1084
+http://125.43.42.143:9999/rtp/225.1.4.55:1084
 #EXTINF:-1 tvg-id="河南移动电视" tvg-name="河南移动电视" tvg-logo="https://live.fanmingming.com/tv/河南移动电视.png" group-title="其他频道",河南移动电视
-http://61.53.168.147:18888/rtp/225.1.5.40:1350
+http://125.43.42.143:9999/rtp/225.1.5.40:1350
 #EXTINF:-1 tvg-id="河南都市频道" tvg-name="河南都市频道" tvg-logo="https://live.fanmingming.com/tv/河南都市频道.png" group-title="其他频道",河南都市频道
-http://61.53.168.147:18888/rtp/225.1.4.52:1081
+http://125.43.42.143:9999/rtp/225.1.4.52:1081
 #EXTINF:-1 tvg-id="淘剧场" tvg-name="淘剧场" tvg-logo="https://live.fanmingming.com/tv/淘剧场.png" group-title="其他频道",淘剧场
 http://123.117.36.74:4001/rtp/239.3.1.95:8001
 #EXTINF:-1 tvg-id="淘娱乐" tvg-name="淘娱乐" tvg-logo="https://live.fanmingming.com/tv/淘娱乐.png" group-title="其他频道",淘娱乐
@@ -1090,19 +1158,19 @@ http://123.117.36.74:4001/rtp/239.3.1.194:9020
 #EXTINF:-1 tvg-id="爱上4K" tvg-name="爱上4K" tvg-logo="https://live.fanmingming.com/tv/爱上4K.png" group-title="其他频道",爱上4K
 http://123.117.36.74:4001/rtp/239.3.1.236:2000
 #EXTINF:-1 tvg-id="爱上4k" tvg-name="爱上4k" tvg-logo="https://live.fanmingming.com/tv/爱上4k.png" group-title="其他频道",爱上-4k
-http://61.53.168.147:18888/rtp/225.1.4.162:1204
+http://125.43.42.143:9999/rtp/225.1.4.162:1204
 #EXTINF:-1 tvg-id="爱体育" tvg-name="爱体育" tvg-logo="https://live.fanmingming.com/tv/爱体育.png" group-title="其他频道",爱体育
-http://61.53.168.147:18888/rtp/225.1.4.5:1034
+http://125.43.42.143:9999/rtp/225.1.4.5:1034
 #EXTINF:-1 tvg-id="爱大剧" tvg-name="爱大剧" tvg-logo="https://live.fanmingming.com/tv/爱大剧.png" group-title="其他频道",爱大剧
-http://61.53.168.147:18888/rtp/225.1.4.8:1037
+http://125.43.42.143:9999/rtp/225.1.4.8:1037
 #EXTINF:-1 tvg-id="爱生活" tvg-name="爱生活" tvg-logo="https://live.fanmingming.com/tv/爱生活.png" group-title="其他频道",爱生活
 http://123.117.36.74:4001/rtp/239.3.1.86:4120
 #EXTINF:-1 tvg-id="爱电影" tvg-name="爱电影" tvg-logo="https://live.fanmingming.com/tv/爱电影.png" group-title="其他频道",爱电影
-http://61.53.168.147:18888/rtp/225.1.4.6:1035
+http://125.43.42.143:9999/rtp/225.1.4.6:1035
 #EXTINF:-1 tvg-id="爱综艺" tvg-name="爱综艺" tvg-logo="https://live.fanmingming.com/tv/爱综艺.png" group-title="其他频道",爱综艺
-http://61.53.168.147:18888/rtp/225.1.4.204:1252
+http://125.43.42.143:9999/rtp/225.1.4.204:1252
 #EXTINF:-1 tvg-id="现场直播" tvg-name="现场直播" tvg-logo="https://live.fanmingming.com/tv/现场直播.png" group-title="其他频道",现场直播
-http://61.53.168.147:18888/rtp/225.1.5.42:1352
+http://125.43.42.143:9999/rtp/225.1.5.42:1352
 #EXTINF:-1 tvg-id="甘肃公共" tvg-name="甘肃公共" tvg-logo="https://live.fanmingming.com/tv/甘肃公共.png" group-title="其他频道",甘肃公共
 http://60.164.128.167:8029/udp/239.255.30.251:8231
 #EXTINF:-1 tvg-id="甘肃文化影视" tvg-name="甘肃文化影视" tvg-logo="https://live.fanmingming.com/tv/甘肃文化影视.png" group-title="其他频道",甘肃文化影视
@@ -1116,7 +1184,7 @@ http://60.164.128.167:8029/udp/239.255.29.18:8231
 #EXTINF:-1 tvg-id="看天下精选" tvg-name="看天下精选" tvg-logo="https://live.fanmingming.com/tv/看天下精选.png" group-title="其他频道",看天下精选
 http://60.164.128.167:8029/udp/239.255.30.217:8231
 #EXTINF:-1 tvg-id="睛彩中原" tvg-name="睛彩中原" tvg-logo="https://live.fanmingming.com/tv/睛彩中原.png" group-title="其他频道",睛彩中原
-http://61.53.168.147:18888/rtp/225.1.4.163:1203
+http://125.43.42.143:9999/rtp/225.1.4.163:1203
 #EXTINF:-1 tvg-id="睛彩广场舞" tvg-name="睛彩广场舞" tvg-logo="https://live.fanmingming.com/tv/睛彩广场舞.png" group-title="其他频道",睛彩广场舞
 http://123.117.36.74:4001/rtp/239.3.1.128:8001
 #EXTINF:-1 tvg-id="睛彩竞技" tvg-name="睛彩竞技" tvg-logo="https://live.fanmingming.com/tv/睛彩竞技.png" group-title="其他频道",睛彩竞技
@@ -1126,21 +1194,21 @@ http://123.117.36.74:4001/rtp/239.3.1.126:8001
 #EXTINF:-1 tvg-id="睛彩羽毛球" tvg-name="睛彩羽毛球" tvg-logo="https://live.fanmingming.com/tv/睛彩羽毛球.png" group-title="其他频道",睛彩羽毛球
 http://123.117.36.74:4001/rtp/239.3.1.127:8001
 #EXTINF:-1 tvg-id="移动戏曲" tvg-name="移动戏曲" tvg-logo="https://live.fanmingming.com/tv/移动戏曲.png" group-title="其他频道",移动戏曲
-http://61.53.168.147:18888/rtp/225.1.4.206:1254
+http://125.43.42.143:9999/rtp/225.1.4.206:1254
 #EXTINF:-1 tvg-id="篮球" tvg-name="篮球" tvg-logo="https://live.fanmingming.com/tv/篮球.png" group-title="其他频道",篮球
-http://61.53.168.147:18888/rtp/225.1.4.237:1283
+http://125.43.42.143:9999/rtp/225.1.4.237:1283
 #EXTINF:-1 tvg-id="精选" tvg-name="精选" tvg-logo="https://live.fanmingming.com/tv/精选.png" group-title="其他频道",精选
 http://123.117.36.74:4001/rtp/239.3.1.74:4120
 #EXTINF:-1 tvg-id="红色谍战剧场" tvg-name="红色谍战剧场" tvg-logo="https://live.fanmingming.com/tv/红色谍战剧场.png" group-title="其他频道",红色谍战剧场
 http://60.164.128.167:8029/udp/239.255.30.166:8231
 #EXTINF:-1 tvg-id="纪实" tvg-name="纪实" tvg-logo="https://live.fanmingming.com/tv/纪实.png" group-title="其他频道",纪实
-http://61.53.168.147:18888/rtp/225.1.4.170:1222
+http://125.43.42.143:9999/rtp/225.1.4.170:1222
 #EXTINF:-1 tvg-id="纪实人文" tvg-name="纪实人文" tvg-logo="https://live.fanmingming.com/tv/纪实人文.png" group-title="其他频道",纪实人文
 http://123.117.36.74:4001/rtp/239.3.1.212:8060
 #EXTINF:-1 tvg-id="经典电影" tvg-name="经典电影" tvg-logo="https://live.fanmingming.com/tv/经典电影.png" group-title="其他频道",经典电影
 http://123.117.36.74:4001/rtp/239.3.1.195:9024
 #EXTINF:-1 tvg-id="网络棋牌" tvg-name="网络棋牌" tvg-logo="https://live.fanmingming.com/tv/网络棋牌.png" group-title="其他频道",网络棋牌
-http://61.53.168.147:18888/rtp/225.1.4.211:1264
+http://125.43.42.143:9999/rtp/225.1.4.211:1264
 #EXTINF:-1 tvg-id="美人" tvg-name="美人" tvg-logo="https://live.fanmingming.com/tv/美人.png" group-title="其他频道",美人
 http://123.117.36.74:4001/rtp/239.3.1.73:4120
 #EXTINF:-1 tvg-id="美妆" tvg-name="美妆" tvg-logo="https://live.fanmingming.com/tv/美妆.png" group-title="其他频道",美妆
@@ -1152,7 +1220,7 @@ http://123.117.36.74:4001/rtp/239.3.1.165:8001
 #EXTINF:-1 tvg-id="萌宠TV" tvg-name="萌宠TV" tvg-logo="https://live.fanmingming.com/tv/萌宠TV.png" group-title="其他频道",萌宠TV
 http://123.117.36.74:4001/rtp/239.3.1.102:8001
 #EXTINF:-1 tvg-id="西平电视台" tvg-name="西平电视台" tvg-logo="https://live.fanmingming.com/tv/西平电视台.png" group-title="其他频道",西平电视台
-http://61.53.168.147:18888/rtp/225.1.5.28:1340
+http://125.43.42.143:9999/rtp/225.1.5.28:1340
 #EXTINF:-1 tvg-id="解密" tvg-name="解密" tvg-logo="https://live.fanmingming.com/tv/解密.png" group-title="其他频道",解密
 http://123.117.36.74:4001/rtp/239.3.1.75:4120
 #EXTINF:-1 tvg-id="财富天下" tvg-name="财富天下" tvg-logo="https://live.fanmingming.com/tv/财富天下.png" group-title="其他频道",财富天下
@@ -1182,11 +1250,11 @@ http://123.117.36.74:4001/rtp/239.3.1.70:4120
 #EXTINF:-1 tvg-id="风尚生活" tvg-name="风尚生活" tvg-logo="https://live.fanmingming.com/tv/风尚生活.png" group-title="其他频道",风尚生活
 http://123.117.36.74:4001/#rtp/239.3.1.114:8001
 #EXTINF:-1 tvg-id="驻马店公共频道" tvg-name="驻马店公共频道" tvg-logo="https://live.fanmingming.com/tv/驻马店公共频道.png" group-title="其他频道",驻马店公共频道
-http://61.53.168.147:18888/rtp/225.1.4.136:1172
+http://125.43.42.143:9999/rtp/225.1.4.136:1172
 #EXTINF:-1 tvg-id="驻马店新闻综合" tvg-name="驻马店新闻综合" tvg-logo="https://live.fanmingming.com/tv/驻马店新闻综合.png" group-title="其他频道",驻马店新闻综合
-http://61.53.168.147:18888/rtp/225.1.4.132:1168
+http://125.43.42.143:9999/rtp/225.1.4.132:1168
 #EXTINF:-1 tvg-id="驻马店科教频道" tvg-name="驻马店科教频道" tvg-logo="https://live.fanmingming.com/tv/驻马店科教频道.png" group-title="其他频道",驻马店科教频道
-http://61.53.168.147:18888/rtp/225.1.4.133:1169
+http://125.43.42.143:9999/rtp/225.1.4.133:1169
 #EXTINF:-1 tvg-id="高网" tvg-name="高网" tvg-logo="https://live.fanmingming.com/tv/高网.png" group-title="其他频道",高网
 http://123.117.36.74:4001/rtp/239.3.1.88:4120
 #EXTINF:-1 tvg-id="魅力时尚" tvg-name="魅力时尚" tvg-logo="https://live.fanmingming.com/tv/魅力时尚.png" group-title="其他频道",魅力时尚
@@ -1198,7 +1266,7 @@ http://60.164.128.167:8029/udp/239.255.29.16:8231
 #EXTINF:-1 tvg-id="动画" tvg-name="动画" tvg-logo="https://live.fanmingming.com/tv/动画.png" group-title="动画",动画
 http://123.117.36.74:4001/rtp/239.3.1.80:4120
 #EXTINF:-1 tvg-id="卡酷动画" tvg-name="卡酷动画" tvg-logo="https://live.fanmingming.com/tv/卡酷动画.png" group-title="动画",卡酷动画
-http://61.53.168.147:18888/rtp/225.1.4.48:1077
+http://125.43.42.143:9999/rtp/225.1.4.48:1077
 #EXTINF:-1 tvg-id="卡酷少儿" tvg-name="卡酷少儿" tvg-logo="https://live.fanmingming.com/tv/卡酷少儿.png" group-title="动画",卡酷少儿
 http://60.164.128.167:8029/udp/239.255.29.38:8231
 #EXTINF:-1 tvg-id="哈哈炫动" tvg-name="哈哈炫动" tvg-logo="https://live.fanmingming.com/tv/哈哈炫动.png" group-title="动画",哈哈炫动
@@ -1208,7 +1276,7 @@ http://123.117.36.74:4001/rtp/239.3.1.147:9268
 #EXTINF:-1 tvg-id="少儿动画" tvg-name="少儿动画" tvg-logo="https://live.fanmingming.com/tv/少儿动画.png" group-title="动画",少儿动画
 http://123.117.36.74:4001/rtp/239.3.1.199:9000
 #EXTINF:-1 tvg-id="新动漫" tvg-name="新动漫" tvg-logo="https://live.fanmingming.com/tv/新动漫.png" group-title="动画",新动漫
-http://61.53.168.147:18888/rtp/225.1.4.212:1265
+http://125.43.42.143:9999/rtp/225.1.4.212:1265
 #EXTINF:-1 tvg-id="淘Baby" tvg-name="淘Baby" tvg-logo="https://live.fanmingming.com/tv/淘Baby.png" group-title="动画",淘Baby
 http://123.117.36.74:4001/rtp/239.3.1.238:8001
 #EXTINF:-1 tvg-id="甘肃少儿" tvg-name="甘肃少儿" tvg-logo="https://live.fanmingming.com/tv/甘肃少儿.png" group-title="动画",甘肃少儿
