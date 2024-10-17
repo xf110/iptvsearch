@@ -1,5 +1,5 @@
 #EXTM3U
-#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
+#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xmhttps://raw.githubusercontent.com/dtankdempse/thetvapp-m3u/refs/heads/main/guide/epg.xml"
 # Thu Oct 17 20:39:12 CST 2024
 #EXTINF:-1 tvg-id="ae" tvg-name="ae" tvg-logo="https://live.fanmingming.com/tv/ae.png" group-title="thetvapp",ae
 https://v15.thetvapp.to/hls/AEEast/index.m3u8?token=SE1RdElVODduRG43MVVSVVFHeWRoVlU4Nk84TzN6ZDhGOEdYQjNkaQ==
