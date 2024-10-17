@@ -2,7 +2,7 @@ name: thetvapp token sniffer
 
 on:
   schedule:
-    - cron: '0 8-23/2 * * *'  # 每天早上8点到晚上23点，每2个小时运行一次
+    - cron: '0 8-23/6 * * *'  # 每天早上8点到晚上23点，每2个小时运行一次
   workflow_dispatch:
 
 jobs:
