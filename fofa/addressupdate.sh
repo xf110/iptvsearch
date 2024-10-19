@@ -173,6 +173,7 @@ process_city() {
 
         curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >fofa.tmp 2>&1
         speed=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
+        cat fofa.tmp > fofa.md
 
         echo "第 $i/$linescount 个：$ip $speed"
         echo "$ip $speed" >>"speedtest_${city}_$time.log"
