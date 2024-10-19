@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Thu Oct 10 11:27:48 UTC 2024
+# Sat Oct 19 16:21:06 CST 2024
 #EXTINF:-1 tvg-id="山西黄河HD" tvg-name="山西黄河HD" tvg-logo="https://live.fanmingming.com/tv/山西黄河HD.png" group-title="ShanXi_unicom",山西黄河HD
 http://171.116.151.33:8083/rtp/226.0.2.235:9792
 #EXTINF:-1 tvg-id="山西经济与科技HD" tvg-name="山西经济与科技HD" tvg-logo="https://live.fanmingming.com/tv/山西经济与科技HD.png" group-title="ShanXi_unicom",山西经济与科技HD
