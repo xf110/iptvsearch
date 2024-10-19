@@ -211,7 +211,7 @@ process_city() {
     echo "bestIP: $ip1"
     if [ -z "$ip1" ]; then
         echo '当前无有效ip,执行下一个'
-        continue  # 如果 ip1 为空，则跳过当前迭代
+        return  # 如果 ip1 为空，则跳过当前迭代
     fi
     sed -Ei "s|(https?://)[^/]*|\1$ip1|g" "$template"
     echo "$template 已更新！"
