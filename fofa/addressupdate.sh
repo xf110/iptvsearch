@@ -153,27 +153,31 @@ process_city() {
 
     echo "============= 检索到有效ip,开始测速 ==============="
     ipinuse="$(grep -oPm 1 'http://\K[\d.]+:\d+'  $template)"
-    sed -i "1i${ipinuse}" "$validIP"
-    
+    if [ -z "$ipinuse" ]; then
+        echo "ipinuse 为空，直接测试新ip。"
+    else
+        sed -i "1i${ipinuse}" "$validIP"
+        echo "现有ip: ${ipinuse} 已加入 $validIP 测速队列。"
+    fi
+
     linescount=$(wc -l <"$validIP")
     echo "[$validIP]有效ip有 $linescount 个"
 
     time=$(date +%Y%m%d%H%M%S)
     i=0
     valid_count=0 # 记录有效IP的计数
-
     while IFS= read -r line; do
         i=$((i + 1))
         ip="$line"
         url="http://$ip/$stream"
 
         curl "$url" --connect-timeout 3 --max-time 10 -o /dev/null >fofa.tmp 2>&1
-        a=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
+        speed=$(head -n 3 fofa.tmp | awk '{print $NF}' | tail -n 1)
 
-        echo "第 $i/$linescount 个：$ip $a"
-        echo "$ip $a" >>"speedtest_${city}_$time.log"
+        echo "第 $i/$linescount 个：$ip $speed"
+        echo "$ip $speed" >>"speedtest_${city}_$time.log"
 
-        if [[ $a == *"M"* || $a == *"k"* ]]; then
+        if [[ $speed == *"M"* || $speed == *"k"* ]]; then
             valid_count=$((valid_count + 1))
         fi
 
@@ -200,6 +204,7 @@ process_city() {
     # ip2=$(awk 'NR==2{print $2}' ip/${city}_result.txt)
     # ip3=$(awk 'NR==3{print $2}' ip/${city}_result.txt)
     # perl -i -pe "s/(?<=https?:\/\/)[^/]*/$ip1/g" "$template"
+    echo 'bestIP: $ip1'
     sed -Ei "s|(https?://)[^/]*|\1$ip1|g" "$template"
     echo "$template 已更新！"
     bash ../rtp2m3u.sh "$template"
