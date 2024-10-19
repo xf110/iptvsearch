@@ -2,8 +2,8 @@
 # 使用fofa提取各省市组播源地址
 
 # 默认选择 0 执行全部
-# city_choice=0
-city_choice=(2 18 6) # 指定多个选项时使用
+city_choice=0
+# city_choice=(2 18 6) # 指定多个选项时使用
 
 # todo
 # 提取现有地址参与测速
