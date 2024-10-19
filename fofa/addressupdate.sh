@@ -101,16 +101,16 @@ process_city() {
     rm -f search_result.html
 
     # 遍历 IP 地址并测试
-    while IFS= read -r ip; do
-        tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
-        echo $tmp_ip
-        output=$(nc -w 1 -v -z $tmp_ip 2>&1)
-        echo $output
-        if [[ $output == *"succeeded"* ]]; then
-            echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
-        fi
-    done <"$ipfile"
-    # # 并发优化
+    # while IFS= read -r ip; do
+    #     tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
+    #     echo $tmp_ip
+    #     output=$(nc -w 1 -v -z $tmp_ip 2>&1)
+    #     echo $output
+    #     if [[ $output == *"succeeded"* ]]; then
+    #         echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
+    #     fi
+    # done <"$ipfile"
+    # 遍历 IP 地址并测试 并发优化版本
     # 设置最大并发数
     MAX_PROCS=10
     # 创建一个用于控制并发的管道
@@ -145,7 +145,6 @@ process_city() {
     wait
     # 关闭管道
     exec 3>&-
-
 
     if [ ! -s "$validIP" ]; then
         echo "当前无可用的ip，请稍候重试,继续测试下一个"
