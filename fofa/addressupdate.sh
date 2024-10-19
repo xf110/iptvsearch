@@ -111,14 +111,41 @@ process_city() {
         fi
     done <"$ipfile"
     # # 并发优化
-    # sed 's/[[:space:]]\+$//' "$ipfile" | xargs -r -P 10 -I {} bash -c '
-    #   echo "Testing {}"; 
-    #   output=$(nc -w 1 -v -z "{}" 2>&1); 
-    #   echo "$output"; 
-    #   if [[ $output == *"succeeded"* ]]; then 
-    #     echo "{}" >> "$validIP"; 
-    #   fi
-    # '
+    # 设置最大并发数
+    MAX_PROCS=10
+    # 创建一个用于控制并发的管道
+    fifo="/tmp/$$.fifo"
+    mkfifo "$fifo"
+    exec 3<>"$fifo"
+    rm "$fifo"
+    
+    # 初始化管道中并发槽位数量
+    for ((i = 0; i < MAX_PROCS; i++)); do
+        echo
+    done >&3
+    
+    # 并发处理每个IP
+    while IFS= read -r ip; do
+        # 从并发槽位中取出一个令牌
+        read -u 3
+        {
+            # 提取 IP 和端口
+            tmp_ip="${ip//:/ }"
+            # 使用nc检测连通性
+            output=$(nc -w 1 -v -z $tmp_ip 2>&1)
+            # 检查是否连接成功
+            if [[ $output == *"succeeded"* ]]; then
+                echo "$ip" >>"$validIP"
+            fi
+            # 完成后归还一个令牌
+            echo >&3
+        } &
+    done <"$ipfile"  
+    # 等待所有后台进程完成
+    wait
+    # 关闭管道
+    exec 3>&-
+
 
     if [ ! -s "$validIP" ]; then
         echo "当前无可用的ip，请稍候重试,继续测试下一个"
@@ -126,7 +153,7 @@ process_city() {
     fi
 
     echo "============= 检索到有效ip,开始测速 ==============="
-    ipinuse="$(grep -oP 'http://\K[\d.]+:\d+'  $template | head -n 1)"
+    ipinuse="$(grep -oPm 1 'http://\K[\d.]+:\d+'  $template)"
     sed -i "1i${ipinuse}" "$validIP"
     
     linescount=$(wc -l <"$validIP")
