@@ -199,7 +199,7 @@ process_city() {
     ip1=$(awk 'NR==1{print $2}' ip/${city}_result.txt)
     # ip2=$(awk 'NR==2{print $2}' ip/${city}_result.txt)
     # ip3=$(awk 'NR==3{print $2}' ip/${city}_result.txt)
-    perl -i -pe "s/(?<=\/\/)[^\/]*:\d+/$ip1/g" "$template"
+    perl -i -pe "s/(?<=https?:\/\/)[^/]*/$ip1/g" "$template"
     echo "$template 已更新！"
     bash ../rtp2m3u.sh "$template"
     echo "$template m3u 已更新！"
