@@ -1,5 +1,5 @@
 #!/bin/bash
-# set -x
+set -x
 # 使用fofa提取各省市组播源地址
 
 # 执行全部
@@ -27,10 +27,10 @@ cities=(
     [12]="HeBei_telecom_310 rtp/239.254.200.45:8008 河北电信 'udpxy && country=\"CN\" && region=\"Hebei\" && org=\"Chinanet\" && protocol=\"http\"'"
     [13]="HeBei_unicom_313 rtp/239.253.92.154:6011 河北联通 'udpxy && country=\"CN\" && region=\"Hebei\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [14]="HeiLongJiang_178 udp/229.58.190.14:5000 黑龙江电信 'udpxy && country=\"CN\" && region=\"HeiLongJiang\" && org=\"Chinanet\" && protocol=\"http\"'"
-    [15]="HeNan_mobile_172 rtp/225.1.4.98:1127 河南移动 'udpxy && country=\"CN\" && region=\"HeNan\" && org=\"Chinanet\" && protocol=\"http\"'"
-    [16]="HeNan_mobile_327 rtp/239.16.20.21:10210 河南移动 'udpxy && country=\"CN\" && region=\"HeNan\" && org=\"Chinanet\" && protocol=\"http\"'"
-    [17]="HeNan_telecom_327 rtp/239.16.20.21:10210 河南电信 'udpxy && country=\"CN\" && region=\"HeNan\" && org=\"Chinanet\" && protocol=\"http\"'"
-    [18]="HeNan_unicom_172 rtp/225.1.4.98:1127 河南联通 'udpxy && country=\"CN\" && region=\"HeNan\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
+    [15]="HeNan_mobile_172 rtp/225.1.4.98:1127 河南移动 'udpxy && country=\"CN\" && region=\"Henan\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [16]="HeNan_mobile_327 rtp/239.16.20.21:10210 河南移动 'udpxy && country=\"CN\" && region=\"Henan\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [17]="HeNan_telecom_327 rtp/239.16.20.21:10210 河南电信 'udpxy && country=\"CN\" && region=\"Henan\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [18]="HeNan_unicom_172 rtp/225.1.4.98:1127 河南联通 'udpxy && country=\"CN\" && region=\"Henan\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [19]="HuBei_telecom_90 rtp/239.69.1.40:9880 湖北电信 'udpxy && country=\"CN\" && region=\"Hubei\" && org=\"Chinanet\" && protocol=\"http\"'"
     [20]="HuNan_telecom_282 udp/239.76.245.115:1234 湖南电信 'udpxy && country=\"CN\" && region=\"Hunan\" && org=\"Chinanet\" && protocol=\"http\"'"
     [21]="JiangSu_telecom_276 rtp/239.49.8.107:8000 江苏电信 'udpxy && country=\"CN\" && region=\"Jiangsu\" && org=\"Chinanet\" && protocol=\"http\"'"
@@ -41,7 +41,7 @@ cities=(
     [26]="QingHai_unicom_221 udp/239.120.1.64:8332 青海联通 'udpxy && country=\"CN\" && region=\"Qinghai\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [27]="ShanDong_unicom_98 udp/239.253.254.77:8000 山东联通 'udpxy && country=\"CN\" && region=\"Shandong\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [28]="ShangHai_telecom_103 udp/239.45.3.209:5140 上海电信 'udpxy && country=\"CN\" && region=\"Shanghai\" && org=\"Chinanet\" && protocol=\"http\"'"
-    [29]="ShanXi_1_telecom_123 rtp/239.112.205.59:5140 山西电信 'udpxy && country=\"CN\" && region=\"Shanxi\" && org=\"Chinanet\" && protocol=\"http\"'"
+    [29]="ShanXi_1_telecom_123 rtp/239.112.205.59:5140 陕西电信 'udpxy && country=\"CN\" && region=\"Shanxi\" && org=\"Chinanet\" && protocol=\"http\"'"
     [30]="ShanXi_telecom_117 udp/239.1.1.7:8007 山西电信 'udpxy && country=\"CN\" && region=\"Shanxi\" && org=\"Chinanet\" && protocol=\"http\"'"
     [31]="ShanXi_unicom_184 rtp/226.0.2.235:9792 山西联通 'udpxy && country=\"CN\" && region=\"Shanxi\" && org=\"CHINA UNICOM China169 Backbone\" && protocol=\"http\"'"
     [32]="SiChuan_telecom_333 udp/239.93.0.169:5140 四川电信 'udpxy && country=\"CN\" && region=\"Sichuan\" && org=\"Chinanet\" && protocol=\"http\"'"
