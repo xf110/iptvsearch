@@ -1,5 +1,5 @@
 #!/bin/bash
-# set -x
+set -x
 # 使用fofa提取各省市组播源地址
 
 # 执行全部
