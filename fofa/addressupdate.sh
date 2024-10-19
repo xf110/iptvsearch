@@ -100,25 +100,25 @@ process_city() {
     grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
     rm -f search_result.html
 
-    # # 遍历 IP 地址并测试
-    # while IFS= read -r ip; do
-    #     tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
-    #     echo $tmp_ip
-    #     output=$(nc -w 1 -v -z $tmp_ip 2>&1)
-    #     echo $output
-    #     if [[ $output == *"succeeded"* ]]; then
-    #         echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
-    #     fi
-    # done <"$ipfile"
-    # 并发优化
-    sed 's/[[:space:]]\+$//' "$ipfile" | xargs -r -P 10 -I {} bash -c '
-      echo "Testing {}"; 
-      output=$(nc -w 1 -v -z "{}" 2>&1); 
-      echo "$output"; 
-      if [[ $output == *"succeeded"* ]]; then 
-        echo "{}" >> "$validIP"; 
-      fi
-    '
+    # 遍历 IP 地址并测试
+    while IFS= read -r ip; do
+        tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
+        echo $tmp_ip
+        output=$(nc -w 1 -v -z $tmp_ip 2>&1)
+        echo $output
+        if [[ $output == *"succeeded"* ]]; then
+            echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
+        fi
+    done <"$ipfile"
+    # # 并发优化
+    # sed 's/[[:space:]]\+$//' "$ipfile" | xargs -r -P 10 -I {} bash -c '
+    #   echo "Testing {}"; 
+    #   output=$(nc -w 1 -v -z "{}" 2>&1); 
+    #   echo "$output"; 
+    #   if [[ $output == *"succeeded"* ]]; then 
+    #     echo "{}" >> "$validIP"; 
+    #   fi
+    # '
 
     if [ ! -s "$validIP" ]; then
         echo "当前无可用的ip，请稍候重试,继续测试下一个"
