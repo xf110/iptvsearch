@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Sat Oct 19 13:18:33 CST 2024
+# Sat Oct 19 13:26:33 CST 2024
 #EXTINF:-1 tvg-id="香港麵包台" tvg-name="香港麵包台" tvg-logo="https://live.fanmingming.com/tv/香港麵包台.png" group-title="港澳台",香港麵包台
 https://video.bread-tv.com:8091/hls-live24/online/index.m3u8
 #EXTINF:-1 tvg-id="BreadTV面包台(720p)" tvg-name="BreadTV面包台(720p)" tvg-logo="https://live.fanmingming.com/tv/BreadTV面包台(720p).png" group-title="港澳台",Bread TV面包台 (720p)
