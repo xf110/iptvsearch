@@ -1,6 +1,8 @@
 name: multicastSourceListUpdate
 
 on:
+  schedule:
+      - cron: '0 2 * * 2'  # 每周二凌晨2：00运行一次
   workflow_dispatch:
 
 jobs:
