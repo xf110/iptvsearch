@@ -280,7 +280,7 @@ echo '其他频道,#genre#' >> output.list
 grep -iEv 'CCTV|卫视|凤凰|星空|channel-?v|动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family|[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list >> output.list
 
 echo '教育,#genre#' >> output.list
-grep -iE '[^党员]教育|课堂|空中|学习|学堂|中教|科教' "$output_file" | sort -V >> output.list
+grep -iE '[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list | sort -V >> output.list
 
 echo '动画,#genre#' >> output.list
 grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family' tmp.list >> output.list
