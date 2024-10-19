@@ -1,8 +1,9 @@
 #!/bin/bash
 # 使用fofa提取各省市组播源地址
 
-# 默认选择 0 执行全部
-city_choice=0
+# 执行全部
+city_choice=()
+# 执行执行
 # city_choice=(2 18 6) # 指定多个选项时使用
 
 # todo
@@ -97,19 +98,23 @@ process_city() {
     rm -f search_result.html
 
     # 遍历 IP 地址并测试
-    while IFS= read -r ip; do
-        tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
-        echo $tmp_ip
-        output=$(nc -w 1 -v -z $tmp_ip 2>&1)
-        echo $output
-        if [[ $output == *"succeeded"* ]]; then
-            echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
-        fi
-    done <"$ipfile"
+    # while IFS= read -r ip; do
+    #     tmp_ip=$(echo -n "$ip" | sed 's/:/ /')
+    #     echo $tmp_ip
+    #     output=$(nc -w 1 -v -z $tmp_ip 2>&1)
+    #     echo $output
+    #     if [[ $output == *"succeeded"* ]]; then
+    #         echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
+    #     fi
+    # done <"$ipfile"
+    # 并发优化
+    cat "$ipfile" | xargs -P 10 -I {} bash -c 'nc -w 1 -v -z {} 2>&1 | grep "succeeded" >> "$validIP"'
 
-    if [ ! -f "$validIP" ]; then
-        echo "当前无可用的ip，请稍候重试"
-        exit 1
+
+    if [ ! -s "$validIP" ]; then
+        echo "当前无可用的ip，请稍候重试,继续测试下一个"
+        # exit 1
+        continue
     fi
 
     echo "============= 检索到有效ip,开始测速 ==============="
