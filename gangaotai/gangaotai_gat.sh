@@ -1,6 +1,7 @@
 #!/bin/bash
 # set -e  # 遇到错误时立即退出
 # set -x # 调试
+# 不仅仅对港澳台适用，对其他直播服务都使用比如：bestzb 百视通、FifastbLive 咪视通、hnbblive 咪咕视讯、wasusyt 华数、ystenlive 易视腾
 
 # 定义城市参数
 declare -A cities
@@ -8,6 +9,12 @@ cities["taiwan"]="%E5%8F%B0%E6%B9%BE:eowuxJvaa8brWPsOa5vg=="
 cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
 cities["macau"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
 cities["feicuitai"]="%E7%BF%A1%E7%BF%A0%E5%8F%Bl:eowuxJvaa8bre/oee/oOWPsA=="
+# 直播服务
+cities["bestzb"]="bestzb:eowuxJva2Jlc3R6Yg=="
+cities["FifastbLive"]="FifastbLive:eowuxJva0ZpZowuxFzpdqGJMaXZl"
+cities["hnbblive"]="hnbblive:eowuxJva2Jlc3R6Yg=="
+cities["wasusyt"]="wasusyt:eowuxJva3pdqhc3VzeXQ="
+cities["ystenlive"]="ystenlive:eowuxJva3lzpdqGVubGl2ZQ=="
 
 base_url="http://foodieguide.com/iptvsearch/"
 response_file="response.txt"
