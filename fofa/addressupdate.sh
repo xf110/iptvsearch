@@ -111,7 +111,18 @@ process_city() {
     #     fi
     # done <"$ipfile"
     # 并发优化
-    cat "$ipfile" | xargs -P 10 -I {} bash -c 'echo "Testing {}"; output=$(nc -w 1 -v -z "{}" 2>&1); echo "$output"; if [[ $output == *"succeeded"* ]]; then echo "$output" | grep "succeeded" >> "$validIP"; fi'
+    cat "$ipfile" | xargs -r -P 10 -I {} bash -c '
+          if [[ -n "{}" ]]; then 
+            echo "Testing {}"; 
+            output=$(nc -w 1 -v -z "{}" 2>&1); 
+            echo "$output"; 
+            if [[ $output == *"succeeded"* ]]; then 
+              echo "{}" >> "$validIP"; 
+            fi; 
+          else 
+            echo "Empty input detected"; 
+          fi
+        '
 
     if [ ! -s "$validIP" ]; then
         echo "当前无可用的ip，请稍候重试,继续测试下一个"
