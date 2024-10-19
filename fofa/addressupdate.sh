@@ -209,19 +209,24 @@ echo '卫视频道,#genre#' >> output.list
 grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
 
 echo '香港,#genre#' >> output.list
-grep -iE '凤凰|星空|channel v|channel-v' tmp.list >> output.list
+grep -iE '凤凰|星空|channel-?v' tmp.list >> output.list
 
 echo '港澳台,#genre#' >> output.list
 grep -v '#genre#' ../output/hongkong_gat_*.txt >> output.list
 grep -v '#genre#' ../output/taiwan_gat_*.txt >> output.list
 grep -v '#genre#' ../output/macau_gat_*.txt >> output.list
 
-# echo 'theTvApp,#genre#' >> output.list
+echo 'theTvApp,#genre#' >> output.list
 cat '../thetvapp/thetvapplist.txt' >> output.list
+
+echo 'moveOnJoy,#genre#' >> output.list
 cat '../MoveOnJoy.txt' >> output.list
 
 echo '其他频道,#genre#' >> output.list
-grep -iEv 'CCTV|卫视|凤凰|星空|channel-?v|动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family' tmp.list >> output.list
+grep -iEv 'CCTV|卫视|凤凰|星空|channel-?v|动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family|[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list >> output.list
+
+echo '教育,#genre#' >>tmp
+grep -iE '[^党员]教育|课堂|空中|学习|学堂|中教|科教' "$output_file" | sort -V >>tmp
 
 echo '动画,#genre#' >> output.list
 grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family' tmp.list >> output.list
