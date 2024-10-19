@@ -1,11 +1,11 @@
 #!/bin/bash
-set -x
+# set -x
 # 使用fofa提取各省市组播源地址
 
 # 执行全部
-city_choice=(18)
+# city_choice=(0)
 # 执行执行
-# city_choice=(2 18 6) # 指定多个选项时使用
+city_choice=(2 18 6) # 指定多个选项时使用
 
 # todo
 # 提取现有地址参与测速
@@ -94,7 +94,9 @@ process_city() {
     echo "=============== fofa查找 ${city} 当前可用ip ================="
     if ! curl -o search_result.html "$url_fofa"; then
         echo "错误：当前无法获取 ${city} fofa数据"
+        failed_cities+=("$city")
         return
+
     fi
     echo "$ipfile"
     grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
@@ -148,6 +150,7 @@ process_city() {
 
     if [ ! -s "$validIP" ]; then
         echo "当前无可用的ip，请稍候重试,继续测试下一个"
+        failed_cities+=("$city")
         return
     fi
 
@@ -221,10 +224,11 @@ process_city() {
 
 }
 
-# 处理选项
+# 初始化文件
 : >domestic.txt
 : >msg.txt
-
+failed_cities=()
+# 处理选项
 if [ ${#city_choice[@]} -eq 1 ] && [ ${city_choice[0]} -eq 0 ]; then
     # 如果选择0，处理全部城市
     for option in "${!cities[@]}"; do
@@ -287,6 +291,7 @@ mv output.list domestic.txt
 # bark通知
 # cat msg.txt
 sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n国内直播源地址已更新：" msg.txt
+echo "未更新城市列表： ${failed_cities[@]}" | sed 's/ / \ /g' >>msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
 rm msg.txt tmp.list
