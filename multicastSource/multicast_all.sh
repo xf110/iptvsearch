@@ -97,6 +97,10 @@ cities["ShanXi_mobile"]="%E5%B1%B1%E8%A5%BF%E7%A7%BB%E5%8A%A8"
 cities["ShanXi_unicom"]="%E5%B1%B1%E8%A5%BF%E8%81%94%E9%80%9A"
 cities["ShanXi_telecom"]="%E5%B1%B1%E8%A5%BF%E7%94%B5%E4%BF%A1"
 
+cities["ShaanXi_mobile"]="%E9%99%95%E8%A5%BF%E7%A7%BB%E5%8A%A8"
+cities["ShaanXi_unicom"]="%E9%99%95%E8%A5%BF%E8%81%94%E9%80%9A"
+cities["ShaanXi_telecom"]="%E9%99%95%E8%A5%BF%E7%94%B5%E4%BF%A1"
+
 cities["ShangHai_mobile"]="%E4%B8%8A%E6%B5%B7%E7%A7%BB%E5%8A%A8"
 cities["ShangHai_unicom"]="%E4%B8%8A%E6%B5%B7%E8%81%94%E9%80%9A"
 cities["ShangHai_telecom"]="%E4%B8%8A%E6%B5%B7%E7%94%B5%E4%BF%A1"
