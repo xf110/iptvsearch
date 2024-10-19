@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 # 使用fofa提取各省市组播源地址
 
 # 执行全部
@@ -92,7 +93,10 @@ process_city() {
 
     # 搜索最新 IP
     echo "=============== fofa查找 ${city} 当前可用ip ================="
-    curl -o search_result.html "$url_fofa"
+    if ! curl -o search_result.html "$url_fofa"; then
+        echo "错误：当前无法获取 ${city} fofa数据"
+        return
+    fi
     echo "$ipfile"
     grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
     rm -f search_result.html
