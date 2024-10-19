@@ -3,7 +3,7 @@
 # 使用fofa提取各省市组播源地址
 
 # 执行全部
-city_choice=(0)
+city_choice=(18)
 # 执行执行
 # city_choice=(2 18 6) # 指定多个选项时使用
 
