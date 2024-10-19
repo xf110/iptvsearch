@@ -110,11 +110,9 @@ process_city() {
     # 并发优化
     cat "$ipfile" | xargs -P 10 -I {} bash -c 'nc -w 1 -v -z {} 2>&1 | grep "succeeded" >> "$validIP"'
 
-
     if [ ! -s "$validIP" ]; then
         echo "当前无可用的ip，请稍候重试,继续测试下一个"
-        # exit 1
-        continue
+        return
     fi
 
     echo "============= 检索到有效ip,开始测速 ==============="
