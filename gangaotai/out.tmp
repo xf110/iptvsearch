@@ -1,3 +1,0 @@
-[generic] Extracting URL: https://z02.ubtvfans.com/live/rx1/70/4f5d1beff287c563c64c30e7f7fc5729/index.m3u8
-[generic] index: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f32eb423970>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f32eb423970>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known)"))
