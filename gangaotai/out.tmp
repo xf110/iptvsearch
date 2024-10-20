@@ -1,0 +1,3 @@
+[generic] Extracting URL: https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
+[generic] tv2306.php?id=t25&checkedby:iptvcat: Downloading webpage
+ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7fe22184f970>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7fe22184f970>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known)"))
