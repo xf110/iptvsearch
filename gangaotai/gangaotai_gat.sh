@@ -59,7 +59,7 @@ for channel_name in "${!cities[@]}"; do
             >>"$response_file"
     done
     rm cookies.txt
-
+	cat '$response_file'  | tee -a "$summary_file"
     # 提取源地址并整理
     echo "==== 提取源地址结果 ======" | tee -a "$summary_file"
     grep -oP "\s\Khttps://[^<]*" "$response_file" | awk -F/ '!seen[$3]++' >"$unique_search_results_file"
