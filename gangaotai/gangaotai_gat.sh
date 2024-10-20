@@ -200,8 +200,8 @@ for channel_name in "${!cities[@]}"; do
     mv "$output_file" "$NEW_output"
 
     echo "${channel_name}_$linescount ：${best_url}" >> msg.tmp
-
-    rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${yt_dlp_log} $summary_file out.tmp valid_url.txt
+    # rm $summary_file
+    rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
 sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n港澳台直播源列表已更新: " msg.tmp
