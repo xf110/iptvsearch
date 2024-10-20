@@ -1,22 +1,24 @@
 ========= taiwan ===测速日志==========
-[generic] Extracting URL: https://live.yzd.jialiangos.com:4443/live/fhw/36
-[generic] 36: Downloading webpage
-ERROR: [generic] Unable to download webpage: HTTPSConnectionPool(host='live.yzd.jialiangos.com', port=4443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='live.yzd.jialiangos.com', port=4443): Read timed out. (read timeout=20.0)"))
-[generic] Extracting URL: https://test.zapi.us.kg/?id=ftv
-[generic] ?id=ftv: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f5a74f779d0>: Failed to resolve 'test.zapi.us.kg' ([Errno -5] No address associated with hostname) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f5a74f779d0>: Failed to resolve 'test.zapi.us.kg' ([Errno -5] No address associated with hostname)"))
+[generic] Extracting URL: https://gat.zhoujie218.top/litv/4gtv-4gtv002
+[generic] 4gtv-4gtv002: Downloading webpage
+ERROR: [generic] Unable to download webpage: HTTP Error 404: Not Found (caused by <HTTPError 404: Not Found>)
 [generic] Extracting URL: https://ktpremium.com:443/M919HR/5577/889368?c=台湾
 [generic] 889368?c=台湾: Downloading webpage
-ERROR: [generic] Unable to download webpage: HTTP Error 439: None (caused by <HTTPError 439: None>)
+[redirect] Following redirect to http://ww1.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=8811077184
+[generic] Extracting URL: http://ww1.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=8811077184
+[generic] 889368?c=台湾&usid=27&utid=8811077184: Downloading webpage
+WARNING: [generic] Falling back on generic information extractor
+[generic] 889368?c=台湾&usid=27&utid=8811077184: Extracting information
+ERROR: Unsupported URL: http://ww1.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=8811077184
 [generic] Extracting URL: https://bsex.serv00.net/Smart.php?id=sanlitaiwan
 [generic] Smart: Downloading webpage
 ERROR: [generic] Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)
 [generic] Extracting URL: https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
 [generic] index: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f0be7d2f9d0>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f0be7d2f9d0>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known)"))
+ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f20099b79d0>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f20099b79d0>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known)"))
 [generic] Extracting URL: https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001...84c95ae3d4a569e932b1
 [generic] chunklist: Downloading webpage
 ERROR: [generic] Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)
 [generic] Extracting URL: https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
 [generic] tv2306.php?id=t25&checkedby:iptvcat: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7fa64c6c79d0>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7fa64c6c79d0>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known)"))
+ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f73e411b9d0>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f73e411b9d0>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known)"))
