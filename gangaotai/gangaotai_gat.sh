@@ -101,7 +101,7 @@ for channel_name in "${!cities[@]}"; do
 
         # 如果文件存在且大小合理，认为测速成功
         if [ -s output.ts ]; then
-            echo "连接质量: ${speed_info}" | tee -a "$summary_file"
+            echo -n "连接质量: ${speed_info}" | tee -a "$summary_file"
             echo "${speed} ${url}" >>"$speed_test_log"
         else
             echo "测速失败!!" | tee -a "$summary_file"
