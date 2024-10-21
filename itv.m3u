@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Mon Oct 21 04:46:11 UTC 2024
+# Mon Oct 21 13:03:47 CST 2024
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 HEVC
 http://gslbserv.itv.cmvideo.cn:80/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
@@ -439,8 +439,7 @@ http://gslbserv.itv.cmvideo.cn:80/6000000006000050630/1.m3u8?channel-id=wasusyt&
 http://gslbserv.itv.cmvideo.cn:80/6000000006000180630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000180630&livemode=1&stbId=3
 #EXTINF:-1 tvg-id="iHOT-爱院线" tvg-name="iHOT 爱院线" tvg-logo="https://assets.livednow.com/logo/iHOT-爱院线.png" group-title="iHOT", iHOT 爱院线
 http://gslbserv.itv.cmvideo.cn:80/6000000006000030630/1.m3u8?channel-id=wasusyt&Contentid=6000000006000030630&livemode=1&stbId=3
-#EXTM3U
-#EXTM3U x-tvg-url="https://tv.wangqifei.eu.org/epg.xml"
+#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"
 
 #EXTINF:-1 tvg-id="民視" tvg-name="民視" tvg-logo="https://tv.wangqifei.eu.org/logo/民視.png" group-title="綜合", 民視
 http://tv.wangqifei.eu.org/litv/4gtv-4gtv002
