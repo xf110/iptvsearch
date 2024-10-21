@@ -1,61 +1,61 @@
 中央电视台,#genre#
-CCTV-1,http://222.128.183.216:8383/rtp/239.3.1.129:8008
-CCTV-2,http://222.128.183.216:8383/rtp/239.3.1.60:8084
-CCTV-3,http://222.128.183.216:8383/rtp/239.3.1.172:8001
-CCTV-4,http://222.128.183.216:8383/rtp/239.3.1.105:8092
-CCTV-5,http://222.128.183.216:8383/rtp/239.3.1.173:8001
-CCTV-5+,http://222.128.183.216:8383/rtp/239.3.1.130:8004
-CCTV-6,http://222.128.183.216:8383/rtp/239.3.1.174:8001
-CCTV-7,http://222.128.183.216:8383/rtp/239.3.1.61:8104
-CCTV-8,http://222.128.183.216:8383/rtp/239.3.1.175:8001
-CCTV-9,http://222.128.183.216:8383/rtp/239.3.1.62:8112
-CCTV-10,http://222.128.183.216:8383/rtp/239.3.1.63:8116
-CCTV-11,http://222.128.183.216:8383/rtp/239.3.1.152:8120
-CCTV-12,http://222.128.183.216:8383/rtp/239.3.1.64:8124
-CCTV-13,http://222.128.183.216:8383/rtp/239.3.1.124:8128
-CCTV-14,http://222.128.183.216:8383/rtp/239.3.1.65:8132
-CCTV-15,http://222.128.183.216:8383/rtp/239.3.1.153:8136
-CCTV-16,http://125.46.132.151:9999/rtp/225.1.5.46:1356
-CCTV-17,http://222.128.183.216:8383/rtp/239.3.1.151:8144
+CCTV-1,http://114.253.212.46:5400/rtp/239.3.1.129:8008
+CCTV-2,http://114.253.212.46:5400/rtp/239.3.1.60:8084
+CCTV-3,http://114.253.212.46:5400/rtp/239.3.1.172:8001
+CCTV-4,http://114.253.212.46:5400/rtp/239.3.1.105:8092
+CCTV-5,http://114.253.212.46:5400/rtp/239.3.1.173:8001
+CCTV-5+,http://114.253.212.46:5400/rtp/239.3.1.130:8004
+CCTV-6,http://114.253.212.46:5400/rtp/239.3.1.174:8001
+CCTV-7,http://114.253.212.46:5400/rtp/239.3.1.61:8104
+CCTV-8,http://114.253.212.46:5400/rtp/239.3.1.175:8001
+CCTV-9,http://114.253.212.46:5400/rtp/239.3.1.62:8112
+CCTV-10,http://114.253.212.46:5400/rtp/239.3.1.63:8116
+CCTV-11,http://114.253.212.46:5400/rtp/239.3.1.152:8120
+CCTV-12,http://114.253.212.46:5400/rtp/239.3.1.64:8124
+CCTV-13,http://114.253.212.46:5400/rtp/239.3.1.124:8128
+CCTV-14,http://114.253.212.46:5400/rtp/239.3.1.65:8132
+CCTV-15,http://114.253.212.46:5400/rtp/239.3.1.153:8136
+CCTV-16,http://222.141.133.237:888/rtp/225.1.5.46:1356
+CCTV-17,http://114.253.212.46:5400/rtp/239.3.1.151:8144
 卫视频道,#genre#
-BRTV北京卫视,http://222.128.183.216:8383/rtp/239.3.1.241:8000
-三沙卫视,http://222.128.183.216:8383/rtp/239.3.1.155:4120
-东南卫视,http://222.128.183.216:8383/rtp/239.3.1.156:8148
-东方卫视,http://222.128.183.216:8383/rtp/239.3.1.136:8032
-云南卫视,http://222.128.183.216:8383/rtp/239.3.1.26:8108
-兵团卫视,http://222.128.183.216:8383/rtp/239.3.1.144:4120
-内蒙古卫视,http://222.128.183.216:8383/rtp/239.3.1.43:8176
-北京卫视,http://125.46.132.151:9999/rtp/225.1.4.81:1110
-南方卫视,http://222.128.183.216:8383/rtp/239.3.1.161:8001
-厦门卫视,http://222.128.183.216:8383/rtp/239.3.1.143:4120
-吉林卫视,http://222.128.183.216:8383/rtp/239.3.1.240:8172
-四川卫视,http://222.128.183.216:8383/rtp/239.3.1.29:8288
-天津卫视,http://222.128.183.216:8383/rtp/239.3.1.141:1234
-宁夏卫视,http://222.128.183.216:8383/rtp/239.3.1.46:8124
-安徽卫视,http://222.128.183.216:8383/rtp/239.3.1.211:8064
-山东卫视,http://222.128.183.216:8383/rtp/239.3.1.209:8052
-山西卫视,http://222.128.183.216:8383/rtp/239.3.1.42:8172
-广东卫视,http://222.128.183.216:8383/rtp/239.3.1.142:8048
-广西卫视,http://222.128.183.216:8383/rtp/239.3.1.39:8300
-新疆卫视,http://222.128.183.216:8383/rtp/239.3.1.48:8160
-江苏卫视,http://222.128.183.216:8383/rtp/239.3.1.135:8028
-江西卫视,http://222.128.183.216:8383/rtp/239.3.1.123:8164
-河北卫视,http://222.128.183.216:8383/rtp/239.3.1.148:8072
-河南卫视,http://222.128.183.216:8383/rtp/239.3.1.27:8128
-河南卫视4K,http://125.46.132.151:9999/rtp/225.1.4.254:1300
-浙江卫视,http://222.128.183.216:8383/rtp/239.3.1.137:8036
-海南卫视,http://222.128.183.216:8383/rtp/239.3.1.45:8304
-深圳卫视,http://222.128.183.216:8383/rtp/239.3.1.134:8020
-湖北卫视,http://222.128.183.216:8383/rtp/239.3.1.138:8044
-湖南卫视,http://222.128.183.216:8383/rtp/239.3.1.132:8012
-甘肃卫视,http://222.128.183.216:8383/rtp/239.3.1.49:8188
-西藏卫视,http://222.128.183.216:8383/rtp/239.3.1.47:8164
-贵州卫视,http://222.128.183.216:8383/rtp/239.3.1.149:8076
-辽宁卫视,http://222.128.183.216:8383/rtp/239.3.1.210:8056
-重庆卫视,http://222.128.183.216:8383/rtp/239.3.1.122:8160
-陕西卫视,http://222.128.183.216:8383/rtp/239.3.1.41:8140
-青海卫视,http://222.128.183.216:8383/rtp/239.3.1.44:8184
-黑龙江卫视,http://222.128.183.216:8383/rtp/239.3.1.133:8016
+BRTV北京卫视,http://114.253.212.46:5400/rtp/239.3.1.241:8000
+三沙卫视,http://114.253.212.46:5400/rtp/239.3.1.155:4120
+东南卫视,http://114.253.212.46:5400/rtp/239.3.1.156:8148
+东方卫视,http://114.253.212.46:5400/rtp/239.3.1.136:8032
+云南卫视,http://114.253.212.46:5400/rtp/239.3.1.26:8108
+兵团卫视,http://114.253.212.46:5400/rtp/239.3.1.144:4120
+内蒙古卫视,http://114.253.212.46:5400/rtp/239.3.1.43:8176
+北京卫视,http://222.141.133.237:888/rtp/225.1.4.81:1110
+南方卫视,http://114.253.212.46:5400/rtp/239.3.1.161:8001
+厦门卫视,http://114.253.212.46:5400/rtp/239.3.1.143:4120
+吉林卫视,http://114.253.212.46:5400/rtp/239.3.1.240:8172
+四川卫视,http://114.253.212.46:5400/rtp/239.3.1.29:8288
+天津卫视,http://114.253.212.46:5400/rtp/239.3.1.141:1234
+宁夏卫视,http://114.253.212.46:5400/rtp/239.3.1.46:8124
+安徽卫视,http://114.253.212.46:5400/rtp/239.3.1.211:8064
+山东卫视,http://114.253.212.46:5400/rtp/239.3.1.209:8052
+山西卫视,http://114.253.212.46:5400/rtp/239.3.1.42:8172
+广东卫视,http://114.253.212.46:5400/rtp/239.3.1.142:8048
+广西卫视,http://114.253.212.46:5400/rtp/239.3.1.39:8300
+新疆卫视,http://114.253.212.46:5400/rtp/239.3.1.48:8160
+江苏卫视,http://114.253.212.46:5400/rtp/239.3.1.135:8028
+江西卫视,http://114.253.212.46:5400/rtp/239.3.1.123:8164
+河北卫视,http://114.253.212.46:5400/rtp/239.3.1.148:8072
+河南卫视,http://114.253.212.46:5400/rtp/239.3.1.27:8128
+河南卫视4K,http://222.141.133.237:888/rtp/225.1.4.254:1300
+浙江卫视,http://114.253.212.46:5400/rtp/239.3.1.137:8036
+海南卫视,http://114.253.212.46:5400/rtp/239.3.1.45:8304
+深圳卫视,http://114.253.212.46:5400/rtp/239.3.1.134:8020
+湖北卫视,http://114.253.212.46:5400/rtp/239.3.1.138:8044
+湖南卫视,http://114.253.212.46:5400/rtp/239.3.1.132:8012
+甘肃卫视,http://114.253.212.46:5400/rtp/239.3.1.49:8188
+西藏卫视,http://114.253.212.46:5400/rtp/239.3.1.47:8164
+贵州卫视,http://114.253.212.46:5400/rtp/239.3.1.149:8076
+辽宁卫视,http://114.253.212.46:5400/rtp/239.3.1.210:8056
+重庆卫视,http://114.253.212.46:5400/rtp/239.3.1.122:8160
+陕西卫视,http://114.253.212.46:5400/rtp/239.3.1.41:8140
+青海卫视,http://114.253.212.46:5400/rtp/239.3.1.44:8184
+黑龙江卫视,http://114.253.212.46:5400/rtp/239.3.1.133:8016
 香港,#genre#
 凤凰中文,http://60.164.128.167:8029/udp/239.255.30.50:8231
 凤凰资讯,http://60.164.128.167:8029/udp/239.255.30.70:8231
@@ -190,124 +190,124 @@ DaAi 2,https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 大愛,https://pulltv2.wanfudaluye.com/live/tv2.m3u8
 theTvApp,#genre#
 thetvapp,#genre#
-ae,https://v7.thetvapp.to/hls/AEEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-acc network,https://v16.thetvapp.to/hls/ACCNetwork/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-amc,https://v2.thetvapp.to/hls/AMCEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-american heroes channel,https://v6.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-animal planet,https://v6.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-bbc america,https://v16.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-bbc world news hd,https://v12.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-bet,https://v12.thetvapp.to/hls/BETEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-bet her,https://v5.thetvapp.to/hls/BETHerEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-big ten network,https://v5.thetvapp.to/hls/BTN/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-bloomberg tv,https://v6.thetvapp.to/hls/BloombergTV/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-boomerang,https://v6.thetvapp.to/hls/Boomerang/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-bravo,https://v3.thetvapp.to/hls/BravoEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cartoon network,https://v11.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cbs sports network,https://v4.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cinemax,https://v4.thetvapp.to/hls/CinemaxEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cmt,https://v12.thetvapp.to/hls/CMTEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cnbc,https://v12.thetvapp.to/hls/CNBC/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cnn,https://v3.thetvapp.to/hls/CNN/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-comedy central,https://v3.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cooking channel,https://v14.thetvapp.to/hls/CookingChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-crime investigation hd,https://v10.thetvapp.to/hls/CrimePlusInvestigation/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cspan,https://v9.thetvapp.to/hls/CSPAN/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-cspan 2,https://v9.thetvapp.to/hls/CSPAN2/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-destination america,https://v9.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-discovery,https://v9.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-discovery family channel,https://v15.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-discovery life,https://v15.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-disney channel east,https://v11.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-disney junior,https://v14.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-disney xd,https://v4.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-e,https://v4.thetvapp.to/hls/EEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-espn,https://v7.thetvapp.to/hls/ESPN/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-espn2,https://v16.thetvapp.to/hls/ESPN2/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-espnews,https://v3.thetvapp.to/hls/ESPNews/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-espnu,https://v5.thetvapp.to/hls/ESPNU/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-food network,https://v2.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fox business network,https://v2.thetvapp.to/hls/FoxBusiness/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fox news channel,https://v13.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fox sports 1,https://v13.thetvapp.to/hls/FoxSports1/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fox sports 2,https://v15.thetvapp.to/hls/FoxSports2/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-freeform,https://v15.thetvapp.to/hls/FreeformEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fuse hd,https://v11.thetvapp.to/hls/FuseEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fx,https://v11.thetvapp.to/hls/FXEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fx movie,https://v8.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fxx,https://v8.thetvapp.to/hls/FXXEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-fyi,https://v7.thetvapp.to/hls/FYIEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-golf channel,https://v16.thetvapp.to/hls/GolfChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hallmark,https://v6.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hallmark drama hd,https://v6.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hallmark movies mysteries hd,https://v10.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hbo 2 east,https://v15.thetvapp.to/hls/HBO2East/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hbo comedy hd,https://v12.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hbo east,https://v7.thetvapp.to/hls/HBOEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hbo family east,https://v7.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hbo signature,https://v3.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hbo zone hd,https://v4.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hgtv,https://v4.thetvapp.to/hls/HGTVEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-history,https://v8.thetvapp.to/hls/HistoryEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-hln,https://v3.thetvapp.to/hls/HLN/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-ifc,https://v2.thetvapp.to/hls/IFCEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-investigation discovery,https://v2.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-ion television east hd,https://v9.thetvapp.to/hls/IONTVEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-lifetime,https://v14.thetvapp.to/hls/LifetimeEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-lmn,https://v14.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-logo,https://v8.thetvapp.to/hls/LogoEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-metv toons,https://v13.thetvapp.to/hls/metv toons/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-mlb network,https://v13.thetvapp.to/hls/MLBNetwork/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-moremax,https://v16.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-motortrend hd,https://v6.thetvapp.to/hls/Motortrend/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-moviemax,https://v12.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-msnbc,https://v12.thetvapp.to/hls/MSNBC/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-mtv,https://v8.thetvapp.to/hls/MTVEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nat geo wild,https://v8.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-national geographic,https://v3.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nba tv,https://v3.thetvapp.to/hls/NBATV/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-newsmax tv,https://v5.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nfl network,https://v5.thetvapp.to/hls/NFLNetwork/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nfl red zone,https://v6.thetvapp.to/hls/NFLRedZone/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nhl network,https://v6.thetvapp.to/hls/NHLNetwork/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nick jr,https://v2.thetvapp.to/hls/NickJrEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nickelodeon east,https://v2.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-nicktoons,https://v9.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-outdoor channel,https://v16.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-own,https://v16.thetvapp.to/hls/OWNEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-oxygen true crime,https://v10.thetvapp.to/hls/OxygenEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-pbs 13 wnet new york,https://v4.thetvapp.to/hls/WNET/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-reelzchannel,https://v4.thetvapp.to/hls/Reelz/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-science,https://v8.thetvapp.to/hls/Science/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-sec network,https://v10.thetvapp.to/hls/SECN/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-showtime e,https://v10.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-showtime 2,https://v11.thetvapp.to/hls/Showtime2East/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-starz east,https://v2.thetvapp.to/hls/StarzEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-sundancetv hd,https://v14.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-syfy,https://v14.thetvapp.to/hls/SyfyEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-tbs,https://v7.thetvapp.to/hls/TBSEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-tcm,https://v5.thetvapp.to/hls/TCMEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-teennick,https://v15.thetvapp.to/hls/TeenNickEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-telemundo east,https://v15.thetvapp.to/hls/TelemundoEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-tennis channel,https://v11.thetvapp.to/hls/TennisChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-the cw,https://v11.thetvapp.to/hls/WPIX/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-the movie channel east,https://v12.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-the weather channel,https://v4.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-tlc,https://v4.thetvapp.to/hls/TLCEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-tnt,https://v10.thetvapp.to/hls/TNTEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-travel channel,https://v3.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-trutv,https://v3.thetvapp.to/hls/truTVEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-tv one hd,https://v8.thetvapp.to/hls/TVOne/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-universal kids,https://v8.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-univision east,https://v12.thetvapp.to/hls/UnivisionEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-usa network,https://v10.thetvapp.to/hls/USANetworkEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-vh1,https://v16.thetvapp.to/hls/VH1East/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-vice,https://v9.thetvapp.to/hls/VICETV/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-wabc new york abc east,https://v7.thetvapp.to/hls/WABCDT1/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-wcbs new york cbs east,https://v7.thetvapp.to/hls/WCBSDT1/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-we tv,https://v7.thetvapp.to/hls/WeTVEast/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-wnbc new york nbc east,https://v6.thetvapp.to/hls/WNBCDT1/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
-wnyw new york fox east,https://v6.thetvapp.to/hls/WNYWDT1/index.m3u8?token=Y2pmQUpNdXBSR2xabzF3dUQwOExFNGhKQ0NsVE5pNnl5YjdpRFhHRQ==
+ae,https://v16.thetvapp.to/hls/AEEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+acc network,https://v7.thetvapp.to/hls/ACCNetwork/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+amc,https://v8.thetvapp.to/hls/AMCEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+american heroes channel,https://v8.thetvapp.to/hls/AmericanHeroesChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+animal planet,https://v10.thetvapp.to/hls/AnimalPlanetEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+bbc america,https://v9.thetvapp.to/hls/BBCAmericaEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+bbc world news hd,https://v13.thetvapp.to/hls/BBCWorldNewsNorthAmerica/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+bet,https://v13.thetvapp.to/hls/BETEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+bet her,https://v2.thetvapp.to/hls/BETHerEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+big ten network,https://v2.thetvapp.to/hls/BTN/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+bloomberg tv,https://v16.thetvapp.to/hls/BloombergTV/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+boomerang,https://v6.thetvapp.to/hls/Boomerang/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+bravo,https://v3.thetvapp.to/hls/BravoEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cartoon network,https://v3.thetvapp.to/hls/CartoonNetworkEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cbs sports network,https://v7.thetvapp.to/hls/CBSSportsNetworkUSA/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cinemax,https://v7.thetvapp.to/hls/CinemaxEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cmt,https://v11.thetvapp.to/hls/CMTEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cnbc,https://v11.thetvapp.to/hls/CNBC/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cnn,https://v5.thetvapp.to/hls/CNN/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+comedy central,https://v16.thetvapp.to/hls/ComedyCentralEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cooking channel,https://v8.thetvapp.to/hls/CookingChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+crime investigation hd,https://v8.thetvapp.to/hls/CrimePlusInvestigation/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cspan,https://v14.thetvapp.to/hls/CSPAN/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+cspan 2,https://v14.thetvapp.to/hls/CSPAN2/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+destination america,https://v10.thetvapp.to/hls/DestinationAmerica/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+discovery,https://v16.thetvapp.to/hls/DiscoveryChannelEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+discovery family channel,https://v7.thetvapp.to/hls/DiscoveryFamily/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+discovery life,https://v5.thetvapp.to/hls/DiscoveryLife/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+disney channel east,https://v2.thetvapp.to/hls/DisneyChannelEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+disney junior,https://v2.thetvapp.to/hls/DisneyJuniorEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+disney xd,https://v16.thetvapp.to/hls/DisneyXDEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+e,https://v6.thetvapp.to/hls/EEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+espn,https://v14.thetvapp.to/hls/ESPN/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+espn2,https://v9.thetvapp.to/hls/ESPN2/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+espnews,https://v13.thetvapp.to/hls/ESPNews/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+espnu,https://v13.thetvapp.to/hls/ESPNU/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+food network,https://v15.thetvapp.to/hls/FoodNetworkEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fox business network,https://v15.thetvapp.to/hls/FoxBusiness/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fox news channel,https://v14.thetvapp.to/hls/FoxNewsChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fox sports 1,https://v14.thetvapp.to/hls/FoxSports1/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fox sports 2,https://v11.thetvapp.to/hls/FoxSports2/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+freeform,https://v5.thetvapp.to/hls/FreeformEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fuse hd,https://v5.thetvapp.to/hls/FuseEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fx,https://v7.thetvapp.to/hls/FXEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fx movie,https://v7.thetvapp.to/hls/FXMovieChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fxx,https://v7.thetvapp.to/hls/FXXEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+fyi,https://v3.thetvapp.to/hls/FYIEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+golf channel,https://v4.thetvapp.to/hls/GolfChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hallmark,https://v4.thetvapp.to/hls/HallmarkChannelEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hallmark drama hd,https://v6.thetvapp.to/hls/HallmarkDrama/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hallmark movies mysteries hd,https://v6.thetvapp.to/hls/HallmarkMoviesMysteriesEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hbo 2 east,https://v13.thetvapp.to/hls/HBO2East/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hbo comedy hd,https://v15.thetvapp.to/hls/HBOComedyEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hbo east,https://v16.thetvapp.to/hls/HBOEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hbo family east,https://v12.thetvapp.to/hls/HBOFamilyEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hbo signature,https://v12.thetvapp.to/hls/HBOSignatureEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hbo zone hd,https://v6.thetvapp.to/hls/HBOZoneEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hgtv,https://v6.thetvapp.to/hls/HGTVEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+history,https://v12.thetvapp.to/hls/HistoryEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+hln,https://v8.thetvapp.to/hls/HLN/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+ifc,https://v15.thetvapp.to/hls/IFCEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+investigation discovery,https://v12.thetvapp.to/hls/InvestigationDiscoveryEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+ion television east hd,https://v12.thetvapp.to/hls/IONTVEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+lifetime,https://v10.thetvapp.to/hls/LifetimeEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+lmn,https://v10.thetvapp.to/hls/LifetimeMoviesEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+logo,https://v13.thetvapp.to/hls/LogoEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+metv toons,https://v3.thetvapp.to/hls/metv toons/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+mlb network,https://v3.thetvapp.to/hls/MLBNetwork/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+moremax,https://v6.thetvapp.to/hls/MoreMaxEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+motortrend hd,https://v8.thetvapp.to/hls/Motortrend/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+moviemax,https://v8.thetvapp.to/hls/MovieMaxEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+msnbc,https://v4.thetvapp.to/hls/MSNBC/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+mtv,https://v4.thetvapp.to/hls/MTVEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nat geo wild,https://v12.thetvapp.to/hls/NationalGeographicWildEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+national geographic,https://v12.thetvapp.to/hls/NationalGeographicEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nba tv,https://v9.thetvapp.to/hls/NBATV/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+newsmax tv,https://v9.thetvapp.to/hls/NewsmaxTV/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nfl network,https://v14.thetvapp.to/hls/NFLNetwork/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nfl red zone,https://v14.thetvapp.to/hls/NFLRedZone/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nhl network,https://v6.thetvapp.to/hls/NHLNetwork/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nick jr,https://v6.thetvapp.to/hls/NickJrEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nickelodeon east,https://v13.thetvapp.to/hls/NickelodeonEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+nicktoons,https://v2.thetvapp.to/hls/NicktoonsEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+outdoor channel,https://v2.thetvapp.to/hls/OutdoorChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+own,https://v16.thetvapp.to/hls/OWNEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+oxygen true crime,https://v8.thetvapp.to/hls/OxygenEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+pbs 13 wnet new york,https://v8.thetvapp.to/hls/WNET/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+reelzchannel,https://v12.thetvapp.to/hls/Reelz/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+science,https://v3.thetvapp.to/hls/Science/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+sec network,https://v3.thetvapp.to/hls/SECN/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+showtime e,https://v3.thetvapp.to/hls/ShowtimeEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+showtime 2,https://v3.thetvapp.to/hls/Showtime2East/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+starz east,https://v4.thetvapp.to/hls/StarzEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+sundancetv hd,https://v15.thetvapp.to/hls/SundanceTVEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+syfy,https://v15.thetvapp.to/hls/SyfyEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+tbs,https://v2.thetvapp.to/hls/TBSEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+tcm,https://v11.thetvapp.to/hls/TCMEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+teennick,https://v11.thetvapp.to/hls/TeenNickEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+telemundo east,https://v11.thetvapp.to/hls/TelemundoEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+tennis channel,https://v11.thetvapp.to/hls/TennisChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+the cw,https://v4.thetvapp.to/hls/WPIX/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+the movie channel east,https://v7.thetvapp.to/hls/TheMovieChannelEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+the weather channel,https://v12.thetvapp.to/hls/TheWeatherChannel/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+tlc,https://v12.thetvapp.to/hls/TLCEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+tnt,https://v8.thetvapp.to/hls/TNTEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+travel channel,https://v6.thetvapp.to/hls/TravelChannelEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+trutv,https://v10.thetvapp.to/hls/truTVEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+tv one hd,https://v10.thetvapp.to/hls/TVOne/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+universal kids,https://v16.thetvapp.to/hls/UniversalKidsEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+univision east,https://v8.thetvapp.to/hls/UnivisionEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+usa network,https://v13.thetvapp.to/hls/USANetworkEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+vh1,https://v13.thetvapp.to/hls/VH1East/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+vice,https://v6.thetvapp.to/hls/VICETV/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+wabc new york abc east,https://v14.thetvapp.to/hls/WABCDT1/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+wcbs new york cbs east,https://v14.thetvapp.to/hls/WCBSDT1/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+we tv,https://v3.thetvapp.to/hls/WeTVEast/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+wnbc new york nbc east,https://v4.thetvapp.to/hls/WNBCDT1/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
+wnyw new york fox east,https://v4.thetvapp.to/hls/WNYWDT1/index.m3u8?token=VUVvbW0xOG5Uc0JVSmxVZTE2T0FXbHRwUXpxckZDUVBNVEZhQ0xUOQ==
 moveOnJoy,#genre#
 MoveOnJoy,#genre#
 ABC (WOLO),http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
@@ -438,183 +438,183 @@ Weather Channel,http://fl2.moveonjoy.com/THE_WEATHER_CHANNEL/index.m3u8
 WeTV,http://fl1.moveonjoy.com/WE_TV/index.m3u8
 YES Network,http://fl2.moveonjoy.com/YES_NETWORK/index.m3u8
 其他频道,#genre#
-4K超清,http://222.128.183.216:8383/rtp/239.3.1.249:8001
-BRTV体育休闲,http://222.128.183.216:8383/rtp/239.3.1.243:8000
-BRTV冬奥纪实,http://222.128.183.216:8383/#rtp/239.3.1.243:8000
-BRTV影视,http://222.128.183.216:8383/rtp/239.3.1.158:8000
-BRTV文艺,http://222.128.183.216:8383/rtp/239.3.1.242:8000
-BRTV新闻,http://222.128.183.216:8383/rtp/239.3.1.159:8000
-BRTV生活,http://222.128.183.216:8383/rtp/239.3.1.117:8000
-BRTV财经,http://222.128.183.216:8383/rtp/239.3.1.116:8000
-BRTV青年,http://222.128.183.216:8383/#rtp/239.3.1.118:8000
-BTV国际频道,http://222.128.183.216:8383/rtp/239.3.1.235:8000
+4K超清,http://114.253.212.46:5400/rtp/239.3.1.249:8001
+BRTV体育休闲,http://114.253.212.46:5400/rtp/239.3.1.243:8000
+BRTV冬奥纪实,http://114.253.212.46:5400/#rtp/239.3.1.243:8000
+BRTV影视,http://114.253.212.46:5400/rtp/239.3.1.158:8000
+BRTV文艺,http://114.253.212.46:5400/rtp/239.3.1.242:8000
+BRTV新闻,http://114.253.212.46:5400/rtp/239.3.1.159:8000
+BRTV生活,http://114.253.212.46:5400/rtp/239.3.1.117:8000
+BRTV财经,http://114.253.212.46:5400/rtp/239.3.1.116:8000
+BRTV青年,http://114.253.212.46:5400/#rtp/239.3.1.118:8000
+BTV国际频道,http://114.253.212.46:5400/rtp/239.3.1.235:8000
 Bestv,http://60.164.128.167:8029/udp/239.255.30.100:8231
-CETV1,http://222.128.183.216:8383/rtp/239.3.1.57:8152
-CETV2,http://222.128.183.216:8383/rtp/239.3.1.54:4120
-CETV3,http://222.128.183.216:8383/rtp/239.3.1.55:4120
-CETV4,http://222.128.183.216:8383/rtp/239.3.1.56:4120
-CGTN,http://125.46.132.151:9999/rtp/225.1.4.16:1045
-CGTN 俄语,http://222.128.183.216:8383/rtp/239.3.1.220:4220
-CGTN 新闻,http://222.128.183.216:8383/rtp/239.3.1.215:4220
-CGTN 法语,http://222.128.183.216:8383/rtp/239.3.1.218:4220
-CGTN 西班牙语,http://222.128.183.216:8383/rtp/239.3.1.217:4220
-CGTN 记录,http://222.128.183.216:8383/rtp/239.3.1.216:4220
-CGTN 阿拉伯语,http://222.128.183.216:8383/rtp/239.3.1.219:4220
-CGTN俄语,http://125.46.132.151:9999/rtp/225.1.5.39:1349
-CGTN法语,http://125.46.132.151:9999/rtp/225.1.5.37:1347
-CGTN英文纪录,http://125.46.132.151:9999/rtp/225.1.5.35:1345
-CGTN英语,http://125.46.132.151:9999/rtp/225.1.5.34:1344
-CGTN西班牙语,http://125.46.132.151:9999/rtp/225.1.5.36:1346
-CGTN阿拉伯语,http://125.46.132.151:9999/rtp/225.1.5.38:1348
-CHC动作电影,http://125.46.132.151:9999/rtp/225.1.4.208:1261
-CHC家庭影院,http://125.46.132.151:9999/rtp/225.1.4.209:1262
-CHC电影,http://125.46.132.151:9999/rtp/225.1.4.207:1260
+CETV1,http://114.253.212.46:5400/rtp/239.3.1.57:8152
+CETV2,http://114.253.212.46:5400/rtp/239.3.1.54:4120
+CETV3,http://114.253.212.46:5400/rtp/239.3.1.55:4120
+CETV4,http://114.253.212.46:5400/rtp/239.3.1.56:4120
+CGTN,http://222.141.133.237:888/rtp/225.1.4.16:1045
+CGTN 俄语,http://114.253.212.46:5400/rtp/239.3.1.220:4220
+CGTN 新闻,http://114.253.212.46:5400/rtp/239.3.1.215:4220
+CGTN 法语,http://114.253.212.46:5400/rtp/239.3.1.218:4220
+CGTN 西班牙语,http://114.253.212.46:5400/rtp/239.3.1.217:4220
+CGTN 记录,http://114.253.212.46:5400/rtp/239.3.1.216:4220
+CGTN 阿拉伯语,http://114.253.212.46:5400/rtp/239.3.1.219:4220
+CGTN俄语,http://222.141.133.237:888/rtp/225.1.5.39:1349
+CGTN法语,http://222.141.133.237:888/rtp/225.1.5.37:1347
+CGTN英文纪录,http://222.141.133.237:888/rtp/225.1.5.35:1345
+CGTN英语,http://222.141.133.237:888/rtp/225.1.5.34:1344
+CGTN西班牙语,http://222.141.133.237:888/rtp/225.1.5.36:1346
+CGTN阿拉伯语,http://222.141.133.237:888/rtp/225.1.5.38:1348
+CHC动作电影,http://222.141.133.237:888/rtp/225.1.4.208:1261
+CHC家庭影院,http://222.141.133.237:888/rtp/225.1.4.209:1262
+CHC电影,http://222.141.133.237:888/rtp/225.1.4.207:1260
 IPTV5+,http://60.164.128.167:8029/udp/239.255.30.115:8231
-IPTV法治,http://125.46.132.151:9999/rtp/225.1.4.188:1237
-IPTV相声小品,http://125.46.132.151:9999/rtp/225.1.4.186:1235
-IPTV谍战剧场,http://125.46.132.151:9999/rtp/225.1.4.185:1240
-IPTV野外,http://125.46.132.151:9999/rtp/225.1.4.187:1236
+IPTV法治,http://222.141.133.237:888/rtp/225.1.4.188:1237
+IPTV相声小品,http://222.141.133.237:888/rtp/225.1.4.186:1235
+IPTV谍战剧场,http://222.141.133.237:888/rtp/225.1.4.185:1240
+IPTV野外,http://222.141.133.237:888/rtp/225.1.4.187:1236
 MAX极速汽车,http://60.164.128.167:8029/udp/239.255.30.149:8231
 SITV欢笑剧场,http://60.164.128.167:8029/udp/239.255.29.7:8231
 SITV法治天地,http://60.164.128.167:8029/udp/239.255.29.24:8231
 SITV都市剧场,http://60.164.128.167:8029/udp/239.255.29.22:8231
 上视纪实,http://60.164.128.167:8029/udp/239.255.30.176:8231
-中国交通,http://222.128.183.216:8383/rtp/239.3.1.188:8001
+中国交通,http://114.253.212.46:5400/rtp/239.3.1.188:8001
 临夏文旅,http://60.164.128.167:8029/udp/239.255.30.108:8231
 临夏新闻,http://60.164.128.167:8029/udp/239.255.30.107:8231
 临夏经济,http://60.164.128.167:8029/udp/239.255.30.106:8231
-乒羽频道,http://125.46.132.151:9999/rtp/225.1.4.210:1263
+乒羽频道,http://222.141.133.237:888/rtp/225.1.4.210:1263
 五星体育,http://60.164.128.167:8029/udp/239.255.29.45:8231
 体育,http://60.164.128.167:8029/udp/239.255.29.31:8231
-体育竞技,http://125.46.132.151:9999/rtp/225.1.4.235:1281
-体育赛事,http://222.128.183.216:8383/rtp/239.3.1.157:8176
-光影,http://222.128.183.216:8383/rtp/239.3.1.84:4120
+体育竞技,http://222.141.133.237:888/rtp/225.1.4.235:1281
+体育赛事,http://114.253.212.46:5400/rtp/239.3.1.157:8176
+光影,http://114.253.212.46:5400/rtp/239.3.1.84:4120
 全球大片,http://60.164.128.167:8029/udp/239.255.30.196:8231
 全纪实,http://60.164.128.167:8029/udp/239.255.29.17:8231
-军事,http://222.128.183.216:8383/rtp/239.3.1.76:4120
-军旅剧场,http://222.128.183.216:8383/rtp/239.3.1.68:4120
-动作影院,http://222.128.183.216:8383/rtp/239.3.1.92:4120
+军事,http://114.253.212.46:5400/rtp/239.3.1.76:4120
+军旅剧场,http://114.253.212.46:5400/rtp/239.3.1.68:4120
+动作影院,http://114.253.212.46:5400/rtp/239.3.1.92:4120
 华语电影,http://60.164.128.167:8029/udp/239.255.30.193:8231
-古装剧场,http://222.128.183.216:8383/rtp/239.3.1.69:4120
-台球,http://222.128.183.216:8383/rtp/239.3.1.85:4120
-喜剧影院,http://222.128.183.216:8383/rtp/239.3.1.91:4120
+古装剧场,http://114.253.212.46:5400/rtp/239.3.1.69:4120
+台球,http://114.253.212.46:5400/rtp/239.3.1.85:4120
+喜剧影院,http://114.253.212.46:5400/rtp/239.3.1.91:4120
 嘉峪关公共,http://60.164.128.167:8029/udp/239.255.29.35:8231
 嘉峪关综合,http://60.164.128.167:8029/udp/239.255.29.36:8231
-国学,http://222.128.183.216:8383/rtp/239.3.1.77:4120
-国学频道,http://125.46.132.151:9999/rtp/225.1.4.196:1311
-地理,http://222.128.183.216:8383/rtp/239.3.1.71:4120
-城市剧场,http://222.128.183.216:8383/rtp/239.3.1.67:4120
-墨宝,http://222.128.183.216:8383/rtp/239.3.1.83:4120
-大健康,http://222.128.183.216:8383/rtp/239.3.1.251:8001
-大象新闻,http://125.46.132.151:9999/rtp/225.1.5.45:1355
-好学生,http://222.128.183.216:8383/rtp/239.3.1.81:4120
-家庭影院,http://222.128.183.216:8383/rtp/239.3.1.93:4120
-密云电视台,http://222.128.183.216:8383/rtp/239.3.1.154:8001
-幸福剧场,http://222.128.183.216:8383/#rtp/239.3.1.112:8001
-幸福娱乐,http://222.128.183.216:8383/#rtp/239.3.1.113:8001
-延庆电视台,http://222.128.183.216:8383/rtp/239.3.1.187:8001
-快乐垂钓,http://222.128.183.216:8383/rtp/239.3.1.164:8001
-戏曲,http://222.128.183.216:8383/rtp/239.3.1.78:4120
+国学,http://114.253.212.46:5400/rtp/239.3.1.77:4120
+国学频道,http://222.141.133.237:888/rtp/225.1.4.196:1311
+地理,http://114.253.212.46:5400/rtp/239.3.1.71:4120
+城市剧场,http://114.253.212.46:5400/rtp/239.3.1.67:4120
+墨宝,http://114.253.212.46:5400/rtp/239.3.1.83:4120
+大健康,http://114.253.212.46:5400/rtp/239.3.1.251:8001
+大象新闻,http://222.141.133.237:888/rtp/225.1.5.45:1355
+好学生,http://114.253.212.46:5400/rtp/239.3.1.81:4120
+家庭影院,http://114.253.212.46:5400/rtp/239.3.1.93:4120
+密云电视台,http://114.253.212.46:5400/rtp/239.3.1.154:8001
+幸福剧场,http://114.253.212.46:5400/#rtp/239.3.1.112:8001
+幸福娱乐,http://114.253.212.46:5400/#rtp/239.3.1.113:8001
+延庆电视台,http://114.253.212.46:5400/rtp/239.3.1.187:8001
+快乐垂钓,http://114.253.212.46:5400/rtp/239.3.1.164:8001
+戏曲,http://114.253.212.46:5400/rtp/239.3.1.78:4120
 戏曲精选,http://60.164.128.167:8029/udp/239.255.30.118:8231
-房山电视台,http://222.128.183.216:8383/rtp/239.3.1.96:8001
-收视指南,http://222.128.183.216:8383/rtp/239.3.1.193:8012
-新蔡电视台,http://125.46.132.151:9999/rtp/225.1.5.29:1341
-早教,http://222.128.183.216:8383/rtp/239.3.1.79:4120
+房山电视台,http://114.253.212.46:5400/rtp/239.3.1.96:8001
+收视指南,http://114.253.212.46:5400/rtp/239.3.1.193:8012
+新蔡电视台,http://222.141.133.237:888/rtp/225.1.5.29:1341
+早教,http://114.253.212.46:5400/rtp/239.3.1.79:4120
 星光影院,http://60.164.128.167:8029/udp/239.255.30.194:8231
-星影,http://222.128.183.216:8383/rtp/239.3.1.94:4120
-朝阳融媒,http://222.128.183.216:8383/rtp/239.3.1.163:8001
+星影,http://114.253.212.46:5400/rtp/239.3.1.94:4120
+朝阳融媒,http://114.253.212.46:5400/rtp/239.3.1.163:8001
 欢笑剧场,http://60.164.128.167:8029/udp/239.255.29.19:8231
-武侠剧场,http://222.128.183.216:8383/rtp/239.3.1.90:4120
-武术,http://222.128.183.216:8383/rtp/239.3.1.87:4120
-每日影院,http://222.128.183.216:8383/#rtp/239.3.1.111:8001
-河南IPTV-导视,http://125.46.132.151:9999/rtp/225.1.4.194:1244
-河南乡村频道,http://125.46.132.151:9999/rtp/225.1.4.120:1149
-河南公共频道,http://125.46.132.151:9999/rtp/225.1.4.58:1087
-河南国际频道,http://125.46.132.151:9999/rtp/225.1.4.102:1131
-河南文物宝库,http://125.46.132.151:9999/rtp/225.1.4.100:1129
-河南新闻频道,http://125.46.132.151:9999/rtp/225.1.4.56:1085
-河南梨园频道,http://125.46.132.151:9999/rtp/225.1.4.99:1128
-河南武术世界,http://125.46.132.151:9999/rtp/225.1.4.101:1130
-河南民生频道,http://125.46.132.151:9999/rtp/225.1.4.53:1082
-河南法治频道,http://125.46.132.151:9999/rtp/225.1.4.54:1083
-河南电视剧频道,http://125.46.132.151:9999/rtp/225.1.4.55:1084
-河南移动电视,http://125.46.132.151:9999/rtp/225.1.5.40:1350
-河南都市频道,http://125.46.132.151:9999/rtp/225.1.4.52:1081
-淘剧场,http://222.128.183.216:8383/rtp/239.3.1.95:8001
-淘娱乐,http://222.128.183.216:8383/rtp/239.3.1.100:8001
-淘电影,http://222.128.183.216:8383/rtp/239.3.1.250:8001
-淘精彩,http://222.128.183.216:8383/rtp/239.3.1.178:8001
-热播剧场,http://222.128.183.216:8383/rtp/239.3.1.194:9020
-爱上4K,http://222.128.183.216:8383/rtp/239.3.1.236:2000
-爱上-4k,http://125.46.132.151:9999/rtp/225.1.4.162:1204
-爱体育,http://125.46.132.151:9999/rtp/225.1.4.5:1034
-爱大剧,http://125.46.132.151:9999/rtp/225.1.4.8:1037
-爱生活,http://222.128.183.216:8383/rtp/239.3.1.86:4120
-爱电影,http://125.46.132.151:9999/rtp/225.1.4.6:1035
-爱综艺,http://125.46.132.151:9999/rtp/225.1.4.204:1252
-现场直播,http://125.46.132.151:9999/rtp/225.1.5.42:1352
+武侠剧场,http://114.253.212.46:5400/rtp/239.3.1.90:4120
+武术,http://114.253.212.46:5400/rtp/239.3.1.87:4120
+每日影院,http://114.253.212.46:5400/#rtp/239.3.1.111:8001
+河南IPTV-导视,http://222.141.133.237:888/rtp/225.1.4.194:1244
+河南乡村频道,http://222.141.133.237:888/rtp/225.1.4.120:1149
+河南公共频道,http://222.141.133.237:888/rtp/225.1.4.58:1087
+河南国际频道,http://222.141.133.237:888/rtp/225.1.4.102:1131
+河南文物宝库,http://222.141.133.237:888/rtp/225.1.4.100:1129
+河南新闻频道,http://222.141.133.237:888/rtp/225.1.4.56:1085
+河南梨园频道,http://222.141.133.237:888/rtp/225.1.4.99:1128
+河南武术世界,http://222.141.133.237:888/rtp/225.1.4.101:1130
+河南民生频道,http://222.141.133.237:888/rtp/225.1.4.53:1082
+河南法治频道,http://222.141.133.237:888/rtp/225.1.4.54:1083
+河南电视剧频道,http://222.141.133.237:888/rtp/225.1.4.55:1084
+河南移动电视,http://222.141.133.237:888/rtp/225.1.5.40:1350
+河南都市频道,http://222.141.133.237:888/rtp/225.1.4.52:1081
+淘剧场,http://114.253.212.46:5400/rtp/239.3.1.95:8001
+淘娱乐,http://114.253.212.46:5400/rtp/239.3.1.100:8001
+淘电影,http://114.253.212.46:5400/rtp/239.3.1.250:8001
+淘精彩,http://114.253.212.46:5400/rtp/239.3.1.178:8001
+热播剧场,http://114.253.212.46:5400/rtp/239.3.1.194:9020
+爱上4K,http://114.253.212.46:5400/rtp/239.3.1.236:2000
+爱上-4k,http://222.141.133.237:888/rtp/225.1.4.162:1204
+爱体育,http://222.141.133.237:888/rtp/225.1.4.5:1034
+爱大剧,http://222.141.133.237:888/rtp/225.1.4.8:1037
+爱生活,http://114.253.212.46:5400/rtp/239.3.1.86:4120
+爱电影,http://222.141.133.237:888/rtp/225.1.4.6:1035
+爱综艺,http://222.141.133.237:888/rtp/225.1.4.204:1252
+现场直播,http://222.141.133.237:888/rtp/225.1.5.42:1352
 甘肃公共,http://60.164.128.167:8029/udp/239.255.30.251:8231
 甘肃文化影视,http://60.164.128.167:8029/udp/239.255.30.250:8231
 甘肃经济,http://60.164.128.167:8029/udp/239.255.30.253:8231
 甘肃都市,http://60.164.128.167:8029/udp/239.255.30.252:8231
 生活时尚,http://60.164.128.167:8029/udp/239.255.29.18:8231
 看天下精选,http://60.164.128.167:8029/udp/239.255.30.217:8231
-睛彩中原,http://125.46.132.151:9999/rtp/225.1.4.163:1203
-睛彩广场舞,http://222.128.183.216:8383/rtp/239.3.1.128:8001
-睛彩竞技,http://222.128.183.216:8383/rtp/239.3.1.125:8001
-睛彩篮球,http://222.128.183.216:8383/rtp/239.3.1.126:8001
-睛彩羽毛球,http://222.128.183.216:8383/rtp/239.3.1.127:8001
-移动戏曲,http://125.46.132.151:9999/rtp/225.1.4.206:1254
-篮球,http://125.46.132.151:9999/rtp/225.1.4.237:1283
-精选,http://222.128.183.216:8383/rtp/239.3.1.74:4120
+睛彩中原,http://222.141.133.237:888/rtp/225.1.4.163:1203
+睛彩广场舞,http://114.253.212.46:5400/rtp/239.3.1.128:8001
+睛彩竞技,http://114.253.212.46:5400/rtp/239.3.1.125:8001
+睛彩篮球,http://114.253.212.46:5400/rtp/239.3.1.126:8001
+睛彩羽毛球,http://114.253.212.46:5400/rtp/239.3.1.127:8001
+移动戏曲,http://222.141.133.237:888/rtp/225.1.4.206:1254
+篮球,http://222.141.133.237:888/rtp/225.1.4.237:1283
+精选,http://114.253.212.46:5400/rtp/239.3.1.74:4120
 红色谍战剧场,http://60.164.128.167:8029/udp/239.255.30.166:8231
-纪实,http://125.46.132.151:9999/rtp/225.1.4.170:1222
-纪实人文,http://222.128.183.216:8383/rtp/239.3.1.212:8060
-经典电影,http://222.128.183.216:8383/rtp/239.3.1.195:9024
-网络棋牌,http://125.46.132.151:9999/rtp/225.1.4.211:1264
-美人,http://222.128.183.216:8383/rtp/239.3.1.73:4120
-美妆,http://222.128.183.216:8383/rtp/239.3.1.72:4120
+纪实,http://222.141.133.237:888/rtp/225.1.4.170:1222
+纪实人文,http://114.253.212.46:5400/rtp/239.3.1.212:8060
+经典电影,http://114.253.212.46:5400/rtp/239.3.1.195:9024
+网络棋牌,http://222.141.133.237:888/rtp/225.1.4.211:1264
+美人,http://114.253.212.46:5400/rtp/239.3.1.73:4120
+美妆,http://114.253.212.46:5400/rtp/239.3.1.72:4120
 羽毛球精品赛事,http://60.164.128.167:8029/udp/239.255.29.31:8231
-茶频道,http://222.128.183.216:8383/rtp/239.3.1.165:8001
-萌宠TV,http://222.128.183.216:8383/rtp/239.3.1.102:8001
-西平电视台,http://125.46.132.151:9999/rtp/225.1.5.28:1340
-解密,http://222.128.183.216:8383/rtp/239.3.1.75:4120
-财富天下,http://222.128.183.216:8383/rtp/239.3.1.53:9136
-足球,http://222.128.183.216:8383/rtp/239.3.1.89:4120
+茶频道,http://114.253.212.46:5400/rtp/239.3.1.165:8001
+萌宠TV,http://114.253.212.46:5400/rtp/239.3.1.102:8001
+西平电视台,http://222.141.133.237:888/rtp/225.1.5.28:1340
+解密,http://114.253.212.46:5400/rtp/239.3.1.75:4120
+财富天下,http://114.253.212.46:5400/rtp/239.3.1.53:9136
+足球,http://114.253.212.46:5400/rtp/239.3.1.89:4120
 足球频道,http://60.164.128.167:8029/udp/239.255.29.25:8231
-通州融媒,http://222.128.183.216:8383/rtp/239.3.1.221:8001
+通州融媒,http://114.253.212.46:5400/rtp/239.3.1.221:8001
 都市剧场,http://60.164.128.167:8029/udp/239.255.29.41:8231
 酒钢电视,http://60.164.128.167:8029/udp/239.255.30.94:8231
 金塔,http://60.164.128.167:8029/udp/239.255.30.224:8231
-金鹰纪实,http://222.128.183.216:8383/rtp/239.3.1.58:8156
-鉴赏,http://222.128.183.216:8383/rtp/239.3.1.82:4120
+金鹰纪实,http://114.253.212.46:5400/rtp/239.3.1.58:8156
+鉴赏,http://114.253.212.46:5400/rtp/239.3.1.82:4120
 陇上生活,http://60.164.128.167:8029/udp/239.255.30.73:8231
-音乐现场,http://222.128.183.216:8383/rtp/239.3.1.70:4120
-风尚生活,http://222.128.183.216:8383/#rtp/239.3.1.114:8001
-驻马店公共频道,http://125.46.132.151:9999/rtp/225.1.4.136:1172
-驻马店新闻综合,http://125.46.132.151:9999/rtp/225.1.4.132:1168
-高网,http://222.128.183.216:8383/rtp/239.3.1.88:4120
-魅力时尚,http://222.128.183.216:8383/rtp/239.3.1.196:9012
+音乐现场,http://114.253.212.46:5400/rtp/239.3.1.70:4120
+风尚生活,http://114.253.212.46:5400/#rtp/239.3.1.114:8001
+驻马店公共频道,http://222.141.133.237:888/rtp/225.1.4.136:1172
+驻马店新闻综合,http://222.141.133.237:888/rtp/225.1.4.132:1168
+高网,http://114.253.212.46:5400/rtp/239.3.1.88:4120
+魅力时尚,http://114.253.212.46:5400/rtp/239.3.1.196:9012
 教育,#genre#
-BRTV纪实科教,http://222.128.183.216:8383/rtp/239.3.1.115:8000
+BRTV纪实科教,http://114.253.212.46:5400/rtp/239.3.1.115:8000
 SITV金色学堂,http://60.164.128.167:8029/udp/239.255.29.23:8231
 中国教育1台,http://60.164.128.167:8029/udp/239.255.30.90:8231
-中国教育-1,http://125.46.132.151:9999/rtp/225.1.4.173:1712
-中国教育-2,http://125.46.132.151:9999/rtp/225.1.4.165:1206
-中国教育-4,http://125.46.132.151:9999/rtp/225.1.4.171:1710
-山东教育,http://222.128.183.216:8383/rtp/239.3.1.52:4120
+中国教育-1,http://222.141.133.237:888/rtp/225.1.4.173:1712
+中国教育-2,http://222.141.133.237:888/rtp/225.1.4.165:1206
+中国教育-4,http://222.141.133.237:888/rtp/225.1.4.171:1710
+山东教育,http://114.253.212.46:5400/rtp/239.3.1.52:4120
 金色学堂,http://60.164.128.167:8029/udp/239.255.29.23:8231
-驻马店科教频道,http://125.46.132.151:9999/rtp/225.1.4.133:1169
+驻马店科教频道,http://222.141.133.237:888/rtp/225.1.4.133:1169
 动画,#genre#
-BRTV卡酷少儿,http://222.128.183.216:8383/rtp/239.3.1.189:8000
+BRTV卡酷少儿,http://114.253.212.46:5400/rtp/239.3.1.189:8000
 动漫秀场,http://60.164.128.167:8029/udp/239.255.29.16:8231
-动画,http://222.128.183.216:8383/rtp/239.3.1.80:4120
-卡酷动画,http://125.46.132.151:9999/rtp/225.1.4.48:1077
+动画,http://114.253.212.46:5400/rtp/239.3.1.80:4120
+卡酷动画,http://222.141.133.237:888/rtp/225.1.4.48:1077
 卡酷少儿,http://60.164.128.167:8029/udp/239.255.29.38:8231
 哈哈炫动,http://60.164.128.167:8029/udp/239.255.29.37:8231
-嘉佳卡通,http://222.128.183.216:8383/rtp/239.3.1.147:9268
-少儿动画,http://222.128.183.216:8383/rtp/239.3.1.199:9000
-新动漫,http://125.46.132.151:9999/rtp/225.1.4.212:1265
-淘Baby,http://222.128.183.216:8383/rtp/239.3.1.238:8001
+嘉佳卡通,http://114.253.212.46:5400/rtp/239.3.1.147:9268
+少儿动画,http://114.253.212.46:5400/rtp/239.3.1.199:9000
+新动漫,http://222.141.133.237:888/rtp/225.1.4.212:1265
+淘Baby,http://114.253.212.46:5400/rtp/239.3.1.238:8001
 甘肃少儿,http://60.164.128.167:8029/udp/239.255.30.254:8231
-金鹰卡通,http://222.128.183.216:8383/rtp/239.3.1.51:9252
+金鹰卡通,http://114.253.212.46:5400/rtp/239.3.1.51:9252
