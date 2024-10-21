@@ -38,7 +38,7 @@ jobs:
           # awk '/EXTM3U/ {print $0; next} 1' "$temp_file" > "$temp_file.tmp" && mv "$temp_file.tmp" "$temp_file"
           awk '/EXTM3U/ {print $0;}' "$temp_file" > "$output_file"
           sed -i 's|^#EXTM3U x-tvg-url="[^"]*"|#EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"|' "$output_file"
-          echo "# $(date)" >> "$output_file"
+          echo "# $(TZ='Asia/Shanghai' date)" >> "$output_file"
           echo "" >> "$output_file"
           sed -i '/EXTM3U/d' "$temp_file"
 
