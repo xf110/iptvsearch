@@ -58,7 +58,7 @@ jobs:
           # 7. 追加台湾频道
           # sed '1d' "output/taiwan_gat.m3u" >> "$output_file"
           curl -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
-          sed -Ei "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" 4gtv.m3u >> "$output_file"
+          sed -E "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" 4gtv.m3u >> "$output_file"
 
           # 8. 追加香港、增加动画
           # awk '/凤凰|星空|CHANNELV/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
@@ -119,10 +119,12 @@ jobs:
           rm "$temp_file"
           mv processed_itv.m3u itv.m3u
 
+          
+
       - name: bark
         run: |
           cd $GITHUB_WORKSPACE
-          msg_urlencode=$(bash ./url_process/encode.sh "itv updated $(date +%Y/%m/%d/%H:%M:%S)")
+          msg_urlencode=$(bash ./url_process/encode.sh "itv updated $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)")
           curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
         
       - name: Stage changes
