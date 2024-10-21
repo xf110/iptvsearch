@@ -13,8 +13,10 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Download itv.m3u content
-        run: curl -L -o itv.m3u https://tv.wangqifei.eu.org/itv.m3u
+      - name: Download pixman content
+        run: |
+          curl -L -o itv.m3u https://tv.wangqifei.eu.org/itv.m3u
+          curl -L -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
 
       - name: Check for #EXTM3U in itv.m3u
         run: |
@@ -57,9 +59,10 @@ jobs:
 
           # 7. 追加台湾频道
           # sed '1d' "output/taiwan_gat.m3u" >> "$output_file"
-          curl -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
-          echo '#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"' >>$output_file
-          grep -v '#EXTM3U' 4gtv.m3u | sed -E "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" >> "$output_file"
+          # echo '#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"' >>$output_file
+          # grep -v '#EXTM3U' 4gtv.m3u | sed -E "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" >> "$output_file"
+
+          grep -v '#EXTM3U' 4gtv.m3u >> $output_file
 
           # 8. 追加香港、增加动画
           # awk '/凤凰|星空|CHANNELV/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
