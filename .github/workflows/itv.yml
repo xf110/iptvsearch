@@ -16,7 +16,7 @@ jobs:
       - name: Download pixman content
         run: |
           curl -L -o itv.m3u https://tv.wangqifei.eu.org/itv.m3u
-          curl -L -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
+          curl -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
 
       - name: Check for #EXTM3U in itv.m3u
         run: |
@@ -31,7 +31,7 @@ jobs:
           temp_file="tmp_file.m3u8"
 
           # 1. 使用 cat 命令去除空行写入临时文件
-          cat "$input_file" | grep -v '^$' > "$temp_file"
+          grep -v '^$' $input_file > "$temp_file"
 
           # 2. 将时间戳覆盖到 output 文件，修改epg源
           # echo "# $(TZ='Asia/Shanghai' date)" > "$output_file"
