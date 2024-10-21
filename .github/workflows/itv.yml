@@ -58,7 +58,7 @@ jobs:
           # 7. 追加台湾频道
           # sed '1d' "output/taiwan_gat.m3u" >> "$output_file"
           curl -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
-          echo '#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"' >>$output_fiel
+          echo '#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"' >>$output_file
           grep -v '#EXTM3U' 4gtv.m3u | sed -E "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" >> "$output_file"
 
           # 8. 追加香港、增加动画
