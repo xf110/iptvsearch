@@ -58,7 +58,7 @@ jobs:
           # 7. 追加台湾频道
           # sed '1d' "output/taiwan_gat.m3u" >> "$output_file"
           curl -o 4gtv.m3u 'https://tv.wangqifei.eu.org/4gtv.m3u'
-          cat 4gtv.m3u >> "$output_file"
+          sed -Ei "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" 4gtv.m3u >> "$output_file"
 
           # 8. 追加香港、增加动画
           # awk '/凤凰|星空|CHANNELV/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
