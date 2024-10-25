@@ -14,7 +14,7 @@ BEST_URL_RESPONSE_FILE="besturlresponse.txt"
 SUMMARY_FILE="summary.txt"
 YT_DLP_LOG="yt-dlp-output.log"
 CURL_LOG="curl.log"
-# OUTPUT_FILE="${CHANNEL_NAME}_hotle_foodieguide.txt"
+# OUTPUT_FILE="${CHANNEL_NAME}_hotle.txt"
 
 # 清空或创建日志文件
 : >${SUMMARY_FILE}
@@ -23,7 +23,7 @@ CURL_LOG="curl.log"
 
 for CHANNEL_NAME in "${!cities[@]}"; do
     IFS=':' read -r NET_VALUE <<<"${cities[$CHANNEL_NAME]}"
-    OUTPUT_FILE="../output/${CHANNEL_NAME}_hotel_foodieguide.txt"
+    OUTPUT_FILE="../output/${CHANNEL_NAME}_hotel.txt"
 ## 获取当前可用的酒店源，数据较多，只获取前3页
     echo "==== 开始获取数据: ${CHANNEL_NAME} ======" | tee -a "$SUMMARY_FILE"
 
