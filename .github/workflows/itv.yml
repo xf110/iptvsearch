@@ -74,7 +74,7 @@ jobs:
           http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
           EOL
 
-          sed -nE '/香港|星空|凤凰|channel-?v/I{p;n;p}' ./multicastSource/SiChuan_telecom_333.m3u | awk '!seen[$2]++' RS='#EXTINF' ORS='#EXTINF' >> "$output_file"
+          sed -nE '/香港|星空[^精选]?|凤凰|channel-?v/I{p;n;p}' ./multicastSource/SiChuan_telecom_333.m3u | awk '!seen[$2]++' RS='#EXTINF' ORS='#EXTINF' | sed 's/group-title="[^"]*"/group-title="香港"/g' >> "$output_file"
 
           # 8. 增加香港频道
           ## curl -L -o sichuan_hongkong.tmp https://raw.githubusercontent.com/fqw000/iptv/refs/heads/main/multicastSource/SiChuan_telecom_333.txt
