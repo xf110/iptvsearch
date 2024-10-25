@@ -75,15 +75,10 @@ jobs:
           # awk '/凤凰|星空|CHANNEL-V/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
 
           cat <<EOL >> "$output_file"
-          #EXTINF:-1 tvg-name="" group-title="香港",凤凰中文台HD
-          http://58.144.154.93/qctv.fengshows.cn/live/0701pcc72.m3u8
-          #EXTINF:-1 tvg-name="" group-title="香港",凤凰香港台
-          http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
-          #EXTINF:-1 tvg-name="" group-title="香港",凤凰资讯台
-          http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8
           #EXTINF:-1 tvg-name="" group-title="香港",香港卫视
           http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
           EOL
+          sed -nE '/香港|凤凰|channel-?v/I{p;n;p}' sichuan.m3u ./multicastSource/SiChuan_telecom_333.txt | awk '!seen[$2]++' RS='#EXTINF' ORS='#EXTINF' >> "$output_file"
 
           # 8. 增加香港频道
           ## curl -L -o sichuan_hongkong.tmp https://raw.githubusercontent.com/fqw000/iptv/refs/heads/main/multicastSource/SiChuan_telecom_333.txt
