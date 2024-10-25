@@ -119,7 +119,7 @@ jobs:
           # 多个空格转为1个空格,多个空行合并为一个空行
           sed 's/ \+/ /g' "$output_file" | sed -n l 
           # sed -i '/^$/N;/^\n$/D' "$output_file"
-					sed -i '/^$/d‘ "$output_file"
+          sed -i '/^$/d‘ "$output_file"
           # Remove temporary files
           rm "$temp_file"
           mv processed_itv.m3u itv.m3u
