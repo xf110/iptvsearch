@@ -19,9 +19,12 @@ jobs:
           SERVER_URL="${{ secrets.SERVER_ADDRESS }}"
           curl -L -o itv.m3u ${SERVER_URL}/itv.m3u    # 直接使用frp不再使用url转发https://tv.wangqifei.eu.org/itv.m3u
           curl -L -o 4gtv.m3u ${{ secrets.SERVER_ADDRESS }}/4gtv.m3u   # https://tv.wangqifei.eu.org/4gtv.m3u
-          cat itv.m3u > itv_bak.m3u
-          cat 4gtv.m3u > 4gtv_bak.m3u
 
+      - name: Download pixman content
+        run: |
+          bash ./hotel/hoteliptv.sh
+          bash ./rtp2m3u.sh ./output/sichuan_telecom_hotel.txt
+          
       - name: Check for #EXTM3U in itv.m3u
         run: |
           if ! grep -q '^#EXTM3U' itv.m3u; then
@@ -78,6 +81,8 @@ jobs:
           http://58.144.154.93/qctv.fengshows.cn/live/0701phk72.m3u8
           #EXTINF:-1 tvg-name="" group-title="香港",凤凰资讯台
           http://58.144.154.93/qctv.fengshows.cn/live/0701pin72.m3u8
+          #EXTINF:-1 tvg-name="" group-title="香港",香港卫视
+          http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
           EOL
 
           # 8. 增加香港频道
