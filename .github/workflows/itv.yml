@@ -15,8 +15,8 @@ jobs:
 
       - name: Download pixman content
         run: |
-          curl -L -o itv.m3u https://tv.wangqifei.eu.org/itv.m3u
-          curl -L -o 4gtv.m3u https://tv.wangqifei.eu.org/4gtv.m3u
+          curl -L -o itv.m3u ${{ secrets.SERVER_ADDRESS }}/itv.m3u    // 直接使用frp不再使用url转发https://tv.wangqifei.eu.org/itv.m3u
+          curl -L -o 4gtv.m3u ${{ secrets.SERVER_ADDRESS }}/4gtv.m3u   //https://tv.wangqifei.eu.org/4gtv.m3u
 
       - name: Check for #EXTM3U in itv.m3u
         run: |
@@ -62,10 +62,10 @@ jobs:
           # echo '#EXTM3U x-tvg-url="https://assets.livednow.com/epg.xml"' >>$output_file
           # grep -v '#EXTM3U' 4gtv.m3u | sed -E "s|(https?://)[^/]*|\1tv.wangqifei.eu.org|g" >> "$output_file"
 
-          grep -v '#EXTM3U' 4gtv.m3u >> $output_file
+          grep -v '^#EXTM3U$' 4gtv.m3u >> $output_file
 
           # 8. 追加香港、增加动画
-          # awk '/凤凰|星空|CHANNELV/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
+          # awk '/凤凰|星空|CHANNEL-V/ {print $0; getline; print $0;print ""}' "multicastSource/SiChuan_telecom_333.m3u" >> "$output_file"
 
           cat <<EOL >> "$output_file"
           #EXTINF:-1 tvg-name="" group-title="香港",凤凰中文台HD
@@ -104,7 +104,7 @@ jobs:
           # 9. 整理 动画 频道
           # Step 1: Capture the lines with specified keywords and the next line, modify group-title, and append to a temporary file
           echo "" > temp.txt
-          sed -n '/CCTV 14 HEVC\|少儿\|儿童\|哆啦A梦\|HakkaTV\|超人\|nickjr\|Nickelodeon\|动画\|动漫\|動畫\|動漫/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" > temp.txt
+          sed -n '/CCTV 14 HEVC\|少儿\|儿童\|哆啦A梦\|HakkaTV\|超人\|卡通\|nickjr\|Nickelodeon\|动画\|动漫\|動畫\|動漫/{N;s/\(group-title="\)[^"]*/\1动画/;p;}' "$output_file" > temp.txt
           # Step 2: Append the modified content to the end of "$output_file"
           cat temp.txt >> "$output_file"
           # Step 3: Clean up the temporary file
