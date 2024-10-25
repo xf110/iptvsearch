@@ -5,7 +5,7 @@ set -x
 # 执行全部
 # city_choice=(0)
 # 执行执行
-city_choice=(2 18 6) # 指定多个选项时使用
+city_choice=(2 32) # 指定多个选项时使用
 
 # todo
 # 提取现有地址参与测速
