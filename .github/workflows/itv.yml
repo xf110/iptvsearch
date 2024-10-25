@@ -19,11 +19,6 @@ jobs:
           SERVER_URL="${{ secrets.SERVER_ADDRESS }}"
           curl -L -o itv.m3u ${SERVER_URL}/itv.m3u    # 直接使用frp不再使用url转发https://tv.wangqifei.eu.org/itv.m3u
           curl -L -o 4gtv.m3u ${{ secrets.SERVER_ADDRESS }}/4gtv.m3u   # https://tv.wangqifei.eu.org/4gtv.m3u
-
-      - name: Download pixman content
-        run: |
-          bash ./hotel/hoteliptv.sh
-          bash ./rtp2m3u.sh ./output/sichuan_telecom_hotel.txt
           
       - name: Check for #EXTM3U in itv.m3u
         run: |
