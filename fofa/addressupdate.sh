@@ -254,7 +254,7 @@ grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
 
 echo '香港,#genre#' >> output.list
 grep -iE '凤凰|星空|channel-?v' tmp.list >> output.list
-cat 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 >> output.list
+echo '香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8' >> output.list
 
 # /gangaotai 目前抓取的数据质量太差，还需要调整
 # echo '港澳台,#genre#' >> output.list
