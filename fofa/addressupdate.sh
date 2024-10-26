@@ -2,13 +2,9 @@
 set -x
 # 使用fofa提取各省市组播源地址
 
-# 执行全部
-# city_choice=(0)
-# 执行执行
-city_choice=(2 32) # 指定多个选项时使用
+# city_choice=(0)   # 执行全部
 
-# todo
-# 提取现有地址参与测速
+city_choice=(2 32) # 指定多个选项时使用
 
 # 定义城市选项
 declare -A cities
@@ -73,18 +69,14 @@ urlencode() {
     LC_COLLATE=$old_lc_collate
 }
 
-# 定义处理城市的函数
+# 定义处理城市的函数。使用城市名作为默认文件名，格式为 CityName.ip
 process_city() {
     local city=$1
     local stream=$2
     local channel_key=$3
     local url_fofa=$4
 
-    # 使用城市名作为默认文件名，格式为 CityName.ip
-
-    # 检查目录下ip文件夹是否存在，不存在就创建
-    [ -d "./ip" ] || mkdir -p "./ip"
-
+    [ -d "./ip" ] || mkdir -p "./ip"            # 检查目录下ip文件夹是否存在，不存在就创建
     ipfile="ip/${city}_ip.txt"
     validIP="ip/${city}_validIP.txt"
     template="../multicastSource/${city}.txt"
@@ -96,8 +88,8 @@ process_city() {
         echo "错误：当前无法获取 ${city} fofa数据"
         failed_cities+=("$city")
         return
-
     fi
+
     echo "$ipfile"
     grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
     rm -f search_result.html
@@ -112,29 +104,27 @@ process_city() {
     #         echo "$output" | grep "succeeded" | awk -v ip="$ip" '{print ip}' >>"$validIP"
     #     fi
     # done <"$ipfile"
-    # 遍历 IP 地址并测试 并发优化版本
-    # 设置最大并发数
-    MAX_PROCS=10
+
+    # 遍历 IP 地址并测试 [采用并发优化]
+    MAX_PROCS=10                # 设置最大并发数
     # 创建一个用于控制并发的管道
     fifo="/tmp/$$.fifo"
     mkfifo "$fifo"
     exec 3<>"$fifo"
     rm "$fifo"
-    
+
     # 初始化管道中并发槽位数量
     for ((i = 0; i < MAX_PROCS; i++)); do
         echo
     done >&3
-    
+
     # 并发处理每个IP
     while IFS= read -r ip; do
         # 从并发槽位中取出一个令牌
         read -u 3
         {
-            # 提取 IP 和端口
-            tmp_ip="${ip//:/ }"
-            # 使用nc检测连通性
-            output=$(nc -w 1 -v -z $tmp_ip 2>&1)
+            tmp_ip="${ip//:/ }"                         # 提取 IP 和端口
+            output=$(nc -w 1 -v -z $tmp_ip 2>&1)        # 使用nc检测连通性
             # 检查是否连接成功
             if [[ $output == *"succeeded"* ]]; then
                 echo "$ip" >>"$validIP"
@@ -142,7 +132,7 @@ process_city() {
             # 完成后归还一个令牌
             echo >&3
         } &
-    done <"$ipfile"  
+    done <"$ipfile"
     # 等待所有后台进程完成
     wait
     # 关闭管道
@@ -155,7 +145,9 @@ process_city() {
     fi
 
     echo "============= 检索到有效ip,开始测速 ==============="
-    ipinuse="$(grep -oPm 1 'http://\K[\d.]+:\d+'  $template)"
+    ipinuse="$(grep -oPm 1 'http://\K[\d.]+:\d+' $template)"
+
+    # 将当前在用ip加入测速队列
     if [ -z "$ipinuse" ]; then
         echo "ipinuse 为空，直接测试新ip。"
     else
@@ -199,9 +191,9 @@ process_city() {
     awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r | uniq | head -n 10 >"ip/${city}_result.txt"
 
     echo "speedtest_${city}_$time.log"
-    cat speedtest_${city}_$time.log
+    # cat speedtest_${city}_$time.log
     echo "ip/${city}_result.txt"
-    cat "ip/${city}_result.txt"
+    # cat "ip/${city}_result.txt"
     rm -f "speedtest_${city}_$time.log"
 
     ip1=$(awk 'NR==1{print $2}' ip/${city}_result.txt)
@@ -211,7 +203,7 @@ process_city() {
     echo "bestIP: $ip1"
     if [ -z "$ip1" ]; then
         echo '当前无有效ip,执行下一个'
-        return  # 如果 ip1 为空，则跳过当前迭代
+        return      # 如果 ip1 为空，则跳过
     fi
     sed -Ei "s|(https?://)[^/]*|\1$ip1|g" "$template"
     echo "$template 已更新！"
@@ -220,8 +212,6 @@ process_city() {
     cat "$template" >>domestic.txt
 
     echo -e "${city}：${ip1}" >>msg.txt
-    # …………
-
 }
 
 # 初始化文件
@@ -251,7 +241,7 @@ fi
 
 # domestic.txt频道处理
 
-grep -vP '购|購物|单音轨|画中画|购物|测试|#genre#|https?-' domestic.txt | sed 's/CCTV\([^-]\)/CCTV-\1/g' | sed -E 's/[[:space:]]*(高清|HD|\[高清\]|\[超清\]|\[HDR\])//g' | awk -F, '!seen[$1]++' | sort -t, -k1,1 -V > tmp.list
+grep -vP '购|購物|单音轨|画中画|购物|测试|精选|#genre#|https?-' domestic.txt | sed 's/CCTV\([^-]\)/CCTV-\1/g' | sed -E 's/[[:space:]]*(高清|HD|\[高清\]|\[超清\]|\[HDR\])//g' | awk -F, '!seen[$1]++' | sort -t, -k1,1 -V >tmp.list
 
 # 异常处理
 sed -i '/＋/d; /CCTV-4 中文国际 欧洲/d; /CCTV-4 中文国际 美洲/d; /CCTV-4欧洲/d; /CCTV-4美洲/d; /CCTV-16 奥林匹克/d' tmp.list
@@ -264,11 +254,13 @@ grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
 
 echo '香港,#genre#' >> output.list
 grep -iE '凤凰|星空|channel-?v' tmp.list >> output.list
+cat 香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8 >> output.list
 
-echo '港澳台,#genre#' >> output.list
-grep -v '#genre#' ../output/hongkong_gat_*.txt >> output.list
-grep -v '#genre#' ../output/taiwan_gat_*.txt >> output.list
-grep -v '#genre#' ../output/macau_gat_*.txt >> output.list
+# /gangaotai 目前抓取的数据质量太差，还需要调整
+# echo '港澳台,#genre#' >> output.list
+# grep -v '#genre#' ../output/hongkong_gat_*.txt >> output.list
+# grep -v '#genre#' ../output/taiwan_gat_*.txt >> output.list
+# grep -v '#genre#' ../output/macau_gat_*.txt >> output.list
 
 echo 'theTvApp,#genre#' >> output.list
 cat '../thetvapp/thetvapplist.txt' >> output.list
@@ -286,7 +278,6 @@ echo '动画,#genre#' >> output.list
 grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family' tmp.list >> output.list
 
 mv output.list domestic.txt
-
 
 # bark通知
 # cat msg.txt
