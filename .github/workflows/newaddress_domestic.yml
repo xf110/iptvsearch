@@ -27,6 +27,7 @@ jobs:
         bash ./addressupdate.sh
         # bash ./rtp2m3u.sh './zubo_fofa.txt'
         bash ../rtp2m3u.sh domestic.txt
+        grep -vE '^#EXTM3U$' ../4gtv.txt >> domestic.m3u         # 这里使用pixman的4gtv补充gangaotai
 
   
     - name: Update Results
