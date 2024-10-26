@@ -191,9 +191,9 @@ process_city() {
     awk '/M|k/{print $2"  "$1}' "speedtest_${city}_$time.log" | sort -n -r | uniq | head -n 10 >"ip/${city}_result.txt"
 
     echo "speedtest_${city}_$time.log"
-    # cat speedtest_${city}_$time.log
+    cat speedtest_${city}_$time.log
     echo "ip/${city}_result.txt"
-    # cat "ip/${city}_result.txt"
+    cat "ip/${city}_result.txt"
     rm -f "speedtest_${city}_$time.log"
 
     ip1=$(awk 'NR==1{print $2}' ip/${city}_result.txt)
