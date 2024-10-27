@@ -232,7 +232,7 @@ else
     for option in "${city_choice[@]}"; do
         if [[ -n "${cities[$option]}" ]]; then
             IFS=' ' read -r city stream channel_key query <<<"${cities[$option]}"
-            url_fofa="en.https://fofa.info/result?qbase64=$(echo "$query" | tr -d "'" | base64 -w 0)"
+            url_fofa="https://en.fofa.info/result?qbase64=$(echo "$query" | tr -d "'" | base64 -w 0)"
             process_city "$city" "$stream" "$channel_key" "$url_fofa"
         else
             echo "选择无法匹配：请检查输入 $option。"
