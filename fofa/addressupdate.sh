@@ -283,7 +283,7 @@ if grep -q "http" domestic.txt; then
 else
     echo “无有效文件，不执行更新”
     sed -i '1i 没有找到有效文件，本次不执行更新' msg.txt
-fifo
+fi
 
 # bark通知
 # cat msg.txt
