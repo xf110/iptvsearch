@@ -1,5 +1,5 @@
 #!/bin/bash
-set -x
+# set -x
 # 使用fofa提取各省市组播源地址
 
 # city_choice=(0)   # 执行全部
@@ -92,7 +92,7 @@ process_city() {
 
     echo "$ipfile"
     grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result_${city}.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
-    # rm -f search_result_${city}.html
+    rm -f search_result_${city}.html
 
     # 遍历 IP 地址并测试
     # while IFS= read -r ip; do
