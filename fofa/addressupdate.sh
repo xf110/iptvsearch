@@ -84,15 +84,15 @@ process_city() {
 
     # 搜索最新 IP
     echo "=============== fofa查找 ${city} 当前可用ip ================="
-    if ! curl -o search_result.html "$url_fofa"; then
+    if ! curl -o search_result_${city}.html "$url_fofa"; then
         echo "错误：当前无法获取 ${city} fofa数据"
         failed_cities+=("$city")
         return
     fi
 
     echo "$ipfile"
-    grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
-    rm -f search_result.html
+    grep -E '^\s*[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+$' search_result_${city}.html | grep -oE '[0-9]+\.[0-9]+\.[0-9]+\.[0-9]+:[0-9]+' >"$ipfile"
+    # rm -f search_result_${city}.html
 
     # 遍历 IP 地址并测试
     # while IFS= read -r ip; do
@@ -224,7 +224,7 @@ if [ ${#city_choice[@]} -eq 1 ] && [ ${city_choice[0]} -eq 0 ]; then
     # 如果选择0，处理全部城市
     for option in "${!cities[@]}"; do
         IFS=' ' read -r city stream channel_key query <<<"${cities[$option]}"
-        url_fofa="https://fofa.info/result?qbase64=$(echo "$query" | tr -d "'" | base64 -w 0)"
+        url_fofa="https://en.fofa.info/result?qbase64=$(echo "$query" | tr -d "'" | base64 -w 0)"
         process_city "$city" "$stream" "$channel_key" "$url_fofa"
     done
 else
@@ -232,7 +232,7 @@ else
     for option in "${city_choice[@]}"; do
         if [[ -n "${cities[$option]}" ]]; then
             IFS=' ' read -r city stream channel_key query <<<"${cities[$option]}"
-            url_fofa="https://fofa.info/result?qbase64=$(echo "$query" | tr -d "'" | base64 -w 0)"
+            url_fofa="en.https://fofa.info/result?qbase64=$(echo "$query" | tr -d "'" | base64 -w 0)"
             process_city "$city" "$stream" "$channel_key" "$url_fofa"
         else
             echo "选择无法匹配：请检查输入 $option。"
