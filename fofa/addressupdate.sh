@@ -242,43 +242,48 @@ fi
 
 # domestic.txt频道处理
 
-grep -vP '购|購物|单音轨|画中画|购物|测试|精选|#genre#|https?-' domestic.txt | sed 's/CCTV\([^-]\)/CCTV-\1/g' | sed -E 's/[[:space:]]*(高清|HD|\[高清\]|\[超清\]|\[HDR\])//g' | awk -F, '!seen[$1]++' | sort -t, -k1,1 -V >tmp.list
+if grep -q "http" domestic.txt; then
+    grep -vP '购|購物|单音轨|画中画|购物|测试|精选|#genre#|https?-' domestic.txt | sed 's/CCTV\([^-]\)/CCTV-\1/g' | sed -E 's/[[:space:]]*(高清|HD|\[高清\]|\[超清\]|\[HDR\])//g' | awk -F, '!seen[$1]++' | sort -t, -k1,1 -V >tmp.list
 
-# 异常处理
-sed -i '/＋/d; /CCTV-4 中文国际 欧洲/d; /CCTV-4 中文国际 美洲/d; /CCTV-4欧洲/d; /CCTV-4美洲/d; /CCTV-16 奥林匹克/d' tmp.list
+    # 异常处理
+    sed -i '/＋/d; /CCTV-4 中文国际 欧洲/d; /CCTV-4 中文国际 美洲/d; /CCTV-4欧洲/d; /CCTV-4美洲/d; /CCTV-16 奥林匹克/d' tmp.list
 
-echo '中央电视台,#genre#' > output.list
-grep 'CCTV' tmp.list >> output.list
+    echo '中央电视台,#genre#' > output.list
+    grep 'CCTV' tmp.list >> output.list
 
-echo '卫视频道,#genre#' >> output.list
-grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
+    echo '卫视频道,#genre#' >> output.list
+    grep '卫视' tmp.list | sort -t, -k1,1 >> output.list
 
-echo '香港,#genre#' >> output.list
-grep -iE '凤凰|星空|channel-?v' tmp.list >> output.list
-echo '香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8' >> output.list
+    echo '香港,#genre#' >> output.list
+    grep -iE '凤凰|星空|channel-?v' tmp.list >> output.list
+    echo '香港卫视,http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8' >> output.list
 
-# /gangaotai 目前抓取的数据质量太差，还需要调整
-# echo '港澳台,#genre#' >> output.list
-# grep -v '#genre#' ../output/hongkong_gat_*.txt >> output.list
-# grep -v '#genre#' ../output/taiwan_gat_*.txt >> output.list
-# grep -v '#genre#' ../output/macau_gat_*.txt >> output.list
+    # /gangaotai 目前抓取的数据质量太差，还需要调整
+    # echo '港澳台,#genre#' >> output.list
+    # grep -v '#genre#' ../output/hongkong_gat_*.txt >> output.list
+    # grep -v '#genre#' ../output/taiwan_gat_*.txt >> output.list
+    # grep -v '#genre#' ../output/macau_gat_*.txt >> output.list
 
-echo 'theTvApp,#genre#' >> output.list
-cat '../thetvapp/thetvapplist.txt' >> output.list
+    echo 'theTvApp,#genre#' >> output.list
+    cat '../thetvapp/thetvapplist.txt' >> output.list
 
-echo 'moveOnJoy,#genre#' >> output.list
-cat '../MoveOnJoy.txt' >> output.list
+    echo 'moveOnJoy,#genre#' >> output.list
+    cat '../MoveOnJoy.txt' >> output.list
 
-echo '其他频道,#genre#' >> output.list
-grep -iEv 'CCTV|卫视|凤凰|星空|channel-?v|动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family|[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list >> output.list
+    echo '其他频道,#genre#' >> output.list
+    grep -iEv 'CCTV|卫视|凤凰|星空|channel-?v|动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family|[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list >> output.list
 
-echo '教育,#genre#' >> output.list
-grep -iE '[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list | sort -V >> output.list
+    echo '教育,#genre#' >> output.list
+    grep -iE '[^党员]教育|课堂|空中|学习|学堂|中教|科教' tmp.list | sort -V >> output.list
 
-echo '动画,#genre#' >> output.list
-grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family' tmp.list >> output.list
+    echo '动画,#genre#' >> output.list
+    grep -iE '动画|动漫|少儿|儿童|卡通|炫动|baby|disney|nick|boomerang|cartoon|discovery-?family' tmp.list >> output.list
 
-mv output.list domestic.txt
+    mv output.list domestic.txt
+else
+    echo “无有效文件，不执行更新”
+    sed -i '1i 没有找到有效文件，本次不执行更新' msg.txt
+fifo
 
 # bark通知
 # cat msg.txt
