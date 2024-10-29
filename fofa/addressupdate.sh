@@ -211,14 +211,16 @@ process_city() {
     bash ../rtp2m3u.sh "$template"
     echo "$template m3u 已更新！"
     cat "$template" >>domestic.txt
-
-    echo -e "${city}：${ip1}" >>msg.txt
+    updated_cities+=("$city")
+    printf "%25s: %s\n" "${city}" "${ip1}" >> msg.txt
+    # echo -e "${city}：${ip1}" >>msg.txt
 }
 
 # 初始化文件
-: >domestic.txt
-: >msg.txt
+> domestic.txt
+> msg.txt
 failed_cities=()
+updated_cities=()
 # 处理选项
 if [ ${#city_choice[@]} -eq 1 ] && [ ${city_choice[0]} -eq 0 ]; then
     # 如果选择0，处理全部城市
@@ -282,13 +284,17 @@ if grep -q "http" domestic.txt; then
     mv output.list domestic.txt
 else
     echo “无有效文件，不执行更新”
-    sed -i '1i 没有找到有效文件，本次不执行更新' msg.txt
+    sed -i '1i  无有效文件，不执行更新！' msg.txt
 fi
 
 # bark通知
 # cat msg.txt
-sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n国内直播源地址已更新：" msg.txt
-echo "未更新城市列表： ${failed_cities[@]}" | sed 's/ / \ /g' >>msg.txt
+sed -i "1i\\
+ =========== 国内直播源 ===========\\
+   更新时间:$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\\
+ 本次更新${#updated_cities[@]}个省市数据：\\
+" msg.txt
+printf "%s 个省市数据未更新: \n  %s\n"  "${#failed_cities[@]} " "${failed_cities[@]}" >> msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
 rm msg.txt tmp.list
