@@ -362,11 +362,33 @@ for city in "${!cities[@]}"; do
     echo "未更新城市列表： ${failed_cities[@]}" | tee -a "$SUMMARY_FILE"
     rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} ${SUMMARY_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
 
+done
+
+    # url编码函数
+    urlencode() {
+        # urlencode <string>
+        old_lang=$LANG
+        LANG=C
+        old_lc_collate=$LC_COLLATE
+        LC_COLLATE=C
+
+        local length="${#1}"
+        for ((i = 0; i < length; i++)); do
+            local c="${1:i:1}"
+            case $c in
+            [a-zA-Z0-9.~_-]) printf "$c" ;;
+            *) printf '%%%02X' "'$c" ;;
+            esac
+        done
+
+        LANG=$old_lang
+        LC_COLLATE=$old_lc_collate
+    }
+
+
     # bark通知
     sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n各省市直播源地址已更新：" msg.txt
     echo -e "=============\n未更新城市列表： ${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
     rm msg.txt tmp.list
-
-done
