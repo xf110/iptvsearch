@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 29 11:12:21 CST 2024
+# Tue Oct 29 14:29:53 CST 2024
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png" group-title="SiChuan_telecom",四川卫视
 http://222.211.162.32:1880/udp/239.93.0.169:5140
 #EXTINF:-1 tvg-id="四川卫视" tvg-name="四川卫视" tvg-logo="https://live.fanmingming.com/tv/四川卫视.png" group-title="SiChuan_telecom",四川卫视
