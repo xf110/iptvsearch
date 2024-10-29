@@ -263,7 +263,7 @@ for city in "${!cities[@]}"; do
         if ! grep -qE "^\s?\[download\]\s+[0-9]+%" yt.tmp; then
             echo "下载失败: ${url}" | tee -a "$SUMMARY_FILE"
             echo "下载失败: ${url}" >>"$SPEED_TEST_LOG"
-            rm new-archive.txt output.ts
+            rm -f new-archive.txt output.ts
             continue
         fi
 
@@ -360,7 +360,7 @@ for city in "${!cities[@]}"; do
     echo "------------------------------" | tee -a "$SUMMARY_FILE"
     echo "本次更新城市列表： ${updated_cities[@]}" | tee -a "$SUMMARY_FILE"
     echo "未更新城市列表： ${failed_cities[@]}" | tee -a "$SUMMARY_FILE"
-    rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} ${SUMMARY_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
+    rm -f ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} ${SUMMARY_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
 
 done
 
@@ -391,4 +391,4 @@ done
     echo -e "=============\n未更新城市列表： ${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
-    rm msg.txt tmp.list
+    rm -f msg.txt tmp.list
