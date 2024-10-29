@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 29 10:58:14 CST 2024
+# Tue Oct 29 17:53:37 CST 2024
 #EXTINF:-1 tvg-id="湖北公共新闻" tvg-name="湖北公共新闻" tvg-logo="https://live.fanmingming.com/tv/湖北公共新闻.png" group-title="HuBei_telecom",湖北公共新闻
 http://27.18.7.3:4022/rtp/239.69.1.40:9880
 #EXTINF:-1 tvg-id="湖北经视" tvg-name="湖北经视" tvg-logo="https://live.fanmingming.com/tv/湖北经视.png" group-title="HuBei_telecom",湖北经视

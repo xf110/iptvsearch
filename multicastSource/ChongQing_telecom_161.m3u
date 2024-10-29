@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 29 11:13:34 CST 2024
+# Tue Oct 29 18:11:33 CST 2024
 #EXTINF:-1 tvg-id="重庆卫视" tvg-name="重庆卫视" tvg-logo="https://live.fanmingming.com/tv/重庆卫视.png" group-title="ChongQing_telecom",重庆卫视
 http://113.248.167.107:9999/rtp/235.254.196.249:1268
 #EXTINF:-1 tvg-id="CQTV影视" tvg-name="CQTV影视" tvg-logo="https://live.fanmingming.com/tv/CQTV影视.png" group-title="ChongQing_telecom",CQTV影视

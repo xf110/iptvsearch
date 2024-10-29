@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 22 17:59:23 CST 2024
+# Tue Oct 29 18:15:54 CST 2024
 #EXTINF:-1 tvg-id="福建综合" tvg-name="福建综合" tvg-logo="https://live.fanmingming.com/tv/福建综合.png" group-title="FuJian_telecom",福建综合
 http://e2.woc.iiiya.cn:8888/rtp/239.61.3.4:9542
 #EXTINF:-1 tvg-id="东南卫视" tvg-name="东南卫视" tvg-logo="https://live.fanmingming.com/tv/东南卫视.png" group-title="FuJian_telecom",东南卫视
