@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 22 17:47:13 CST 2024
+# Tue Oct 29 11:04:35 CST 2024
 #EXTINF:-1 tvg-id="宁夏公共高清" tvg-name="宁夏公共高清" tvg-logo="https://live.fanmingming.com/tv/宁夏公共高清.png" group-title="NingXia_telecom",宁夏公共高清
 http://14.135.72.70:8888/rtp/239.121.4.97:8556
 #EXTINF:-1 tvg-id="宁夏教育高清" tvg-name="宁夏教育高清" tvg-logo="https://live.fanmingming.com/tv/宁夏教育高清.png" group-title="NingXia_telecom",宁夏教育高清
