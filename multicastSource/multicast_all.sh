@@ -132,6 +132,7 @@ cities["ZheJiang_telecom"]="%E6%B5%99%E6%B1%9F%E7%94%B5%E4%BF%A1"
 # 初始化成功和失败的城市列表
 updated_cities=()
 failed_cities=()
+> msg.txt
 
 URL="http://www.foodieguide.com/iptvsearch/hoteliptv.php"
 URL2="http://www.foodieguide.com/iptvsearch/allllist.php"
@@ -352,6 +353,7 @@ for city in "${!cities[@]}"; do
     echo " $NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
     bash ../rtp2m3u.sh "$NEW_output"
     echo "${city}_${line_count_output}.m3u 已经更新完成 "
+    echo -e "${city}: ${besturl}" >> msg.txt
 
     # 在汇总文件中加入分隔行
     echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
@@ -360,5 +362,11 @@ for city in "${!cities[@]}"; do
     echo "未更新城市列表： ${failed_cities[@]}" | tee -a "$SUMMARY_FILE"
     rm ${RESPONSE_FILE} ${UNIQUE_SEARCH_RESULTS_FILE} ${SPEED_TEST_LOG} ${BEST_URL_RESPONSE_FILE} ${YT_DLP_LOG} ${SUMMARY_FILE} curl.list curl.log validurl.txt validurlist.txt yt.tmp
 
+    # bark通知
+    sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n各省市直播源地址已更新：" msg.txt
+    echo -e "=============\n未更新城市列表： ${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
+    msg_urlencode=$(urlencode "$(cat msg.txt)")
+    curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+    rm msg.txt tmp.list
 
 done
