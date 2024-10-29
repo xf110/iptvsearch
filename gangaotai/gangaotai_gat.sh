@@ -5,7 +5,7 @@
 
 # 定义城市参数
 declare -A cities
-cities["taiwan"]="%E6%B0%91%E8%A6%96:eowuxJvaa8brWPsOa5vg=="
+cities["taiwan"]="%E6%B0%91%E8%A6%96:eowuxJvaa8brWPsOa5vg=="	# 搜索关键字： 中视
 # cities["hongkong"]="%E9%A6%99%E6%B8%AF:eowuxJvaa8browuxowuxowuxea4rw=="
 # cities["macau"]="%E6%BE%B3%E9%97%A8:eowuxJvaa8braa8brsa8browuxXqA=="
 # cities["feicuitai"]="%E7%BF%A1%E7%BF%A0%E5%8F%Bl:eowuxJvaa8bre/oee/oOWPsA=="
@@ -200,9 +200,8 @@ for channel_name in "${!cities[@]}"; do
     mv "$output_file" "$NEW_output"
 
     echo "${channel_name}_$linescount ：${best_url}" >> msg.tmp
-    # rm $summary_file
-    # rm 
-    ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${yt_dlp_log} out.tmp valid_url.txt
+    rm $summary_file
+    rm ${response_file} ${unique_search_results_file} ${speed_test_log} ${best_url_response_file} ${yt_dlp_log} out.tmp valid_url.txt
 
 done
 sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n港澳台直播源列表已更新: " msg.tmp
