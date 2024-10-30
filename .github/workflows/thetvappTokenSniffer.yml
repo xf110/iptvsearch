@@ -37,7 +37,7 @@ jobs:
         printf "=========== theTvApp Token ===========\n" > msg.txt
         printf " 更新时间：$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n" >> msg.txt
         printf " %8s: %s" "Token" "${token}" >> msg.txt
-        msg_urlencode=$(bash ./url_process/encode.sh msg.txt)
+        msg_urlencode=$(bash ./url_process/encode.sh "$(cat msg.txt)")
         curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
         rm -f msg.txt
 
