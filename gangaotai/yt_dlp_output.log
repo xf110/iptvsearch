@@ -4,24 +4,24 @@
 ERROR: [generic] Unable to download webpage: HTTPSConnectionPool(host='live.yzd.jialiangos.com', port=4443): Read timed out. (read timeout=20.0) (caused by TransportError("HTTPSConnectionPool(host='live.yzd.jialiangos.com', port=4443): Read timed out. (read timeout=20.0)"))
 [generic] Extracting URL: https://test.zapi.us.kg/?id=ctv
 [generic] ?id=ctv: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f81697d8100>: Failed to resolve 'test.zapi.us.kg' ([Errno -5] No address associated with hostname) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f81697d8100>: Failed to resolve 'test.zapi.us.kg' ([Errno -5] No address associated with hostname)"))
+ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7fcc194e8100>: Failed to resolve 'test.zapi.us.kg' ([Errno -5] No address associated with hostname) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7fcc194e8100>: Failed to resolve 'test.zapi.us.kg' ([Errno -5] No address associated with hostname)"))
 [generic] Extracting URL: https://ktpremium.com:443/M919HR/5577/889368?c=台湾
 [generic] 889368?c=台湾: Downloading webpage
-[redirect] Following redirect to http://ww7.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=9056091982
-[generic] Extracting URL: http://ww7.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=9056091982
-[generic] 889368?c=台湾&usid=27&utid=9056091982: Downloading webpage
+[redirect] Following redirect to http://ww7.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=9076215848
+[generic] Extracting URL: http://ww7.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=9076215848
+[generic] 889368?c=台湾&usid=27&utid=9076215848: Downloading webpage
 WARNING: [generic] Falling back on generic information extractor
-[generic] 889368?c=台湾&usid=27&utid=9056091982: Extracting information
-ERROR: Unsupported URL: http://ww7.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=9056091982
+[generic] 889368?c=台湾&usid=27&utid=9076215848: Extracting information
+ERROR: Unsupported URL: http://ww7.ktpremium.com/M919HR/5577/889368?c=%E5%8F%B0%E6%B9%BE&usid=27&utid=9076215848
 [generic] Extracting URL: https://bsex.serv00.net/Smart.php?id=sanlitaiwan
 [generic] Smart: Downloading webpage
 ERROR: [generic] Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)
 [generic] Extracting URL: https://z02.ubtvfans.com/live/rx1/36/5c8794bb35c77bc62b0f2cf402294053/index.m3u8
 [generic] index: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f9cf1cb8100>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f9cf1cb8100>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known)"))
+ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f67af414100>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f67af414100>: Failed to resolve 'z02.ubtvfans.com' ([Errno -2] Name or service not known)"))
 [generic] Extracting URL: https://sanlihalive1-a.akamaihd.net/5ffd3a166f7241d9b489b7d7241db96f/ap-northeast-1/4338955585001...84c95ae3d4a569e932b1
 [generic] chunklist: Downloading webpage
 ERROR: [generic] Unable to download webpage: HTTP Error 403: Forbidden (caused by <HTTPError 403: Forbidden>)
 [generic] Extracting URL: https://sc2022.stream-link.org/tv2306.php?id=t25&checkedby:iptvcat.com
 [generic] tv2306.php?id=t25&checkedby:iptvcat: Downloading webpage
-ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f9937bd0100>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f9937bd0100>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known)"))
+ERROR: [generic] Unable to download webpage: <urllib3.connection.HTTPSConnection object at 0x7f5895864100>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known) (caused by TransportError("<urllib3.connection.HTTPSConnection object at 0x7f5895864100>: Failed to resolve 'sc2022.stream-link.org' ([Errno -2] Name or service not known)"))
