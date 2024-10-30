@@ -145,9 +145,9 @@ YT_DLP_LOG="yt-dlp-output.log"
 CURL_LOG="curl.log"
 
 # 清空或创建日志文件
-: >${SUMMARY_FILE}
-: >${YT_DLP_LOG}
-: >${CURL_LOG}
+> ${SUMMARY_FILE}
+> ${YT_DLP_LOG}
+> ${CURL_LOG}
 l=0
 for city in "${!cities[@]}"; do
     l=i=$((l + 1))
@@ -353,7 +353,8 @@ for city in "${!cities[@]}"; do
     echo " $NEW_output 已经更新完成" | tee -a "$SUMMARY_FILE"
     bash ../rtp2m3u.sh "$NEW_output"
     echo "${city}_${line_count_output}.m3u 已经更新完成 "
-    echo -e "${city}: ${besturl}" >> msg.txt
+    # echo -e "${city}: ${besturl}" >> msg.txt
+    printf "%24s: %s\n" "${city}" "${besturl}" >> msg.txt
 
     # 在汇总文件中加入分隔行
     echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
@@ -387,8 +388,14 @@ done
 
 
     # bark通知
-    sed -i "1i $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n各省市直播源地址已更新：" msg.txt
-    echo -e "=============\n未更新城市列表： ${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
+    sed -i "1i\\
+     更新时间： $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n\\
+     ${#updated_cities[@]}个省市直播源地址已更新：\\
+     " msg.txt
+     printf "%24s: %s" “省市” “地址” >> msg.txt
+     printf "%24s: %s" “————————————————————————” “————————————————————————” >> msg.txt
+     printf "${#failed_cities[@]}个省市数据未更新: %-23s|" "${failed_cities[@]}" >> msg.txt
+    # echo -e "${#failed_cities[@]}个省市数据未更新： ${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
     rm -f msg.txt tmp.list
