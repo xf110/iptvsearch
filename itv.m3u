@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 29 20:25:00 CST 2024
+# Wed Oct 30 09:00:56 CST 2024
 
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV 1 HEVC" tvg-logo="https://assets.livednow.com/logo/CCTV1.png" group-title="央视", CCTV 1 HEVC
 http://gslbserv.itv.cmvideo.cn:80/1000000005000265001/1.m3u8?channel-id=ystenlive&Contentid=1000000005000265001&livemode=1&stbId=3
@@ -873,13 +873,13 @@ http://frp.zephyrus.serv00.net/4gtv/286
 #EXTINF:-1 tvg-name="" group-title="香港",香港卫视
 http://zhibo.hkstv.tv/livestream/mutfysrq/playlist.m3u8
 #EXTINF:-1 tvg-id="凤凰中文" tvg-name="凤凰中文" tvg-logo="https://live.fanmingming.com/tv/凤凰中文.png" group-title="香港",凤凰中文
-http://171.213.130.23:8088/udp/239.93.0.162:2192
+http://171.213.209.125:4000/udp/239.93.0.162:2192
 #EXTINF:-1 tvg-id="凤凰资讯" tvg-name="凤凰资讯" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯.png" group-title="香港",凤凰资讯
-http://171.213.130.23:8088/udp/239.93.0.118:2191
+http://171.213.209.125:4000/udp/239.93.0.118:2191
 #EXTINF:-1 tvg-id="星空" tvg-name="星空" tvg-logo="https://live.fanmingming.com/tv/星空.png" group-title="香港",星空
-http://171.213.130.23:8088/udp/239.93.0.156:2193
+http://171.213.209.125:4000/udp/239.93.0.156:2193
 #EXTINF:-1 tvg-id="CHANNELV" tvg-name="CHANNELV" tvg-logo="https://live.fanmingming.com/tv/CHANNELV.png" group-title="香港",CHANNEL-V
-http://171.213.130.23:8088/udp/239.93.0.157:2194
+http://171.213.209.125:4000/udp/239.93.0.157:2194
 #EXTINF#EXTINF:-1 tvg-id="ABCWOLO.us" tvg-name="ABC_EAST" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/2/2f/ABC-2021-LOGO.svg" group-title="MoveOnJoy",ABC (WOLO)
 http://fl1.moveonjoy.com/ABC_EAST/index.m3u8
 #EXTINF:-1 tvg-id="ACCNetwork.us" tvg-name="ACC_NETWORK" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fd/ACC_Network_ESPN_logo.svg/1024px-ACC_Network_ESPN_logo.svg.png" group-title="MoveOnJoy",ACC Network
