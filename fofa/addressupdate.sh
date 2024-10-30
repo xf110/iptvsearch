@@ -111,7 +111,7 @@ process_city() {
     fifo="/tmp/$$.fifo"
     mkfifo "$fifo"
     exec 3<>"$fifo"
-    rm "$fifo"
+    rm -f "$fifo"
 
     # 初始化管道中并发槽位数量
     for ((i = 0; i < MAX_PROCS; i++)); do
@@ -298,4 +298,4 @@ sed -i "1i\\
 printf "\n %s个省市数据未更新: \n %24s|\n"  "${#failed_cities[@]} " "${failed_cities[@]}" >> msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
-rm msg.txt tmp.list
+rm -f msg.txt tmp.list
