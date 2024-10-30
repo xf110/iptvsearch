@@ -212,7 +212,7 @@ process_city() {
     echo "$template m3u 已更新！"
     cat "$template" >>domestic.txt
     updated_cities+=("$city")
-    printf "%22s: %s\n" "${city}" "${ip1}" >> msg.txt
+    printf " %24s: %s\n" "${city}" "${ip1}" >> msg.txt
     # echo -e "${city}：${ip1}" >>msg.txt
 }
 
@@ -293,8 +293,9 @@ sed -i "1i\\
  =========== 国内直播源 ===========\\
    更新时间:$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\\
    \\
- 本次更新${#updated_cities[@]}个省市数据：\\" msg.txt
-printf "\n %s个省市数据未更新: \n %s\n"  "${#failed_cities[@]} " "${failed_cities[@]}" >> msg.txt
+ 本次更新${#updated_cities[@]}个省市数据：\\
+ " msg.txt
+printf "\n %s个省市数据未更新: \n %24s|\n"  "${#failed_cities[@]} " "${failed_cities[@]}" >> msg.txt
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
 rm msg.txt tmp.list
