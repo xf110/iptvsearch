@@ -130,8 +130,8 @@ jobs:
         run: |
           cd $GITHUB_WORKSPACE
           printf "=========== itv palylist ===========\n" > msg.txt
-          printf " 更新时间：$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)" >> msg.txt
-          printf " 本次更新频道数量： &(grep -c "://" ./itv.m3u | awk '{printf "%d", $1-1})" >> msg.txt
+          printf " 更新时间：$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n" >> msg.txt
+          printf " 本次更新频道数量： $(grep -c "://" ./itv.m3u | awk '{printf "%d", $1-1})" >> msg.txt
           msg_urlencode=$(bash ./url_process/encode.sh  "$(cat msg.txt)")
           curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
           rm -f msg.txt
