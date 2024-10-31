@@ -345,6 +345,15 @@ for city in "${!cities[@]}"; do
         }
     }' >"$OUTPUT_FILE"
 
+    # 检查输出文件否有效
+    if [ ! -s "$OUTPUT_FILE" ]; then
+        echo "没有找到有效的测速结果，跳过 ${city}" | tee -a "$SUMMARY_FILE"
+        failed_cities[l]="${city}"
+        rm -f $OUTPUT_FILE
+        continue # 跳过当前循环，进入下一个频道的处理
+    fi
+
+
     sed -i "1i ${city},#genre#" "$OUTPUT_FILE"
     line_count_output=$(($(wc -l < "$OUTPUT_FILE") - 1))
     NEW_output="${OUTPUT_FILE//NUM/$line_count_output}"
@@ -398,11 +407,11 @@ done
     " msg.txt
     printf "\n%s个省市数据未更新: \n" "${#failed_cities[@]}" >> msg.txt
     for city in "${failed_cities[@]}"; do
-        printf "%s | " "$city" >> msg.txt
+        printf " %s | " "$city" >> msg.txt
     done
-    sed -i 's/|$//' msg.txt
+    sed -i 's/|$//g' msg.txt
      
     # echo -e "${#failed_cities[@]}个省市数据未更新：${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
-    rm -f msg.txt tmp.list
+    rm -f msg.txt tmp.list *_-1.*
