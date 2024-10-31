@@ -409,7 +409,7 @@ done
     for city in "${failed_cities[@]}"; do
         printf " %s | " "$city" >> msg.txt
     done
-    sed -i 's/|$//g' msg.txt
+    sed -i 's/ | $//g' msg.txt
      
     # echo -e "${#failed_cities[@]}个省市数据未更新：${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
