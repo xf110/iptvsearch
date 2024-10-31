@@ -389,13 +389,19 @@ done
 
     # bark通知
     sed -i "1i\\
+    =========== multicastcast source ===========\\
      更新时间： $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n\\
-     ________________\\
-     ${#updated_cities[@]}个省市直播源地址已更新：\\
-     " msg.txt
-     printf "%24s: %s" “省市” “地址” >> msg.txt
-     printf "%24s: %s" “————————————————————————” “————————————————————————” >> msg.txt
-     printf "________________\n${#failed_cities[@]}个省市数据未更新:\n%-25s|" "${failed_cities[@]}" >> msg.txt
+    \\
+    ${#updated_cities[@]}个省市直播源地址已更新：\\
+    $(printf "%24s: %s\n" "省市" "地址")\\
+    $(printf "%24s: %s" "————————————————————————" "————————————————————————")\\
+    " msg.txt
+    printf "\n%s个省市数据未更新: \n" "${#failed_cities[@]}" >> msg.txt
+    for city in "${failed_cities[@]}"; do
+        printf "%s | " "$city" >> msg.txt
+    done
+    sed -i 's/|$//' msg.txt
+     
     # echo -e "${#failed_cities[@]}个省市数据未更新：${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
