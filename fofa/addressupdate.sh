@@ -296,10 +296,10 @@ sed -i "1i\\
  ${#updated_cities[@]}个省市数据已更新：" msg.txt
 
 printf "\n%s个省市数据未更新: \n" "${#failed_cities[@]}" >> msg.txt
-sed -i 's/|$//' msg.txt
 for city in "${failed_cities[@]}"; do
     printf "%s | " "$city" >> msg.txt
 done
+sed -i 's/|$//' msg.txt
 
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
