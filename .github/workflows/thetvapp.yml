@@ -39,8 +39,9 @@ jobs:
     - name: bark
       run: |
         cd $GITHUB_WORKSPACE
-        msg="$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)
-        thetvappLIst updated."
+        printf "=========== theTvApp playlist ===========\n" > msg.txt
+        printf " 更新时间： $(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)"
+        printf " 本次更新频道数量： &(wc -l ./thetvapp/thetvapplist.txt | awk '{printf $1-1}')"
         msg_urlencode=$(bash ./url_process/encode.sh "$msg")
         curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
         
