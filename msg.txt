@@ -1,0 +1,2 @@
+=========== theTvApp playlist ===========
+ 本次更新频道数量： &(wc -l ./thetvapp/thetvapplist.txt | awk '{printf -1}')
