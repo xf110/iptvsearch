@@ -293,9 +293,14 @@ sed -i "1i\\
  =========== 国内直播源 ===========\\
    更新时间:$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\\
    \\
- 本次更新${#updated_cities[@]}个省市数据：\\
+ ${#updated_cities[@]}个省市数据已更新：\\
  " msg.txt
-printf "\n %s个省市数据未更新: \n %24s|\n"  "${#failed_cities[@]} " "${failed_cities[@]}" >> msg.txt
+
+printf "\n%s个省市数据未更新: \n" "${#failed_cities[@]}" >> msg.txt
+for city in "${failed_cities[@]}"; do
+    printf "%24s|\n" "$city" >> msg.txt
+done
+
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
 rm -f msg.txt tmp.list
