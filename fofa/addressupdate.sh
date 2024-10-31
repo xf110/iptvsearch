@@ -293,7 +293,7 @@ sed -i "1i\\
  =========== 国内直播源 ===========\\
    更新时间:$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\\
    \\
- ${#updated_cities[@]}个省市数据已更新：" msg.txt
+ $(${#updated_cities[@]})个省市数据已更新：" msg.txt
 
 printf "\n%s个省市数据未更新: \n" "${#failed_cities[@]}" >> msg.txt
 for city in "${failed_cities[@]}"; do
