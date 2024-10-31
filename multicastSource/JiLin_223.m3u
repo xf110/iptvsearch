@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Tue Oct 29 17:56:51 CST 2024
+# Thu Oct 31 17:29:37 CST 2024
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="JiLin",CCTV1
 http://36.49.51.252:30007/rtp/239.37.0.008:5540
 #EXTINF:-1 tvg-id="CCTV1" tvg-name="CCTV1" tvg-logo="https://live.fanmingming.com/tv/CCTV1.png" group-title="JiLin",CCTV1
