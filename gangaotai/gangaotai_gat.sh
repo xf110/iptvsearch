@@ -229,5 +229,5 @@ urlencode() {
 
 # bark通知
 msg_urlencode=$(urlencode "$(cat msg.tmp)")
-curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
 rm -f msg.tmp
