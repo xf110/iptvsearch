@@ -131,7 +131,7 @@ jobs:
           cd $GITHUB_WORKSPACE
           printf "=========== itv palylist ===========\n" > msg.txt
           printf " 更新时间：$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n" >> msg.txt
-          printf " 本次更新频道数量： $(grep -c "://" ./itv.m3u | awk '{printf "%d", $1-1})" >> msg.txt
+          printf " 本次更新频道数量： $(grep -c "://" ./itv.m3u | awk '{printf "%d", $1-1}')\n" >> msg.txt
           msg_urlencode=$(bash ./url_process/encode.sh  "$(cat msg.txt)")
           curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
           rm -f msg.txt
