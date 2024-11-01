@@ -301,5 +301,5 @@ done
 sed -i 's/|$//g' msg.txt
 
 msg_urlencode=$(urlencode "$(cat msg.txt)")
-curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
 rm -f msg.txt tmp.list
