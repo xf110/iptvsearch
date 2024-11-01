@@ -1,567 +1,567 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Sat Oct 19 16:33:38 CST 2024
+# Fri Nov  1 12:15:53 CST 2024
 #EXTINF:-1 tvg-id="湖南卫视FHD" tvg-name="湖南卫视FHD" tvg-logo="https://live.fanmingming.com/tv/湖南卫视FHD.png" group-title="HuNan_telecom",湖南卫视FHD
-http:///udp/239.76.245.115:1234
+http://223.145.224.22:8000/udp/239.76.245.115:1234
 #EXTINF:-1 tvg-id="湖南经视FHD" tvg-name="湖南经视FHD" tvg-logo="https://live.fanmingming.com/tv/湖南经视FHD.png" group-title="HuNan_telecom",湖南经视FHD
-http:///udp/239.76.245.116:1234
+http://223.145.224.22:8000/udp/239.76.245.116:1234
 #EXTINF:-1 tvg-id="湖南都市FHD" tvg-name="湖南都市FHD" tvg-logo="https://live.fanmingming.com/tv/湖南都市FHD.png" group-title="HuNan_telecom",湖南都市FHD
-http:///udp/239.76.245.117:1234
+http://223.145.224.22:8000/udp/239.76.245.117:1234
 #EXTINF:-1 tvg-id="湖南电视剧FHD" tvg-name="湖南电视剧FHD" tvg-logo="https://live.fanmingming.com/tv/湖南电视剧FHD.png" group-title="HuNan_telecom",湖南电视剧FHD
-http:///udp/239.76.245.118:1234
+http://223.145.224.22:8000/udp/239.76.245.118:1234
 #EXTINF:-1 tvg-id="湖南电影FHD" tvg-name="湖南电影FHD" tvg-logo="https://live.fanmingming.com/tv/湖南电影FHD.png" group-title="HuNan_telecom",湖南电影FHD
-http:///udp/239.76.245.119:1234
+http://223.145.224.22:8000/udp/239.76.245.119:1234
 #EXTINF:-1 tvg-id="湖南娱乐FHD" tvg-name="湖南娱乐FHD" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐FHD.png" group-title="HuNan_telecom",湖南娱乐FHD
-http:///udp/239.76.245.121:1234
+http://223.145.224.22:8000/udp/239.76.245.121:1234
 #EXTINF:-1 tvg-id="湖南国际FHD" tvg-name="湖南国际FHD" tvg-logo="https://live.fanmingming.com/tv/湖南国际FHD.png" group-title="HuNan_telecom",湖南国际FHD
-http:///udp/239.76.245.124:1234
+http://223.145.224.22:8000/udp/239.76.245.124:1234
 #EXTINF:-1 tvg-id="湖南公共FHD" tvg-name="湖南公共FHD" tvg-logo="https://live.fanmingming.com/tv/湖南公共FHD.png" group-title="HuNan_telecom",湖南公共FHD
-http:///udp/239.76.245.123:1234
+http://223.145.224.22:8000/udp/239.76.245.123:1234
 #EXTINF:-1 tvg-id="CCTV1HD" tvg-name="CCTV1HD" tvg-logo="https://live.fanmingming.com/tv/CCTV1HD.png" group-title="HuNan_telecom",CCTV1HD
-http:///udp/239.76.245.51:1234
+http://223.145.224.22:8000/udp/239.76.245.51:1234
 #EXTINF:-1 tvg-id="CCTV1HD" tvg-name="CCTV1HD" tvg-logo="https://live.fanmingming.com/tv/CCTV1HD.png" group-title="HuNan_telecom",CCTV1HD
-http:///udp/239.76.246.151:1234
+http://223.145.224.22:8000/udp/239.76.246.151:1234
 #EXTINF:-1 tvg-id="CCTV2HD" tvg-name="CCTV2HD" tvg-logo="https://live.fanmingming.com/tv/CCTV2HD.png" group-title="HuNan_telecom",CCTV2HD
-http:///udp/239.76.246.152:1234
+http://223.145.224.22:8000/udp/239.76.246.152:1234
 #EXTINF:-1 tvg-id="CCTV3HD" tvg-name="CCTV3HD" tvg-logo="https://live.fanmingming.com/tv/CCTV3HD.png" group-title="HuNan_telecom",CCTV3HD
-http:///udp/239.76.246.153:1234
+http://223.145.224.22:8000/udp/239.76.246.153:1234
 #EXTINF:-1 tvg-id="CCTV4HD" tvg-name="CCTV4HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4HD.png" group-title="HuNan_telecom",CCTV4HD
-http:///udp/239.76.245.195:1234
+http://223.145.224.22:8000/udp/239.76.245.195:1234
 #EXTINF:-1 tvg-id="CCTV4HD" tvg-name="CCTV4HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4HD.png" group-title="HuNan_telecom",CCTV4HD
-http:///udp/239.76.246.154:1234
+http://223.145.224.22:8000/udp/239.76.246.154:1234
 #EXTINF:-1 tvg-id="CCTV5HD" tvg-name="CCTV5HD" tvg-logo="https://live.fanmingming.com/tv/CCTV5HD.png" group-title="HuNan_telecom",CCTV5HD
-http:///udp/239.76.246.155:1234
+http://223.145.224.22:8000/udp/239.76.246.155:1234
 #EXTINF:-1 tvg-id="CCTV5+hd" tvg-name="CCTV5+hd" tvg-logo="https://live.fanmingming.com/tv/CCTV5+hd.png" group-title="HuNan_telecom",CCTV5+hd
-http:///udp/239.76.246.168:1234
+http://223.145.224.22:8000/udp/239.76.246.168:1234
 #EXTINF:-1 tvg-id="CCTV6HD" tvg-name="CCTV6HD" tvg-logo="https://live.fanmingming.com/tv/CCTV6HD.png" group-title="HuNan_telecom",CCTV6HD
-http:///udp/239.76.246.156:1234
+http://223.145.224.22:8000/udp/239.76.246.156:1234
 #EXTINF:-1 tvg-id="CCTV7HD" tvg-name="CCTV7HD" tvg-logo="https://live.fanmingming.com/tv/CCTV7HD.png" group-title="HuNan_telecom",CCTV7HD
-http:///udp/239.76.246.157:1234
+http://223.145.224.22:8000/udp/239.76.246.157:1234
 #EXTINF:-1 tvg-id="CCTV8HD" tvg-name="CCTV8HD" tvg-logo="https://live.fanmingming.com/tv/CCTV8HD.png" group-title="HuNan_telecom",CCTV8HD
-http:///udp/239.76.246.158:1234
+http://223.145.224.22:8000/udp/239.76.246.158:1234
 #EXTINF:-1 tvg-id="CCTV9HD" tvg-name="CCTV9HD" tvg-logo="https://live.fanmingming.com/tv/CCTV9HD.png" group-title="HuNan_telecom",CCTV9HD
-http:///udp/239.76.246.159:1234
+http://223.145.224.22:8000/udp/239.76.246.159:1234
 #EXTINF:-1 tvg-id="CCTV10HD" tvg-name="CCTV10HD" tvg-logo="https://live.fanmingming.com/tv/CCTV10HD.png" group-title="HuNan_telecom",CCTV10HD
-http:///udp/239.76.246.160:1234
+http://223.145.224.22:8000/udp/239.76.246.160:1234
 #EXTINF:-1 tvg-id="CCTV11HD" tvg-name="CCTV11HD" tvg-logo="https://live.fanmingming.com/tv/CCTV11HD.png" group-title="HuNan_telecom",CCTV11HD
-http:///udp/239.76.245.251:1234
+http://223.145.224.22:8000/udp/239.76.245.251:1234
 #EXTINF:-1 tvg-id="CCTV12HD" tvg-name="CCTV12HD" tvg-logo="https://live.fanmingming.com/tv/CCTV12HD.png" group-title="HuNan_telecom",CCTV12HD
-http:///udp/239.76.246.162:1234
+http://223.145.224.22:8000/udp/239.76.246.162:1234
 #EXTINF:-1 tvg-id="CCTV13HD" tvg-name="CCTV13HD" tvg-logo="https://live.fanmingming.com/tv/CCTV13HD.png" group-title="HuNan_telecom",CCTV13HD
-http:///udp/239.76.246.93:1234
+http://223.145.224.22:8000/udp/239.76.246.93:1234
 #EXTINF:-1 tvg-id="CCTV14HD" tvg-name="CCTV14HD" tvg-logo="https://live.fanmingming.com/tv/CCTV14HD.png" group-title="HuNan_telecom",CCTV14HD
-http:///udp/239.76.246.164:1234
+http://223.145.224.22:8000/udp/239.76.246.164:1234
 #EXTINF:-1 tvg-id="CCTV15HD" tvg-name="CCTV15HD" tvg-logo="https://live.fanmingming.com/tv/CCTV15HD.png" group-title="HuNan_telecom",CCTV15HD
-http:///udp/239.76.245.252:1234
+http://223.145.224.22:8000/udp/239.76.245.252:1234
 #EXTINF:-1 tvg-id="CCTV16HD" tvg-name="CCTV16HD" tvg-logo="https://live.fanmingming.com/tv/CCTV16HD.png" group-title="HuNan_telecom",CCTV16HD
-http:///udp/239.76.246.98:1234
+http://223.145.224.22:8000/udp/239.76.246.98:1234
 #EXTINF:-1 tvg-id="CCTV17HD" tvg-name="CCTV17HD" tvg-logo="https://live.fanmingming.com/tv/CCTV17HD.png" group-title="HuNan_telecom",CCTV17HD
-http:///udp/239.76.245.238:1234
+http://223.145.224.22:8000/udp/239.76.245.238:1234
 #EXTINF:-1 tvg-id="CCTV164K" tvg-name="CCTV164K" tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="HuNan_telecom",CCTV16 4K
-http:///udp/239.76.246.214:1234
+http://223.145.224.22:8000/udp/239.76.246.214:1234
 #EXTINF:-1 tvg-id="CCTV164k" tvg-name="CCTV164k" tvg-logo="https://live.fanmingming.com/tv/CCTV164k.png" group-title="HuNan_telecom",CCTV16 4k
-http:///udp/239.76.246.224:1234
+http://223.145.224.22:8000/udp/239.76.246.224:1234
 #EXTINF:-1 tvg-id="CCTV164kHDR" tvg-name="CCTV164kHDR" tvg-logo="https://live.fanmingming.com/tv/CCTV164kHDR.png" group-title="HuNan_telecom",CCTV16 4kHDR
-http:///udp/239.76.246.230:1234
+http://223.145.224.22:8000/udp/239.76.246.230:1234
 #EXTINF:-1 tvg-id="CCTV4欧洲HD" tvg-name="CCTV4欧洲HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4欧洲HD.png" group-title="HuNan_telecom",CCTV4欧洲HD
-http:///udp/239.76.246.95:1234
+http://223.145.224.22:8000/udp/239.76.246.95:1234
 #EXTINF:-1 tvg-id="CCTV4美洲HD" tvg-name="CCTV4美洲HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4美洲HD.png" group-title="HuNan_telecom",CCTV4美洲HD
-http:///udp/239.76.246.96:1234
+http://223.145.224.22:8000/udp/239.76.246.96:1234
 #EXTINF:-1 tvg-id="CGTN英语HD" tvg-name="CGTN英语HD" tvg-logo="https://live.fanmingming.com/tv/CGTN英语HD.png" group-title="HuNan_telecom",CGTN英语HD
-http:///udp/239.76.245.67:1234
+http://223.145.224.22:8000/udp/239.76.245.67:1234
 #EXTINF:-1 tvg-id="CGTN记录HD" tvg-name="CGTN记录HD" tvg-logo="https://live.fanmingming.com/tv/CGTN记录HD.png" group-title="HuNan_telecom",CGTN记录HD
-http:///udp/239.76.245.66:1234
+http://223.145.224.22:8000/udp/239.76.245.66:1234
 #EXTINF:-1 tvg-id="CGTN俄语" tvg-name="CGTN俄语" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语.png" group-title="HuNan_telecom",CGTN俄语
-http:///udp/239.76.246.86:1234
+http://223.145.224.22:8000/udp/239.76.246.86:1234
 #EXTINF:-1 tvg-id="CGTN法语" tvg-name="CGTN法语" tvg-logo="https://live.fanmingming.com/tv/CGTN法语.png" group-title="HuNan_telecom",CGTN法语
-http:///udp/239.76.246.87:1234
+http://223.145.224.22:8000/udp/239.76.246.87:1234
 #EXTINF:-1 tvg-id="CGTN西班牙语" tvg-name="CGTN西班牙语" tvg-logo="https://live.fanmingming.com/tv/CGTN西班牙语.png" group-title="HuNan_telecom",CGTN西班牙语
-http:///udp/239.76.246.88:1234
+http://223.145.224.22:8000/udp/239.76.246.88:1234
 #EXTINF:-1 tvg-id="体育" tvg-name="体育" tvg-logo="https://live.fanmingming.com/tv/体育.png" group-title="HuNan_telecom",体育
-http:///udp/239.76.246.136:1234
+http://223.145.224.22:8000/udp/239.76.246.136:1234
 #EXTINF:-1 tvg-id="金鹰卡通FHD" tvg-name="金鹰卡通FHD" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通FHD.png" group-title="HuNan_telecom",金鹰卡通FHD
-http:///udp/239.76.245.120:1234
+http://223.145.224.22:8000/udp/239.76.245.120:1234
 #EXTINF:-1 tvg-id="金鹰纪实FHD" tvg-name="金鹰纪实FHD" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实FHD.png" group-title="HuNan_telecom",金鹰纪实FHD
-http:///udp/239.76.245.122:1234
+http://223.145.224.22:8000/udp/239.76.245.122:1234
 #EXTINF:-1 tvg-id="快乐垂钓FHD" tvg-name="快乐垂钓FHD" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓FHD.png" group-title="HuNan_telecom",快乐垂钓FHD
-http:///udp/239.76.245.127:1234
+http://223.145.224.22:8000/udp/239.76.245.127:1234
 #EXTINF:-1 tvg-id="湖南教育HD" tvg-name="湖南教育HD" tvg-logo="https://live.fanmingming.com/tv/湖南教育HD.png" group-title="HuNan_telecom",湖南教育HD
-http:///udp/239.76.245.233:1234
+http://223.145.224.22:8000/udp/239.76.245.233:1234
 #EXTINF:-1 tvg-id="茶频道HD" tvg-name="茶频道HD" tvg-logo="https://live.fanmingming.com/tv/茶频道HD.png" group-title="HuNan_telecom",茶频道HD
-http:///udp/239.76.245.239:1234
+http://223.145.224.22:8000/udp/239.76.245.239:1234
 #EXTINF:-1 tvg-id="广东卫视HD" tvg-name="广东卫视HD" tvg-logo="https://live.fanmingming.com/tv/广东卫视HD.png" group-title="HuNan_telecom",广东卫视HD
-http:///udp/239.76.245.189:1234
+http://223.145.224.22:8000/udp/239.76.245.189:1234
 #EXTINF:-1 tvg-id="东南卫视HD" tvg-name="东南卫视HD" tvg-logo="https://live.fanmingming.com/tv/东南卫视HD.png" group-title="HuNan_telecom",东南卫视HD
-http:///udp/239.76.245.190:1234
+http://223.145.224.22:8000/udp/239.76.245.190:1234
 #EXTINF:-1 tvg-id="安徽卫视HD" tvg-name="安徽卫视HD" tvg-logo="https://live.fanmingming.com/tv/安徽卫视HD.png" group-title="HuNan_telecom",安徽卫视HD
-http:///udp/239.76.245.196:1234
+http://223.145.224.22:8000/udp/239.76.245.196:1234
 #EXTINF:-1 tvg-id="辽宁卫视HD" tvg-name="辽宁卫视HD" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视HD.png" group-title="HuNan_telecom",辽宁卫视HD
-http:///udp/239.76.245.197:1234
+http://223.145.224.22:8000/udp/239.76.245.197:1234
 #EXTINF:-1 tvg-id="江西卫视HD" tvg-name="江西卫视HD" tvg-logo="https://live.fanmingming.com/tv/江西卫视HD.png" group-title="HuNan_telecom",江西卫视HD
-http:///udp/239.76.245.225:1234
+http://223.145.224.22:8000/udp/239.76.245.225:1234
 #EXTINF:-1 tvg-id="河北卫视HD" tvg-name="河北卫视HD" tvg-logo="https://live.fanmingming.com/tv/河北卫视HD.png" group-title="HuNan_telecom",河北卫视HD
-http:///udp/239.76.245.199:1234
+http://223.145.224.22:8000/udp/239.76.245.199:1234
 #EXTINF:-1 tvg-id="贵州卫视HD" tvg-name="贵州卫视HD" tvg-logo="https://live.fanmingming.com/tv/贵州卫视HD.png" group-title="HuNan_telecom",贵州卫视HD
-http:///udp/239.76.245.198:1234
+http://223.145.224.22:8000/udp/239.76.245.198:1234
 #EXTINF:-1 tvg-id="江苏卫视HD" tvg-name="江苏卫视HD" tvg-logo="https://live.fanmingming.com/tv/江苏卫视HD.png" group-title="HuNan_telecom",江苏卫视HD
-http:///udp/239.76.246.181:1234
+http://223.145.224.22:8000/udp/239.76.246.181:1234
 #EXTINF:-1 tvg-id="东方卫视HD" tvg-name="东方卫视HD" tvg-logo="https://live.fanmingming.com/tv/东方卫视HD.png" group-title="HuNan_telecom",东方卫视HD
-http:///udp/239.76.246.186:1234
+http://223.145.224.22:8000/udp/239.76.246.186:1234
 #EXTINF:-1 tvg-id="浙江卫视HD" tvg-name="浙江卫视HD" tvg-logo="https://live.fanmingming.com/tv/浙江卫视HD.png" group-title="HuNan_telecom",浙江卫视HD
-http:///udp/239.76.246.182:1234
+http://223.145.224.22:8000/udp/239.76.246.182:1234
 #EXTINF:-1 tvg-id="北京卫视HD" tvg-name="北京卫视HD" tvg-logo="https://live.fanmingming.com/tv/北京卫视HD.png" group-title="HuNan_telecom",北京卫视HD
-http:///udp/239.76.246.184:1234
+http://223.145.224.22:8000/udp/239.76.246.184:1234
 #EXTINF:-1 tvg-id="天津卫视HD" tvg-name="天津卫视HD" tvg-logo="https://live.fanmingming.com/tv/天津卫视HD.png" group-title="HuNan_telecom",天津卫视HD
-http:///udp/239.76.246.185:1234
+http://223.145.224.22:8000/udp/239.76.246.185:1234
 #EXTINF:-1 tvg-id="深圳卫视HD" tvg-name="深圳卫视HD" tvg-logo="https://live.fanmingming.com/tv/深圳卫视HD.png" group-title="HuNan_telecom",深圳卫视HD
-http:///udp/239.76.246.188:1234
+http://223.145.224.22:8000/udp/239.76.246.188:1234
 #EXTINF:-1 tvg-id="湖北卫视HD" tvg-name="湖北卫视HD" tvg-logo="https://live.fanmingming.com/tv/湖北卫视HD.png" group-title="HuNan_telecom",湖北卫视HD
-http:///udp/239.76.246.193:1234
+http://223.145.224.22:8000/udp/239.76.246.193:1234
 #EXTINF:-1 tvg-id="山东卫视HD" tvg-name="山东卫视HD" tvg-logo="https://live.fanmingming.com/tv/山东卫视HD.png" group-title="HuNan_telecom",山东卫视HD
-http:///udp/239.76.246.195:1234
+http://223.145.224.22:8000/udp/239.76.246.195:1234
 #EXTINF:-1 tvg-id="黑龙江卫视HD" tvg-name="黑龙江卫视HD" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视HD.png" group-title="HuNan_telecom",黑龙江卫视HD
-http:///udp/239.76.246.200:1234
+http://223.145.224.22:8000/udp/239.76.246.200:1234
 #EXTINF:-1 tvg-id="吉林卫视HD" tvg-name="吉林卫视HD" tvg-logo="https://live.fanmingming.com/tv/吉林卫视HD.png" group-title="HuNan_telecom",吉林卫视HD
-http:///udp/239.76.246.201:1234
+http://223.145.224.22:8000/udp/239.76.246.201:1234
 #EXTINF:-1 tvg-id="河南卫视HD" tvg-name="河南卫视HD" tvg-logo="https://live.fanmingming.com/tv/河南卫视HD.png" group-title="HuNan_telecom",河南卫视HD
-http:///udp/239.76.246.202:1234
+http://223.145.224.22:8000/udp/239.76.246.202:1234
 #EXTINF:-1 tvg-id="海南卫视HD" tvg-name="海南卫视HD" tvg-logo="https://live.fanmingming.com/tv/海南卫视HD.png" group-title="HuNan_telecom",海南卫视HD
-http:///udp/239.76.246.203:1234
+http://223.145.224.22:8000/udp/239.76.246.203:1234
 #EXTINF:-1 tvg-id="四川卫视HD" tvg-name="四川卫视HD" tvg-logo="https://live.fanmingming.com/tv/四川卫视HD.png" group-title="HuNan_telecom",四川卫视HD
-http:///udp/239.76.246.91:1234
+http://223.145.224.22:8000/udp/239.76.246.91:1234
 #EXTINF:-1 tvg-id="重庆卫视HD" tvg-name="重庆卫视HD" tvg-logo="https://live.fanmingming.com/tv/重庆卫视HD.png" group-title="HuNan_telecom",重庆卫视HD
-http:///udp/239.76.246.92:1234
+http://223.145.224.22:8000/udp/239.76.246.92:1234
 #EXTINF:-1 tvg-id="甘肃卫视HD" tvg-name="甘肃卫视HD" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视HD.png" group-title="HuNan_telecom",甘肃卫视HD
-http:///udp/239.76.246.94:1234
+http://223.145.224.22:8000/udp/239.76.246.94:1234
 #EXTINF:-1 tvg-id="中国教育1HD" tvg-name="中国教育1HD" tvg-logo="https://live.fanmingming.com/tv/中国教育1HD.png" group-title="HuNan_telecom",中国教育1HD
-http:///udp/239.76.245.192:1234
+http://223.145.224.22:8000/udp/239.76.245.192:1234
 #EXTINF:-1 tvg-id="芒果乐搜" tvg-name="芒果乐搜" tvg-logo="https://live.fanmingming.com/tv/芒果乐搜.png" group-title="HuNan_telecom",芒果乐搜
-http:///udp/239.76.245.200:1234
+http://223.145.224.22:8000/udp/239.76.245.200:1234
 #EXTINF:-1 tvg-id="芒果乐活" tvg-name="芒果乐活" tvg-logo="https://live.fanmingming.com/tv/芒果乐活.png" group-title="HuNan_telecom",芒果乐活
-http:///udp/239.76.245.201:1234
+http://223.145.224.22:8000/udp/239.76.245.201:1234
 #EXTINF:-1 tvg-id="长沙女姓HD" tvg-name="长沙女姓HD" tvg-logo="https://live.fanmingming.com/tv/长沙女姓HD.png" group-title="HuNan_telecom",长沙女姓HD
-http:///udp/239.76.245.23:1234
+http://223.145.224.22:8000/udp/239.76.245.23:1234
 #EXTINF:-1 tvg-id="长沙影视HD" tvg-name="长沙影视HD" tvg-logo="https://live.fanmingming.com/tv/长沙影视HD.png" group-title="HuNan_telecom",长沙影视HD
-http:///udp/239.76.245.204:1234
+http://223.145.224.22:8000/udp/239.76.245.204:1234
 #EXTINF:-1 tvg-id="湘西综合" tvg-name="湘西综合" tvg-logo="https://live.fanmingming.com/tv/湘西综合.png" group-title="HuNan_telecom",湘西综合
-http:///udp/239.76.245.208:1234
+http://223.145.224.22:8000/udp/239.76.245.208:1234
 #EXTINF:-1 tvg-id="湘西综合" tvg-name="湘西综合" tvg-logo="https://live.fanmingming.com/tv/湘西综合.png" group-title="HuNan_telecom",湘西综合
-http:///udp/239.76.245.209:1234
+http://223.145.224.22:8000/udp/239.76.245.209:1234
 #EXTINF:-1 tvg-id="河南梨园HD" tvg-name="河南梨园HD" tvg-logo="https://live.fanmingming.com/tv/河南梨园HD.png" group-title="HuNan_telecom",河南梨园HD
-http:///udp/239.76.245.179:1234
+http://223.145.224.22:8000/udp/239.76.245.179:1234
 #EXTINF:-1 tvg-id="文物宝库HD" tvg-name="文物宝库HD" tvg-logo="https://live.fanmingming.com/tv/文物宝库HD.png" group-title="HuNan_telecom",文物宝库HD
-http:///udp/239.76.245.180:1234
+http://223.145.224.22:8000/udp/239.76.245.180:1234
 #EXTINF:-1 tvg-id="武术世界HD" tvg-name="武术世界HD" tvg-logo="https://live.fanmingming.com/tv/武术世界HD.png" group-title="HuNan_telecom",武术世界HD
-http:///udp/239.76.245.181:1234
+http://223.145.224.22:8000/udp/239.76.245.181:1234
 #EXTINF:-1 tvg-id="IPTV高清院线" tvg-name="IPTV高清院线" tvg-logo="https://live.fanmingming.com/tv/IPTV高清院线.png" group-title="HuNan_telecom",IPTV高清院线
-http:///udp/239.76.245.217:1234
+http://223.145.224.22:8000/udp/239.76.245.217:1234
 #EXTINF:-1 tvg-id="芒果乐淘" tvg-name="芒果乐淘" tvg-logo="https://live.fanmingming.com/tv/芒果乐淘.png" group-title="HuNan_telecom",芒果乐淘
-http:///udp/239.76.245.215:1234
+http://223.145.224.22:8000/udp/239.76.245.215:1234
 #EXTINF:-1 tvg-id="IPTV抗战剧场" tvg-name="IPTV抗战剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV抗战剧场.png" group-title="HuNan_telecom",IPTV抗战剧场
-http:///udp/239.76.245.218:1234
+http://223.145.224.22:8000/udp/239.76.245.218:1234
 #EXTINF:-1 tvg-id="IPTV古装剧场" tvg-name="IPTV古装剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV古装剧场.png" group-title="HuNan_telecom",IPTV古装剧场
-http:///udp/239.76.245.219:1234
+http://223.145.224.22:8000/udp/239.76.245.219:1234
 #EXTINF:-1 tvg-id="IPTV经典剧场" tvg-name="IPTV经典剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV经典剧场.png" group-title="HuNan_telecom",IPTV经典剧场
-http:///udp/239.76.245.221:1234
+http://223.145.224.22:8000/udp/239.76.245.221:1234
 #EXTINF:-1 tvg-id="IPTV家庭剧场" tvg-name="IPTV家庭剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV家庭剧场.png" group-title="HuNan_telecom",IPTV家庭剧场
-http:///udp/239.76.245.220:1234
+http://223.145.224.22:8000/udp/239.76.245.220:1234
 #EXTINF:-1 tvg-id="IPTV广场舞" tvg-name="IPTV广场舞" tvg-logo="https://live.fanmingming.com/tv/IPTV广场舞.png" group-title="HuNan_telecom",IPTV广场舞
-http:///udp/239.76.245.134:1234
+http://223.145.224.22:8000/udp/239.76.245.134:1234
 #EXTINF:-1 tvg-id="IPTV4k" tvg-name="IPTV4k" tvg-logo="https://live.fanmingming.com/tv/IPTV4k.png" group-title="HuNan_telecom",IPTV4k
-http:///udp/239.76.245.35:1234
+http://223.145.224.22:8000/udp/239.76.245.35:1234
 #EXTINF:-1 tvg-id="IPTV电竞" tvg-name="IPTV电竞" tvg-logo="https://live.fanmingming.com/tv/IPTV电竞.png" group-title="HuNan_telecom",IPTV电竞
-http:///udp/239.76.245.136:1234
+http://223.145.224.22:8000/udp/239.76.245.136:1234
 #EXTINF:-1 tvg-id="张家界2HD" tvg-name="张家界2HD" tvg-logo="https://live.fanmingming.com/tv/张家界2HD.png" group-title="HuNan_telecom",张家界2HD
-http:///udp/239.76.245.235:1234
+http://223.145.224.22:8000/udp/239.76.245.235:1234
 #EXTINF:-1 tvg-id="张家界综合HD" tvg-name="张家界综合HD" tvg-logo="https://live.fanmingming.com/tv/张家界综合HD.png" group-title="HuNan_telecom",张家界综合HD
-http:///udp/239.76.245.234:1234
+http://223.145.224.22:8000/udp/239.76.245.234:1234
 #EXTINF:-1 tvg-id="CHC动作电影" tvg-name="CHC动作电影" tvg-logo="https://live.fanmingming.com/tv/CHC动作电影.png" group-title="HuNan_telecom",CHC动作电影
-http:///udp/239.76.245.243:1234
+http://223.145.224.22:8000/udp/239.76.245.243:1234
 #EXTINF:-1 tvg-id="CHC高清电影" tvg-name="CHC高清电影" tvg-logo="https://live.fanmingming.com/tv/CHC高清电影.png" group-title="HuNan_telecom",CHC高清电影
-http:///udp/239.76.245.242:1234
+http://223.145.224.22:8000/udp/239.76.245.242:1234
 #EXTINF:-1 tvg-id="CHC家庭影院" tvg-name="CHC家庭影院" tvg-logo="https://live.fanmingming.com/tv/CHC家庭影院.png" group-title="HuNan_telecom",CHC家庭影院
-http:///udp/239.76.245.241:1234
+http://223.145.224.22:8000/udp/239.76.245.241:1234
 #EXTINF:-1 tvg-id="快乐垂钓HD" tvg-name="快乐垂钓HD" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓HD.png" group-title="HuNan_telecom",快乐垂钓HD
-http:///udp/239.76.246.5:1234
+http://223.145.224.22:8000/udp/239.76.246.5:1234
 #EXTINF:-1 tvg-id="凤凰资讯HD" tvg-name="凤凰资讯HD" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯HD.png" group-title="HuNan_telecom",凤凰资讯HD
-http:///udp/239.76.246.8:1234
+http://223.145.224.22:8000/udp/239.76.246.8:1234
 #EXTINF:-1 tvg-id="凤凰中文HD" tvg-name="凤凰中文HD" tvg-logo="https://live.fanmingming.com/tv/凤凰中文HD.png" group-title="HuNan_telecom",凤凰中文HD
-http:///udp/239.76.246.7:1234
+http://223.145.224.22:8000/udp/239.76.246.7:1234
 #EXTINF:-1 tvg-id="IPTV故事频道" tvg-name="IPTV故事频道" tvg-logo="https://live.fanmingming.com/tv/IPTV故事频道.png" group-title="HuNan_telecom",IPTV故事频道
-http:///udp/239.76.246.41:1234
+http://223.145.224.22:8000/udp/239.76.246.41:1234
 #EXTINF:-1 tvg-id="IPTV戏曲频道" tvg-name="IPTV戏曲频道" tvg-logo="https://live.fanmingming.com/tv/IPTV戏曲频道.png" group-title="HuNan_telecom",IPTV戏曲频道
-http:///udp/239.76.246.40:1234
+http://223.145.224.22:8000/udp/239.76.246.40:1234
 #EXTINF:-1 tvg-id="IPTV健康之路" tvg-name="IPTV健康之路" tvg-logo="https://live.fanmingming.com/tv/IPTV健康之路.png" group-title="HuNan_telecom",IPTV健康之路
-http:///udp/239.76.246.42:1234
+http://223.145.224.22:8000/udp/239.76.246.42:1234
 #EXTINF:-1 tvg-id="CGTN阿拉伯语" tvg-name="CGTN阿拉伯语" tvg-logo="https://live.fanmingming.com/tv/CGTN阿拉伯语.png" group-title="HuNan_telecom",CGTN阿拉伯语
-http:///udp/239.76.246.97:1234
+http://223.145.224.22:8000/udp/239.76.246.97:1234
 #EXTINF:-1 tvg-id="湖南卫视HD" tvg-name="湖南卫视HD" tvg-logo="https://live.fanmingming.com/tv/湖南卫视HD.png" group-title="HuNan_telecom",湖南卫视HD
-http:///udp/239.76.246.101:1234
+http://223.145.224.22:8000/udp/239.76.246.101:1234
 #EXTINF:-1 tvg-id="湖南卫视FHD20M" tvg-name="湖南卫视FHD20M" tvg-logo="https://live.fanmingming.com/tv/湖南卫视FHD20M.png" group-title="HuNan_telecom",湖南卫视FHD20M
-http:///udp/239.76.246.100:1234
+http://223.145.224.22:8000/udp/239.76.246.100:1234
 #EXTINF:-1 tvg-id="湖南经视HD" tvg-name="湖南经视HD" tvg-logo="https://live.fanmingming.com/tv/湖南经视HD.png" group-title="HuNan_telecom",湖南经视HD
-http:///udp/239.76.246.103:1234
+http://223.145.224.22:8000/udp/239.76.246.103:1234
 #EXTINF:-1 tvg-id="湖南国际HD" tvg-name="湖南国际HD" tvg-logo="https://live.fanmingming.com/tv/湖南国际HD.png" group-title="HuNan_telecom",湖南国际HD
-http:///udp/239.76.246.102:1234
+http://223.145.224.22:8000/udp/239.76.246.102:1234
 #EXTINF:-1 tvg-id="湖南都市HD" tvg-name="湖南都市HD" tvg-logo="https://live.fanmingming.com/tv/湖南都市HD.png" group-title="HuNan_telecom",湖南都市HD
-http:///udp/239.76.246.104:1234
+http://223.145.224.22:8000/udp/239.76.246.104:1234
 #EXTINF:-1 tvg-id="湖南娱乐HD" tvg-name="湖南娱乐HD" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐HD.png" group-title="HuNan_telecom",湖南娱乐HD
-http:///udp/239.76.246.105:1234
+http://223.145.224.22:8000/udp/239.76.246.105:1234
 #EXTINF:-1 tvg-id="湖南电影HD" tvg-name="湖南电影HD" tvg-logo="https://live.fanmingming.com/tv/湖南电影HD.png" group-title="HuNan_telecom",湖南电影HD
-http:///udp/239.76.246.106:1234
+http://223.145.224.22:8000/udp/239.76.246.106:1234
 #EXTINF:-1 tvg-id="湖南公共HD" tvg-name="湖南公共HD" tvg-logo="https://live.fanmingming.com/tv/湖南公共HD.png" group-title="HuNan_telecom",湖南公共HD
-http:///udp/239.76.246.109:1234
+http://223.145.224.22:8000/udp/239.76.246.109:1234
 #EXTINF:-1 tvg-id="湖南电视剧HD" tvg-name="湖南电视剧HD" tvg-logo="https://live.fanmingming.com/tv/湖南电视剧HD.png" group-title="HuNan_telecom",湖南电视剧HD
-http:///udp/239.76.246.108:1234
+http://223.145.224.22:8000/udp/239.76.246.108:1234
 #EXTINF:-1 tvg-id="金鹰卡通HD" tvg-name="金鹰卡通HD" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通HD.png" group-title="HuNan_telecom",金鹰卡通HD
-http:///udp/239.76.246.107:1234
+http://223.145.224.22:8000/udp/239.76.246.107:1234
 #EXTINF:-1 tvg-id="金鹰纪实HD" tvg-name="金鹰纪实HD" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实HD.png" group-title="HuNan_telecom",金鹰纪实HD
-http:///udp/239.76.246.110:1234
+http://223.145.224.22:8000/udp/239.76.246.110:1234
 #EXTINF:-1 tvg-id="长沙政法HD" tvg-name="长沙政法HD" tvg-logo="https://live.fanmingming.com/tv/长沙政法HD.png" group-title="HuNan_telecom",长沙政法HD
-http:///udp/239.76.246.122:1234
+http://223.145.224.22:8000/udp/239.76.246.122:1234
 #EXTINF:-1 tvg-id="长沙新闻HD" tvg-name="长沙新闻HD" tvg-logo="https://live.fanmingming.com/tv/长沙新闻HD.png" group-title="HuNan_telecom",长沙新闻HD
-http:///udp/239.76.246.121:1234
+http://223.145.224.22:8000/udp/239.76.246.121:1234
 #EXTINF:-1 tvg-id="IPTV芒果互娱" tvg-name="IPTV芒果互娱" tvg-logo="https://live.fanmingming.com/tv/IPTV芒果互娱.png" group-title="HuNan_telecom",IPTV芒果互娱
-http:///udp/239.76.246.126:1234
+http://223.145.224.22:8000/udp/239.76.246.126:1234
 #EXTINF:-1 tvg-id="健康电视HD" tvg-name="健康电视HD" tvg-logo="https://live.fanmingming.com/tv/健康电视HD.png" group-title="HuNan_telecom",健康电视HD
-http:///udp/239.76.246.127:1234
+http://223.145.224.22:8000/udp/239.76.246.127:1234
 #EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场4K.png" group-title="HuNan_telecom",欢笑剧场4K
-http:///udp/239.76.246.130:1234
+http://223.145.224.22:8000/udp/239.76.246.130:1234
 #EXTINF:-1 tvg-id="都市剧场HD" tvg-name="都市剧场HD" tvg-logo="https://live.fanmingming.com/tv/都市剧场HD.png" group-title="HuNan_telecom",都市剧场HD
-http:///udp/239.76.246.215:1234
+http://223.145.224.22:8000/udp/239.76.246.215:1234
 #EXTINF:-1 tvg-id="极速汽车HD" tvg-name="极速汽车HD" tvg-logo="https://live.fanmingming.com/tv/极速汽车HD.png" group-title="HuNan_telecom",极速汽车HD
-http:///udp/239.76.246.133:1234
+http://223.145.224.22:8000/udp/239.76.246.133:1234
 #EXTINF:-1 tvg-id="动漫秀场HD" tvg-name="动漫秀场HD" tvg-logo="https://live.fanmingming.com/tv/动漫秀场HD.png" group-title="HuNan_telecom",动漫秀场HD
-http:///udp/239.76.246.131:1234
+http://223.145.224.22:8000/udp/239.76.246.131:1234
 #EXTINF:-1 tvg-id="游戏风云HD" tvg-name="游戏风云HD" tvg-logo="https://live.fanmingming.com/tv/游戏风云HD.png" group-title="HuNan_telecom",游戏风云HD
-http:///udp/239.76.246.132:1234
+http://223.145.224.22:8000/udp/239.76.246.132:1234
 #EXTINF:-1 tvg-id="凤凰中文HD" tvg-name="凤凰中文HD" tvg-logo="https://live.fanmingming.com/tv/凤凰中文HD.png" group-title="HuNan_telecom",凤凰中文HD
-http:///udp/239.76.246.134:1234
+http://223.145.224.22:8000/udp/239.76.246.134:1234
 #EXTINF:-1 tvg-id="凤凰中文HD" tvg-name="凤凰中文HD" tvg-logo="https://live.fanmingming.com/tv/凤凰中文HD.png" group-title="HuNan_telecom",凤凰中文HD
-http:///udp/239.76.253.135:9000
+http://223.145.224.22:8000/udp/239.76.253.135:9000
 #EXTINF:-1 tvg-id="凤凰资讯HD" tvg-name="凤凰资讯HD" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯HD.png" group-title="HuNan_telecom",凤凰资讯HD
-http:///udp/239.76.253.134:9000
+http://223.145.224.22:8000/udp/239.76.253.134:9000
 #EXTINF:-1 tvg-id="凤凰资讯HD" tvg-name="凤凰资讯HD" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯HD.png" group-title="HuNan_telecom",凤凰资讯HD
-http:///udp/239.76.246.135:1234
+http://223.145.224.22:8000/udp/239.76.246.135:1234
 #EXTINF:-1 tvg-id="体育" tvg-name="体育" tvg-logo="https://live.fanmingming.com/tv/体育.png" group-title="HuNan_telecom",体育
-http:///udp/239.76.253.136:9000
+http://223.145.224.22:8000/udp/239.76.253.136:9000
 #EXTINF:-1 tvg-id="全纪实HD" tvg-name="全纪实HD" tvg-logo="https://live.fanmingming.com/tv/全纪实HD.png" group-title="HuNan_telecom",全纪实HD
-http:///udp/239.76.246.137:1234
+http://223.145.224.22:8000/udp/239.76.246.137:1234
 #EXTINF:-1 tvg-id="法治天地HD" tvg-name="法治天地HD" tvg-logo="https://live.fanmingming.com/tv/法治天地HD.png" group-title="HuNan_telecom",法治天地HD
-http:///udp/239.76.246.138:1234
+http://223.145.224.22:8000/udp/239.76.246.138:1234
 #EXTINF:-1 tvg-id="生活时尚HD" tvg-name="生活时尚HD" tvg-logo="https://live.fanmingming.com/tv/生活时尚HD.png" group-title="HuNan_telecom",生活时尚HD
-http:///udp/239.76.246.223:1234
+http://223.145.224.22:8000/udp/239.76.246.223:1234
 #EXTINF:-1 tvg-id="浏阳HD" tvg-name="浏阳HD" tvg-logo="https://live.fanmingming.com/tv/浏阳HD.png" group-title="HuNan_telecom",浏阳HD
-http:///udp/239.76.248.6:1234
+http://223.145.224.22:8000/udp/239.76.248.6:1234
 #EXTINF:-1 tvg-id="常德综合HD" tvg-name="常德综合HD" tvg-logo="https://live.fanmingming.com/tv/常德综合HD.png" group-title="HuNan_telecom",常德综合HD
-http:///udp/239.76.248.10:1234
+http://223.145.224.22:8000/udp/239.76.248.10:1234
 #EXTINF:-1 tvg-id="常德公共HD" tvg-name="常德公共HD" tvg-logo="https://live.fanmingming.com/tv/常德公共HD.png" group-title="HuNan_telecom",常德公共HD
-http:///udp/239.76.248.11:1234
+http://223.145.224.22:8000/udp/239.76.248.11:1234
 #EXTINF:-1 tvg-id="衡阳综合HD" tvg-name="衡阳综合HD" tvg-logo="https://live.fanmingming.com/tv/衡阳综合HD.png" group-title="HuNan_telecom",衡阳综合HD
-http:///udp/239.76.248.13:1234
+http://223.145.224.22:8000/udp/239.76.248.13:1234
 #EXTINF:-1 tvg-id="衡阳公共HD" tvg-name="衡阳公共HD" tvg-logo="https://live.fanmingming.com/tv/衡阳公共HD.png" group-title="HuNan_telecom",衡阳公共HD
-http:///udp/239.76.248.14:1234
+http://223.145.224.22:8000/udp/239.76.248.14:1234
 #EXTINF:-1 tvg-id="娄底综合HD" tvg-name="娄底综合HD" tvg-logo="https://live.fanmingming.com/tv/娄底综合HD.png" group-title="HuNan_telecom",娄底综合HD
-http:///udp/239.76.248.18:1234
+http://223.145.224.22:8000/udp/239.76.248.18:1234
 #EXTINF:-1 tvg-id="娄底公共HD" tvg-name="娄底公共HD" tvg-logo="https://live.fanmingming.com/tv/娄底公共HD.png" group-title="HuNan_telecom",娄底公共HD
-http:///udp/239.76.248.19:1234
+http://223.145.224.22:8000/udp/239.76.248.19:1234
 #EXTINF:-1 tvg-id="张家界综合HD" tvg-name="张家界综合HD" tvg-logo="https://live.fanmingming.com/tv/张家界综合HD.png" group-title="HuNan_telecom",张家界综合HD
-http:///udp/239.76.252.234:9000
+http://223.145.224.22:8000/udp/239.76.252.234:9000
 #EXTINF:-1 tvg-id="张家界2HD" tvg-name="张家界2HD" tvg-logo="https://live.fanmingming.com/tv/张家界2HD.png" group-title="HuNan_telecom",张家界2HD
-http:///udp/239.76.252.235:9000
+http://223.145.224.22:8000/udp/239.76.252.235:9000
 #EXTINF:-1 tvg-id="LDETV" tvg-name="LDETV" tvg-logo="https://live.fanmingming.com/tv/LDETV.png" group-title="HuNan_telecom",LDETV
-http:///udp/239.76.248.20:1234
+http://223.145.224.22:8000/udp/239.76.248.20:1234
 #EXTINF:-1 tvg-id="XNXTV" tvg-name="XNXTV" tvg-logo="https://live.fanmingming.com/tv/XNXTV.png" group-title="HuNan_telecom",XNXTV
-http:///udp/239.76.248.21:1234
+http://223.145.224.22:8000/udp/239.76.248.21:1234
 #EXTINF:-1 tvg-id="邵阳新闻HD" tvg-name="邵阳新闻HD" tvg-logo="https://live.fanmingming.com/tv/邵阳新闻HD.png" group-title="HuNan_telecom",邵阳新闻HD
-http:///udp/239.76.248.23:1234
+http://223.145.224.22:8000/udp/239.76.248.23:1234
 #EXTINF:-1 tvg-id="永州新闻HD" tvg-name="永州新闻HD" tvg-logo="https://live.fanmingming.com/tv/永州新闻HD.png" group-title="HuNan_telecom",永州新闻HD
-http:///udp/239.76.248.57:1234
+http://223.145.224.22:8000/udp/239.76.248.57:1234
 #EXTINF:-1 tvg-id="怀化综合HD" tvg-name="怀化综合HD" tvg-logo="https://live.fanmingming.com/tv/怀化综合HD.png" group-title="HuNan_telecom",怀化综合HD
-http:///udp/239.76.255.12:9000
+http://223.145.224.22:8000/udp/239.76.255.12:9000
 #EXTINF:-1 tvg-id="IPTV高清院线" tvg-name="IPTV高清院线" tvg-logo="https://live.fanmingming.com/tv/IPTV高清院线.png" group-title="HuNan_telecom",IPTV高清院线
-http:///udp/239.76.252.217:9000
+http://223.145.224.22:8000/udp/239.76.252.217:9000
 #EXTINF:-1 tvg-id="IPTV抗战剧场" tvg-name="IPTV抗战剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV抗战剧场.png" group-title="HuNan_telecom",IPTV抗战剧场
-http:///udp/239.76.252.218:9000
+http://223.145.224.22:8000/udp/239.76.252.218:9000
 #EXTINF:-1 tvg-id="IPTV古装剧场" tvg-name="IPTV古装剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV古装剧场.png" group-title="HuNan_telecom",IPTV古装剧场
-http:///udp/239.76.252.219:9000
+http://223.145.224.22:8000/udp/239.76.252.219:9000
 #EXTINF:-1 tvg-id="IPTV经典剧场" tvg-name="IPTV经典剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV经典剧场.png" group-title="HuNan_telecom",IPTV经典剧场
-http:///udp/239.76.252.221:9000
+http://223.145.224.22:8000/udp/239.76.252.221:9000
 #EXTINF:-1 tvg-id="IPTV家庭剧场" tvg-name="IPTV家庭剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV家庭剧场.png" group-title="HuNan_telecom",IPTV家庭剧场
-http:///udp/239.76.252.220:9000
+http://223.145.224.22:8000/udp/239.76.252.220:9000
 #EXTINF:-1 tvg-id="IPTV戏曲频道" tvg-name="IPTV戏曲频道" tvg-logo="https://live.fanmingming.com/tv/IPTV戏曲频道.png" group-title="HuNan_telecom",IPTV戏曲频道
-http:///udp/239.76.253.40:9000
+http://223.145.224.22:8000/udp/239.76.253.40:9000
 #EXTINF:-1 tvg-id="IPTV故事频道" tvg-name="IPTV故事频道" tvg-logo="https://live.fanmingming.com/tv/IPTV故事频道.png" group-title="HuNan_telecom",IPTV故事频道
-http:///udp/239.76.253.41:9000
+http://223.145.224.22:8000/udp/239.76.253.41:9000
 #EXTINF:-1 tvg-id="IPTV健康之路" tvg-name="IPTV健康之路" tvg-logo="https://live.fanmingming.com/tv/IPTV健康之路.png" group-title="HuNan_telecom",IPTV健康之路
-http:///udp/239.76.253.42:9000
+http://223.145.224.22:8000/udp/239.76.253.42:9000
 #EXTINF:-1 tvg-id="IPTV综艺纪实HD" tvg-name="IPTV综艺纪实HD" tvg-logo="https://live.fanmingming.com/tv/IPTV综艺纪实HD.png" group-title="HuNan_telecom",IPTV综艺纪实HD
-http:///udp/239.76.254.111:9000
+http://223.145.224.22:8000/udp/239.76.254.111:9000
 #EXTINF:-1 tvg-id="IPTV精选热播HD" tvg-name="IPTV精选热播HD" tvg-logo="https://live.fanmingming.com/tv/IPTV精选热播HD.png" group-title="HuNan_telecom",IPTV精选热播HD
-http:///udp/239.76.254.110:9000
+http://223.145.224.22:8000/udp/239.76.254.110:9000
 #EXTINF:-1 tvg-id="IPTV搞笑动画HD" tvg-name="IPTV搞笑动画HD" tvg-logo="https://live.fanmingming.com/tv/IPTV搞笑动画HD.png" group-title="HuNan_telecom",IPTV搞笑动画HD
-http:///udp/239.76.254.207:9000
+http://223.145.224.22:8000/udp/239.76.254.207:9000
 #EXTINF:-1 tvg-id="IPTV甜宠剧场HD" tvg-name="IPTV甜宠剧场HD" tvg-logo="https://live.fanmingming.com/tv/IPTV甜宠剧场HD.png" group-title="HuNan_telecom",IPTV甜宠剧场HD
-http:///udp/239.76.254.109:9000
+http://223.145.224.22:8000/udp/239.76.254.109:9000
 #EXTINF:-1 tvg-id="IPTV5hd" tvg-name="IPTV5hd" tvg-logo="https://live.fanmingming.com/tv/IPTV5hd.png" group-title="HuNan_telecom",IPTV5hd
-http:///udp/239.76.252.222:9000
+http://223.145.224.22:8000/udp/239.76.252.222:9000
 #EXTINF:-1 tvg-id="金色夕阳HD" tvg-name="金色夕阳HD" tvg-logo="https://live.fanmingming.com/tv/金色夕阳HD.png" group-title="HuNan_telecom",金色夕阳HD
-http:///udp/239.76.254.43:9000
+http://223.145.224.22:8000/udp/239.76.254.43:9000
 #EXTINF:-1 tvg-id="第一剧场HD" tvg-name="第一剧场HD" tvg-logo="https://live.fanmingming.com/tv/第一剧场HD.png" group-title="HuNan_telecom",第一剧场HD
-http:///udp/239.76.254.49:9000
+http://223.145.224.22:8000/udp/239.76.254.49:9000
 #EXTINF:-1 tvg-id="风云足球HD" tvg-name="风云足球HD" tvg-logo="https://live.fanmingming.com/tv/风云足球HD.png" group-title="HuNan_telecom",风云足球HD
-http:///udp/239.76.254.52:9000
+http://223.145.224.22:8000/udp/239.76.254.52:9000
 #EXTINF:-1 tvg-id="风云音乐HD" tvg-name="风云音乐HD" tvg-logo="https://live.fanmingming.com/tv/风云音乐HD.png" group-title="HuNan_telecom",风云音乐HD
-http:///udp/239.76.254.51:9000
+http://223.145.224.22:8000/udp/239.76.254.51:9000
 #EXTINF:-1 tvg-id="风云剧场HD" tvg-name="风云剧场HD" tvg-logo="https://live.fanmingming.com/tv/风云剧场HD.png" group-title="HuNan_telecom",风云剧场HD
-http:///udp/239.76.254.50:9000
+http://223.145.224.22:8000/udp/239.76.254.50:9000
 #EXTINF:-1 tvg-id="女姓时尚HD" tvg-name="女姓时尚HD" tvg-logo="https://live.fanmingming.com/tv/女姓时尚HD.png" group-title="HuNan_telecom",女姓时尚HD
-http:///udp/239.76.254.55:9000
+http://223.145.224.22:8000/udp/239.76.254.55:9000
 #EXTINF:-1 tvg-id="央视文化精品HD" tvg-name="央视文化精品HD" tvg-logo="https://live.fanmingming.com/tv/央视文化精品HD.png" group-title="HuNan_telecom",央视文化精品HD
-http:///udp/239.76.254.56:9000
+http://223.145.224.22:8000/udp/239.76.254.56:9000
 #EXTINF:-1 tvg-id="世界地理HD" tvg-name="世界地理HD" tvg-logo="https://live.fanmingming.com/tv/世界地理HD.png" group-title="HuNan_telecom",世界地理HD
-http:///udp/239.76.254.57:9000
+http://223.145.224.22:8000/udp/239.76.254.57:9000
 #EXTINF:-1 tvg-id="兵器科技HD" tvg-name="兵器科技HD" tvg-logo="https://live.fanmingming.com/tv/兵器科技HD.png" group-title="HuNan_telecom",兵器科技HD
-http:///udp/239.76.254.59:9000
+http://223.145.224.22:8000/udp/239.76.254.59:9000
 #EXTINF:-1 tvg-id="央视台球HD" tvg-name="央视台球HD" tvg-logo="https://live.fanmingming.com/tv/央视台球HD.png" group-title="HuNan_telecom",央视台球HD
-http:///udp/239.76.254.58:9000
+http://223.145.224.22:8000/udp/239.76.254.58:9000
 #EXTINF:-1 tvg-id="怀旧剧场HD" tvg-name="怀旧剧场HD" tvg-logo="https://live.fanmingming.com/tv/怀旧剧场HD.png" group-title="HuNan_telecom",怀旧剧场HD
-http:///udp/239.76.254.53:9000
+http://223.145.224.22:8000/udp/239.76.254.53:9000
 #EXTINF:-1 tvg-id="电视指南HD" tvg-name="电视指南HD" tvg-logo="https://live.fanmingming.com/tv/电视指南HD.png" group-title="HuNan_telecom",电视指南HD
-http:///udp/239.76.254.61:9000
+http://223.145.224.22:8000/udp/239.76.254.61:9000
 #EXTINF:-1 tvg-id="央视高尔夫HD" tvg-name="央视高尔夫HD" tvg-logo="https://live.fanmingming.com/tv/央视高尔夫HD.png" group-title="HuNan_telecom",央视高尔夫HD
-http:///udp/239.76.254.62:9000
+http://223.145.224.22:8000/udp/239.76.254.62:9000
 #EXTINF:-1 tvg-id="北京少儿HD" tvg-name="北京少儿HD" tvg-logo="https://live.fanmingming.com/tv/北京少儿HD.png" group-title="HuNan_telecom",北京少儿HD
-http:///udp/239.76.254.81:9000
+http://223.145.224.22:8000/udp/239.76.254.81:9000
 #EXTINF:-1 tvg-id="快乐垂钓HD" tvg-name="快乐垂钓HD" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓HD.png" group-title="HuNan_telecom",快乐垂钓HD
-http:///udp/239.76.253.5:9000
+http://223.145.224.22:8000/udp/239.76.253.5:9000
 #EXTINF:-1 tvg-id="IPTV戏剧HD" tvg-name="IPTV戏剧HD" tvg-logo="https://live.fanmingming.com/tv/IPTV戏剧HD.png" group-title="HuNan_telecom",IPTV戏剧HD
-http:///udp/239.76.253.40:9000
+http://223.145.224.22:8000/udp/239.76.253.40:9000
 #EXTINF:-1 tvg-id="IPTV故事HD" tvg-name="IPTV故事HD" tvg-logo="https://live.fanmingming.com/tv/IPTV故事HD.png" group-title="HuNan_telecom",IPTV故事HD
-http:///udp/239.76.253.41:9000
+http://223.145.224.22:8000/udp/239.76.253.41:9000
 #EXTINF:-1 tvg-id="IPTV健康之路HD" tvg-name="IPTV健康之路HD" tvg-logo="https://live.fanmingming.com/tv/IPTV健康之路HD.png" group-title="HuNan_telecom",IPTV健康之路HD
-http:///udp/239.76.253.42:9000
+http://223.145.224.22:8000/udp/239.76.253.42:9000
 #EXTINF:-1 tvg-id="CGTN俄语HD" tvg-name="CGTN俄语HD" tvg-logo="https://live.fanmingming.com/tv/CGTN俄语HD.png" group-title="HuNan_telecom",CGTN俄语HD
-http:///udp/239.76.253.86:9000
+http://223.145.224.22:8000/udp/239.76.253.86:9000
 #EXTINF:-1 tvg-id="CGTN法语HD" tvg-name="CGTN法语HD" tvg-logo="https://live.fanmingming.com/tv/CGTN法语HD.png" group-title="HuNan_telecom",CGTN法语HD
-http:///udp/239.76.253.87:9000
+http://223.145.224.22:8000/udp/239.76.253.87:9000
 #EXTINF:-1 tvg-id="CGTN阿拉伯语HD" tvg-name="CGTN阿拉伯语HD" tvg-logo="https://live.fanmingming.com/tv/CGTN阿拉伯语HD.png" group-title="HuNan_telecom",CGTN阿拉伯语HD
-http:///udp/239.76.253.97:9000
+http://223.145.224.22:8000/udp/239.76.253.97:9000
 #EXTINF:-1 tvg-id="CGTN西班牙语HD" tvg-name="CGTN西班牙语HD" tvg-logo="https://live.fanmingming.com/tv/CGTN西班牙语HD.png" group-title="HuNan_telecom",CGTN西班牙语HD
-http:///udp/239.76.253.88:9000
+http://223.145.224.22:8000/udp/239.76.253.88:9000
 #EXTINF:-1 tvg-id="CCTV4美洲HD" tvg-name="CCTV4美洲HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4美洲HD.png" group-title="HuNan_telecom",CCTV4美洲HD
-http:///udp/239.76.253.96:9000
+http://223.145.224.22:8000/udp/239.76.253.96:9000
 #EXTINF:-1 tvg-id="CCTV4欧洲HD" tvg-name="CCTV4欧洲HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4欧洲HD.png" group-title="HuNan_telecom",CCTV4欧洲HD
-http:///udp/239.76.253.95:9000
+http://223.145.224.22:8000/udp/239.76.253.95:9000
 #EXTINF:-1 tvg-id="湖南卫视HD" tvg-name="湖南卫视HD" tvg-logo="https://live.fanmingming.com/tv/湖南卫视HD.png" group-title="HuNan_telecom",湖南卫视HD
-http:///udp/239.76.253.101:9000
+http://223.145.224.22:8000/udp/239.76.253.101:9000
 #EXTINF:-1 tvg-id="湖南国际HD" tvg-name="湖南国际HD" tvg-logo="https://live.fanmingming.com/tv/湖南国际HD.png" group-title="HuNan_telecom",湖南国际HD
-http:///udp/239.76.253.102:9000
+http://223.145.224.22:8000/udp/239.76.253.102:9000
 #EXTINF:-1 tvg-id="湖南卫视FHD" tvg-name="湖南卫视FHD" tvg-logo="https://live.fanmingming.com/tv/湖南卫视FHD.png" group-title="HuNan_telecom",湖南卫视FHD
-http:///udp/239.76.253.100:9000
+http://223.145.224.22:8000/udp/239.76.253.100:9000
 #EXTINF:-1 tvg-id="湖南经视HD" tvg-name="湖南经视HD" tvg-logo="https://live.fanmingming.com/tv/湖南经视HD.png" group-title="HuNan_telecom",湖南经视HD
-http:///udp/239.76.253.103:9000
+http://223.145.224.22:8000/udp/239.76.253.103:9000
 #EXTINF:-1 tvg-id="湖南都市HD" tvg-name="湖南都市HD" tvg-logo="https://live.fanmingming.com/tv/湖南都市HD.png" group-title="HuNan_telecom",湖南都市HD
-http:///udp/239.76.253.104:9000
+http://223.145.224.22:8000/udp/239.76.253.104:9000
 #EXTINF:-1 tvg-id="湖南娱乐HD" tvg-name="湖南娱乐HD" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐HD.png" group-title="HuNan_telecom",湖南娱乐HD
-http:///udp/239.76.253.105:9000
+http://223.145.224.22:8000/udp/239.76.253.105:9000
 #EXTINF:-1 tvg-id="湖南电影HD" tvg-name="湖南电影HD" tvg-logo="https://live.fanmingming.com/tv/湖南电影HD.png" group-title="HuNan_telecom",湖南电影HD
-http:///udp/239.76.253.106:9000
+http://223.145.224.22:8000/udp/239.76.253.106:9000
 #EXTINF:-1 tvg-id="湖南电视剧HD" tvg-name="湖南电视剧HD" tvg-logo="https://live.fanmingming.com/tv/湖南电视剧HD.png" group-title="HuNan_telecom",湖南电视剧HD
-http:///udp/239.76.253.108:9000
+http://223.145.224.22:8000/udp/239.76.253.108:9000
 #EXTINF:-1 tvg-id="金鹰卡通HD" tvg-name="金鹰卡通HD" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通HD.png" group-title="HuNan_telecom",金鹰卡通HD
-http:///udp/239.76.253.107:9000
+http://223.145.224.22:8000/udp/239.76.253.107:9000
 #EXTINF:-1 tvg-id="湖南公共HD" tvg-name="湖南公共HD" tvg-logo="https://live.fanmingming.com/tv/湖南公共HD.png" group-title="HuNan_telecom",湖南公共HD
-http:///udp/239.76.253.109:9000
+http://223.145.224.22:8000/udp/239.76.253.109:9000
 #EXTINF:-1 tvg-id="金鹰纪实HD" tvg-name="金鹰纪实HD" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实HD.png" group-title="HuNan_telecom",金鹰纪实HD
-http:///udp/239.76.253.110:9000
+http://223.145.224.22:8000/udp/239.76.253.110:9000
 #EXTINF:-1 tvg-id="长沙新闻HD" tvg-name="长沙新闻HD" tvg-logo="https://live.fanmingming.com/tv/长沙新闻HD.png" group-title="HuNan_telecom",长沙新闻HD
-http:///udp/239.76.253.121:9000
+http://223.145.224.22:8000/udp/239.76.253.121:9000
 #EXTINF:-1 tvg-id="长沙政法HD" tvg-name="长沙政法HD" tvg-logo="https://live.fanmingming.com/tv/长沙政法HD.png" group-title="HuNan_telecom",长沙政法HD
-http:///udp/239.76.253.122:9000
+http://223.145.224.22:8000/udp/239.76.253.122:9000
 #EXTINF:-1 tvg-id="芒果汽车HD" tvg-name="芒果汽车HD" tvg-logo="https://live.fanmingming.com/tv/芒果汽车HD.png" group-title="HuNan_telecom",芒果汽车HD
-http:///udp/239.76.253.123:9000
+http://223.145.224.22:8000/udp/239.76.253.123:9000
 #EXTINF:-1 tvg-id="IPTV芒果互娱HD" tvg-name="IPTV芒果互娱HD" tvg-logo="https://live.fanmingming.com/tv/IPTV芒果互娱HD.png" group-title="HuNan_telecom",IPTV芒果互娱HD
-http:///udp/239.76.253.126:9000
+http://223.145.224.22:8000/udp/239.76.253.126:9000
 #EXTINF:-1 tvg-id="欢笑剧场4K" tvg-name="欢笑剧场4K" tvg-logo="https://live.fanmingming.com/tv/欢笑剧场4K.png" group-title="HuNan_telecom",欢笑剧场4K
-http:///udp/239.76.253.130:9000
+http://223.145.224.22:8000/udp/239.76.253.130:9000
 #EXTINF:-1 tvg-id="游戏风云HD" tvg-name="游戏风云HD" tvg-logo="https://live.fanmingming.com/tv/游戏风云HD.png" group-title="HuNan_telecom",游戏风云HD
-http:///udp/239.76.253.132:9000
+http://223.145.224.22:8000/udp/239.76.253.132:9000
 #EXTINF:-1 tvg-id="极速汽车HD" tvg-name="极速汽车HD" tvg-logo="https://live.fanmingming.com/tv/极速汽车HD.png" group-title="HuNan_telecom",极速汽车HD
-http:///udp/239.76.253.133:9000
+http://223.145.224.22:8000/udp/239.76.253.133:9000
 #EXTINF:-1 tvg-id="动漫秀场HD" tvg-name="动漫秀场HD" tvg-logo="https://live.fanmingming.com/tv/动漫秀场HD.png" group-title="HuNan_telecom",动漫秀场HD
-http:///udp/239.76.253.131:9000
+http://223.145.224.22:8000/udp/239.76.253.131:9000
 #EXTINF:-1 tvg-id="凤凰中文HD" tvg-name="凤凰中文HD" tvg-logo="https://live.fanmingming.com/tv/凤凰中文HD.png" group-title="HuNan_telecom",凤凰中文HD
-http:///udp/239.76.253.135:9000
+http://223.145.224.22:8000/udp/239.76.253.135:9000
 #EXTINF:-1 tvg-id="凤凰资讯HD" tvg-name="凤凰资讯HD" tvg-logo="https://live.fanmingming.com/tv/凤凰资讯HD.png" group-title="HuNan_telecom",凤凰资讯HD
-http:///udp/239.76.253.134:9000
+http://223.145.224.22:8000/udp/239.76.253.134:9000
 #EXTINF:-1 tvg-id="体育HD" tvg-name="体育HD" tvg-logo="https://live.fanmingming.com/tv/体育HD.png" group-title="HuNan_telecom",体育HD
-http:///udp/239.76.253.136:9000
+http://223.145.224.22:8000/udp/239.76.253.136:9000
 #EXTINF:-1 tvg-id="全纪实HD" tvg-name="全纪实HD" tvg-logo="https://live.fanmingming.com/tv/全纪实HD.png" group-title="HuNan_telecom",全纪实HD
-http:///udp/239.76.253.137:9000
+http://223.145.224.22:8000/udp/239.76.253.137:9000
 #EXTINF:-1 tvg-id="金色学堂HD" tvg-name="金色学堂HD" tvg-logo="https://live.fanmingming.com/tv/金色学堂HD.png" group-title="HuNan_telecom",金色学堂HD
-http:///udp/239.76.253.139:9000
+http://223.145.224.22:8000/udp/239.76.253.139:9000
 #EXTINF:-1 tvg-id="法治天地HD" tvg-name="法治天地HD" tvg-logo="https://live.fanmingming.com/tv/法治天地HD.png" group-title="HuNan_telecom",法治天地HD
-http:///udp/239.76.253.138:9000
+http://223.145.224.22:8000/udp/239.76.253.138:9000
 #EXTINF:-1 tvg-id="CCTV1HD" tvg-name="CCTV1HD" tvg-logo="https://live.fanmingming.com/tv/CCTV1HD.png" group-title="HuNan_telecom",CCTV1HD
-http:///udp/239.76.253.151:9000
+http://223.145.224.22:8000/udp/239.76.253.151:9000
 #EXTINF:-1 tvg-id="CCTV2HD" tvg-name="CCTV2HD" tvg-logo="https://live.fanmingming.com/tv/CCTV2HD.png" group-title="HuNan_telecom",CCTV2HD
-http:///udp/239.76.253.152:9000
+http://223.145.224.22:8000/udp/239.76.253.152:9000
 #EXTINF:-1 tvg-id="CCTV3HD" tvg-name="CCTV3HD" tvg-logo="https://live.fanmingming.com/tv/CCTV3HD.png" group-title="HuNan_telecom",CCTV3HD
-http:///udp/239.76.253.153:9000
+http://223.145.224.22:8000/udp/239.76.253.153:9000
 #EXTINF:-1 tvg-id="CCTV4HD" tvg-name="CCTV4HD" tvg-logo="https://live.fanmingming.com/tv/CCTV4HD.png" group-title="HuNan_telecom",CCTV4HD
-http:///udp/239.76.253.154:9000
+http://223.145.224.22:8000/udp/239.76.253.154:9000
 #EXTINF:-1 tvg-id="CCTV5HD" tvg-name="CCTV5HD" tvg-logo="https://live.fanmingming.com/tv/CCTV5HD.png" group-title="HuNan_telecom",CCTV5HD
-http:///udp/239.76.253.155:9000
+http://223.145.224.22:8000/udp/239.76.253.155:9000
 #EXTINF:-1 tvg-id="CCTV5+hd" tvg-name="CCTV5+hd" tvg-logo="https://live.fanmingming.com/tv/CCTV5+hd.png" group-title="HuNan_telecom",CCTV5+hd
-http:///udp/239.76.253.168:9000
+http://223.145.224.22:8000/udp/239.76.253.168:9000
 #EXTINF:-1 tvg-id="CCTV6HD" tvg-name="CCTV6HD" tvg-logo="https://live.fanmingming.com/tv/CCTV6HD.png" group-title="HuNan_telecom",CCTV6HD
-http:///udp/239.76.253.156:9000
+http://223.145.224.22:8000/udp/239.76.253.156:9000
 #EXTINF:-1 tvg-id="CCTV7HD" tvg-name="CCTV7HD" tvg-logo="https://live.fanmingming.com/tv/CCTV7HD.png" group-title="HuNan_telecom",CCTV7HD
-http:///udp/239.76.253.157:9000
+http://223.145.224.22:8000/udp/239.76.253.157:9000
 #EXTINF:-1 tvg-id="CCTV8HD" tvg-name="CCTV8HD" tvg-logo="https://live.fanmingming.com/tv/CCTV8HD.png" group-title="HuNan_telecom",CCTV8HD
-http:///udp/239.76.253.158:9000
+http://223.145.224.22:8000/udp/239.76.253.158:9000
 #EXTINF:-1 tvg-id="CCTV9HD" tvg-name="CCTV9HD" tvg-logo="https://live.fanmingming.com/tv/CCTV9HD.png" group-title="HuNan_telecom",CCTV9HD
-http:///udp/239.76.253.159:9000
+http://223.145.224.22:8000/udp/239.76.253.159:9000
 #EXTINF:-1 tvg-id="CCTV10HD" tvg-name="CCTV10HD" tvg-logo="https://live.fanmingming.com/tv/CCTV10HD.png" group-title="HuNan_telecom",CCTV10HD
-http:///udp/239.76.253.160:9000
+http://223.145.224.22:8000/udp/239.76.253.160:9000
 #EXTINF:-1 tvg-id="CCTV12HD" tvg-name="CCTV12HD" tvg-logo="https://live.fanmingming.com/tv/CCTV12HD.png" group-title="HuNan_telecom",CCTV12HD
-http:///udp/239.76.253.162:9000
+http://223.145.224.22:8000/udp/239.76.253.162:9000
 #EXTINF:-1 tvg-id="CCTV13HD" tvg-name="CCTV13HD" tvg-logo="https://live.fanmingming.com/tv/CCTV13HD.png" group-title="HuNan_telecom",CCTV13HD
-http:///udp/239.76.253.93:9000
+http://223.145.224.22:8000/udp/239.76.253.93:9000
 #EXTINF:-1 tvg-id="CCTV14HD" tvg-name="CCTV14HD" tvg-logo="https://live.fanmingming.com/tv/CCTV14HD.png" group-title="HuNan_telecom",CCTV14HD
-http:///udp/239.76.253.164:9000
+http://223.145.224.22:8000/udp/239.76.253.164:9000
 #EXTINF:-1 tvg-id="CCTV16HD" tvg-name="CCTV16HD" tvg-logo="https://live.fanmingming.com/tv/CCTV16HD.png" group-title="HuNan_telecom",CCTV16HD
-http:///udp/239.76.253.98:9000
+http://223.145.224.22:8000/udp/239.76.253.98:9000
 #EXTINF:-1 tvg-id="CCTV164K" tvg-name="CCTV164K" tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="HuNan_telecom",CCTV16 4K
-http:///udp/239.76.253.214:9000
+http://223.145.224.22:8000/udp/239.76.253.214:9000
 #EXTINF:-1 tvg-id="CCTV164K" tvg-name="CCTV164K" tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="HuNan_telecom",CCTV16 4K
-http:///udp/239.76.254.200:9000
+http://223.145.224.22:8000/udp/239.76.254.200:9000
 #EXTINF:-1 tvg-id="CCTV164K" tvg-name="CCTV164K" tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="HuNan_telecom",CCTV16 4K
-http:///udp/239.76.253.224:9000
+http://223.145.224.22:8000/udp/239.76.253.224:9000
 #EXTINF:-1 tvg-id="CCTV164K" tvg-name="CCTV164K" tvg-logo="https://live.fanmingming.com/tv/CCTV164K.png" group-title="HuNan_telecom",CCTV16-4K
-http:///udp/239.76.253.230:9000
+http://223.145.224.22:8000/udp/239.76.253.230:9000
 #EXTINF:-1 tvg-id="江苏卫视HD" tvg-name="江苏卫视HD" tvg-logo="https://live.fanmingming.com/tv/江苏卫视HD.png" group-title="HuNan_telecom",江苏卫视HD
-http:///udp/239.76.253.181:9000
+http://223.145.224.22:8000/udp/239.76.253.181:9000
 #EXTINF:-1 tvg-id="浙江卫视HD" tvg-name="浙江卫视HD" tvg-logo="https://live.fanmingming.com/tv/浙江卫视HD.png" group-title="HuNan_telecom",浙江卫视HD
-http:///udp/239.76.253.182:9000
+http://223.145.224.22:8000/udp/239.76.253.182:9000
 #EXTINF:-1 tvg-id="北京卫视HD" tvg-name="北京卫视HD" tvg-logo="https://live.fanmingming.com/tv/北京卫视HD.png" group-title="HuNan_telecom",北京卫视HD
-http:///udp/239.76.253.184:9000
+http://223.145.224.22:8000/udp/239.76.253.184:9000
 #EXTINF:-1 tvg-id="天津卫视HD" tvg-name="天津卫视HD" tvg-logo="https://live.fanmingming.com/tv/天津卫视HD.png" group-title="HuNan_telecom",天津卫视HD
-http:///udp/239.76.253.185:9000
+http://223.145.224.22:8000/udp/239.76.253.185:9000
 #EXTINF:-1 tvg-id="东方卫视HD" tvg-name="东方卫视HD" tvg-logo="https://live.fanmingming.com/tv/东方卫视HD.png" group-title="HuNan_telecom",东方卫视HD
-http:///udp/239.76.253.186:9000
+http://223.145.224.22:8000/udp/239.76.253.186:9000
 #EXTINF:-1 tvg-id="深圳卫视HD" tvg-name="深圳卫视HD" tvg-logo="https://live.fanmingming.com/tv/深圳卫视HD.png" group-title="HuNan_telecom",深圳卫视HD
-http:///udp/239.76.253.188:9000
+http://223.145.224.22:8000/udp/239.76.253.188:9000
 #EXTINF:-1 tvg-id="湖北卫视HD" tvg-name="湖北卫视HD" tvg-logo="https://live.fanmingming.com/tv/湖北卫视HD.png" group-title="HuNan_telecom",湖北卫视HD
-http:///udp/239.76.253.193:9000
+http://223.145.224.22:8000/udp/239.76.253.193:9000
 #EXTINF:-1 tvg-id="山东卫视HD" tvg-name="山东卫视HD" tvg-logo="https://live.fanmingming.com/tv/山东卫视HD.png" group-title="HuNan_telecom",山东卫视HD
-http:///udp/239.76.253.195:9000
+http://223.145.224.22:8000/udp/239.76.253.195:9000
 #EXTINF:-1 tvg-id="黑龙江卫视HD" tvg-name="黑龙江卫视HD" tvg-logo="https://live.fanmingming.com/tv/黑龙江卫视HD.png" group-title="HuNan_telecom",黑龙江卫视HD
-http:///udp/239.76.253.200:9000
+http://223.145.224.22:8000/udp/239.76.253.200:9000
 #EXTINF:-1 tvg-id="吉林卫视HD" tvg-name="吉林卫视HD" tvg-logo="https://live.fanmingming.com/tv/吉林卫视HD.png" group-title="HuNan_telecom",吉林卫视HD
-http:///udp/239.76.253.201:9000
+http://223.145.224.22:8000/udp/239.76.253.201:9000
 #EXTINF:-1 tvg-id="河南卫视HD" tvg-name="河南卫视HD" tvg-logo="https://live.fanmingming.com/tv/河南卫视HD.png" group-title="HuNan_telecom",河南卫视HD
-http:///udp/239.76.253.202:9000
+http://223.145.224.22:8000/udp/239.76.253.202:9000
 #EXTINF:-1 tvg-id="海南卫视HD" tvg-name="海南卫视HD" tvg-logo="https://live.fanmingming.com/tv/海南卫视HD.png" group-title="HuNan_telecom",海南卫视HD
-http:///udp/239.76.253.203:9000
+http://223.145.224.22:8000/udp/239.76.253.203:9000
 #EXTINF:-1 tvg-id="四川卫视HD" tvg-name="四川卫视HD" tvg-logo="https://live.fanmingming.com/tv/四川卫视HD.png" group-title="HuNan_telecom",四川卫视HD
-http:///udp/239.76.253.91:9000
+http://223.145.224.22:8000/udp/239.76.253.91:9000
 #EXTINF:-1 tvg-id="重庆卫视HD" tvg-name="重庆卫视HD" tvg-logo="https://live.fanmingming.com/tv/重庆卫视HD.png" group-title="HuNan_telecom",重庆卫视HD
-http:///udp/239.76.253.92:9000
+http://223.145.224.22:8000/udp/239.76.253.92:9000
 #EXTINF:-1 tvg-id="广西卫视HD" tvg-name="广西卫视HD" tvg-logo="https://live.fanmingming.com/tv/广西卫视HD.png" group-title="HuNan_telecom",广西卫视HD
-http:///udp/239.76.254.54:9000
+http://223.145.224.22:8000/udp/239.76.254.54:9000
 #EXTINF:-1 tvg-id="陕西卫视HD" tvg-name="陕西卫视HD" tvg-logo="https://live.fanmingming.com/tv/陕西卫视HD.png" group-title="HuNan_telecom",陕西卫视HD
-http:///udp/239.76.254.76:9000
+http://223.145.224.22:8000/udp/239.76.254.76:9000
 #EXTINF:-1 tvg-id="云南卫视HD" tvg-name="云南卫视HD" tvg-logo="https://live.fanmingming.com/tv/云南卫视HD.png" group-title="HuNan_telecom",云南卫视HD
-http:///udp/239.76.254.60:9000
+http://223.145.224.22:8000/udp/239.76.254.60:9000
 #EXTINF:-1 tvg-id="青海卫视HD" tvg-name="青海卫视HD" tvg-logo="https://live.fanmingming.com/tv/青海卫视HD.png" group-title="HuNan_telecom",青海卫视HD
-http:///udp/239.76.254.132:9000
+http://223.145.224.22:8000/udp/239.76.254.132:9000
 #EXTINF:-1 tvg-id="甘肃卫视HD" tvg-name="甘肃卫视HD" tvg-logo="https://live.fanmingming.com/tv/甘肃卫视HD.png" group-title="HuNan_telecom",甘肃卫视HD
-http:///udp/239.76.253.94:9000
+http://223.145.224.22:8000/udp/239.76.253.94:9000
 #EXTINF:-1 tvg-id="都市剧场HD" tvg-name="都市剧场HD" tvg-logo="https://live.fanmingming.com/tv/都市剧场HD.png" group-title="HuNan_telecom",都市剧场HD
-http:///udp/239.76.253.215:9000
+http://223.145.224.22:8000/udp/239.76.253.215:9000
 #EXTINF:-1 tvg-id="生活时尚HD" tvg-name="生活时尚HD" tvg-logo="https://live.fanmingming.com/tv/生活时尚HD.png" group-title="HuNan_telecom",生活时尚HD
-http:///udp/239.76.253.223:9000
+http://223.145.224.22:8000/udp/239.76.253.223:9000
 #EXTINF:-1 tvg-id="长沙女姓HD" tvg-name="长沙女姓HD" tvg-logo="https://live.fanmingming.com/tv/长沙女姓HD.png" group-title="HuNan_telecom",长沙女姓HD
-http:///udp/239.76.252.23:9000
+http://223.145.224.22:8000/udp/239.76.252.23:9000
 #EXTINF:-1 tvg-id="IPTV4k电影" tvg-name="IPTV4k电影" tvg-logo="https://live.fanmingming.com/tv/IPTV4k电影.png" group-title="HuNan_telecom",IPTV 4k电影
-http:///udp/239.76.252.35:9000
+http://223.145.224.22:8000/udp/239.76.252.35:9000
 #EXTINF:-1 tvg-id="CGTN英语高清" tvg-name="CGTN英语高清" tvg-logo="https://live.fanmingming.com/tv/CGTN英语高清.png" group-title="HuNan_telecom",CGTN英语高清
-http:///udp/239.76.252.66:9000
+http://223.145.224.22:8000/udp/239.76.252.66:9000
 #EXTINF:-1 tvg-id="CGTN纪录高清" tvg-name="CGTN纪录高清" tvg-logo="https://live.fanmingming.com/tv/CGTN纪录高清.png" group-title="HuNan_telecom",CGTN纪录高清
-http:///udp/239.76.252.67:9000
+http://223.145.224.22:8000/udp/239.76.252.67:9000
 #EXTINF:-1 tvg-id="湖南卫视FHD" tvg-name="湖南卫视FHD" tvg-logo="https://live.fanmingming.com/tv/湖南卫视FHD.png" group-title="HuNan_telecom",湖南卫视FHD
-http:///udp/239.76.252.115:9000
+http://223.145.224.22:8000/udp/239.76.252.115:9000
 #EXTINF:-1 tvg-id="湖南经视HD" tvg-name="湖南经视HD" tvg-logo="https://live.fanmingming.com/tv/湖南经视HD.png" group-title="HuNan_telecom",湖南经视HD
-http:///udp/239.76.252.116:9000
+http://223.145.224.22:8000/udp/239.76.252.116:9000
 #EXTINF:-1 tvg-id="湖南电视剧HD" tvg-name="湖南电视剧HD" tvg-logo="https://live.fanmingming.com/tv/湖南电视剧HD.png" group-title="HuNan_telecom",湖南电视剧HD
-http:///udp/239.76.252.118:9000
+http://223.145.224.22:8000/udp/239.76.252.118:9000
 #EXTINF:-1 tvg-id="湖南电影HD" tvg-name="湖南电影HD" tvg-logo="https://live.fanmingming.com/tv/湖南电影HD.png" group-title="HuNan_telecom",湖南电影HD
-http:///udp/239.76.252.119:9000
+http://223.145.224.22:8000/udp/239.76.252.119:9000
 #EXTINF:-1 tvg-id="金鹰卡通HD" tvg-name="金鹰卡通HD" tvg-logo="https://live.fanmingming.com/tv/金鹰卡通HD.png" group-title="HuNan_telecom",金鹰卡通HD
-http:///udp/239.76.252.120:9000
+http://223.145.224.22:8000/udp/239.76.252.120:9000
 #EXTINF:-1 tvg-id="湖南公共HD" tvg-name="湖南公共HD" tvg-logo="https://live.fanmingming.com/tv/湖南公共HD.png" group-title="HuNan_telecom",湖南公共HD
-http:///udp/239.76.252.123:9000
+http://223.145.224.22:8000/udp/239.76.252.123:9000
 #EXTINF:-1 tvg-id="湖南娱乐HD" tvg-name="湖南娱乐HD" tvg-logo="https://live.fanmingming.com/tv/湖南娱乐HD.png" group-title="HuNan_telecom",湖南娱乐HD
-http:///udp/239.76.252.121:9000
+http://223.145.224.22:8000/udp/239.76.252.121:9000
 #EXTINF:-1 tvg-id="金鹰纪实HD" tvg-name="金鹰纪实HD" tvg-logo="https://live.fanmingming.com/tv/金鹰纪实HD.png" group-title="HuNan_telecom",金鹰纪实HD
-http:///udp/239.76.252.122:9000
+http://223.145.224.22:8000/udp/239.76.252.122:9000
 #EXTINF:-1 tvg-id="湖南国际HD" tvg-name="湖南国际HD" tvg-logo="https://live.fanmingming.com/tv/湖南国际HD.png" group-title="HuNan_telecom",湖南国际HD
-http:///udp/239.76.252.124:9000
+http://223.145.224.22:8000/udp/239.76.252.124:9000
 #EXTINF:-1 tvg-id="湖南都市HD" tvg-name="湖南都市HD" tvg-logo="https://live.fanmingming.com/tv/湖南都市HD.png" group-title="HuNan_telecom",湖南都市HD
-http:///udp/239.76.252.117:9000
+http://223.145.224.22:8000/udp/239.76.252.117:9000
 #EXTINF:-1 tvg-id="快乐垂钓HD" tvg-name="快乐垂钓HD" tvg-logo="https://live.fanmingming.com/tv/快乐垂钓HD.png" group-title="HuNan_telecom",快乐垂钓HD
-http:///udp/239.76.252.127:9000
+http://223.145.224.22:8000/udp/239.76.252.127:9000
 #EXTINF:-1 tvg-id="IPTV广场舞HD" tvg-name="IPTV广场舞HD" tvg-logo="https://live.fanmingming.com/tv/IPTV广场舞HD.png" group-title="HuNan_telecom",IPTV广场舞HD
-http:///udp/239.76.252.134:9000
+http://223.145.224.22:8000/udp/239.76.252.134:9000
 #EXTINF:-1 tvg-id="IPTV电竞HD" tvg-name="IPTV电竞HD" tvg-logo="https://live.fanmingming.com/tv/IPTV电竞HD.png" group-title="HuNan_telecom",IPTV电竞HD
-http:///udp/239.76.252.136:9000
+http://223.145.224.22:8000/udp/239.76.252.136:9000
 #EXTINF:-1 tvg-id="河南梨园HD" tvg-name="河南梨园HD" tvg-logo="https://live.fanmingming.com/tv/河南梨园HD.png" group-title="HuNan_telecom",河南梨园HD
-http:///udp/239.76.252.179:9000
+http://223.145.224.22:8000/udp/239.76.252.179:9000
 #EXTINF:-1 tvg-id="文物宝库HD" tvg-name="文物宝库HD" tvg-logo="https://live.fanmingming.com/tv/文物宝库HD.png" group-title="HuNan_telecom",文物宝库HD
-http:///udp/239.76.252.180:9000
+http://223.145.224.22:8000/udp/239.76.252.180:9000
 #EXTINF:-1 tvg-id="武术世界HD" tvg-name="武术世界HD" tvg-logo="https://live.fanmingming.com/tv/武术世界HD.png" group-title="HuNan_telecom",武术世界HD
-http:///udp/239.76.252.181:9000
+http://223.145.224.22:8000/udp/239.76.252.181:9000
 #EXTINF:-1 tvg-id="广东卫视HD" tvg-name="广东卫视HD" tvg-logo="https://live.fanmingming.com/tv/广东卫视HD.png" group-title="HuNan_telecom",广东卫视HD
-http:///udp/239.76.252.189:9000
+http://223.145.224.22:8000/udp/239.76.252.189:9000
 #EXTINF:-1 tvg-id="东南卫视HD" tvg-name="东南卫视HD" tvg-logo="https://live.fanmingming.com/tv/东南卫视HD.png" group-title="HuNan_telecom",东南卫视HD
-http:///udp/239.76.252.190:9000
+http://223.145.224.22:8000/udp/239.76.252.190:9000
 #EXTINF:-1 tvg-id="中国教育1hd" tvg-name="中国教育1hd" tvg-logo="https://live.fanmingming.com/tv/中国教育1hd.png" group-title="HuNan_telecom",中国教育1hd
-http:///udp/239.76.252.192:9000
+http://223.145.224.22:8000/udp/239.76.252.192:9000
 #EXTINF:-1 tvg-id="安徽卫视HD" tvg-name="安徽卫视HD" tvg-logo="https://live.fanmingming.com/tv/安徽卫视HD.png" group-title="HuNan_telecom",安徽卫视HD
-http:///udp/239.76.252.196:9000
+http://223.145.224.22:8000/udp/239.76.252.196:9000
 #EXTINF:-1 tvg-id="辽宁卫视HD" tvg-name="辽宁卫视HD" tvg-logo="https://live.fanmingming.com/tv/辽宁卫视HD.png" group-title="HuNan_telecom",辽宁卫视HD
-http:///udp/239.76.252.197:9000
+http://223.145.224.22:8000/udp/239.76.252.197:9000
 #EXTINF:-1 tvg-id="河北卫视HD" tvg-name="河北卫视HD" tvg-logo="https://live.fanmingming.com/tv/河北卫视HD.png" group-title="HuNan_telecom",河北卫视HD
-http:///udp/239.76.252.199:9000
+http://223.145.224.22:8000/udp/239.76.252.199:9000
 #EXTINF:-1 tvg-id="贵州卫视HD" tvg-name="贵州卫视HD" tvg-logo="https://live.fanmingming.com/tv/贵州卫视HD.png" group-title="HuNan_telecom",贵州卫视HD
-http:///udp/239.76.252.198:9000
+http://223.145.224.22:8000/udp/239.76.252.198:9000
 #EXTINF:-1 tvg-id="芒果乐搜HD" tvg-name="芒果乐搜HD" tvg-logo="https://live.fanmingming.com/tv/芒果乐搜HD.png" group-title="HuNan_telecom",芒果乐搜HD
-http:///udp/239.76.252.200:9000
+http://223.145.224.22:8000/udp/239.76.252.200:9000
 #EXTINF:-1 tvg-id="长沙影视HD" tvg-name="长沙影视HD" tvg-logo="https://live.fanmingming.com/tv/长沙影视HD.png" group-title="HuNan_telecom",长沙影视HD
-http:///udp/239.76.252.204:9000
+http://223.145.224.22:8000/udp/239.76.252.204:9000
 #EXTINF:-1 tvg-id="湘西综合HD" tvg-name="湘西综合HD" tvg-logo="https://live.fanmingming.com/tv/湘西综合HD.png" group-title="HuNan_telecom",湘西综合HD
-http:///udp/239.76.252.208:9000
+http://223.145.224.22:8000/udp/239.76.252.208:9000
 #EXTINF:-1 tvg-id="湘西公共HD" tvg-name="湘西公共HD" tvg-logo="https://live.fanmingming.com/tv/湘西公共HD.png" group-title="HuNan_telecom",湘西公共HD
-http:///udp/239.76.252.209:9000
+http://223.145.224.22:8000/udp/239.76.252.209:9000
 #EXTINF:-1 tvg-id="湘西公共HD" tvg-name="湘西公共HD" tvg-logo="https://live.fanmingming.com/tv/湘西公共HD.png" group-title="HuNan_telecom",湘西公共HD
-http:///udp/239.76.252.210:9000
+http://223.145.224.22:8000/udp/239.76.252.210:9000
 #EXTINF:-1 tvg-id="IPTV电竞HD" tvg-name="IPTV电竞HD" tvg-logo="https://live.fanmingming.com/tv/IPTV电竞HD.png" group-title="HuNan_telecom",IPTV电竞HD
-http:///udp/239.76.252.214:9000
+http://223.145.224.22:8000/udp/239.76.252.214:9000
 #EXTINF:-1 tvg-id="芒果乐淘HD" tvg-name="芒果乐淘HD" tvg-logo="https://live.fanmingming.com/tv/芒果乐淘HD.png" group-title="HuNan_telecom",芒果乐淘HD
-http:///udp/239.76.252.215:9000
+http://223.145.224.22:8000/udp/239.76.252.215:9000
 #EXTINF:-1 tvg-id="IPTV高清院线" tvg-name="IPTV高清院线" tvg-logo="https://live.fanmingming.com/tv/IPTV高清院线.png" group-title="HuNan_telecom",IPTV高清院线
-http:///udp/239.76.252.217:9000
+http://223.145.224.22:8000/udp/239.76.252.217:9000
 #EXTINF:-1 tvg-id="IPTV抗战剧场" tvg-name="IPTV抗战剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV抗战剧场.png" group-title="HuNan_telecom",IPTV抗战剧场
-http:///udp/239.76.252.218:9000
+http://223.145.224.22:8000/udp/239.76.252.218:9000
 #EXTINF:-1 tvg-id="IPTV古装剧场" tvg-name="IPTV古装剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV古装剧场.png" group-title="HuNan_telecom",IPTV古装剧场
-http:///udp/239.76.252.219:9000
+http://223.145.224.22:8000/udp/239.76.252.219:9000
 #EXTINF:-1 tvg-id="IPTV经典剧场" tvg-name="IPTV经典剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV经典剧场.png" group-title="HuNan_telecom",IPTV经典剧场
-http:///udp/239.76.252.221:9000
+http://223.145.224.22:8000/udp/239.76.252.221:9000
 #EXTINF:-1 tvg-id="IPTV家庭剧场" tvg-name="IPTV家庭剧场" tvg-logo="https://live.fanmingming.com/tv/IPTV家庭剧场.png" group-title="HuNan_telecom",IPTV家庭剧场
-http:///udp/239.76.252.220:9000
+http://223.145.224.22:8000/udp/239.76.252.220:9000
 #EXTINF:-1 tvg-id="IPTV5HD" tvg-name="IPTV5HD" tvg-logo="https://live.fanmingming.com/tv/IPTV5HD.png" group-title="HuNan_telecom",IPTV5HD
-http:///udp/239.76.252.222:9000
+http://223.145.224.22:8000/udp/239.76.252.222:9000
 #EXTINF:-1 tvg-id="湖南教育HD" tvg-name="湖南教育HD" tvg-logo="https://live.fanmingming.com/tv/湖南教育HD.png" group-title="HuNan_telecom",湖南教育HD
-http:///udp/239.76.252.233:9000
+http://223.145.224.22:8000/udp/239.76.252.233:9000
