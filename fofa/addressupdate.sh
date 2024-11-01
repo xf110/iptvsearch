@@ -298,7 +298,7 @@ printf "\n%s个省市数据未更新: \n" "${#failed_cities[@]}" >> msg.txt
 for city in "${failed_cities[@]}"; do
     printf " %s | " "$city" >> msg.txt
 done
-sed -i 's/|$//g' msg.txt
+sed -i 's/ | $//g' msg.txt
 
 msg_urlencode=$(urlencode "$(cat msg.txt)")
 curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
