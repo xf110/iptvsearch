@@ -410,5 +410,5 @@ done
      
     # echo -e "${#failed_cities[@]}个省市数据未更新：${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
-    curl "${{ secret.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
-    rm -f msg.txt tmp.list *_-1.*
+    curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
+    rm -f msg.txt tmp.list output.ts.part
