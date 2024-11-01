@@ -17,13 +17,13 @@ jobs:
       - name: Download pixman content
         run: |
           SERVER_URL="${{ secrets.SERVER_ADDRESS }}"
-          curl -L -o itv.m3u ${SERVER_URL}/itv.m3u    # 直接使用frp不再使用url转发https://tv.wangqifei.eu.org/itv.m3u
-          curl -L -o 4gtv.m3u ${{ secrets.SERVER_ADDRESS }}/4gtv.m3u   # https://tv.wangqifei.eu.org/4gtv.m3u
-          
+          curl -L -o itv.m3u ${SERVER_URL}/itv.m3u    # 直接使用frp不再使用cf url转发
+          curl -L -o 4gtv.m3u ${{ secrets.SERVER_ADDRESS }}/4gtv.m3u   
       - name: Check for #EXTM3U in itv.m3u
         run: |
           if ! grep -q '^#EXTM3U' itv.m3u; then
             echo "File does not contain #EXTM3U, exiting..."
+            curl "${{ secrets.BARK_SERVER }}/github_actions/itv更新失败!Frp服务已停止，等待重新拉起服务.?isArchive=1"
             exit 1
           fi
       - name: Process itv.m3u file
@@ -133,7 +133,7 @@ jobs:
           printf " 更新时间：$(TZ='Asia/Shanghai' date +%Y/%m/%d/%H:%M:%S)\n" >> msg.txt
           printf " 本次更新频道数量： $(grep -c "://" ./itv.m3u | awk '{printf "%d", $1-1})" >> msg.txt
           msg_urlencode=$(bash ./url_process/encode.sh  "$(cat msg.txt)")
-          curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+          curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
           rm -f msg.txt
         
       - name: Stage changes
