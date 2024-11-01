@@ -363,7 +363,7 @@ for city in "${!cities[@]}"; do
     bash ../rtp2m3u.sh "$NEW_output"
     echo "${city}_${line_count_output}.m3u 已经更新完成 "
     # echo -e "${city}: ${besturl}" >> msg.txt
-    printf "%24s: %s\n" "${city}" "${besturl}" >> msg.txt
+    printf "%27s: %s\n" "${city}" "${besturl}" >> msg.txt
 
     # 在汇总文件中加入分隔行
     echo "==== ${city} 处理完成 ======" | tee -a "$SUMMARY_FILE"
@@ -411,4 +411,4 @@ done
     # echo -e "${#failed_cities[@]}个省市数据未更新：${failed_cities[@]}" | sed 's/ / \ /g' >> msg.txt
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
-    rm -f msg.txt tmp.list output.ts.part
+    rm -f msg.txt tmp.list *.part
