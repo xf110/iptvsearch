@@ -28,8 +28,7 @@ jobs:
         for file in $(find ./ -name '*_-1.txt'); do
           rm -f "$file"
         done
-         curl "${{ secrets.BARK_SERVER }}/github_actions/本次更新完成。?isArchive=1"
-
+         
     - name: Update Results
       run: |
         cd $GITHUB_WORKSPACE
