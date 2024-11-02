@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Fri Nov  1 22:46:42 CST 2024
+# Sat Nov  2 11:11:18 CST 2024
 #EXTINF:-1 tvg-id="江西卫视HD" tvg-name="江西卫视HD" tvg-logo="https://live.fanmingming.com/tv/江西卫视HD.png" group-title="JiangXi_mobile",江西卫视HD
 http://220.176.218.64:8888/rtp/239.252.220.63:5140
 #EXTINF:-1 tvg-id="江西都市频道HD" tvg-name="江西都市频道HD" tvg-logo="https://live.fanmingming.com/tv/江西都市频道HD.png" group-title="JiangXi_mobile",江西都市频道HD

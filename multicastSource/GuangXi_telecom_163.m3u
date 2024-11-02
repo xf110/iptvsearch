@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Fri Nov  1 22:37:36 CST 2024
+# Sat Nov  2 11:04:28 CST 2024
 #EXTINF:-1 tvg-id="广西卫视" tvg-name="广西卫视" tvg-logo="https://live.fanmingming.com/tv/广西卫视.png" group-title="GuangXi_telecom",广西卫视
 http://113.13.173.96:58888/udp/239.81.0.107:4056
 #EXTINF:-1 tvg-id="广西综艺" tvg-name="广西综艺" tvg-logo="https://live.fanmingming.com/tv/广西综艺.png" group-title="GuangXi_telecom",广西综艺
