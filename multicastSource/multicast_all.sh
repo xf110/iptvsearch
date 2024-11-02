@@ -411,4 +411,5 @@ done
     msg_urlencode=$(urlencode "$(cat msg.txt)")
     curl "${{ secrets.BARK_SERVER }}/github_actions/${msg_urlencode}?isArchive=1"
     curl "https://api.day.app/X7a24UtJyBYFHt5Fma7jpP/github_actions/${msg_urlencode}?isArchive=1"
+    curl "${{ secrets.BARK_SERVER }}/github_actions/本次更新完成。?isArchive=1"
     rm -f msg.txt tmp.list *.part
