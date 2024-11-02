@@ -1,6 +1,6 @@
 #EXTM3U
 #EXTM3U x-tvg-url="https://live.fanmingming.com/e.xml"
-# Sat Nov  2 14:28:34 CST 2024
+# Sat Nov  2 17:47:01 CST 2024
 #EXTINF:-1 tvg-id="CCTV1HD" tvg-name="CCTV1HD" tvg-logo="https://live.fanmingming.com/tv/CCTV1HD.png" group-title="AnHui_telecom",CCTV-1HD
 http://61.190.129.195:8688/rtp/238.1.78.166:7200
 #EXTINF:-1 tvg-id="CCTV2HD" tvg-name="CCTV2HD" tvg-logo="https://live.fanmingming.com/tv/CCTV2HD.png" group-title="AnHui_telecom",CCTV-2HD
